@@ -68,7 +68,7 @@
         "pattenErrorMessage": "只允許英數字元、連字號 -，以及底線 _"
       },
       "manifest": {
-        "desc": "LobeChat 會使用此連結安裝外掛",
+        "desc": "Mr.🆖 Chat 會使用此連結安裝外掛",
         "label": "插件描述檔 (Manifest) URL",
         "preview": "預覽 Manifest",
         "refresh": "重新載入"
@@ -101,7 +101,7 @@
       "edit": "編輯自訂插件"
     },
     "type": {
-      "lobe": "LobeChat 插件",
+      "lobe": "Mr.🆖 Chat 插件",
       "openai": "OpenAI 插件"
     },
     "update": "更新",
