@@ -1,6 +1,6 @@
 import urlJoin from 'url-join';
 
-//import pkg from '../../package.json';
+// import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
 export const GITHUB = 'https://mr5drive.com/';
