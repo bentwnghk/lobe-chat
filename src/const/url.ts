@@ -1,15 +1,15 @@
 import urlJoin from 'url-join';
 
-// import pkg from '../../package.json';
+import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
-export const GITHUB = 'https://mr5drive.com/';
-export const CHANGELOG = 'https://mr5drive.com/';
-export const WIKI = 'https://mr5drive.com/';
-export const WIKI_PLUGIN_GUIDE = 'https://mr5drive.com/';
+export const GITHUB = pkg.homepage;
+export const CHANGELOG = 'https://github.com/bentwnghk/lobe-chat/blob/master/CHANGELOG.md';
+export const WIKI = 'https://longman.mister5.net/';
+export const WIKI_PLUGIN_GUIDE = 'https://ai.mister5.net/';
 export const ABOUT = 'https://mr5drive.com/';
 export const FEEDBACK = 'https://mr5drive.com/';
-export const DISCORD = 'https://mr5drive.com/';
+export const DISCORD = 'https://speak.mister5.net/';
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 

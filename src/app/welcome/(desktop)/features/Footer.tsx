@@ -21,19 +21,19 @@ const Footer = memo(() => {
           icon={DiscordIcon}
           onClick={() => window.open(DISCORD, '__blank')}
           size={'site'}
-          title={'Home'}
+          title={'Mr.🆖 AiSpeak'}
         />
         <ActionIcon
           icon={Book}
           onClick={() => window.open(WIKI, '__blank')}
           size={'site'}
-          title={'Wiki'}
+          title={'Mr.🆖 朗文詞典'}
         />
         <ActionIcon
           icon={Github}
           onClick={() => window.open(GITHUB, '__blank')}
           size={'site'}
-          title={'Home'}
+          title={'Mr.🆖 雲端儲存'}
         />
       </Flexbox>
     </Flexbox>

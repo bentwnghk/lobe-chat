@@ -28,7 +28,7 @@ const Header = memo(() => {
   return (
     <Flexbox className={styles.top} gap={16} padding={16}>
       <Flexbox distribution={'space-between'} horizontal>
-        <Logo className={styles.logo} size={1} type={'text'} />
+        <Logo className={styles.logo} size={36} type={'text'} />
         <ActionIcon
           icon={MessageSquarePlus}
           onClick={() => createSession()}

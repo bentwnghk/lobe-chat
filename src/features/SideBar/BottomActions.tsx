@@ -92,7 +92,7 @@ const BottomActions = memo<BottomActionProps>(({ tab, setTab }) => {
     {
       icon: <Icon icon={Book} />,
       key: 'wiki',
-      label: 'WIKI',
+      label: 'Mr.🆖 朗文詞典',
       onClick: () => window.open(WIKI, '__blank'),
     },
     {
@@ -129,13 +129,13 @@ const BottomActions = memo<BottomActionProps>(({ tab, setTab }) => {
         icon={DiscordIcon}
         onClick={() => window.open(DISCORD, '__blank')}
         placement={'right'}
-        title={'Discord'}
+        title={'Mr.🆖 AiSpeak'}
       />
       <ActionIcon
         icon={Github}
         onClick={() => window.open(GITHUB, '__blank')}
         placement={'right'}
-        title={'GitHub'}
+        title={'Mr.🆖 雲端儲存'}
       />
       <Dropdown arrow={false} menu={{ items }} trigger={['click']}>
         {hasNewVersion ? (
