@@ -21,7 +21,7 @@ const Footer = memo(() => {
           icon={DiscordIcon}
           onClick={() => window.open(DISCORD, '__blank')}
           size={'site'}
-          title={'Discord'}
+          title={'Home'}
         />
         <ActionIcon
           icon={Book}
@@ -33,7 +33,7 @@ const Footer = memo(() => {
           icon={Github}
           onClick={() => window.open(GITHUB, '__blank')}
           size={'site'}
-          title={'GitHub'}
+          title={'Home'}
         />
       </Flexbox>
     </Flexbox>

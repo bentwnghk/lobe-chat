@@ -19,7 +19,7 @@ export const DEFAULT_BASE_SETTINGS: GlobalBaseSettings = {
 };
 
 export const DEFAUTT_AGENT_TTS_CONFIG: LobeAgentTTSConfig = {
-  showAllLocaleVoice: false,
+  showAllLocaleVoice: true,
   sttLocale: 'auto',
   ttsService: 'openai',
   voice: {
@@ -34,7 +34,7 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
   displayMode: 'chat',
   enableAutoCreateTopic: true,
   historyCount: 1,
-  model: LanguageModel.GPT3_5,
+  model: LanguageModel.GPT3_5_1106,
   params: {
     frequency_penalty: 0,
     presence_penalty: 0,
