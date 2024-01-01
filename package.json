@@ -1,6 +1,6 @@
 {
   "name": "@bentwnghk/chat",
-  "version": "0.118.2",
+  "version": "1.0.0",
   "description": "Mr.🆖 Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
   "keywords": [
     "framework",
@@ -72,11 +72,11 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5",
+    "@bentwnghk/ui": "latest",
     "@icons-pack/react-simple-icons": "^9",
     "@lobehub/chat-plugin-sdk": "latest",
     "@lobehub/chat-plugins-gateway": "latest",
     "@lobehub/tts": "latest",
-    "@bentwnghk/ui": "latest",
     "@vercel/analytics": "^1",
     "ahooks": "^3",
     "ai": "^2.2.22",
