@@ -47,7 +47,7 @@ const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    creator: '@bentwnghk',
+    creator: '@lobehub',
     description,
     images: [
       'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/og-960x540.png',
