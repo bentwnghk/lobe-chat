@@ -3,12 +3,14 @@
 # Changelog
 
 ### [Version 1.0.6](https://github.com/bentwnghk/lobe-chat/compare/v1.0.5...v1.0.6)
+### [Version 0.118.3](https://github.com/lobehub/lobe-chat/compare/v0.118.2...v0.118.3)
 
 <sup>Released on **2024-01-01**</sup>
 
 #### 🐛 Bug Fixes
 
 - **misc**: Fix metadata.ts.
+- **misc**: Fix parse error of tool calls at end.
 
 <br/>
 
@@ -754,6 +756,7 @@
 - **misc**: 暂时隐藏 Hero 模板 ([8289ae6](https://github.com/bentwnghk/lobe-chat/commit/8289ae6))
 - **misc**: 更新插件文案 ([0411335](https://github.com/bentwnghk/lobe-chat/commit/0411335))
 - **misc**: 补充 ChatList 的 Loading 态 ([eb3eb5d](https://github.com/bentwnghk/lobe-chat/commit/eb3eb5d))
+- **misc**: Fix parse error of tool calls at end, closes [#893](https://github.com/lobehub/lobe-chat/issues/893) ([f369b6e](https://github.com/lobehub/lobe-chat/commit/f369b6e))
 
 </details>
 
