@@ -1,4 +1,4 @@
-import { type MobileNavBarTitleProps } from '@lobehub/ui';
+import { type MobileNavBarTitleProps } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import dynamic from 'next/dynamic';
 import { CSSProperties, PropsWithChildren, ReactNode, memo } from 'react';

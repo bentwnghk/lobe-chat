@@ -76,7 +76,7 @@
     "@lobehub/chat-plugin-sdk": "latest",
     "@lobehub/chat-plugins-gateway": "latest",
     "@lobehub/tts": "latest",
-    "@lobehub/ui": "latest",
+    "@bentwnghk/ui": "latest",
     "@vercel/analytics": "^1",
     "ahooks": "^3",
     "ai": "^2.2.22",

@@ -1,4 +1,4 @@
-import { ActionIcon, ChatInputArea, ChatSendButton } from '@lobehub/ui';
+import { ActionIcon, ChatInputArea, ChatSendButton } from '@bentwnghk/ui';
 import { Maximize2, Minimize2 } from 'lucide-react';
 import { memo, useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

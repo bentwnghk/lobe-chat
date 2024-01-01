@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { App, Dropdown, type MenuProps } from 'antd';
 import { createStyles } from 'antd-style';
 import { HardDriveDownload, MoreVertical, Pin, PinOff, Trash } from 'lucide-react';

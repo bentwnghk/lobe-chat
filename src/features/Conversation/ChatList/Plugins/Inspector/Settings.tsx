@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { LucideSettings } from 'lucide-react';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

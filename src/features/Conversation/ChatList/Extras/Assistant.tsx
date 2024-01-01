@@ -1,5 +1,5 @@
 import { SiOpenai } from '@icons-pack/react-simple-icons';
-import { Tag } from '@lobehub/ui';
+import { Tag } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

@@ -1,4 +1,4 @@
-import { ActionIconGroup, RenderAction, useChatListActionsBar } from '@lobehub/ui';
+import { ActionIconGroup, RenderAction, useChatListActionsBar } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { ErrorActionsBar } from './Error';

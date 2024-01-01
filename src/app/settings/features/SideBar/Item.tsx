@@ -1,4 +1,4 @@
-import { Icon, List } from '@lobehub/ui';
+import { Icon, List } from '@bentwnghk/ui';
 import { createStyles, useResponsive } from 'antd-style';
 import { ChevronRight, type LucideIcon } from 'lucide-react';
 import { CSSProperties, ReactNode, memo } from 'react';

@@ -1,4 +1,4 @@
-import { ChatList } from '@lobehub/ui';
+import { ChatList } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { memo } from 'react';
 import { useHotkeys } from 'react-hotkeys-hook';

@@ -1,5 +1,5 @@
 import { LobeChatPluginManifest } from '@lobehub/chat-plugin-sdk';
-import { ActionIcon, FormItem, Input } from '@lobehub/ui';
+import { ActionIcon, FormItem, Input } from '@bentwnghk/ui';
 import { Checkbox, Form, FormInstance } from 'antd';
 import { FileCode, RotateCwIcon } from 'lucide-react';
 import { memo, useState } from 'react';

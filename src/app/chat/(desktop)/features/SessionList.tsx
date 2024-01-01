@@ -1,4 +1,4 @@
-import { DraggablePanelBody } from '@lobehub/ui';
+import { DraggablePanelBody } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 

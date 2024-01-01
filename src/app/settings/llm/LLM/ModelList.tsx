@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Button, Dropdown, Skeleton } from 'antd';
 import { MenuItemType } from 'antd/lib/menu/hooks/useItems';
 import { RotateCwIcon } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { ActionIconGroupItems } from '@lobehub/ui/es/ActionIconGroup';
+import { ActionIconGroupItems } from '@bentwnghk/ui/es/ActionIconGroup';
 import { LanguagesIcon, Play } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

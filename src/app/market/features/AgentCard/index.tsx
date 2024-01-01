@@ -1,4 +1,4 @@
-import { SpotlightCardProps } from '@lobehub/ui';
+import { SpotlightCardProps } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { FC, memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';

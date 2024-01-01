@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Input, InputProps } from 'antd';
 import { useTheme } from 'antd-style';
 import { Wand2 } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Modal } from '@lobehub/ui';
+import { ActionIcon, Icon, Modal } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { Rss } from 'lucide-react';
 import { memo, useState } from 'react';

@@ -1,4 +1,4 @@
-import { Alert, Modal, type ModalProps } from '@lobehub/ui';
+import { Alert, Modal, type ModalProps } from '@bentwnghk/ui';
 import { Button, Divider, Input } from 'antd';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';

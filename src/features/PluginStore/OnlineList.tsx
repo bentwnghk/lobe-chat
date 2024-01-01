@@ -1,4 +1,4 @@
-import { Icon, SearchBar } from '@lobehub/ui';
+import { Icon, SearchBar } from '@bentwnghk/ui';
 import { Button, Empty } from 'antd';
 import { useResponsive } from 'antd-style';
 import isEqual from 'fast-deep-equal';

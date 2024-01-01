@@ -1,4 +1,4 @@
-import { MobileChatInputArea, MobileChatSendButton } from '@lobehub/ui';
+import { MobileChatInputArea, MobileChatSendButton } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

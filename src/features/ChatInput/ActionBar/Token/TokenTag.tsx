@@ -1,4 +1,4 @@
-import { TokenTag, Tooltip } from '@lobehub/ui';
+import { TokenTag, Tooltip } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 

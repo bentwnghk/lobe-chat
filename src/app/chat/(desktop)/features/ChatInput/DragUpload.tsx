@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { FileImage, FileText, FileUpIcon } from 'lucide-react';
 import { rgba } from 'polished';

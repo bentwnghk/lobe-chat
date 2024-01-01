@@ -1,4 +1,4 @@
-import { Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@lobehub/ui';
+import { Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { isString } from 'lodash-es';
@@ -17,7 +17,7 @@ import AutoGenerateInput from './AutoGenerateInput';
 import AutoGenerateSelect from './AutoGenerateSelect';
 import BackgroundSwatches from './BackgroundSwatches';
 
-const EmojiPicker = dynamic(() => import('@lobehub/ui/es/EmojiPicker'), { ssr: false });
+const EmojiPicker = dynamic(() => import('@bentwnghk/ui/es/EmojiPicker'), { ssr: false });
 
 const AgentMeta = memo(() => {
   const { t } = useTranslation('setting');

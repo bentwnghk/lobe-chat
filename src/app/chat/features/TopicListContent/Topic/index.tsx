@@ -1,4 +1,4 @@
-import { EmptyCard } from '@lobehub/ui';
+import { EmptyCard } from '@bentwnghk/ui';
 import { useThemeMode } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { useTranslation } from 'react-i18next';

@@ -1,4 +1,4 @@
-import { ChatListProps } from '@lobehub/ui';
+import { ChatListProps } from '@bentwnghk/ui';
 import { useResponsive } from 'antd-style';
 import { useRouter } from 'next/navigation';
 

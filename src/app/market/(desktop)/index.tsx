@@ -1,6 +1,6 @@
 'use client';
 
-import { SpotlightCard, SpotlightCardProps } from '@lobehub/ui';
+import { SpotlightCard, SpotlightCardProps } from '@bentwnghk/ui';
 import dynamic from 'next/dynamic';
 import { FC, memo } from 'react';
 

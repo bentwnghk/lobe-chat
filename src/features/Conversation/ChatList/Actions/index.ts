@@ -1,4 +1,4 @@
-import { ChatListProps } from '@lobehub/ui';
+import { ChatListProps } from '@bentwnghk/ui';
 
 import { useChatStore } from '@/store/chat';
 

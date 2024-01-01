@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, Icon } from '@lobehub/ui';
+import { ActionIcon, Avatar, Icon } from '@bentwnghk/ui';
 import { Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';

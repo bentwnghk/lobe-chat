@@ -1,6 +1,6 @@
 'use client';
 
-import { GridShowcase } from '@lobehub/ui';
+import { GridShowcase } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

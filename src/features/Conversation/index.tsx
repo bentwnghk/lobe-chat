@@ -1,4 +1,4 @@
-import { BackBottom } from '@lobehub/ui';
+import { BackBottom } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { ReactNode, memo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';

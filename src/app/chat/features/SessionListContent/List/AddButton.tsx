@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button, type ButtonProps } from 'antd';
 import { Plus } from 'lucide-react';
 import { memo } from 'react';

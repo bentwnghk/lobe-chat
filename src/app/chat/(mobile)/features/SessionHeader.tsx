@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, Logo, MobileNavBar } from '@lobehub/ui';
+import { ActionIcon, Avatar, Logo, MobileNavBar } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { MessageSquarePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
@@ -24,7 +24,7 @@ const Header = memo(() => {
   const avatar = useGlobalStore((st) => st.settings.avatar);
   return (
     <MobileNavBar
-      center={<Logo size={1} type={'text'} />}
+      center={<Logo type={'text'} />}
       left={
         <div onClick={() => router.push('/settings')} style={{ marginLeft: 8 }}>
           {avatar ? <Avatar avatar={avatar} size={28} /> : <Logo size={28} />}

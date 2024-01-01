@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button, Result, Table, Upload } from 'antd';
 import { createStyles } from 'antd-style';
 import { CheckCircle, ImportIcon } from 'lucide-react';

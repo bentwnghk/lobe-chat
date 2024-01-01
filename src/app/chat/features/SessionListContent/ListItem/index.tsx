@@ -1,4 +1,4 @@
-import { Avatar, List, ListItemProps } from '@lobehub/ui';
+import { Avatar, List, ListItemProps } from '@bentwnghk/ui';
 import { useHover } from 'ahooks';
 import { createStyles, useResponsive } from 'antd-style';
 import { memo, useMemo, useRef } from 'react';

@@ -1,4 +1,4 @@
-import { Icon, RenderErrorMessage } from '@lobehub/ui';
+import { Icon, RenderErrorMessage } from '@bentwnghk/ui';
 import { Button, Input, Segmented } from 'antd';
 import { KeySquare, SquareAsterisk } from 'lucide-react';
 import { memo, useState } from 'react';

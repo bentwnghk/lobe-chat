@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Markdown, Tag } from '@lobehub/ui';
+import { ActionIcon, Icon, Markdown, Tag } from '@bentwnghk/ui';
 import { App } from 'antd';
 import { createStyles } from 'antd-style';
 import copy from 'copy-to-clipboard';

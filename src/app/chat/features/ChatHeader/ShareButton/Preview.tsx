@@ -1,5 +1,5 @@
 import { SiOpenai } from '@icons-pack/react-simple-icons';
-import { Avatar, ChatHeaderTitle, Logo, Markdown, Tag } from '@lobehub/ui';
+import { Avatar, ChatHeaderTitle, Logo, Markdown, Tag } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
@@ -58,7 +58,7 @@ const Preview = memo<FieldType & { title?: string }>(
             <ChatList />
             {withFooter ? (
               <Flexbox align={'center'} className={styles.footer} gap={4}>
-                <Logo extra={'chat'} size={1} type={'combine'} />
+                <Logo extra={'chat'} type={'combine'} />
                 <div className={styles.url}>{pkg.homepage}</div>
               </Flexbox>
             ) : (

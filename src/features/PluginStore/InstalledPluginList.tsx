@@ -1,4 +1,4 @@
-import { SearchBar } from '@lobehub/ui';
+import { SearchBar } from '@bentwnghk/ui';
 import { useResponsive } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { memo, useState } from 'react';

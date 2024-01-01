@@ -1,4 +1,4 @@
-import { ChatHeader, Logo } from '@lobehub/ui';
+import { ChatHeader, Logo } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
@@ -19,7 +19,7 @@ const Header = memo(() => {
     <ChatHeader
       left={
         <Link aria-label={'home'} href={'/'}>
-          <Logo className={styles.logo} extra={'Discover'} size={1} type={'text'} />
+          <Logo className={styles.logo} extra={'Discover'} size={36} type={'text'} />
         </Link>
       }
       right={<ShareAgentButton />}

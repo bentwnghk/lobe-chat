@@ -1,5 +1,5 @@
 import { PluginErrorType } from '@lobehub/chat-plugin-sdk';
-import { ChatListProps } from '@lobehub/ui';
+import { ChatListProps } from '@bentwnghk/ui';
 
 import { ChatErrorType } from '@/types/fetch';
 

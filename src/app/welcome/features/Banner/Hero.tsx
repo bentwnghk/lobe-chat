@@ -5,8 +5,8 @@ import { Flexbox } from 'react-layout-kit';
 
 import { genSize, useStyles } from './style';
 
-const LogoThree = dynamic(() => import('@lobehub/ui/es/LogoThree'));
-const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'));
+const LogoThree = dynamic(() => import('@bentwnghk/ui/es/LogoThree'));
+const LogoSpline = dynamic(() => import('@bentwnghk/ui/es/LogoThree/LogoSpline'));
 
 const Hero = memo<{ mobile?: boolean; width: number }>(({ width, mobile }) => {
   const size: any = {

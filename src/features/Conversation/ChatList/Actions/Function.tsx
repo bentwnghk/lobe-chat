@@ -1,4 +1,4 @@
-import { ActionIconGroup, RenderAction, useChatListActionsBar } from '@lobehub/ui';
+import { ActionIconGroup, RenderAction, useChatListActionsBar } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 export const FunctionActionsBar: RenderAction = memo(({ text, onActionClick }) => {

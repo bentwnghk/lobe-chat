@@ -1,4 +1,4 @@
-import { Avatar, Form, Icon, Tooltip } from '@lobehub/ui';
+import { Avatar, Form, Icon, Tooltip } from '@bentwnghk/ui';
 import { Button, Empty, Space, Switch, Tag, Typography } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { LucideToyBrick, LucideTrash2, Store } from 'lucide-react';

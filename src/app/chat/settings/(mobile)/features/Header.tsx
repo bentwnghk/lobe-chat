@@ -1,4 +1,4 @@
-import { MobileNavBar, MobileNavBarTitle } from '@lobehub/ui';
+import { MobileNavBar, MobileNavBarTitle } from '@bentwnghk/ui';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

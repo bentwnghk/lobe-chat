@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { App, Dropdown, MenuProps } from 'antd';
 import { MoreHorizontal, Search, Trash } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';

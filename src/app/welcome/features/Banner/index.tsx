@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { SendHorizonal } from 'lucide-react';
 import { memo } from 'react';

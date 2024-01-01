@@ -1,4 +1,4 @@
-import { ActionIcon, SliderWithInput } from '@lobehub/ui';
+import { ActionIcon, SliderWithInput } from '@bentwnghk/ui';
 import { Popover } from 'antd';
 import { Thermometer } from 'lucide-react';
 import { memo } from 'react';

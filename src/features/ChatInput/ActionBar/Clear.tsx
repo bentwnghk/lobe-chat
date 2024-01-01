@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Popconfirm } from 'antd';
 import { Eraser } from 'lucide-react';
 import { memo, useCallback } from 'react';

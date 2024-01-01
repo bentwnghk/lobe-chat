@@ -1,4 +1,4 @@
-import { Logo } from '@lobehub/ui';
+import { Logo } from '@bentwnghk/ui';
 import { Upload } from 'antd';
 import { createStyles } from 'antd-style';
 import Avatar from 'next/image';

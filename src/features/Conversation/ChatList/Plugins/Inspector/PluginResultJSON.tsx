@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 export interface FunctionMessageProps {

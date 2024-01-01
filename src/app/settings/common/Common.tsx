@@ -1,4 +1,4 @@
-import { Form, type ItemGroup, SelectWithImg, SliderWithInput } from '@lobehub/ui';
+import { Form, type ItemGroup, SelectWithImg, SliderWithInput } from '@bentwnghk/ui';
 import { Form as AntForm, App, Button, Input, Select } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { debounce } from 'lodash-es';

@@ -1,4 +1,4 @@
-import { Form, FormItemProps, Input, TextArea } from '@lobehub/ui';
+import { Form, FormItemProps, Input, TextArea } from '@bentwnghk/ui';
 import { FormInstance } from 'antd';
 import dynamic from 'next/dynamic';
 import { memo } from 'react';
@@ -9,7 +9,7 @@ import { settingsSelectors } from '@/store/global/selectors';
 import { useToolStore } from '@/store/tool';
 import { pluginSelectors } from '@/store/tool/selectors';
 
-const EmojiPicker = dynamic(() => import('@lobehub/ui/es/EmojiPicker'), { ssr: false });
+const EmojiPicker = dynamic(() => import('@bentwnghk/ui/es/EmojiPicker'), { ssr: false });
 
 const LocalForm = memo<{ form: FormInstance; mode?: 'edit' | 'create' }>(({ form, mode }) => {
   const isEditMode = mode === 'edit';

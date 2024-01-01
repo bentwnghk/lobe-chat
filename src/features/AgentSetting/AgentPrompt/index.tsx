@@ -1,4 +1,4 @@
-import { EditableMessage, FormGroup, TokenTag } from '@lobehub/ui';
+import { EditableMessage, FormGroup, TokenTag } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import { Bot } from 'lucide-react';

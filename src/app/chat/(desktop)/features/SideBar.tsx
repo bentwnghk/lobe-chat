@@ -1,4 +1,4 @@
-import { DraggablePanel, DraggablePanelContainer } from '@lobehub/ui';
+import { DraggablePanel, DraggablePanelContainer } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import dynamic from 'next/dynamic';
 import { memo } from 'react';

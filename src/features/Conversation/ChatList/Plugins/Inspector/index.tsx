@@ -1,6 +1,6 @@
 import { Loading3QuartersOutlined } from '@ant-design/icons';
 import { LobePluginType } from '@lobehub/chat-plugin-sdk';
-import { ActionIcon, Avatar, Highlighter, Icon } from '@lobehub/ui';
+import { ActionIcon, Avatar, Highlighter, Icon } from '@bentwnghk/ui';
 import { Tabs } from 'antd';
 import isEqual from 'fast-deep-equal';
 import {

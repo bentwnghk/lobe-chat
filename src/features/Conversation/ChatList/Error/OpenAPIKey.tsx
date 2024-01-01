@@ -1,4 +1,4 @@
-import { RenderErrorMessage } from '@lobehub/ui';
+import { RenderErrorMessage } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import APIKeyForm from './ApiKeyForm';

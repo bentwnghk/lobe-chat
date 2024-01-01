@@ -1,4 +1,4 @@
-import { SideNav } from '@lobehub/ui';
+import { SideNav } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import AvatarWithUpload from '@/features/AvatarWithUpload';

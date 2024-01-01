@@ -1,4 +1,4 @@
-import { Avatar, Spotlight } from '@lobehub/ui';
+import { Avatar, Spotlight } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { rgba } from 'polished';

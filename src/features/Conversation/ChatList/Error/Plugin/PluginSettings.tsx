@@ -1,4 +1,4 @@
-import { Avatar, RenderErrorMessage } from '@lobehub/ui';
+import { Avatar, RenderErrorMessage } from '@bentwnghk/ui';
 import { Button, Divider } from 'antd';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';

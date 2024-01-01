@@ -47,7 +47,7 @@ const nextConfig = {
 
   reactStrictMode: true,
 
-  transpilePackages: ['antd-style', '@lobehub/ui', '@lobehub/tts'],
+  transpilePackages: ['antd-style', '@bentwnghk/ui', '@lobehub/tts'],
 
   webpack(config) {
     config.experiments = {

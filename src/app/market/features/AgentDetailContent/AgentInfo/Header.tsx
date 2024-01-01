@@ -1,4 +1,4 @@
-import { Avatar, Tag } from '@lobehub/ui';
+import { Avatar, Tag } from '@bentwnghk/ui';
 import { Button, Typography } from 'antd';
 import { startCase } from 'lodash-es';
 import { memo } from 'react';

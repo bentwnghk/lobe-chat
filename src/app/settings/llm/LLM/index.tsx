@@ -1,4 +1,4 @@
-import { Form, type ItemGroup, Markdown } from '@lobehub/ui';
+import { Form, type ItemGroup, Markdown } from '@bentwnghk/ui';
 import { Form as AntForm, AutoComplete, Input, Switch } from 'antd';
 import { createStyles } from 'antd-style';
 import { debounce } from 'lodash-es';

@@ -1,5 +1,5 @@
 import { SiOpenai } from '@icons-pack/react-simple-icons';
-import { ActionIcon, Avatar, ChatHeader, ChatHeaderTitle, Tag } from '@lobehub/ui';
+import { ActionIcon, Avatar, ChatHeader, ChatHeaderTitle, Tag } from '@bentwnghk/ui';
 import { Skeleton } from 'antd';
 import { PanelRightClose, PanelRightOpen } from 'lucide-react';
 import { useRouter } from 'next/navigation';

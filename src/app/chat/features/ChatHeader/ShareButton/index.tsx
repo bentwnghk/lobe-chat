@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Share2 } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import { memo } from 'react';
