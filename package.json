@@ -1,5 +1,5 @@
 {
-  "name": "@lobehub/chat",
+  "name": "@bentwnghk/chat",
   "version": "0.118.2",
   "description": "Mr.🆖 Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
   "keywords": [
@@ -16,11 +16,11 @@
   ],
   "homepage": "https://mr5drive.com/",
   "bugs": {
-    "url": "https://github.com/lobehub/lobe-chat/issues/new/choose"
+    "url": "https://github.com/bentwnghk/lobe-chat/issues/new/choose"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/lobe-chat.git"
+    "url": "https://github.com/bentwnghk/lobe-chat.git"
   },
   "license": "MIT",
   "author": "LobeHub <i@lobehub.com>",
