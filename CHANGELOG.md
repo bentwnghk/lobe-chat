@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.2](https://github.com/bentwnghk/lobe-chat/compare/v1.0.1...v1.0.2)
+
+<sup>Released on **2024-01-01**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix metadata.ts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix metadata.ts ([f69bbb3](https://github.com/bentwnghk/lobe-chat/commit/f69bbb3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.1](https://github.com/bentwnghk/lobe-chat/compare/v1.0.0...v1.0.1)
 
 <sup>Released on **2024-01-01**</sup>
