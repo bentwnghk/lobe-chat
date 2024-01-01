@@ -36,7 +36,7 @@ const nextConfig = {
     remotePatterns: [
       {
         hostname: 'registry.npmmirror.com',
-        pathname: '/@lobehub/**',
+        pathname: '/@bentwnghk/**',
         port: '',
         protocol: 'https',
       },
