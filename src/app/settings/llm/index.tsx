@@ -23,7 +23,7 @@ export default memo(() => {
           更多模型正在
           <Link
             aria-label={'todo'}
-            href="https://github.com/lobehub/lobe-chat/issues/151"
+            href="https://github.com/bentwnghk/lobe-chat/"
             target="_blank"
           >
             计划接入
