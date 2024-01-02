@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.12](https://github.com/bentwnghk/lobe-chat/compare/v1.0.11...v1.0.12)
+
+<sup>Released on **2024-01-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Mobile device return to the previous page error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Mobile device return to the previous page error, closes [#886](https://github.com/bentwnghk/lobe-chat/issues/886) ([99cfc0f](https://github.com/bentwnghk/lobe-chat/commit/99cfc0f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.11](https://github.com/bentwnghk/lobe-chat/compare/v1.0.10...v1.0.11)
 
 <sup>Released on **2024-01-02**</sup>
