@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.11](https://github.com/bentwnghk/lobe-chat/compare/v1.0.10...v1.0.11)
+
+<sup>Released on **2024-01-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update dalle identifier to fix unstable dalle function call.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update dalle identifier to fix unstable dalle function call, closes [#896](https://github.com/bentwnghk/lobe-chat/issues/896) ([9d9ac32](https://github.com/bentwnghk/lobe-chat/commit/9d9ac32))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.10](https://github.com/bentwnghk/lobe-chat/compare/v1.0.9...v1.0.10)
 
 <sup>Released on **2024-01-02**</sup>
