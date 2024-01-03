@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.17](https://github.com/bentwnghk/lobe-chat/compare/v1.0.16...v1.0.17)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add chat defaultNS.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add chat defaultNS, closes [#929](https://github.com/bentwnghk/lobe-chat/issues/929) ([94c2aa1](https://github.com/bentwnghk/lobe-chat/commit/94c2aa1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.16](https://github.com/bentwnghk/lobe-chat/compare/v1.0.15...v1.0.16)
 
 <sup>Released on **2024-01-03**</sup>
