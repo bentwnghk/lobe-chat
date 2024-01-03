@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.0.13](https://github.com/bentwnghk/lobe-chat/compare/v1.0.12...v1.0.13)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Migration the ChatList into Conversation.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Desensitize openai base url in the error response.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Migration the ChatList into Conversation, closes [#916](https://github.com/bentwnghk/lobe-chat/issues/916) ([6ee3795](https://github.com/bentwnghk/lobe-chat/commit/6ee3795))
+
+#### What's fixed
+
+- **misc**: Desensitize openai base url in the error response, closes [#918](https://github.com/bentwnghk/lobe-chat/issues/918) ([ab0aeb7](https://github.com/bentwnghk/lobe-chat/commit/ab0aeb7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.12](https://github.com/bentwnghk/lobe-chat/compare/v1.0.11...v1.0.12)
 
 <sup>Released on **2024-01-02**</sup>
