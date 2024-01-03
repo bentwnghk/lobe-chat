@@ -1,4 +1,4 @@
-import { ActionIconGroup, type ActionIconGroupProps } from '@lobehub/ui';
+import { ActionIconGroup, type ActionIconGroupProps } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { useChatListActionsBar } from '../../hooks/useChatListActionsBar';

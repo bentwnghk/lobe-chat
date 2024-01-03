@@ -1,4 +1,4 @@
-import { ActionIconGroupItems } from '@lobehub/ui/es/ActionIconGroup';
+import { ActionIconGroupItems } from '@bentwnghk/ui/es/ActionIconGroup';
 import { Copy, Edit, RotateCw, Trash } from 'lucide-react';
 
 interface ChatListActionsBar {

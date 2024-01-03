@@ -1,5 +1,5 @@
-import { type AlertProps, ChatItem, type ChatItemProps } from '@lobehub/ui';
-import { ActionEvent, copyToClipboard } from '@lobehub/ui';
+import { type AlertProps, ChatItem, type ChatItemProps } from '@bentwnghk/ui';
+import { ActionEvent, copyToClipboard } from '@bentwnghk/ui';
 import { App } from 'antd';
 import { FC, ReactNode, memo, useCallback, useMemo, useState } from 'react';
 
