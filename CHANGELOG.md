@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.15](https://github.com/bentwnghk/lobe-chat/compare/v1.0.14...v1.0.15)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Vietnamese files and add the vi-VN option in the General Settings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Vietnamese files and add the vi-VN option in the General Settings, closes [#860](https://github.com/bentwnghk/lobe-chat/issues/860) ([c2e5606](https://github.com/bentwnghk/lobe-chat/commit/c2e5606))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.14](https://github.com/bentwnghk/lobe-chat/compare/v1.0.13...v1.0.14)
 
 <sup>Released on **2024-01-03**</sup>
