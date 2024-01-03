@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.16](https://github.com/bentwnghk/lobe-chat/compare/v1.0.15...v1.0.16)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add leaving protect alert.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add leaving protect alert, closes [#927](https://github.com/bentwnghk/lobe-chat/issues/927) ([ea1d0c0](https://github.com/bentwnghk/lobe-chat/commit/ea1d0c0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.15](https://github.com/bentwnghk/lobe-chat/compare/v1.0.14...v1.0.15)
 
 <sup>Released on **2024-01-03**</sup>
