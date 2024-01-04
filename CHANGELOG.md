@@ -2,6 +2,51 @@
 
 # Changelog
 
+## [Version 1.1.0](https://github.com/bentwnghk/lobe-chat/compare/v1.0.17...v1.1.0)
+
+<sup>Released on **2024-01-04**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the ChatList.
+
+#### ✨ Features
+
+- **misc**: Support auto rename topic, support delete and regenerate message, support duplicate session, support duplicate topic.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix can't uninstall custom plugin in custom plugin modal, fix rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the ChatList ([20f21de](https://github.com/bentwnghk/lobe-chat/commit/20f21de))
+
+#### What's improved
+
+- **misc**: Support auto rename topic ([4c5a345](https://github.com/bentwnghk/lobe-chat/commit/4c5a345))
+- **misc**: Support delete and regenerate message ([a05be1c](https://github.com/bentwnghk/lobe-chat/commit/a05be1c))
+- **misc**: Support duplicate session ([7a1e011](https://github.com/bentwnghk/lobe-chat/commit/7a1e011))
+- **misc**: Support duplicate topic ([ecf3e5a](https://github.com/bentwnghk/lobe-chat/commit/ecf3e5a))
+
+#### What's fixed
+
+- **misc**: Fix can't uninstall custom plugin in custom plugin modal ([acae827](https://github.com/bentwnghk/lobe-chat/commit/acae827))
+- **misc**: Fix rename ([e8dc8d2](https://github.com/bentwnghk/lobe-chat/commit/e8dc8d2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.17](https://github.com/bentwnghk/lobe-chat/compare/v1.0.16...v1.0.17)
 
 <sup>Released on **2024-01-03**</sup>
