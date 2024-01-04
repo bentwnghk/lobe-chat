@@ -1,4 +1,4 @@
-import { copyToClipboard } from '@lobehub/ui';
+import { copyToClipboard } from '@bentwnghk/ui';
 import { App } from 'antd';
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';

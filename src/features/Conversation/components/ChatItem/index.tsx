@@ -1,4 +1,4 @@
-import { type AlertProps, ChatItem } from '@lobehub/ui';
+import { type AlertProps, ChatItem } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { ReactNode, memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

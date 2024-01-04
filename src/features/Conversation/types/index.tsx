@@ -1,5 +1,5 @@
-import { type AlertProps, type ChatItemProps } from '@lobehub/ui';
-import { ActionEvent } from '@lobehub/ui';
+import { type AlertProps, type ChatItemProps } from '@bentwnghk/ui';
+import { ActionEvent } from '@bentwnghk/ui';
 import { FC, ReactNode } from 'react';
 
 import { LLMRoleType } from '@/types/llm';
