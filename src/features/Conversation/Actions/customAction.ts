@@ -1,5 +1,6 @@
 import { ActionIconGroupItems } from '@bentwnghk/ui/es/ActionIconGroup';
 import { LanguagesIcon, Play } from 'lucide-react';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { localeOptions } from '@/locales/resources';
@@ -23,8 +24,5 @@ export const useCustomActions = () => {
     label: t('tts.action'),
   } as ActionIconGroupItems;
 
-  return {
-    translate,
-    tts,
-  };
+  return useMemo(() => ({ translate, tts }), []);
 };
