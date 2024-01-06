@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.1.2](https://github.com/bentwnghk/lobe-chat/compare/v1.1.1...v1.1.2)
+
+<sup>Released on **2024-01-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix deploy error. Changed SquareAsterisk to AsteriskSquare.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix deploy error. Changed SquareAsterisk to AsteriskSquare, closes [#952](https://github.com/bentwnghk/lobe-chat/issues/952) ([61cbcf1](https://github.com/bentwnghk/lobe-chat/commit/61cbcf1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.1](https://github.com/bentwnghk/lobe-chat/compare/v1.1.0...v1.1.1)
 
 <sup>Released on **2024-01-05**</sup>
