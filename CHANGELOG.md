@@ -2,6 +2,54 @@
 
 # Changelog
 
+### [Version 1.1.3](https://github.com/bentwnghk/lobe-chat/compare/v1.1.2...v1.1.3)
+
+<sup>Released on **2024-01-07**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to virtual list with react-virtuoso.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auto scroll error and BackBottom error, fix rename.
+
+#### 💄 Styles
+
+- **misc**: Fix BackBottom zIndex, fix topic i18n, improve chat list on mobile, improve chat list scrolling to bottom at initial render, improve conversation style, improve custom model input, improve topic scroll.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to virtual list with react-virtuoso ([d6d63b2](https://github.com/bentwnghk/lobe-chat/commit/d6d63b2))
+
+#### What's fixed
+
+- **misc**: Fix auto scroll error and BackBottom error ([6100970](https://github.com/bentwnghk/lobe-chat/commit/6100970))
+- **misc**: Fix rename ([11c065d](https://github.com/bentwnghk/lobe-chat/commit/11c065d))
+
+#### Styles
+
+- **misc**: Fix BackBottom zIndex ([254cc54](https://github.com/bentwnghk/lobe-chat/commit/254cc54))
+- **misc**: Fix topic i18n, closes [#961](https://github.com/bentwnghk/lobe-chat/issues/961) ([4e9ebe2](https://github.com/bentwnghk/lobe-chat/commit/4e9ebe2))
+- **misc**: Improve chat list on mobile ([a894fc5](https://github.com/bentwnghk/lobe-chat/commit/a894fc5))
+- **misc**: Improve chat list scrolling to bottom at initial render ([476304b](https://github.com/bentwnghk/lobe-chat/commit/476304b))
+- **misc**: Improve conversation style, closes [#962](https://github.com/bentwnghk/lobe-chat/issues/962) ([b9cc862](https://github.com/bentwnghk/lobe-chat/commit/b9cc862))
+- **misc**: Improve custom model input ([1c4722f](https://github.com/bentwnghk/lobe-chat/commit/1c4722f))
+- **misc**: Improve topic scroll ([8daf3ac](https://github.com/bentwnghk/lobe-chat/commit/8daf3ac))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.2](https://github.com/bentwnghk/lobe-chat/compare/v1.1.1...v1.1.2)
 
 <sup>Released on **2024-01-06**</sup>
