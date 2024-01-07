@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.1.4](https://github.com/bentwnghk/lobe-chat/compare/v1.1.3...v1.1.4)
+
+<sup>Released on **2024-01-07**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve share modal style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve share modal style, closes [#965](https://github.com/bentwnghk/lobe-chat/issues/965) ([62c0573](https://github.com/bentwnghk/lobe-chat/commit/62c0573))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.3](https://github.com/bentwnghk/lobe-chat/compare/v1.1.2...v1.1.3)
 
 <sup>Released on **2024-01-07**</sup>
