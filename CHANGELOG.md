@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.1.6](https://github.com/bentwnghk/lobe-chat/compare/v1.1.5...v1.1.6)
+
+<sup>Released on **2024-01-09**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor ChatInput to support cmd+enter.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Debug information cannot be selected, fix rename.
+
+#### 💄 Styles
+
+- **misc**: Fix ChatInput fullscreen display not correct.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor ChatInput to support cmd+enter, closes [#983](https://github.com/bentwnghk/lobe-chat/issues/983) ([437a223](https://github.com/bentwnghk/lobe-chat/commit/437a223))
+
+#### What's fixed
+
+- **misc**: Debug information cannot be selected, closes [#980](https://github.com/bentwnghk/lobe-chat/issues/980) ([f02612d](https://github.com/bentwnghk/lobe-chat/commit/f02612d))
+- **misc**: Fix rename ([a1e9155](https://github.com/bentwnghk/lobe-chat/commit/a1e9155))
+
+#### Styles
+
+- **misc**: Fix ChatInput fullscreen display not correct, closes [#982](https://github.com/bentwnghk/lobe-chat/issues/982) ([e4012c4](https://github.com/bentwnghk/lobe-chat/commit/e4012c4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.5](https://github.com/bentwnghk/lobe-chat/compare/v1.1.4...v1.1.5)
 
 <sup>Released on **2024-01-08**</sup>
