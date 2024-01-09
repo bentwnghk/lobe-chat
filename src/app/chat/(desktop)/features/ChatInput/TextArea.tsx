@@ -1,4 +1,4 @@
-import { TextArea } from '@lobehub/ui';
+import { TextArea } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { TextAreaRef } from 'antd/es/input/TextArea';
 import { memo, useEffect, useRef } from 'react';
