@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.1.8](https://github.com/bentwnghk/lobe-chat/compare/v1.1.7...v1.1.8)
+
+<sup>Released on **2024-01-10**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add delete and regenerate for function message.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add delete and regenerate for function message, closes [#992](https://github.com/bentwnghk/lobe-chat/issues/992) ([7f8c717](https://github.com/bentwnghk/lobe-chat/commit/7f8c717))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.7](https://github.com/bentwnghk/lobe-chat/compare/v1.1.6...v1.1.7)
 
 <sup>Released on **2024-01-09**</sup>
