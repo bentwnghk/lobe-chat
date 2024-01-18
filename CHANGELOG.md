@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.2.2](https://github.com/bentwnghk/lobe-chat/compare/v1.2.1...v1.2.2)
+
+<sup>Released on **2024-01-18**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix setPluginMessage can not stop create ai message.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix setPluginMessage can not stop create ai message, closes [#1078](https://github.com/bentwnghk/lobe-chat/issues/1078) ([67de28d](https://github.com/bentwnghk/lobe-chat/commit/67de28d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.1](https://github.com/bentwnghk/lobe-chat/compare/v1.2.0...v1.2.1)
 
 <sup>Released on **2024-01-16**</sup>
