@@ -7,7 +7,7 @@ import pkg from '../../package.json';
 const title = 'Mr.🆖 Chat';
 const { description, homepage } = pkg;
 
-const { METADATA_BASE_URL = 'https://chat-preview.lobehub.com/' } = getServerConfig();
+const { METADATA_BASE_URL = 'https://ai3.mister5.net/' } = getServerConfig();
 
 const metadata: Metadata = {
   appleWebApp: {
