@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.2.4](https://github.com/bentwnghk/lobe-chat/compare/v1.2.3...v1.2.4)
+
+<sup>Released on **2024-01-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Refactor url state management and fix some detail experience.
+
+#### 💄 Styles
+
+- **misc**: Update locale and add test for globalStore.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Refactor url state management and fix some detail experience, closes [#1117](https://github.com/bentwnghk/lobe-chat/issues/1117) ([a355d2c](https://github.com/bentwnghk/lobe-chat/commit/a355d2c))
+
+#### Styles
+
+- **misc**: Update locale and add test for globalStore, closes [#1119](https://github.com/bentwnghk/lobe-chat/issues/1119) ([4545cf0](https://github.com/bentwnghk/lobe-chat/commit/4545cf0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.3](https://github.com/bentwnghk/lobe-chat/compare/v1.2.2...v1.2.3)
 
 <sup>Released on **2024-01-19**</sup>
