@@ -184,14 +184,14 @@ e-commerce platform data access, and various third-party services.
 
 <!-- PLUGIN LIST -->
 
-| Recent Submits                                                                                                     | Description                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [TokenInsights](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **feednews** on **2024-01-22**</sup>  | Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.<br/>`crypto` `btc` `eth` `bnb` |
-| [Defillama](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **onrender** on **2024-01-22**</sup>      | Retrieve data on DeFi protocols and blockchains.<br/>`crypto` `de-fi`                                                                            |
-| [MintbaseSearch](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **mintbase** on **2024-01-22**</sup> | Find any NFT data on the NEAR Protocol.<br/>`crypto` `nft`                                                                                       |
-| [NFT Guru](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **swap** on **2024-01-22**</sup>           | Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time<br/>`crypto` `nft`      |
+| Recent Submits                                                                                                  | Description                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [GameSight](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **tapapis** on **2024-01-23**</sup>    | Discover games, game-related content, get recommendations, and compare games based on player reviews.<br/>`game` `search`                       |
+| [txyz.ai](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **txyz** on **2024-01-23**</sup>         | Explore the universe of research. Search and compare papers, and answer questions.<br/>`research-paper` `search`                                |
+| [SEO](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **orrenprunckun** on **2024-01-23**</sup>    | Enter any URL and keyword and get an On-Page SEO analysis & insights!<br/>`seo`                                                                 |
+| [Video Captions](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **maila** on **2024-01-23**</sup> | Convert Youtube links into transcribed text, enable asking questions, create chapters, and summarize its content.<br/>`video-to-text` `youtube` |
 
-> 📊 Total plugins: [<kbd>**25**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**40**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 

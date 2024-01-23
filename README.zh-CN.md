@@ -168,14 +168,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- PLUGIN LIST -->
 
-| 最近新增                                                                                                           | 插件描述                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| [TokenInsights](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **feednews** on **2024-01-22**</sup>  | 获取实时加密货币价格，BTC，ETH，BNB 和最新见解。最新的币新闻和空投机会。<br/>`加密货币` `btc` `eth` `bnb` |
-| [Defillama](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **onrender** on **2024-01-22**</sup>      | 检索 DeFi 协议和区块链的数据。<br/>`加密货币` `去中心化金融`                                              |
-| [MintbaseSearch](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **mintbase** on **2024-01-22**</sup> | 在 NEAR 协议上查找任何 NFT 数据。<br/>`加密货币` `nft`                                                    |
-| [NFT Guru](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **swap** on **2024-01-22**</sup>           | 发现主要平台上 NFT 的当前价格，并通过实时跟踪快速变化的市场了解情况<br/>`加密货币` `nft`                  |
+| 最近新增                                                                                                     | 插件描述                                                                                          |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| [GameSight](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **tapapis** on **2024-01-23**</sup> | 发现游戏、与游戏相关的内容、获取推荐，并根据玩家评价比较游戏。<br/>`游戏` `搜索`                  |
+| [txyz.ai](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **txyz** on **2024-01-23**</sup>      | 探索研究的宇宙。搜索和比较论文，并回答问题。<br/>`research-paper` `search`                        |
+| [SEO](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **orrenprunckun** on **2024-01-23**</sup> | 输入任何 URL 和关键词，获取页面 SEO 分析和见解！<br/>`seo`                                        |
+| [视频字幕](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **maila** on **2024-01-23**</sup>    | 将 Youtube 链接转换为转录文本，使其能够提问，创建章节，并总结其内容。<br/>`视频转文字` `you-tube` |
 
-> 📊 Total plugins: [<kbd>**25**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**40**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
