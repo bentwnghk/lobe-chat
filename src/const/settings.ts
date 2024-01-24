@@ -19,7 +19,7 @@ export const DEFAULT_BASE_SETTINGS: GlobalBaseSettings = {
 };
 
 export const DEFAUTT_AGENT_TTS_CONFIG: LobeAgentTTSConfig = {
-  showAllLocaleVoice: true,
+  showAllLocaleVoice: false,
   sttLocale: 'auto',
   ttsService: 'openai',
   voice: {
