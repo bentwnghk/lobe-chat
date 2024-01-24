@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.3.0](https://github.com/bentwnghk/lobe-chat/compare/v1.2.5...v1.3.0)
+
+<sup>Released on **2024-01-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Add session group manager.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix default, fix rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add session group manager, closes [#1055](https://github.com/bentwnghk/lobe-chat/issues/1055) [#1045](https://github.com/bentwnghk/lobe-chat/issues/1045) [#1126](https://github.com/bentwnghk/lobe-chat/issues/1126) [#1120](https://github.com/bentwnghk/lobe-chat/issues/1120) ([e3281fc](https://github.com/bentwnghk/lobe-chat/commit/e3281fc))
+
+#### What's fixed
+
+- **misc**: Fix default ([82cbbde](https://github.com/bentwnghk/lobe-chat/commit/82cbbde))
+- **misc**: Fix rename ([5680bd7](https://github.com/bentwnghk/lobe-chat/commit/5680bd7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.5](https://github.com/bentwnghk/lobe-chat/compare/v1.2.4...v1.2.5)
 
 <sup>Released on **2024-01-22**</sup>
