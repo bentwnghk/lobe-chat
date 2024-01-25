@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.3.1](https://github.com/bentwnghk/lobe-chat/compare/v1.3.0...v1.3.1)
+
+<sup>Released on **2024-01-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Automatically fill in the wrong password.
+
+#### 💄 Styles
+
+- **misc**: Fix default plugins height unstabled when scrolling, Remove centered prop from CreateGroupModal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Automatically fill in the wrong password, closes [#1144](https://github.com/bentwnghk/lobe-chat/issues/1144) ([0159a1a](https://github.com/bentwnghk/lobe-chat/commit/0159a1a))
+
+#### Styles
+
+- **misc**: Fix default plugins height unstabled when scrolling, closes [#1142](https://github.com/bentwnghk/lobe-chat/issues/1142) ([abed417](https://github.com/bentwnghk/lobe-chat/commit/abed417))
+- **misc**: Remove centered prop from CreateGroupModal, closes [#1146](https://github.com/bentwnghk/lobe-chat/issues/1146) ([7b01676](https://github.com/bentwnghk/lobe-chat/commit/7b01676))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/bentwnghk/lobe-chat/compare/v1.2.5...v1.3.0)
 
 <sup>Released on **2024-01-24**</sup>
