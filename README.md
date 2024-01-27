@@ -184,12 +184,12 @@ e-commerce platform data access, and various third-party services.
 
 <!-- PLUGIN LIST -->
 
-| Recent Submits                                                                                                       | Description                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [Current Time Assistant](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **cc** on **2024-01-26**</sup> | A plugin to provide current time information<br/>`time`                                                                                 |
-| [AladinBooks](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **azurewebsites** on **2024-01-25**</sup> | Search for books on Aladin.<br/>`book` `search`                                                                                         |
-| [Bardeen](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **prod** on **2024-01-25**</sup>              | Create and run automations on the most popular web services.<br/>`workflow` `automatic`                                                 |
-| [ImageSearch](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **aigenprompt** on **2024-01-25**</sup>   | Discover complimentary images to enhance your generated article or to highlight specific paragraphs from Unsplash.<br/>`image` `search` |
+| Recent Submits                                                                                                       | Description                                                                             |
+| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [Steam](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **LobeHub** on **2024-01-27**</sup>             | Obtain game information and user reviews from Steam.<br/>`steam` `game`                 |
+| [Current Time Assistant](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **cc** on **2024-01-26**</sup> | A plugin to provide current time information<br/>`time`                                 |
+| [AladinBooks](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **azurewebsites** on **2024-01-25**</sup> | Search for books on Aladin.<br/>`book` `search`                                         |
+| [Bardeen](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **prod** on **2024-01-25**</sup>              | Create and run automations on the most popular web services.<br/>`workflow` `automatic` |
 
 > 📊 Total plugins: [<kbd>**59**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
@@ -225,12 +225,12 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 | Recent Submits                                                                                                                                                                    | Description                                                                                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Steam Game Reviews](https://chat-preview.lobehub.com/market?agent=steam-agent)<br/><sup>By **[canisminor1990](https://github.com/canisminor1990)** on **2024-01-27**</sup>       | Steam game expert consultant, popular game recommendations and in-depth game analysis<br/>`steam` `game-recommendations` `game-reviews`                                               |
 | [Culinary AI Mentor](https://chat-preview.lobehub.com/market?agent=chef)<br/><sup>By **[MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>                            | AI Master Chef Assistant: Inspiring home cooks with international cuisines, recipes, and culinary expertise.<br/>`cooking` `recipe` `culinary` `techniques` `meal-planning`           |
 | [AI Import/Export Advisor](https://chat-preview.lobehub.com/market?agent=import-and-export-advisor)<br/><sup>By **[MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup> | AI Import and Export Advisor: Providing guidance on global trade, customs regulations, documentation, trade agreements, and risk management.<br/>`import-export` `trade` `consulting` |
 | [OpenAPI Generator](https://chat-preview.lobehub.com/market?agent=openapi-generator)<br/><sup>By **[canisminor1990](https://github.com/canisminor1990)** on **2024-01-26**</sup>  | Parse interface documents and generate openapi.json required by ChatGPT Tool<br/>`automation-tool` `interface-documents` `workflow` `openapi`                                         |
-| [ShieldsIO Badge Generator](https://chat-preview.lobehub.com/market?agent=shields-io)<br/><sup>By **[Justin3go](https://github.com/Justin3go)** on **2024-01-26**</sup>           | Specializes in using `shields.io` to generate stylish badges<br/>`badge-generator` `styling` `ui-design` `markdown` `technology-stack` `shields-io`                                   |
 
-> 📊 Total agents: [<kbd>**123**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**124**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
