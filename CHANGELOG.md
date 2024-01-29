@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/bentwnghk/lobe-chat/compare/v1.3.3...v1.4.0)
+
+<sup>Released on **2024-01-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Add create agent action in group menu.
+
+#### 💄 Styles
+
+- **misc**: Fix antd tab width flicker when show function debug.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add create agent action in group menu, closes [#1177](https://github.com/bentwnghk/lobe-chat/issues/1177) ([17ec1eb](https://github.com/bentwnghk/lobe-chat/commit/17ec1eb))
+
+#### Styles
+
+- **misc**: Fix antd tab width flicker when show function debug, closes [#1171](https://github.com/bentwnghk/lobe-chat/issues/1171) ([14e99d2](https://github.com/bentwnghk/lobe-chat/commit/14e99d2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.3.3](https://github.com/bentwnghk/lobe-chat/compare/v1.3.2...v1.3.3)
 
 <sup>Released on **2024-01-29**</sup>
