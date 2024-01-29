@@ -80,7 +80,7 @@
     "@lobehub/chat-plugins-gateway": "latest",
     "@lobehub/tts": "latest",
     "@vercel/analytics": "^1",
-    "ahooks": "^3",
+    "ahooks": "3.7.8",
     "ai": "^2",
     "antd": "^5",
     "antd-style": "^3",
