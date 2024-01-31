@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.3](https://github.com/bentwnghk/lobe-chat/compare/v1.4.2...v1.4.3)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Rename ([a980677](https://github.com/bentwnghk/lobe-chat/commit/a980677))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.2](https://github.com/bentwnghk/lobe-chat/compare/v1.4.1...v1.4.2)
 
 <sup>Released on **2024-01-31**</sup>
