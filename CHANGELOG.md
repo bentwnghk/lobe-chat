@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.9](https://github.com/bentwnghk/lobe-chat/compare/v1.4.8...v1.4.9)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **check**: The state of connectivity can only be singular.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **check**: The state of connectivity can only be singular, closes [#1201](https://github.com/bentwnghk/lobe-chat/issues/1201) ([c412baf](https://github.com/bentwnghk/lobe-chat/commit/c412baf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.8](https://github.com/bentwnghk/lobe-chat/compare/v1.4.7...v1.4.8)
 
 <sup>Released on **2024-01-31**</sup>
