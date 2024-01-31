@@ -40,6 +40,9 @@ const nextConfig = {
         protocol: 'https',
       },
     ],
+    domains: [
+      'registry.npmmirror.com',
+    ],
     unoptimized: !isProd,
   },
   output: buildWithDocker ? 'standalone' : undefined,
