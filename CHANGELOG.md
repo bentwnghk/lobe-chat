@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.4.2](https://github.com/bentwnghk/lobe-chat/compare/v1.4.1...v1.4.2)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the setting storage from localStorage to indexedDB.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix plugin gateway auth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the setting storage from localStorage to indexedDB, closes [#1180](https://github.com/bentwnghk/lobe-chat/issues/1180) ([615e796](https://github.com/bentwnghk/lobe-chat/commit/615e796))
+
+#### What's fixed
+
+- **misc**: Fix plugin gateway auth, closes [#1195](https://github.com/bentwnghk/lobe-chat/issues/1195) ([2184167](https://github.com/bentwnghk/lobe-chat/commit/2184167))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.1](https://github.com/bentwnghk/lobe-chat/compare/v1.4.0...v1.4.1)
 
 <sup>Released on **2024-01-30**</sup>
