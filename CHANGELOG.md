@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.5](https://github.com/bentwnghk/lobe-chat/compare/v1.4.4...v1.4.5)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix next.config.mjs and dockerfile.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix next.config.mjs and dockerfile ([dc43f3b](https://github.com/bentwnghk/lobe-chat/commit/dc43f3b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.4](https://github.com/bentwnghk/lobe-chat/compare/v1.4.3...v1.4.4)
 
 <sup>Released on **2024-01-31**</sup>
