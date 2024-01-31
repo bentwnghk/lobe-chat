@@ -1,4 +1,4 @@
-import type { NeutralColors, PrimaryColors } from '@lobehub/ui';
+import type { NeutralColors, PrimaryColors } from '@bentwnghk/ui';
 import type { ThemeMode } from 'antd-style';
 
 import { DB_Settings, DB_User } from '@/database/schemas/user';
