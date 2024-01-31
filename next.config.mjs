@@ -25,7 +25,7 @@ const nextConfig = {
       '@emoji-mart/react',
       '@emoji-mart/data',
       '@icons-pack/react-simple-icons',
-      '@bentwnghk/ui',
+      '@lobehub/ui',
       'gpt-tokenizer',
       'chroma-js',
     ],
@@ -35,7 +35,7 @@ const nextConfig = {
     remotePatterns: [
       {
         hostname: 'registry.npmmirror.com',
-        pathname: '/@bentwnghk/**',
+        pathname: '/@lobehub/**',
         port: '',
         protocol: 'https',
       },
