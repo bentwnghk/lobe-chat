@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.10](https://github.com/bentwnghk/lobe-chat/compare/v1.4.9...v1.4.10)
+
+<sup>Released on **2024-02-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update the gpt-4-1106-preview model to gpt-4-0125-preview.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update the gpt-4-1106-preview model to gpt-4-0125-preview, closes [#1210](https://github.com/bentwnghk/lobe-chat/issues/1210) ([fe623e1](https://github.com/bentwnghk/lobe-chat/commit/fe623e1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.9](https://github.com/bentwnghk/lobe-chat/compare/v1.4.8...v1.4.9)
 
 <sup>Released on **2024-01-31**</sup>
