@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.11](https://github.com/bentwnghk/lobe-chat/compare/v1.4.10...v1.4.11)
+
+<sup>Released on **2024-02-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Allow user to add agent without redirection.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Allow user to add agent without redirection, closes [#1199](https://github.com/bentwnghk/lobe-chat/issues/1199) ([6577ca1](https://github.com/bentwnghk/lobe-chat/commit/6577ca1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.10](https://github.com/bentwnghk/lobe-chat/compare/v1.4.9...v1.4.10)
 
 <sup>Released on **2024-02-02**</sup>
