@@ -1,5 +1,5 @@
 import { IPluginErrorType, PluginErrorType } from '@lobehub/chat-plugin-sdk';
-import type { AlertProps } from '@lobehub/ui';
+import type { AlertProps } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { AgentRuntimeErrorType, ILobeAgentRuntimeErrorType } from '@/libs/agent-runtime';

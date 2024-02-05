@@ -1,5 +1,5 @@
 import { Aws, Bedrock } from '@lobehub/icons';
-import { Form, type ItemGroup } from '@lobehub/ui';
+import { Form, type ItemGroup } from '@bentwnghk/ui';
 import { Form as AntForm, Divider, Input, Select, Switch } from 'antd';
 import { debounce } from 'lodash-es';
 import { memo } from 'react';

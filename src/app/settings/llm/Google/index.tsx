@@ -1,5 +1,5 @@
 import { Google } from '@lobehub/icons';
-import { Form, type ItemGroup } from '@lobehub/ui';
+import { Form, type ItemGroup } from '@bentwnghk/ui';
 import { Form as AntForm, Input, Switch } from 'antd';
 import { debounce } from 'lodash-es';
 import { memo } from 'react';

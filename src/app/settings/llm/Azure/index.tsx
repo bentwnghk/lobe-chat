@@ -1,5 +1,5 @@
 import { Azure, OpenAI } from '@lobehub/icons';
-import { Form, type ItemGroup, Markdown } from '@lobehub/ui';
+import { Form, type ItemGroup, Markdown } from '@bentwnghk/ui';
 import { Form as AntForm, AutoComplete, Divider, Input, Switch } from 'antd';
 import { createStyles } from 'antd-style';
 import { debounce } from 'lodash-es';

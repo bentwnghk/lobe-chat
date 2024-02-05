@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Segmented } from 'antd';
 import { AsteriskSquare, KeySquare } from 'lucide-react';
 import { memo, useState } from 'react';
