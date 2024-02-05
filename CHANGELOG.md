@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/bentwnghk/lobe-chat/compare/v1.4.11...v1.5.0)
+
+<sup>Released on **2024-02-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Support Google / Zhipu / AWS Bedrock model providers.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename.
+
+#### 💄 Styles
+
+- **settings**: Improve LLM connection checker style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support Google / Zhipu / AWS Bedrock model providers, closes [#1173](https://github.com/bentwnghk/lobe-chat/issues/1173) ([d5929f6](https://github.com/bentwnghk/lobe-chat/commit/d5929f6))
+
+#### What's fixed
+
+- **misc**: Fix rename ([f6ecdff](https://github.com/bentwnghk/lobe-chat/commit/f6ecdff))
+
+#### Styles
+
+- **settings**: Improve LLM connection checker style, closes [#1222](https://github.com/bentwnghk/lobe-chat/issues/1222) ([8c349a1](https://github.com/bentwnghk/lobe-chat/commit/8c349a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.11](https://github.com/bentwnghk/lobe-chat/compare/v1.4.10...v1.4.11)
 
 <sup>Released on **2024-02-03**</sup>
