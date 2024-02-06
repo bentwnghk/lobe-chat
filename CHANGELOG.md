@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.6.0](https://github.com/bentwnghk/lobe-chat/compare/v1.5.3...v1.6.0)
+
+<sup>Released on **2024-02-06**</sup>
+
+#### ✨ Features
+
+- **misc**: Support Moonshot AI Provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix non-https `crypto.subtile` missing error, fix rename.
+
+#### 💄 Styles
+
+- **misc**: Add moonshot i18n, improve clear topic tips, improve direction UX.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support Moonshot AI Provider, closes [#1232](https://github.com/bentwnghk/lobe-chat/issues/1232) ([a6de202](https://github.com/bentwnghk/lobe-chat/commit/a6de202))
+
+#### What's fixed
+
+- **misc**: Fix non-https `crypto.subtile` missing error, closes [#1238](https://github.com/bentwnghk/lobe-chat/issues/1238) ([1750d0b](https://github.com/bentwnghk/lobe-chat/commit/1750d0b))
+- **misc**: Fix rename ([c94391e](https://github.com/bentwnghk/lobe-chat/commit/c94391e))
+
+#### Styles
+
+- **misc**: Add moonshot i18n, closes [#1251](https://github.com/bentwnghk/lobe-chat/issues/1251) ([4b6663b](https://github.com/bentwnghk/lobe-chat/commit/4b6663b))
+- **misc**: Improve clear topic tips, closes [#1247](https://github.com/bentwnghk/lobe-chat/issues/1247) ([2d133e9](https://github.com/bentwnghk/lobe-chat/commit/2d133e9))
+- **misc**: Improve direction UX, closes [#1169](https://github.com/bentwnghk/lobe-chat/issues/1169) ([e3929dc](https://github.com/bentwnghk/lobe-chat/commit/e3929dc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.3](https://github.com/bentwnghk/lobe-chat/compare/v1.5.2...v1.5.3)
 
 <sup>Released on **2024-02-06**</sup>
