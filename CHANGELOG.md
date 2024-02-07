@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.6.1](https://github.com/bentwnghk/lobe-chat/compare/v1.6.0...v1.6.1)
+
+<sup>Released on **2024-02-07**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix use azure api key error.
+
+#### 💄 Styles
+
+- **settings**: Improve LLM connection checker style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix use azure api key error, closes [#1263](https://github.com/bentwnghk/lobe-chat/issues/1263) ([4e08f63](https://github.com/bentwnghk/lobe-chat/commit/4e08f63))
+
+#### Styles
+
+- **settings**: Improve LLM connection checker style, closes [#1252](https://github.com/bentwnghk/lobe-chat/issues/1252) ([4905d9e](https://github.com/bentwnghk/lobe-chat/commit/4905d9e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.6.0](https://github.com/bentwnghk/lobe-chat/compare/v1.5.3...v1.6.0)
 
 <sup>Released on **2024-02-06**</sup>
