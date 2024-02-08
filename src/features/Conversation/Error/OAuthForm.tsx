@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { App, Button } from 'antd';
 import { ScanFace } from 'lucide-react';
 import { signIn, signOut, useSession } from 'next-auth/react';
