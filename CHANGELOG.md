@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.8.0](https://github.com/bentwnghk/lobe-chat/compare/v1.7.2...v1.8.0)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### ✨ Features
+
+- **misc**: Support umami analytics.
+
+#### 🐛 Bug Fixes
+
+- **misc**: The back button on the chat setting page can correctly return to the configured Agent chat page.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support umami analytics, closes [#1267](https://github.com/bentwnghk/lobe-chat/issues/1267) ([da7beba](https://github.com/bentwnghk/lobe-chat/commit/da7beba))
+
+#### What's fixed
+
+- **misc**: The back button on the chat setting page can correctly return to the configured Agent chat page, closes [#1272](https://github.com/bentwnghk/lobe-chat/issues/1272) ([4cc1ad5](https://github.com/bentwnghk/lobe-chat/commit/4cc1ad5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.7.2](https://github.com/bentwnghk/lobe-chat/compare/v1.7.1...v1.7.2)
 
 <sup>Released on **2024-02-09**</sup>
