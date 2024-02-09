@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.7.2](https://github.com/bentwnghk/lobe-chat/compare/v1.7.1...v1.7.2)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix auth ([7fab451](https://github.com/bentwnghk/lobe-chat/commit/7fab451))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.7.1](https://github.com/bentwnghk/lobe-chat/compare/v1.7.0...v1.7.1)
 
 <sup>Released on **2024-02-08**</sup>
