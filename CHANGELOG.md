@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.8.2](https://github.com/bentwnghk/lobe-chat/compare/v1.8.1...v1.8.2)
+
+<sup>Released on **2024-02-11**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update Model provider request url.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auth error in console, fix token tag usage display, fix url.ts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update Model provider request url ([b64acc0](https://github.com/bentwnghk/lobe-chat/commit/b64acc0))
+
+#### What's fixed
+
+- **misc**: Fix auth error in console ([8e7ee82](https://github.com/bentwnghk/lobe-chat/commit/8e7ee82))
+- **misc**: Fix token tag usage display ([6e7134b](https://github.com/bentwnghk/lobe-chat/commit/6e7134b))
+- **misc**: Fix url.ts ([861ccab](https://github.com/bentwnghk/lobe-chat/commit/861ccab))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.8.1](https://github.com/bentwnghk/lobe-chat/compare/v1.8.0...v1.8.1)
 
 <sup>Released on **2024-02-09**</sup>
