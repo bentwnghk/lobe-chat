@@ -16,7 +16,7 @@ export const DISCORD = 'https://speak.mister5.net/';
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL =
-  'https://github.com/lobehub/lobe-chat/discussions/1284';
+  'https://mr5drive.com';
 
 export const AGENTS_INDEX_GITHUB = 'https://github.com/lobehub/lobe-chat-agents';
 export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');
