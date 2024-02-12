@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.8.3](https://github.com/bentwnghk/lobe-chat/compare/v1.8.2...v1.8.3)
+
+<sup>Released on **2024-02-12**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor with the auth code.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix middleware auth console error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor with the auth code ([8cee01f](https://github.com/bentwnghk/lobe-chat/commit/8cee01f))
+
+#### What's fixed
+
+- **misc**: Fix middleware auth console error ([ad3ade8](https://github.com/bentwnghk/lobe-chat/commit/ad3ade8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.8.2](https://github.com/bentwnghk/lobe-chat/compare/v1.8.1...v1.8.2)
 
 <sup>Released on **2024-02-11**</sup>
