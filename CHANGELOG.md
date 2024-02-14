@@ -2,6 +2,55 @@
 
 # Changelog
 
+## [Version 1.10.0](https://github.com/bentwnghk/lobe-chat/compare/v1.9.1...v1.10.0)
+
+<sup>Released on **2024-02-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the sidebar to fix first render state.
+
+#### ✨ Features
+
+- **misc**: Support define default agent config with `DEFAULT_AGENT_CONFIG` ENV.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename.
+
+#### 💄 Styles
+
+- **misc**: Improve settings tabs style and refactor the LLM setting page.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the sidebar to fix first render state, closes [#1301](https://github.com/bentwnghk/lobe-chat/issues/1301) ([c477491](https://github.com/bentwnghk/lobe-chat/commit/c477491))
+
+#### What's improved
+
+- **misc**: Support define default agent config with `DEFAULT_AGENT_CONFIG` ENV, closes [#1291](https://github.com/bentwnghk/lobe-chat/issues/1291) ([c7c096e](https://github.com/bentwnghk/lobe-chat/commit/c7c096e))
+
+#### What's fixed
+
+- **misc**: Fix rename ([b88bc14](https://github.com/bentwnghk/lobe-chat/commit/b88bc14))
+
+#### Styles
+
+- **misc**: Improve settings tabs style and refactor the LLM setting page, closes [#1299](https://github.com/bentwnghk/lobe-chat/issues/1299) ([31f6f15](https://github.com/bentwnghk/lobe-chat/commit/31f6f15))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.9.1](https://github.com/bentwnghk/lobe-chat/compare/v1.9.0...v1.9.1)
 
 <sup>Released on **2024-02-14**</sup>
