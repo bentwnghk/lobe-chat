@@ -1,5 +1,5 @@
-import { Form, type ItemGroup } from '@lobehub/ui';
-import type { FormItemProps } from '@lobehub/ui/es/Form/components/FormItem';
+import { Form, type ItemGroup } from '@bentwnghk/ui';
+import type { FormItemProps } from '@bentwnghk/ui/es/Form/components/FormItem';
 import { Form as AntForm, Switch } from 'antd';
 import { debounce } from 'lodash-es';
 import { ReactNode, memo } from 'react';
