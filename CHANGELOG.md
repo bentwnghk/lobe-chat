@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.9.0](https://github.com/bentwnghk/lobe-chat/compare/v1.8.3...v1.9.0)
+
+<sup>Released on **2024-02-14**</sup>
+
+#### ✨ Features
+
+- **llm**: Support Ollama AI Provider for local LLM.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **llm**: Support Ollama AI Provider for local LLM ([3b6f249](https://github.com/bentwnghk/lobe-chat/commit/3b6f249))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.8.3](https://github.com/bentwnghk/lobe-chat/compare/v1.8.2...v1.8.3)
 
 <sup>Released on **2024-02-12**</sup>
