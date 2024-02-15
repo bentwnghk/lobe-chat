@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.2](https://github.com/bentwnghk/lobe-chat/compare/v1.10.1...v1.10.2)
+
+<sup>Released on **2024-02-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix agent avatar click wrong navigation.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix agent avatar click wrong navigation, closes [#1308](https://github.com/bentwnghk/lobe-chat/issues/1308) ([adc7bc1](https://github.com/bentwnghk/lobe-chat/commit/adc7bc1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.1](https://github.com/bentwnghk/lobe-chat/compare/v1.10.0...v1.10.1)
 
 <sup>Released on **2024-02-15**</sup>
