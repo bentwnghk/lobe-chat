@@ -1,4 +1,4 @@
-import urlJoin from 'url-join';
+// import urlJoin from 'url-join';
 
 import { getClientConfig } from '@/config/client';
 import { withBasePath } from '@/utils/basePath';
