@@ -16,7 +16,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { ABOUT, CHANGELOG, DISCORD, FEEDBACK, GITHUB, WIKI } from '@/const/url';
+import { ABOUT, CHANGELOG, DISCORD, DOCUMENTS, FEEDBACK, GITHUB } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 import { GlobalStore, useGlobalStore } from '@/store/global';
@@ -90,9 +90,9 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
     },
     {
       icon: <Icon icon={Book} />,
-      key: 'wiki',
+      key: 'documents',
       label: 'Mr.🆖 朗文詞典',
-      onClick: () => window.open(WIKI, '__blank'),
+      onClick: () => window.open(DOCUMENTS, '__blank'),
     },
     {
       icon: <Icon icon={Heart} />,
@@ -127,10 +127,17 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
       />
       <ActionIcon
         icon={Github}
-        onClick={() => window.open(GITHUB, '__blank')}
+        onClick={() => window.open(GITHUB)}
         placement={'right'}
         title={'Mr.🆖 雲端儲存'}
       />
+      <ActionIcon
+        icon={Book}
+        onClick={() => window.open(DOCUMENTS)}
+        placement={'right'}
+        title={'Mr.🆖 朗文詞典'}
+      />
+
       <Dropdown arrow={false} menu={{ items }} trigger={['click']}>
         {hasNewVersion ? (
           <Flexbox>
