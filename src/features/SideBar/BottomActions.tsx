@@ -89,10 +89,10 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
       onClick: () => window.open(CHANGELOG, '__blank'),
     },
     {
-      icon: <Icon icon={Book} />,
-      key: 'documents',
-      label: 'Mr.🆖 朗文詞典',
-      onClick: () => window.open(DOCUMENTS, '__blank'),
+      icon: <Icon icon={DiscordIcon} />,
+      key: 'wiki',
+      label: 'Discord',
+      onClick: () => window.open(DISCORD, '__blank'),
     },
     {
       icon: <Icon icon={Heart} />,
@@ -120,22 +120,16 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
   return (
     <>
       <ActionIcon
-        icon={DiscordIcon}
-        onClick={() => window.open(DISCORD, '__blank')}
-        placement={'right'}
-        title={'Mr.🆖 AiSpeak'}
-      />
-      <ActionIcon
         icon={Github}
         onClick={() => window.open(GITHUB)}
         placement={'right'}
-        title={'Mr.🆖 雲端儲存'}
+        title={'GitHub'}
       />
       <ActionIcon
         icon={Book}
         onClick={() => window.open(DOCUMENTS)}
         placement={'right'}
-        title={'Mr.🆖 朗文詞典'}
+        title={t('document')}
       />
 
       <Dropdown arrow={false} menu={{ items }} trigger={['click']}>
