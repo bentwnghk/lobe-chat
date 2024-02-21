@@ -6,6 +6,10 @@ import { withBasePath } from '@/utils/basePath';
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
+export const OFFICIAL_URL = 'https://chat-preview.lobehub.com/';
+
+export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
+
 export const GITHUB = pkg.homepage;
 export const CHANGELOG = 'https://github.com/bentwnghk/lobe-chat/blob/master/CHANGELOG.md';
 export const ABOUT = 'https://mr5drive.com/';
