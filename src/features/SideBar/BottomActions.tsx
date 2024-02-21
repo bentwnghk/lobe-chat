@@ -91,8 +91,8 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
     },
     {
       icon: <Icon icon={DiscordIcon} />,
-      key: 'wiki',
-      label: 'Discord',
+      key: 'discord',
+      label: t('discord'),
       onClick: () => window.open(DISCORD, '__blank'),
     },
     {
@@ -124,7 +124,7 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
         icon={Github}
         onClick={() => window.open(GITHUB)}
         placement={'right'}
-        title={'GitHub'}
+        title={'Mr.🆖 雲端儲存'}
       />
       <Link href={DOCUMENTS} target={'_blank'}>
         <ActionIcon icon={Book} placement={'right'} title={t('document')} />
