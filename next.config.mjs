@@ -27,7 +27,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
+  lint: {
     ignoreDuringBuilds: true,
   },
   compress: isProd,
