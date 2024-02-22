@@ -108,6 +108,7 @@ export default {
     ollama: 'Ollama',
     oneapi: 'One API',
     openai: 'OpenAI',
+    perplexity: 'Perplexity',
     zhipu: '智谱AI',
   },
   noDescription: '暂无描述',
