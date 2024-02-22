@@ -28,7 +28,7 @@ export default {
   defaultSession: '自定义助手',
   delete: '删除',
   discord: 'Mr.🆖 AiSpeak',
-  document: '使用文档',
+  document: 'Mr.🆖 朗文詞典',
   duplicate: '创建副本',
   edit: '编辑',
   export: '导出配置',
