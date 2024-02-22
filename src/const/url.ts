@@ -1,12 +1,12 @@
 import urlJoin from 'url-join';
 
-import { getClientConfig } from '@/config/client';
+// import { getClientConfig } from '@/config/client';
 import { withBasePath } from '@/utils/basePath';
 
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
-export const OFFICIAL_URL = 'https://chat-preview.lobehub.com/';
+export const OFFICIAL_URL = 'https://ai3.mister5.net/';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
@@ -15,8 +15,9 @@ export const CHANGELOG = 'https://github.com/bentwnghk/lobe-chat/blob/master/CHA
 export const ABOUT = 'https://mr5drive.com/';
 export const FEEDBACK = 'https://mr5drive.com/';
 export const DISCORD = 'https://speak.mister5.net/';
-const { LOBE_CHAT_DOCS } = getClientConfig();
-export const DOCUMENTS = !!LOBE_CHAT_DOCS ? '/docs' : 'https://chat-docs.lobehub.com';
+// const { LOBE_CHAT_DOCS } = getClientConfig();
+// export const DOCUMENTS = !!LOBE_CHAT_DOCS ? '/docs' : 'https://chat-docs.lobehub.com';
+export const DOCUMENTS = 'https://longman.mister5.net/';
 export const WIKI_PLUGIN_GUIDE = urlJoin(GITHUB, 'wiki', 'Plugin-Development');
 export const MANUAL_UPGRADE_URL = 'https://ai3.mister5.net';
 
