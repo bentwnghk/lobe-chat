@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.4](https://github.com/bentwnghk/lobe-chat/compare/v1.10.3...v1.10.4)
+
+<sup>Released on **2024-02-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix urls.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix urls ([2ccb7a7](https://github.com/bentwnghk/lobe-chat/commit/2ccb7a7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.3](https://github.com/bentwnghk/lobe-chat/compare/v1.10.2...v1.10.3)
 
 <sup>Released on **2024-02-22**</sup>
