@@ -2,6 +2,58 @@
 
 # Changelog
 
+### [Version 1.10.3](https://github.com/bentwnghk/lobe-chat/compare/v1.10.2...v1.10.3)
+
+<sup>Released on **2024-02-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor with chat docs site.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build errors, fix documents i18n, fix eslint and type check, fix eslint and type check, fix expand, fix icon desc, fix joinurl, fix lint check error, fix OAuth errors on Docker deployment, fix the document url, fix the robots.txt config, fix the robots.txt config.
+
+#### 💄 Styles
+
+- **misc**: Improve docs url and add more docs.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor with chat docs site, closes [#1309](https://github.com/bentwnghk/lobe-chat/issues/1309) ([c131fa6](https://github.com/bentwnghk/lobe-chat/commit/c131fa6))
+
+#### What's fixed
+
+- **misc**: Fix build errors ([2b70956](https://github.com/bentwnghk/lobe-chat/commit/2b70956))
+- **misc**: Fix documents i18n, closes [#1319](https://github.com/bentwnghk/lobe-chat/issues/1319) ([a0600dc](https://github.com/bentwnghk/lobe-chat/commit/a0600dc))
+- **misc**: Fix eslint and type check ([0d3d33a](https://github.com/bentwnghk/lobe-chat/commit/0d3d33a))
+- **misc**: Fix eslint and type check ([b105af8](https://github.com/bentwnghk/lobe-chat/commit/b105af8))
+- **misc**: Fix expand ([ff14ddf](https://github.com/bentwnghk/lobe-chat/commit/ff14ddf))
+- **misc**: Fix icon desc ([f365d0e](https://github.com/bentwnghk/lobe-chat/commit/f365d0e))
+- **misc**: Fix joinurl ([f8be6ec](https://github.com/bentwnghk/lobe-chat/commit/f8be6ec))
+- **misc**: Fix lint check error ([c4f2f30](https://github.com/bentwnghk/lobe-chat/commit/c4f2f30))
+- **misc**: Fix OAuth errors on Docker deployment, closes [#1323](https://github.com/bentwnghk/lobe-chat/issues/1323) ([922e843](https://github.com/bentwnghk/lobe-chat/commit/922e843))
+- **misc**: Fix the document url ([43b5677](https://github.com/bentwnghk/lobe-chat/commit/43b5677))
+- **misc**: Fix the robots.txt config ([c4adfe4](https://github.com/bentwnghk/lobe-chat/commit/c4adfe4))
+- **misc**: Fix the robots.txt config ([34901b4](https://github.com/bentwnghk/lobe-chat/commit/34901b4))
+
+#### Styles
+
+- **misc**: Improve docs url and add more docs, closes [#1329](https://github.com/bentwnghk/lobe-chat/issues/1329) ([85b3136](https://github.com/bentwnghk/lobe-chat/commit/85b3136))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.2](https://github.com/bentwnghk/lobe-chat/compare/v1.10.1...v1.10.2)
 
 <sup>Released on **2024-02-15**</sup>
