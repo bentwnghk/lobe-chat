@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.11.2](https://github.com/bentwnghk/lobe-chat/compare/v1.11.1...v1.11.2)
+
+<sup>Released on **2024-02-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix BottomAction.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix BottomAction ([f47b970](https://github.com/bentwnghk/lobe-chat/commit/f47b970))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.11.1](https://github.com/bentwnghk/lobe-chat/compare/v1.11.0...v1.11.1)
 
 <sup>Released on **2024-02-22**</sup>
