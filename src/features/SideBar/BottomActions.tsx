@@ -120,8 +120,8 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
 
   return (
     <>
-      <Link aria-label={'GitHub'} href={DOCUMENTS} target={'_blank'}>
-        <ActionIcon icon={Github} placement={'right'} title={'Mr.🆖 雲端儲存'} />
+      <Link aria-label={'GitHub'} href={DISCORD} target={'_blank'}>
+        <ActionIcon icon={Github} placement={'right'} title={'Mr.🆖 AiSpeak'} />
       </Link>
       <Link aria-label={t('document')} href={DOCUMENTS} target={'_blank'}>
         <ActionIcon icon={Book} placement={'right'} title={t('document')} />
