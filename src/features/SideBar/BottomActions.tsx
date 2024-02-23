@@ -89,12 +89,12 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
       label: t('changelog'),
       onClick: () => window.open(CHANGELOG, '__blank'),
     },
-    {
-      icon: <Icon icon={DiscordIcon} />,
-      key: 'discord',
-      label: t('discord'),
-      onClick: () => window.open(DISCORD, '__blank'),
-    },
+    //{
+    //  icon: <Icon icon={DiscordIcon} />,
+    //  key: 'discord',
+    //  label: t('discord'),
+    //  onClick: () => window.open(DISCORD, '__blank'),
+    //},
     {
       icon: <Icon icon={Heart} />,
       key: 'about',
