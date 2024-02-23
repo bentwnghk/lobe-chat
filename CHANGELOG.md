@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.11.4](https://github.com/bentwnghk/lobe-chat/compare/v1.11.3...v1.11.4)
+
+<sup>Released on **2024-02-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix OAuth don't get user id from session.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix OAuth don't get user id from session, closes [#1347](https://github.com/bentwnghk/lobe-chat/issues/1347) ([ce4d6ca](https://github.com/bentwnghk/lobe-chat/commit/ce4d6ca))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.11.3](https://github.com/bentwnghk/lobe-chat/compare/v1.11.2...v1.11.3)
 
 <sup>Released on **2024-02-23**</sup>
