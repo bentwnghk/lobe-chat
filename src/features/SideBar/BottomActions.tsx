@@ -1,4 +1,4 @@
-import { ActionIcon, DiscordIcon, Icon } from '@bentwnghk/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { Badge, ConfigProvider, Dropdown, MenuProps } from 'antd';
 import {
   Book,
