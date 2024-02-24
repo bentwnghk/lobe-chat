@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.11.5](https://github.com/bentwnghk/lobe-chat/compare/v1.11.4...v1.11.5)
+
+<sup>Released on **2024-02-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **ollama**: Fix gemma model id.
+
+#### 💄 Styles
+
+- **misc**: Add gemma model logo for ollama.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **ollama**: Fix gemma model id, closes [#1377](https://github.com/bentwnghk/lobe-chat/issues/1377) ([3da50ff](https://github.com/bentwnghk/lobe-chat/commit/3da50ff))
+
+#### Styles
+
+- **misc**: Add gemma model logo for ollama, closes [#1369](https://github.com/bentwnghk/lobe-chat/issues/1369) ([e2fb3a3](https://github.com/bentwnghk/lobe-chat/commit/e2fb3a3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.11.4](https://github.com/bentwnghk/lobe-chat/compare/v1.11.3...v1.11.4)
 
 <sup>Released on **2024-02-23**</sup>
