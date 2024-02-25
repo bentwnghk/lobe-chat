@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.11.6](https://github.com/bentwnghk/lobe-chat/compare/v1.11.5...v1.11.6)
+
+<sup>Released on **2024-02-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix eliminate UI jitter on navigation, improving experience for users sensitive to motion.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix eliminate UI jitter on navigation, improving experience for users sensitive to motion, closes [#1381](https://github.com/bentwnghk/lobe-chat/issues/1381) ([9231413](https://github.com/bentwnghk/lobe-chat/commit/9231413))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.11.5](https://github.com/bentwnghk/lobe-chat/compare/v1.11.4...v1.11.5)
 
 <sup>Released on **2024-02-24**</sup>
