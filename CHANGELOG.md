@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.12.0](https://github.com/bentwnghk/lobe-chat/compare/v1.11.7...v1.12.0)
+
+<sup>Released on **2024-02-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Support multiple API Keys.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support multiple API Keys, closes [#1345](https://github.com/bentwnghk/lobe-chat/issues/1345) ([17c5da3](https://github.com/bentwnghk/lobe-chat/commit/17c5da3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.11.7](https://github.com/bentwnghk/lobe-chat/compare/v1.11.6...v1.11.7)
 
 <sup>Released on **2024-02-26**</sup>
