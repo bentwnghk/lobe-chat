@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.12.2](https://github.com/bentwnghk/lobe-chat/compare/v1.12.1...v1.12.2)
+
+<sup>Released on **2024-02-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the google api route and add more tests for chat route.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update azure OpenAI api version options to latest.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the google api route and add more tests for chat route, closes [#1424](https://github.com/bentwnghk/lobe-chat/issues/1424) ([063a4d5](https://github.com/bentwnghk/lobe-chat/commit/063a4d5))
+
+#### What's fixed
+
+- **misc**: Update azure OpenAI api version options to latest, closes [#1423](https://github.com/bentwnghk/lobe-chat/issues/1423) ([d992262](https://github.com/bentwnghk/lobe-chat/commit/d992262))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.1](https://github.com/bentwnghk/lobe-chat/compare/v1.12.0...v1.12.1)
 
 <sup>Released on **2024-02-28**</sup>
