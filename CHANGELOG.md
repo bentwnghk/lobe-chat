@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.12.3](https://github.com/bentwnghk/lobe-chat/compare/v1.12.2...v1.12.3)
+
+<sup>Released on **2024-02-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the core chatStream and plugin gateway auth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the core chatStream and plugin gateway auth, closes [#1426](https://github.com/bentwnghk/lobe-chat/issues/1426) ([7d3c1b6](https://github.com/bentwnghk/lobe-chat/commit/7d3c1b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.2](https://github.com/bentwnghk/lobe-chat/compare/v1.12.1...v1.12.2)
 
 <sup>Released on **2024-02-29**</sup>
