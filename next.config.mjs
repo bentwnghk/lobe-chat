@@ -38,7 +38,7 @@ const nextConfig = {
       '@emoji-mart/react',
       '@emoji-mart/data',
       '@icons-pack/react-simple-icons',
-      '@lobehub/ui',
+      '@bentwnghk/ui',
       'gpt-tokenizer',
       'chroma-js',
     ],
