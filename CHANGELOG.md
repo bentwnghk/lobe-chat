@@ -2,6 +2,47 @@
 
 # Changelog
 
+### [Version 1.12.4](https://github.com/bentwnghk/lobe-chat/compare/v1.12.3...v1.12.4)
+
+<sup>Released on **2024-03-02**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the plugin and tool slice.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename.
+
+#### 💄 Styles
+
+- **misc**: Support switch model with tag.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the plugin and tool slice, closes [#1437](https://github.com/bentwnghk/lobe-chat/issues/1437) ([003e230](https://github.com/bentwnghk/lobe-chat/commit/003e230))
+
+#### What's fixed
+
+- **misc**: Fix rename ([6766cdb](https://github.com/bentwnghk/lobe-chat/commit/6766cdb))
+
+#### Styles
+
+- **misc**: Support switch model with tag, closes [#1435](https://github.com/bentwnghk/lobe-chat/issues/1435) ([233150e](https://github.com/bentwnghk/lobe-chat/commit/233150e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.3](https://github.com/bentwnghk/lobe-chat/compare/v1.12.2...v1.12.3)
 
 <sup>Released on **2024-02-29**</sup>
