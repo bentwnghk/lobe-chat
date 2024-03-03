@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.12.5](https://github.com/bentwnghk/lobe-chat/compare/v1.12.4...v1.12.5)
+
+<sup>Released on **2024-03-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update gpt-3.5-turbo model card.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update gpt-3.5-turbo model card, closes [#1449](https://github.com/bentwnghk/lobe-chat/issues/1449) ([d0be0c7](https://github.com/bentwnghk/lobe-chat/commit/d0be0c7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.4](https://github.com/bentwnghk/lobe-chat/compare/v1.12.3...v1.12.4)
 
 <sup>Released on **2024-03-02**</sup>
