@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.12.6](https://github.com/bentwnghk/lobe-chat/compare/v1.12.5...v1.12.6)
+
+<sup>Released on **2024-03-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix remove Claude.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix remove Claude ([28eb799](https://github.com/bentwnghk/lobe-chat/commit/28eb799))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.5](https://github.com/bentwnghk/lobe-chat/compare/v1.12.4...v1.12.5)
 
 <sup>Released on **2024-03-03**</sup>
