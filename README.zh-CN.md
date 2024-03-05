@@ -215,7 +215,7 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 | [TokenInsights](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **feednews** on **2024-01-27**</sup> | 获取实时加密货币价格，BTC，ETH，BNB 和最新见解。最新的币新闻和空投机会。<br/>`加密货币` `btc` `eth` `bnb`                                     |
 | [哔哩哔哩](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **LobeHub** on **2024-01-27**</sup>       | 通过关键词视频搜索、回放访问、互动弹幕、热门视频推荐和热搜洞察等功能，深入体验哔哩哔哩丰富的内容，尽在您的指尖。<br/>`视频` `哔哩哔哩` `搜索` |
 
-> 📊 Total plugins: [<kbd>**61**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**58**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -243,14 +243,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
-| 最近新增                                                                                                                                                      | 助手说明                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| [萨满](https://chat-preview.lobehub.com/market?agent=shaman)<br/><sup>By **[SimoMay](https://github.com/SimoMay)** on **2024-03-04**</sup>                    | 专注于扮演 “萨满” 的角色，进行引导性互动，注重智慧、同理心和灵性指导。<br/>`灵性指导` `同理心` `镇定技巧` `积极强化` `保密性`  |
-| [面试教练](https://chat-preview.lobehub.com/market?agent=interview-coach)<br/><sup>By **[SimoMay](https://github.com/SimoMay)** on **2024-03-03**</sup>       | 专注于创建用于练习和模拟面试的 GPT 面试教练，提供专家反馈和定制体验。<br/>`gpt` `interview-coach` `feedback` `practice` `mock` |
-| [Markdown 转换专家](https://chat-preview.lobehub.com/market?agent=markdown)<br/><sup>By **[guluahljj](https://github.com/guluahljj)** on **2024-03-03**</sup> | 擅长使用 Markdown 语法进行文本结构化和突出重点<br/>`文本结构` `markdown语法` `标题` `列表` `粗体` `引用` `agulu`               |
-| [技术探索者](https://chat-preview.lobehub.com/market?agent=news)<br/><sup>By **[hady2010](https://github.com/hady2010)** on **2024-03-03**</sup>              | 科技探索<br/>`信息`                                                                                                            |
+| 最近新增                                                                                                                                                                                   | 助手说明                                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [AI 图像提示建筑师](https://chat-preview.lobehub.com/market?agent=9-somboon)<br/><sup>By **[9Somboon](https://github.com/9Somboon)** on **2024-03-05**</sup>                               | 专门为 AI 图像生成创建详细提示。<br/>`stable-diffusion` `ai-image-generation` `prompts` `photography` `creative` `art`                                                                                                                                                                    |
+| [F1 数据分析师](https://chat-preview.lobehub.com/market?agent=f-1-bot)<br/><sup>By **[SpaceX-Vision](https://github.com/SpaceX-Vision)** on **2024-03-05**</sup>                           | 擅长 F1 赛事数据分析和预测评论<br/>`f-1` `数据分析` `赛事预测`                                                                                                                                                                                                                            |
+| [软件开发入门指南](https://chat-preview.lobehub.com/market?agent=software-development-for-dummies)<br/><sup>By **[Ballongknute](https://github.com/Ballongknute)** on **2024-03-05**</sup> | 《软件开发入门指南》：指导初学者通过软件开发过程，提供逐步指导和最佳实践，包括需求收集、设计、编码、测试、部署和维护。<br/>`软件开发` `逐步指导` `sdlc` `敏捷方法` `版本控制` `持续集成` `持续部署` `团队角色` `项目管理` `编码最佳实践` `测试` `部署` `部署后` `迭代开发` `scrum-管理员` |
+| [英语作文助手](https://chat-preview.lobehub.com/market?agent=english-essay)<br/><sup>By **[guluahljj](https://github.com/guluahljj)** on **2024-03-04**</sup>                              | 英语作文修改与写作指导<br/>`修改` `写作` `指导` `英语作文` `agulu`                                                                                                                                                                                                                        |
 
-> 📊 Total agents: [<kbd>**191**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**196**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
