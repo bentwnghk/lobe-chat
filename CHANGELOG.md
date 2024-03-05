@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.13.0](https://github.com/bentwnghk/lobe-chat/compare/v1.12.6...v1.13.0)
+
+<sup>Released on **2024-03-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Support langfuse integration.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support langfuse integration, closes [#1325](https://github.com/bentwnghk/lobe-chat/issues/1325) ([aaedfa7](https://github.com/bentwnghk/lobe-chat/commit/aaedfa7))
+
+#### What's fixed
+
+- **misc**: Fix rename ([1ea2d42](https://github.com/bentwnghk/lobe-chat/commit/1ea2d42))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.12.6](https://github.com/bentwnghk/lobe-chat/compare/v1.12.5...v1.12.6)
 
 <sup>Released on **2024-03-04**</sup>
