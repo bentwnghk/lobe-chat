@@ -30,7 +30,6 @@ const Bedrock: ModelProviderCard = {
       displayName: 'Claude 3 Sonnet',
       id: 'anthropic.claude-3-sonnet-20240229-v1:0',
       tokens: 200_000,
-      vision: true,
     },
     {
       description: 'Llama 2 Chat 13B v1，上下文大小为 4k，Llama 2 模型的对话用例优化变体。',
