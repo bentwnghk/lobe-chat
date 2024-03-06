@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.14.3](https://github.com/bentwnghk/lobe-chat/compare/v1.14.2...v1.14.3)
+
+<sup>Released on **2024-03-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix remove vision from Claude 3 Sonnet in bedrock.ts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix remove vision from Claude 3 Sonnet in bedrock.ts ([cdfc7c0](https://github.com/bentwnghk/lobe-chat/commit/cdfc7c0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.14.2](https://github.com/bentwnghk/lobe-chat/compare/v1.14.1...v1.14.2)
 
 <sup>Released on **2024-03-06**</sup>
