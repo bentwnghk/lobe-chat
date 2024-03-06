@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.14.5](https://github.com/bentwnghk/lobe-chat/compare/v1.14.4...v1.14.5)
+
+<sup>Released on **2024-03-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix hydration error while OAuth callback.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix hydration error while OAuth callback, closes [#1474](https://github.com/bentwnghk/lobe-chat/issues/1474) ([ff93825](https://github.com/bentwnghk/lobe-chat/commit/ff93825))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.14.4](https://github.com/bentwnghk/lobe-chat/compare/v1.14.3...v1.14.4)
 
 <sup>Released on **2024-03-06**</sup>
