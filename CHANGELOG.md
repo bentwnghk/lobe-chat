@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.14.2](https://github.com/bentwnghk/lobe-chat/compare/v1.14.1...v1.14.2)
+
+<sup>Released on **2024-03-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix add Claude 3 Sonnet in bedrock.ts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix add Claude 3 Sonnet in bedrock.ts ([b6fda89](https://github.com/bentwnghk/lobe-chat/commit/b6fda89))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.14.1](https://github.com/bentwnghk/lobe-chat/compare/v1.14.0...v1.14.1)
 
 <sup>Released on **2024-03-06**</sup>
