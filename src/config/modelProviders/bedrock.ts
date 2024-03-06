@@ -25,13 +25,6 @@ const Bedrock: ModelProviderCard = {
       tokens: 200_000,
     },
     {
-      description:
-        'Claude 3 Sonnet，上下文大小等于 200k，Claude 全新最強大的模型，在智慧與速度之間達到理想的平衡，可以處理影像和傳回文字輸出。',
-      displayName: 'Claude 3 Sonnet',
-      id: 'anthropic.claude-3-sonnet-20240229-v1:0',
-      tokens: 200_000,
-    },
-    {
       description: 'Llama 2 Chat 13B v1，上下文大小为 4k，Llama 2 模型的对话用例优化变体。',
       displayName: 'Llama 2 Chat 13B',
       id: 'meta.llama2-13b-chat-v1',
