@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.14.1](https://github.com/bentwnghk/lobe-chat/compare/v1.14.0...v1.14.1)
+
+<sup>Released on **2024-03-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix re-enable Claude in bedrock.ts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix re-enable Claude in bedrock.ts ([1904a18](https://github.com/bentwnghk/lobe-chat/commit/1904a18))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.14.0](https://github.com/bentwnghk/lobe-chat/compare/v1.13.0...v1.14.0)
 
 <sup>Released on **2024-03-05**</sup>
