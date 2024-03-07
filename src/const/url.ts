@@ -6,7 +6,7 @@ import { withBasePath } from '@/utils/basePath';
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
-export const OFFICIAL_URL = 'https://ai3.mister5.net/';
+export const OFFICIAL_URL = 'https://ai.mister5.net/';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
@@ -20,7 +20,7 @@ export const PRIVACY_URL = 'https://mr5drive.com/privacy';
 // export const DOCUMENTS = !!LOBE_CHAT_DOCS ? '/docs' : 'https://chat-docs.lobehub.com';
 export const DOCUMENTS = 'https://longman.mister5.net/';
 export const WIKI_PLUGIN_GUIDE = urlJoin(GITHUB, 'wiki', 'Plugin-Development');
-export const MANUAL_UPGRADE_URL = 'https://ai3.mister5.net';
+export const MANUAL_UPGRADE_URL = 'https://ai.mister5.net';
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
