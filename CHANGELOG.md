@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.15.0](https://github.com/bentwnghk/lobe-chat/compare/v1.14.5...v1.15.0)
+
+<sup>Released on **2024-03-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Support Mistral model provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix anthropic streaming on Vercel/Cloudflare.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support Mistral model provider, closes [#1455](https://github.com/bentwnghk/lobe-chat/issues/1455) ([4f94bfe](https://github.com/bentwnghk/lobe-chat/commit/4f94bfe))
+
+#### What's fixed
+
+- **misc**: Fix anthropic streaming on Vercel/Cloudflare, closes [#1480](https://github.com/bentwnghk/lobe-chat/issues/1480) ([227101a](https://github.com/bentwnghk/lobe-chat/commit/227101a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.14.5](https://github.com/bentwnghk/lobe-chat/compare/v1.14.4...v1.14.5)
 
 <sup>Released on **2024-03-06**</sup>
