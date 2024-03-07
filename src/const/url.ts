@@ -11,10 +11,10 @@ export const OFFICIAL_URL = 'https://ai.mister5.net/';
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const GITHUB = pkg.homepage;
-export const CHANGELOG = 'https://github.com/bentwnghk/lobe-chat/blob/master/CHANGELOG.md';
-export const ABOUT = 'https://mr5drive.com/';
-export const FEEDBACK = 'https://mr5drive.com/';
-export const DISCORD = 'https://speak.mister5.net/';
+export const CHANGELOG = 'https://mr5drive.com';
+export const ABOUT = 'https://mr5drive.com';
+export const FEEDBACK = 'https://mr5drive.com';
+export const DISCORD = 'https://speak.mister5.net';
 export const PRIVACY_URL = 'https://mr5drive.com/privacy';
 // const { LOBE_CHAT_DOCS } = getClientConfig();
 // export const DOCUMENTS = !!LOBE_CHAT_DOCS ? '/docs' : 'https://chat-docs.lobehub.com';

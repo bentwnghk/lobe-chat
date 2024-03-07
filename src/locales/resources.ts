@@ -25,7 +25,7 @@ export const normalizeLocale = (locale?: string) => {
   switch (locale) {
     case 'zh-CN':
     case 'zh': {
-      return 'zh-CN';
+      return 'zh-TW';
     }
 
     case 'en': {
@@ -49,12 +49,12 @@ export const localeOptions: LocaleOptions = [
     value: 'en-US',
   },
   {
-    label: '简体中文',
-    value: 'zh-CN',
-  },
-  {
     label: '繁體中文',
     value: 'zh-TW',
+  },
+  {
+    label: '简体中文',
+    value: 'zh-CN',
   },
   {
     label: '日本語',
