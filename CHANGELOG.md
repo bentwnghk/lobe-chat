@@ -2,6 +2,34 @@
 
 # Changelog
 
+### [Version 1.15.2](https://github.com/bentwnghk/lobe-chat/compare/v1.15.1...v1.15.2)
+
+<sup>Released on **2024-03-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix CHANGELOG and locale order, fix default zh-CN locale, fix sitemap config, fix siteURL in sitemap config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix CHANGELOG and locale order ([b50fd63](https://github.com/bentwnghk/lobe-chat/commit/b50fd63))
+- **misc**: Fix default zh-CN locale ([261c663](https://github.com/bentwnghk/lobe-chat/commit/261c663))
+- **misc**: Fix sitemap config ([a2542a7](https://github.com/bentwnghk/lobe-chat/commit/a2542a7))
+- **misc**: Fix siteURL in sitemap config ([7a3db3c](https://github.com/bentwnghk/lobe-chat/commit/7a3db3c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.15.1](https://github.com/bentwnghk/lobe-chat/compare/v1.15.0...v1.15.1)
 
 <sup>Released on **2024-03-07**</sup>
