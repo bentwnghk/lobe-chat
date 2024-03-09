@@ -1,4 +1,4 @@
-import { Feather, FileClock, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
@@ -13,16 +13,16 @@ const AboutList = memo(() => {
   const { styles } = useStyles();
   const items = [
     // {
-      // icon: Feather,
-      // label: t('feedback', { ns: 'common' }),
-      // onClick: () => window.open(FEEDBACK, '__blank'),
-      // value: 'feedback',
+    // icon: Feather,
+    // label: t('feedback', { ns: 'common' }),
+    // onClick: () => window.open(FEEDBACK, '__blank'),
+    // value: 'feedback',
     // },
     // {
-      // icon: FileClock,
-      // label: t('changelog', { ns: 'common' }),
-      // onClick: () => window.open(CHANGELOG, '__blank'),
-      // value: 'changelog',
+    // icon: FileClock,
+    // label: t('changelog', { ns: 'common' }),
+    // onClick: () => window.open(CHANGELOG, '__blank'),
+    // value: 'changelog',
     // },
     {
       icon: Heart,
