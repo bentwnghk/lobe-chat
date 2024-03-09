@@ -9,6 +9,7 @@
     }
   },
   "about": "關於",
+  "abouttext": "此應用程式由伍Sir開發，旨在使學生能夠在人工智能的幫助下進行自主學習。",
   "advanceSettings": "進階設定",
   "agentMaxToken": "助手最大標記",
   "agentModel": "模型",

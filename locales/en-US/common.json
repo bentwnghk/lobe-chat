@@ -9,6 +9,7 @@
     }
   },
   "about": "About",
+  "abouttext": "This application is developed by Mr. Ng for the sake of enabling students to engage in self-directed learning with the help of AI.",
   "advanceSettings": "Advanced Settings",
   "agentMaxToken": "Max Session Length",
   "agentModel": "Model",

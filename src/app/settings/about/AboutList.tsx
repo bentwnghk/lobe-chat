@@ -26,9 +26,9 @@ const AboutList = memo(() => {
     },
     {
       icon: Heart,
-      label: t('about', { ns: 'common' }),
+      label: t('abouttext', { ns: 'common' }),
       onClick: () => window.open(ABOUT, '__blank'),
-      value: 'about',
+      value: 'abouttext',
     },
   ];
 
