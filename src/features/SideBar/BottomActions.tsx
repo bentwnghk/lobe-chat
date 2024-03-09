@@ -2,8 +2,8 @@ import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { Badge, ConfigProvider, Dropdown, MenuProps } from 'antd';
 import {
   Book,
-  Feather,
-  FileClock,
+  // Feather,
+  // FileClock,
   Github,
   HardDriveDownload,
   HardDriveUpload,
@@ -17,7 +17,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { CHANGELOG, DISCORD, DOCUMENTS, FEEDBACK } from '@/const/url';
+import { DISCORD, DOCUMENTS } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 import { GlobalStore, useGlobalStore } from '@/store/global';
@@ -77,18 +77,18 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
     {
       type: 'divider',
     },
-    {
-      icon: <Icon icon={Feather} />,
-      key: 'feedback',
-      label: t('feedback'),
-      onClick: () => window.open(FEEDBACK, '__blank'),
-    },
-    {
-      icon: <Icon icon={FileClock} />,
-      key: 'changelog',
-      label: t('changelog'),
-      onClick: () => window.open(CHANGELOG, '__blank'),
-    },
+    // {
+      // icon: <Icon icon={Feather} />,
+      // key: 'feedback',
+      // label: t('feedback'),
+      // onClick: () => window.open(FEEDBACK, '__blank'),
+    // },
+    // {
+      // icon: <Icon icon={FileClock} />,
+      // key: 'changelog',
+      // label: t('changelog'),
+      // onClick: () => window.open(CHANGELOG, '__blank'),
+    // },
     //{
     //  icon: <Icon icon={DiscordIcon} />,
     //  key: 'discord',

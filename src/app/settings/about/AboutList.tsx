@@ -3,7 +3,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { ABOUT, CHANGELOG, FEEDBACK } from '@/const/url';
+import { ABOUT } from '@/const/url';
 
 import Item from '../features/SettingList/Item';
 import { useStyles } from './style';
@@ -12,18 +12,18 @@ const AboutList = memo(() => {
   const { t } = useTranslation('setting');
   const { styles } = useStyles();
   const items = [
-    {
-      icon: Feather,
-      label: t('feedback', { ns: 'common' }),
-      onClick: () => window.open(FEEDBACK, '__blank'),
-      value: 'feedback',
-    },
-    {
-      icon: FileClock,
-      label: t('changelog', { ns: 'common' }),
-      onClick: () => window.open(CHANGELOG, '__blank'),
-      value: 'changelog',
-    },
+    // {
+      // icon: Feather,
+      // label: t('feedback', { ns: 'common' }),
+      // onClick: () => window.open(FEEDBACK, '__blank'),
+      // value: 'feedback',
+    // },
+    // {
+      // icon: FileClock,
+      // label: t('changelog', { ns: 'common' }),
+      // onClick: () => window.open(CHANGELOG, '__blank'),
+      // value: 'changelog',
+    // },
     {
       icon: Heart,
       label: t('abouttext', { ns: 'common' }),
