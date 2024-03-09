@@ -17,7 +17,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { ABOUT, CHANGELOG, DISCORD, DOCUMENTS, FEEDBACK } from '@/const/url';
+import { CHANGELOG, DISCORD, DOCUMENTS, FEEDBACK } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 import { GlobalStore, useGlobalStore } from '@/store/global';
@@ -99,7 +99,10 @@ const BottomActions = memo<BottomActionProps>(({ tab }) => {
       icon: <Icon icon={Heart} />,
       key: 'about',
       label: t('about'),
-      onClick: () => window.open(ABOUT, '__blank'),
+      // onClick: () => window.open(ABOUT, '__blank'),
+      onClick: () => {
+        router.push('/settings/about');
+      },
     },
     {
       type: 'divider',
