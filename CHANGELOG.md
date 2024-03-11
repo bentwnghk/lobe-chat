@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.15.8](https://github.com/bentwnghk/lobe-chat/compare/v1.15.7...v1.15.8)
+
+<sup>Released on **2024-03-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix sitemap missing in docker building.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix sitemap missing in docker building, closes [#1533](https://github.com/bentwnghk/lobe-chat/issues/1533) ([49752da](https://github.com/bentwnghk/lobe-chat/commit/49752da))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.15.7](https://github.com/bentwnghk/lobe-chat/compare/v1.15.6...v1.15.7)
 
 <sup>Released on **2024-03-10**</sup>
