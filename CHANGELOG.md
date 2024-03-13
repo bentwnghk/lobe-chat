@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.16.0](https://github.com/bentwnghk/lobe-chat/compare/v1.15.9...v1.16.0)
+
+<sup>Released on **2024-03-13**</sup>
+
+#### ✨ Features
+
+- **misc**: Support anthropic proxy url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support anthropic proxy url, closes [#1529](https://github.com/bentwnghk/lobe-chat/issues/1529) ([a5a9257](https://github.com/bentwnghk/lobe-chat/commit/a5a9257))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.15.9](https://github.com/bentwnghk/lobe-chat/compare/v1.15.8...v1.15.9)
 
 <sup>Released on **2024-03-12**</sup>
