@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.16.1](https://github.com/bentwnghk/lobe-chat/compare/v1.16.0...v1.16.1)
+
+<sup>Released on **2024-03-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add more model display name.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add more model display name, closes [#1554](https://github.com/bentwnghk/lobe-chat/issues/1554) ([31c987a](https://github.com/bentwnghk/lobe-chat/commit/31c987a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.16.0](https://github.com/bentwnghk/lobe-chat/compare/v1.15.9...v1.16.0)
 
 <sup>Released on **2024-03-13**</sup>
