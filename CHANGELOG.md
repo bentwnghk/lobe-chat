@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.17.0](https://github.com/bentwnghk/lobe-chat/compare/v1.16.1...v1.17.0)
+
+<sup>Released on **2024-03-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add claude 3 to bedrock provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add claude 3 to bedrock provider, closes [#1551](https://github.com/bentwnghk/lobe-chat/issues/1551) ([6e1fe33](https://github.com/bentwnghk/lobe-chat/commit/6e1fe33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.16.1](https://github.com/bentwnghk/lobe-chat/compare/v1.16.0...v1.16.1)
 
 <sup>Released on **2024-03-13**</sup>
