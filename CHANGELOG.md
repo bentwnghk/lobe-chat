@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.17.1](https://github.com/bentwnghk/lobe-chat/compare/v1.17.0...v1.17.1)
+
+<sup>Released on **2024-03-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the db model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the db model, closes [#1567](https://github.com/bentwnghk/lobe-chat/issues/1567) ([3d56dd6](https://github.com/bentwnghk/lobe-chat/commit/3d56dd6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.17.0](https://github.com/bentwnghk/lobe-chat/compare/v1.16.1...v1.17.0)
 
 <sup>Released on **2024-03-14**</sup>
