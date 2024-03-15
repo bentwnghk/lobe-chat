@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.17.2](https://github.com/bentwnghk/lobe-chat/compare/v1.17.1...v1.17.2)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Upgrade plugin db schema.
+
+#### 🐛 Bug Fixes
+
+- **ollama**: Fix duplicate llama model and add llama2-chinese models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Upgrade plugin db schema, closes [#1571](https://github.com/bentwnghk/lobe-chat/issues/1571) ([757574a](https://github.com/bentwnghk/lobe-chat/commit/757574a))
+
+#### What's fixed
+
+- **ollama**: Fix duplicate llama model and add llama2-chinese models, closes [#1579](https://github.com/bentwnghk/lobe-chat/issues/1579) ([6b9b5c8](https://github.com/bentwnghk/lobe-chat/commit/6b9b5c8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.17.1](https://github.com/bentwnghk/lobe-chat/compare/v1.17.0...v1.17.1)
 
 <sup>Released on **2024-03-14**</sup>
