@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.19.0](https://github.com/bentwnghk/lobe-chat/compare/v1.18.0...v1.19.0)
+
+<sup>Released on **2024-03-16**</sup>
+
+#### ✨ Features
+
+- **ollama**: Improve connection check method and provide selector for user to control model options.
+- **misc**: Support groq as a model provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rename, Fix URL typo.
+
+#### 💄 Styles
+
+- **misc**: Update Markdown in ChatItem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **ollama**: Improve connection check method and provide selector for user to control model options, closes [#1397](https://github.com/bentwnghk/lobe-chat/issues/1397) ([675902f](https://github.com/bentwnghk/lobe-chat/commit/675902f))
+- **misc**: Support groq as a model provider, closes [#1569](https://github.com/bentwnghk/lobe-chat/issues/1569) [#1562](https://github.com/bentwnghk/lobe-chat/issues/1562) [#1570](https://github.com/bentwnghk/lobe-chat/issues/1570) ([a04c364](https://github.com/bentwnghk/lobe-chat/commit/a04c364))
+
+#### What's fixed
+
+- **misc**: Fix rename ([2faf6cf](https://github.com/bentwnghk/lobe-chat/commit/2faf6cf))
+- **misc**: Fix URL typo, closes [#1590](https://github.com/bentwnghk/lobe-chat/issues/1590) ([97137a9](https://github.com/bentwnghk/lobe-chat/commit/97137a9))
+
+#### Styles
+
+- **misc**: Update Markdown in ChatItem ([be75549](https://github.com/bentwnghk/lobe-chat/commit/be75549))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.18.0](https://github.com/bentwnghk/lobe-chat/compare/v1.17.2...v1.18.0)
 
 <sup>Released on **2024-03-15**</sup>
