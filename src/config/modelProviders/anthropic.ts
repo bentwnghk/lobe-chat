@@ -31,12 +31,14 @@ const Anthropic: ModelProviderCard = {
     },
     {
       displayName: 'Claude 2.1',
+      hidden: true,
       id: 'claude-2.1',
       maxOutput: 4096,
       tokens: 200_000,
     },
     {
       displayName: 'Claude 2.0',
+      hidden: true,
       id: 'claude-2.0',
       maxOutput: 4096,
       tokens: 100_000,

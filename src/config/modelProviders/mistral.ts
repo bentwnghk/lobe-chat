@@ -4,11 +4,13 @@ const Mistral: ModelProviderCard = {
   chatModels: [
     {
       displayName: 'Mistral 7B',
+      hidden: true,
       id: 'open-mistral-7b',
       tokens: 32_768,
     },
     {
       displayName: 'Mixtral 8x7B',
+      hidden: true,
       id: 'open-mixtral-8x7b',
       tokens: 32_768,
     },
