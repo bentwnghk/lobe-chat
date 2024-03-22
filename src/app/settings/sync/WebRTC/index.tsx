@@ -1,7 +1,7 @@
 'use client';
 
 import { SiWebrtc } from '@icons-pack/react-simple-icons';
-import { Form, type ItemGroup, Tooltip } from '@lobehub/ui';
+import { Form, type ItemGroup, Tooltip } from '@bentwnghk/ui';
 import { Form as AntForm, Input, Switch, Typography } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

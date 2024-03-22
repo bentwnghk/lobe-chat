@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@bentwnghk/ui';
 import { Badge, Tag } from 'antd';
 import { LucideCloudy, LucideRefreshCw, LucideRouter, LucideWifiOff } from 'lucide-react';
 import { memo } from 'react';
