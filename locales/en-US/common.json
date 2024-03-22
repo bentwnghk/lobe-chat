@@ -11,17 +11,12 @@
   "about": "About",
   "abouttext": "This application is developed by Mr. Ng for the sake of enabling students to engage in self-directed learning with the help of AI.",
   "advanceSettings": "Advanced Settings",
-  "agentMaxToken": "Max Session Length",
-  "agentModel": "Model",
-  "agentProfile": "Agent Profile",
   "appInitializing": "Mr.🆖 Chat is initializing, please wait...",
-  "archive": "Archive",
   "autoGenerate": "Auto Generate",
   "autoGenerateTooltip": "Auto-generate agent description based on prompts",
   "cancel": "Cancel",
   "changelog": "Changelog",
   "close": "Close",
-  "confirmRemoveSessionItemAlert": "You are about to delete this agent. Once deleted, it cannot be recovered. Please confirm your action.",
   "copy": "Copy",
   "copyFail": "Copy failed",
   "copySuccess": "Copied successfully",
@@ -130,6 +125,39 @@
   "setting": "Settings",
   "share": "Share",
   "stop": "Stop",
+  "sync": {
+    "actions": {
+      "settings": "Sync Settings",
+      "sync": "Sync Now"
+    },
+    "awareness": {
+      "current": "Current Device"
+    },
+    "channel": "Channel",
+    "disabled": {
+      "actions": {
+        "enable": "Enable Cloud Sync",
+        "settings": "Sync Settings"
+      },
+      "desc": "Current session data is only stored in this browser. If you need to sync data across multiple devices, please configure and enable cloud sync.",
+      "title": "Data Sync Disabled"
+    },
+    "enabled": {
+      "title": "Data Sync Enabled"
+    },
+    "status": {
+      "connecting": "Connecting",
+      "disabled": "Sync Disabled",
+      "ready": "Connected",
+      "synced": "Synced",
+      "syncing": "Syncing",
+      "unconnected": "Connection Failed"
+    },
+    "title": "Sync Status",
+    "unconnected": {
+      "tip": "Signaling server connection failed, and peer-to-peer communication channel cannot be established. Please check the network and try again."
+    }
+  },
   "tab": {
     "chat": "Chat",
     "market": "Discover",
