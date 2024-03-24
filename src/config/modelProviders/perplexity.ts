@@ -9,21 +9,25 @@ const Perplexity: ModelProviderCard = {
     },
     {
       displayName: 'Perplexity 70B Chat',
+      hidden: true,
       id: 'pplx-70b-chat',
       tokens: 8192,
     },
     {
       displayName: 'Perplexity 7B Online',
+      hidden: true,
       id: 'pplx-7b-online',
       tokens: 8192,
     },
     {
       displayName: 'Perplexity 70B Online',
+      hidden: true,
       id: 'pplx-70b-online',
       tokens: 8192,
     },
     {
       displayName: 'Codellama 34B Instruct',
+      hidden: true,
       id: 'codellama-34b-instruct',
       tokens: 16_384,
     },
