@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.21.3](https://github.com/bentwnghk/lobe-chat/compare/v1.21.2...v1.21.3)
+
+<sup>Released on **2024-03-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Hide some Perplexity models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Hide some Perplexity models ([fecd3e0](https://github.com/bentwnghk/lobe-chat/commit/fecd3e0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.21.2](https://github.com/bentwnghk/lobe-chat/compare/v1.21.1...v1.21.2)
 
 <sup>Released on **2024-03-22**</sup>
