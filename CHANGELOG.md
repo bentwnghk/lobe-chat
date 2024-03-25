@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.22.0](https://github.com/bentwnghk/lobe-chat/compare/v1.21.3...v1.22.0)
+
+<sup>Released on **2024-03-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Support 01.AI as a new provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support 01.AI as a new provider, closes [#1627](https://github.com/bentwnghk/lobe-chat/issues/1627) ([08342fd](https://github.com/bentwnghk/lobe-chat/commit/08342fd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.21.3](https://github.com/bentwnghk/lobe-chat/compare/v1.21.2...v1.21.3)
 
 <sup>Released on **2024-03-24**</sup>
