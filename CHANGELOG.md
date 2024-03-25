@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.22.3](https://github.com/bentwnghk/lobe-chat/compare/v1.22.2...v1.22.3)
+
+<sup>Released on **2024-03-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Next-auth version.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Next-auth version ([53e4bd2](https://github.com/bentwnghk/lobe-chat/commit/53e4bd2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.2](https://github.com/bentwnghk/lobe-chat/compare/v1.22.1...v1.22.2)
 
 <sup>Released on **2024-03-25**</sup>
