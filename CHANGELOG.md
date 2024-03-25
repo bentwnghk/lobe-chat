@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.22.2](https://github.com/bentwnghk/lobe-chat/compare/v1.22.1...v1.22.2)
+
+<sup>Released on **2024-03-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Support openrouter custom models env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Support openrouter custom models env, closes [#1647](https://github.com/bentwnghk/lobe-chat/issues/1647) ([78baa16](https://github.com/bentwnghk/lobe-chat/commit/78baa16))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.1](https://github.com/bentwnghk/lobe-chat/compare/v1.22.0...v1.22.1)
 
 <sup>Released on **2024-03-25**</sup>
