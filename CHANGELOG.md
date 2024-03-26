@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.22.4](https://github.com/bentwnghk/lobe-chat/compare/v1.22.3...v1.22.4)
+
+<sup>Released on **2024-03-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin `next-auth` temporary to fix build error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin `next-auth` temporary to fix build error, closes [#1739](https://github.com/bentwnghk/lobe-chat/issues/1739) ([e9ece9f](https://github.com/bentwnghk/lobe-chat/commit/e9ece9f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.3](https://github.com/bentwnghk/lobe-chat/compare/v1.22.2...v1.22.3)
 
 <sup>Released on **2024-03-25**</sup>
