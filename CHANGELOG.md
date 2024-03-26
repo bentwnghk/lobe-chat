@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.22.5](https://github.com/bentwnghk/lobe-chat/compare/v1.22.4...v1.22.5)
+
+<sup>Released on **2024-03-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix mobile click, fix mobile click issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix mobile click ([3775b28](https://github.com/bentwnghk/lobe-chat/commit/3775b28))
+- **misc**: Fix mobile click issue, closes [#1744](https://github.com/bentwnghk/lobe-chat/issues/1744) ([a6b1234](https://github.com/bentwnghk/lobe-chat/commit/a6b1234))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.4](https://github.com/bentwnghk/lobe-chat/compare/v1.22.3...v1.22.4)
 
 <sup>Released on **2024-03-26**</sup>
