@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.22.6](https://github.com/bentwnghk/lobe-chat/compare/v1.22.5...v1.22.6)
+
+<sup>Released on **2024-03-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix normalize german locale.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix normalize german locale, closes [#1750](https://github.com/bentwnghk/lobe-chat/issues/1750) ([69fcc78](https://github.com/bentwnghk/lobe-chat/commit/69fcc78))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.5](https://github.com/bentwnghk/lobe-chat/compare/v1.22.4...v1.22.5)
 
 <sup>Released on **2024-03-26**</sup>
