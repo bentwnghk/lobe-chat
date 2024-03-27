@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.22.7](https://github.com/bentwnghk/lobe-chat/compare/v1.22.6...v1.22.7)
+
+<sup>Released on **2024-03-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix the missing German locale.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix the missing German locale, closes [#1753](https://github.com/bentwnghk/lobe-chat/issues/1753) ([a452612](https://github.com/bentwnghk/lobe-chat/commit/a452612))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.6](https://github.com/bentwnghk/lobe-chat/compare/v1.22.5...v1.22.6)
 
 <sup>Released on **2024-03-26**</sup>
