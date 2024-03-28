@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.22.8](https://github.com/bentwnghk/lobe-chat/compare/v1.22.7...v1.22.8)
+
+<sup>Released on **2024-03-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix gemini 1.5 pro model id to support gemini new models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix gemini 1.5 pro model id to support gemini new models, closes [#1776](https://github.com/bentwnghk/lobe-chat/issues/1776) ([591dcb3](https://github.com/bentwnghk/lobe-chat/commit/591dcb3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.7](https://github.com/bentwnghk/lobe-chat/compare/v1.22.6...v1.22.7)
 
 <sup>Released on **2024-03-27**</sup>
