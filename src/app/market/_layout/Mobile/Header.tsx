@@ -1,6 +1,6 @@
 'use client';
 
-import { Logo, MobileNavBar } from '@lobehub/ui';
+import { Logo, MobileNavBar } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { mobileHeaderSticky } from '@/styles/mobileHeader';
