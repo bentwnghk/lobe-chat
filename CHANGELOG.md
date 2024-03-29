@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.23.0](https://github.com/bentwnghk/lobe-chat/compare/v1.22.8...v1.23.0)
+
+<sup>Released on **2024-03-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Bulgarian translation.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Add agent and Converse button not jump.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Bulgarian translation, closes [#1732](https://github.com/bentwnghk/lobe-chat/issues/1732) ([e181dd1](https://github.com/bentwnghk/lobe-chat/commit/e181dd1))
+
+#### What's fixed
+
+- **misc**: Fix Add agent and Converse button not jump, closes [#1785](https://github.com/bentwnghk/lobe-chat/issues/1785) ([a52799c](https://github.com/bentwnghk/lobe-chat/commit/a52799c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.22.8](https://github.com/bentwnghk/lobe-chat/compare/v1.22.7...v1.22.8)
 
 <sup>Released on **2024-03-28**</sup>
