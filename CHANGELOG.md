@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.25.0](https://github.com/bentwnghk/lobe-chat/compare/v1.24.3...v1.25.0)
+
+<sup>Released on **2024-03-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Support TogetherAI as new model provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support TogetherAI as new model provider, closes [#1709](https://github.com/bentwnghk/lobe-chat/issues/1709) ([d6921ef](https://github.com/bentwnghk/lobe-chat/commit/d6921ef))
+
+#### What's fixed
+
+- **misc**: Rename ([9c129c1](https://github.com/bentwnghk/lobe-chat/commit/9c129c1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.24.3](https://github.com/bentwnghk/lobe-chat/compare/v1.24.2...v1.24.3)
 
 <sup>Released on **2024-03-29**</sup>
