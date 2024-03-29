@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.24.0](https://github.com/bentwnghk/lobe-chat/compare/v1.23.0...v1.24.0)
+
+<sup>Released on **2024-03-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Support authentik as sso.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support authentik as sso, closes [#1650](https://github.com/bentwnghk/lobe-chat/issues/1650) ([181dfa5](https://github.com/bentwnghk/lobe-chat/commit/181dfa5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.23.0](https://github.com/bentwnghk/lobe-chat/compare/v1.22.8...v1.23.0)
 
 <sup>Released on **2024-03-29**</sup>
