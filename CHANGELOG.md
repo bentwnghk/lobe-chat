@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.24.1](https://github.com/bentwnghk/lobe-chat/compare/v1.24.0...v1.24.1)
+
+<sup>Released on **2024-03-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **ollama**: Suppport vision for LLaVA models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **ollama**: Suppport vision for LLaVA models, closes [#1791](https://github.com/bentwnghk/lobe-chat/issues/1791) ([e2d3de6](https://github.com/bentwnghk/lobe-chat/commit/e2d3de6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.24.0](https://github.com/bentwnghk/lobe-chat/compare/v1.23.0...v1.24.0)
 
 <sup>Released on **2024-03-29**</sup>
