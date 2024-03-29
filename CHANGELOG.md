@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.24.3](https://github.com/bentwnghk/lobe-chat/compare/v1.24.2...v1.24.3)
+
+<sup>Released on **2024-03-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix google gemini pro 1.5.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix google gemini pro 1.5, closes [#1801](https://github.com/bentwnghk/lobe-chat/issues/1801) ([4d12bf8](https://github.com/bentwnghk/lobe-chat/commit/4d12bf8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.24.2](https://github.com/bentwnghk/lobe-chat/compare/v1.24.1...v1.24.2)
 
 <sup>Released on **2024-03-29**</sup>
