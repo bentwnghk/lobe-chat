@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.3](https://github.com/bentwnghk/lobe-chat/compare/v1.25.2...v1.25.3)
+
+<sup>Released on **2024-03-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add qwen api models patch in ollama.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add qwen api models patch in ollama, closes [#1630](https://github.com/bentwnghk/lobe-chat/issues/1630) ([a1e754c](https://github.com/bentwnghk/lobe-chat/commit/a1e754c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.2](https://github.com/bentwnghk/lobe-chat/compare/v1.25.1...v1.25.2)
 
 <sup>Released on **2024-03-30**</sup>
