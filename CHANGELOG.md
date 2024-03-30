@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.25.2](https://github.com/bentwnghk/lobe-chat/compare/v1.25.1...v1.25.2)
+
+<sup>Released on **2024-03-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix antd locale, fix google ultra model id, fix plugin install loading state error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix antd locale, closes [#1814](https://github.com/bentwnghk/lobe-chat/issues/1814) ([e7fc148](https://github.com/bentwnghk/lobe-chat/commit/e7fc148))
+- **misc**: Fix google ultra model id, closes [#1813](https://github.com/bentwnghk/lobe-chat/issues/1813) ([c96ba12](https://github.com/bentwnghk/lobe-chat/commit/c96ba12))
+- **misc**: Fix plugin install loading state error, closes [#1815](https://github.com/bentwnghk/lobe-chat/issues/1815) ([2412a73](https://github.com/bentwnghk/lobe-chat/commit/2412a73))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.1](https://github.com/bentwnghk/lobe-chat/compare/v1.25.0...v1.25.1)
 
 <sup>Released on **2024-03-29**</sup>
