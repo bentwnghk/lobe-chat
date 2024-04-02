@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.25.6](https://github.com/bentwnghk/lobe-chat/compare/v1.25.5...v1.25.6)
+
+<sup>Released on **2024-04-02**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor SSO providers.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix plugins dropdown menu overflow.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor SSO providers, closes [#1865](https://github.com/bentwnghk/lobe-chat/issues/1865) ([290d33b](https://github.com/bentwnghk/lobe-chat/commit/290d33b))
+
+#### What's fixed
+
+- **misc**: Fix plugins dropdown menu overflow, closes [#1855](https://github.com/bentwnghk/lobe-chat/issues/1855) ([00e9068](https://github.com/bentwnghk/lobe-chat/commit/00e9068))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.5](https://github.com/bentwnghk/lobe-chat/compare/v1.25.4...v1.25.5)
 
 <sup>Released on **2024-04-02**</sup>
