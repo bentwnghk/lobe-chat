@@ -1,3 +1,5 @@
+'use client';
+
 import { SearchBar } from '@bentwnghk/ui';
 import { memo, useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
