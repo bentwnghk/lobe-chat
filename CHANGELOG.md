@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.7](https://github.com/bentwnghk/lobe-chat/compare/v1.25.6...v1.25.7)
+
+<sup>Released on **2024-04-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve scrollbar style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve scrollbar style, closes [#1869](https://github.com/bentwnghk/lobe-chat/issues/1869) ([33d857f](https://github.com/bentwnghk/lobe-chat/commit/33d857f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.6](https://github.com/bentwnghk/lobe-chat/compare/v1.25.5...v1.25.6)
 
 <sup>Released on **2024-04-02**</sup>
