@@ -2,6 +2,23 @@
 
 # Changelog
 
+### [Version 1.25.8](https://github.com/bentwnghk/lobe-chat/compare/v1.25.7...v1.25.8)
+
+<sup>Released on **2024-04-03**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.7](https://github.com/bentwnghk/lobe-chat/compare/v1.25.6...v1.25.7)
 
 <sup>Released on **2024-04-02**</sup>
