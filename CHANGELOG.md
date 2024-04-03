@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.25.9](https://github.com/bentwnghk/lobe-chat/compare/v1.25.8...v1.25.9)
+
+<sup>Released on **2024-04-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix page crash when using browser as stt engine, fix page crash when using browser as the stt engine.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix page crash when using browser as stt engine ([0d52578](https://github.com/bentwnghk/lobe-chat/commit/0d52578))
+- **misc**: Fix page crash when using browser as the stt engine, closes [#1884](https://github.com/bentwnghk/lobe-chat/issues/1884) ([278820a](https://github.com/bentwnghk/lobe-chat/commit/278820a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.8](https://github.com/bentwnghk/lobe-chat/compare/v1.25.7...v1.25.8)
 
 <sup>Released on **2024-04-03**</sup>
