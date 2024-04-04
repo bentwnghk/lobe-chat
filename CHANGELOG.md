@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.10](https://github.com/bentwnghk/lobe-chat/compare/v1.25.9...v1.25.10)
+
+<sup>Released on **2024-04-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix typo of azure-id sso provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix typo of azure-id sso provider, closes [#1898](https://github.com/bentwnghk/lobe-chat/issues/1898) ([6925b25](https://github.com/bentwnghk/lobe-chat/commit/6925b25))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.9](https://github.com/bentwnghk/lobe-chat/compare/v1.25.8...v1.25.9)
 
 <sup>Released on **2024-04-03**</sup>
