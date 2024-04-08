@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.26.0](https://github.com/bentwnghk/lobe-chat/compare/v1.25.11...v1.26.0)
+
+<sup>Released on **2024-04-08**</sup>
+
+#### ✨ Features
+
+- **misc**: Add support for ZITADEL SSO provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add support for ZITADEL SSO provider, closes [#1904](https://github.com/bentwnghk/lobe-chat/issues/1904) ([44152f7](https://github.com/bentwnghk/lobe-chat/commit/44152f7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.11](https://github.com/bentwnghk/lobe-chat/compare/v1.25.10...v1.25.11)
 
 <sup>Released on **2024-04-07**</sup>
