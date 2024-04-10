@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.26.1](https://github.com/bentwnghk/lobe-chat/compare/v1.26.0...v1.26.1)
+
+<sup>Released on **2024-04-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin `ai@3.0.19` to fix error with chat stream output.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin `ai@3.0.19` to fix error with chat stream output, closes [#1946](https://github.com/bentwnghk/lobe-chat/issues/1946) ([07d4419](https://github.com/bentwnghk/lobe-chat/commit/07d4419))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.26.0](https://github.com/bentwnghk/lobe-chat/compare/v1.25.11...v1.26.0)
 
 <sup>Released on **2024-04-08**</sup>
