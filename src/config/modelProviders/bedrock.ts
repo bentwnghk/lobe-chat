@@ -31,7 +31,7 @@ const Bedrock: ModelProviderCard = {
       description:
         'Claude 2.1 v2.1，上下文大小等于 200k。Claude 2 的更新版本，采用双倍的上下文窗口，并在长文档和 RAG 上下文中提高可靠性、幻觉率和循证准确性。',
       displayName: 'Claude 2.1',
-      hidden: true,
+      enabled: false,
       id: 'anthropic.claude-v2:1',
       tokens: 200_000,
     },
@@ -39,7 +39,7 @@ const Bedrock: ModelProviderCard = {
       description:
         'Claude Instant 1.2 v1.2，上下文大小等于 100k。一种更快速、更实惠但仍然非常强大的模型，它可以处理一系列任务，包括随意对话、文本分析、摘要和文档问题回答。',
       displayName: 'Claude Instant 1.2',
-      hidden: true,
+      enabled: false,
       id: 'anthropic.claude-instant-v1',
       tokens: 100_000,
     },
