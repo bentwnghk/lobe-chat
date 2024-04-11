@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.4](https://github.com/bentwnghk/lobe-chat/compare/v1.27.3...v1.27.4)
+
+<sup>Released on **2024-04-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Azure deployed model name.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Azure deployed model name ([20775c6](https://github.com/bentwnghk/lobe-chat/commit/20775c6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.3](https://github.com/bentwnghk/lobe-chat/compare/v1.27.2...v1.27.3)
 
 <sup>Released on **2024-04-11**</sup>
