@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.5](https://github.com/bentwnghk/lobe-chat/compare/v1.27.4...v1.27.5)
+
+<sup>Released on **2024-04-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix only search topics in current session.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix only search topics in current session, closes [#1834](https://github.com/bentwnghk/lobe-chat/issues/1834) ([9fdcfa4](https://github.com/bentwnghk/lobe-chat/commit/9fdcfa4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.4](https://github.com/bentwnghk/lobe-chat/compare/v1.27.3...v1.27.4)
 
 <sup>Released on **2024-04-11**</sup>
