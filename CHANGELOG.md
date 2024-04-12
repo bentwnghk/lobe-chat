@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.27.10](https://github.com/bentwnghk/lobe-chat/compare/v1.27.9...v1.27.10)
+
+<sup>Released on **2024-04-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix custom model list not display correctly, Google models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix custom model list not display correctly, closes [#2009](https://github.com/bentwnghk/lobe-chat/issues/2009) ([7d0e220](https://github.com/bentwnghk/lobe-chat/commit/7d0e220))
+- **misc**: Google models ([5524169](https://github.com/bentwnghk/lobe-chat/commit/5524169))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.9](https://github.com/bentwnghk/lobe-chat/compare/v1.27.8...v1.27.9)
 
 <sup>Released on **2024-04-12**</sup>
