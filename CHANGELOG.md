@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.7](https://github.com/bentwnghk/lobe-chat/compare/v1.27.6...v1.27.7)
+
+<sup>Released on **2024-04-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin next to `14.1.4` to fix deployment.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin next to `14.1.4` to fix deployment, closes [#1998](https://github.com/bentwnghk/lobe-chat/issues/1998) ([dfa1872](https://github.com/bentwnghk/lobe-chat/commit/dfa1872))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.6](https://github.com/bentwnghk/lobe-chat/compare/v1.27.5...v1.27.6)
 
 <sup>Released on **2024-04-11**</sup>
