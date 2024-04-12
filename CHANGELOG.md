@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.9](https://github.com/bentwnghk/lobe-chat/compare/v1.27.8...v1.27.9)
+
+<sup>Released on **2024-04-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Azure models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Azure models ([6812a2e](https://github.com/bentwnghk/lobe-chat/commit/6812a2e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.8](https://github.com/bentwnghk/lobe-chat/compare/v1.27.7...v1.27.8)
 
 <sup>Released on **2024-04-12**</sup>
