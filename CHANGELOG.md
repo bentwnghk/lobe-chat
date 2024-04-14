@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.27.14](https://github.com/bentwnghk/lobe-chat/compare/v1.27.13...v1.27.14)
+
+<sup>Released on **2024-04-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move client db to a new folder, refactor the service with browser db invoke.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move client db to a new folder, closes [#2037](https://github.com/bentwnghk/lobe-chat/issues/2037) ([ebe65bb](https://github.com/bentwnghk/lobe-chat/commit/ebe65bb))
+- **misc**: Refactor the service with browser db invoke, closes [#2038](https://github.com/bentwnghk/lobe-chat/issues/2038) ([43a2791](https://github.com/bentwnghk/lobe-chat/commit/43a2791))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.13](https://github.com/bentwnghk/lobe-chat/compare/v1.27.12...v1.27.13)
 
 <sup>Released on **2024-04-14**</sup>
