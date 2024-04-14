@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.27.16](https://github.com/bentwnghk/lobe-chat/compare/v1.27.15...v1.27.16)
+
+<sup>Released on **2024-04-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the auth.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix tool call error with gpt-4-turbo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the auth, closes [#2043](https://github.com/bentwnghk/lobe-chat/issues/2043) ([37ecb41](https://github.com/bentwnghk/lobe-chat/commit/37ecb41))
+
+#### What's fixed
+
+- **misc**: Fix tool call error with gpt-4-turbo, closes [#2042](https://github.com/bentwnghk/lobe-chat/issues/2042) ([63d91b8](https://github.com/bentwnghk/lobe-chat/commit/63d91b8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.15](https://github.com/bentwnghk/lobe-chat/compare/v1.27.14...v1.27.15)
 
 <sup>Released on **2024-04-14**</sup>
