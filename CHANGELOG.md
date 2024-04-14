@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.13](https://github.com/bentwnghk/lobe-chat/compare/v1.27.12...v1.27.13)
+
+<sup>Released on **2024-04-14**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Support drag or copy to upload file by model ability.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Support drag or copy to upload file by model ability, closes [#2016](https://github.com/bentwnghk/lobe-chat/issues/2016) ([2abe37e](https://github.com/bentwnghk/lobe-chat/commit/2abe37e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.12](https://github.com/bentwnghk/lobe-chat/compare/v1.27.11...v1.27.12)
 
 <sup>Released on **2024-04-13**</sup>
