@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.15](https://github.com/bentwnghk/lobe-chat/compare/v1.27.14...v1.27.15)
+
+<sup>Released on **2024-04-14**</sup>
+
+#### 💄 Styles
+
+- **misc**: Enable `gemini-1.5-pro-latest` model by default.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Enable `gemini-1.5-pro-latest` model by default, closes [#2034](https://github.com/bentwnghk/lobe-chat/issues/2034) ([e8c65a9](https://github.com/bentwnghk/lobe-chat/commit/e8c65a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.14](https://github.com/bentwnghk/lobe-chat/compare/v1.27.13...v1.27.14)
 
 <sup>Released on **2024-04-14**</sup>
