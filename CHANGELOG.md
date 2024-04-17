@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.27.18](https://github.com/bentwnghk/lobe-chat/compare/v1.27.17...v1.27.18)
+
+<sup>Released on **2024-04-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add claude 3 opus to AWS Bedrock, remove custom models from providers, and update Perplexity model names.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add claude 3 opus to AWS Bedrock, closes [#2072](https://github.com/bentwnghk/lobe-chat/issues/2072) ([479f562](https://github.com/bentwnghk/lobe-chat/commit/479f562))
+- **misc**: Remove custom models from providers, and update Perplexity model names, closes [#2069](https://github.com/bentwnghk/lobe-chat/issues/2069) ([e04754d](https://github.com/bentwnghk/lobe-chat/commit/e04754d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.17](https://github.com/bentwnghk/lobe-chat/compare/v1.27.16...v1.27.17)
 
 <sup>Released on **2024-04-16**</sup>
