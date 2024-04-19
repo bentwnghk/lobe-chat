@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.27.20](https://github.com/bentwnghk/lobe-chat/compare/v1.27.19...v1.27.20)
+
+<sup>Released on **2024-04-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Optimized file upload buttons and prompts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Optimized file upload buttons and prompts, closes [#2050](https://github.com/bentwnghk/lobe-chat/issues/2050) ([c23087e](https://github.com/bentwnghk/lobe-chat/commit/c23087e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.19](https://github.com/bentwnghk/lobe-chat/compare/v1.27.18...v1.27.19)
 
 <sup>Released on **2024-04-18**</sup>
