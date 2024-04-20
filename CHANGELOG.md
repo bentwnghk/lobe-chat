@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.28.1](https://github.com/bentwnghk/lobe-chat/compare/v1.28.0...v1.28.1)
+
+<sup>Released on **2024-04-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix topic title not auto generate.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix topic title not auto generate, closes [#2114](https://github.com/bentwnghk/lobe-chat/issues/2114) ([5979de3](https://github.com/bentwnghk/lobe-chat/commit/5979de3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.28.0](https://github.com/bentwnghk/lobe-chat/compare/v1.27.20...v1.28.0)
 
 <sup>Released on **2024-04-20**</sup>
