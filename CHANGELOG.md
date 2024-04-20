@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.28.0](https://github.com/bentwnghk/lobe-chat/compare/v1.27.20...v1.28.0)
+
+<sup>Released on **2024-04-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Support chat completion call at client side.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support chat completion call at client side, closes [#2041](https://github.com/bentwnghk/lobe-chat/issues/2041) ([9f5858f](https://github.com/bentwnghk/lobe-chat/commit/9f5858f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.27.20](https://github.com/bentwnghk/lobe-chat/compare/v1.27.19...v1.27.20)
 
 <sup>Released on **2024-04-19**</sup>
