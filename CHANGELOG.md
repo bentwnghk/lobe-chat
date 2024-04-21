@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.28.3](https://github.com/bentwnghk/lobe-chat/compare/v1.28.2...v1.28.3)
+
+<sup>Released on **2024-04-21**</sup>
+
+#### 💄 Styles
+
+- **ollama**: Show size info while download, support cancel donwload, optimize calculation for speed.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **ollama**: Show size info while download, support cancel donwload, optimize calculation for speed, closes [#1664](https://github.com/bentwnghk/lobe-chat/issues/1664) ([9b18f47](https://github.com/bentwnghk/lobe-chat/commit/9b18f47))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.2](https://github.com/bentwnghk/lobe-chat/compare/v1.28.1...v1.28.2)
 
 <sup>Released on **2024-04-21**</sup>
