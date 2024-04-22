@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.28.4](https://github.com/bentwnghk/lobe-chat/compare/v1.28.3...v1.28.4)
+
+<sup>Released on **2024-04-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix model list menu not display correctly.
+
+#### 💄 Styles
+
+- **misc**: Support together ai to fetch model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix model list menu not display correctly, closes [#2133](https://github.com/bentwnghk/lobe-chat/issues/2133) ([98c844b](https://github.com/bentwnghk/lobe-chat/commit/98c844b))
+
+#### Styles
+
+- **misc**: Support together ai to fetch model list, closes [#2138](https://github.com/bentwnghk/lobe-chat/issues/2138) ([e6d3e4a](https://github.com/bentwnghk/lobe-chat/commit/e6d3e4a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.3](https://github.com/bentwnghk/lobe-chat/compare/v1.28.2...v1.28.3)
 
 <sup>Released on **2024-04-21**</sup>
