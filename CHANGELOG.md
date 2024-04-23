@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.28.6](https://github.com/bentwnghk/lobe-chat/compare/v1.28.5...v1.28.6)
+
+<sup>Released on **2024-04-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix qwen-1.5-chat-72B context window in togetherai.
+
+#### 💄 Styles
+
+- **misc**: update some `gemini` deployment restrictions.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix qwen-1.5-chat-72B context window in togetherai, closes [#2142](https://github.com/bentwnghk/lobe-chat/issues/2142) ([d0753cf](https://github.com/bentwnghk/lobe-chat/commit/d0753cf))
+
+#### Styles
+
+- **misc**: update some `gemini` deployment restrictions, closes [#2149](https://github.com/bentwnghk/lobe-chat/issues/2149) ([6d36863](https://github.com/bentwnghk/lobe-chat/commit/6d36863))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.5](https://github.com/bentwnghk/lobe-chat/compare/v1.28.4...v1.28.5)
 
 <sup>Released on **2024-04-22**</sup>
