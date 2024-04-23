@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.28.7](https://github.com/bentwnghk/lobe-chat/compare/v1.28.6...v1.28.7)
+
+<sup>Released on **2024-04-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor for session server mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor for session server mode, closes [#2163](https://github.com/bentwnghk/lobe-chat/issues/2163) ([e012597](https://github.com/bentwnghk/lobe-chat/commit/e012597))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.6](https://github.com/bentwnghk/lobe-chat/compare/v1.28.5...v1.28.6)
 
 <sup>Released on **2024-04-23**</sup>
