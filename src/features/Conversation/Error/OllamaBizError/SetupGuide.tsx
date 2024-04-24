@@ -1,5 +1,5 @@
-import { Highlighter, Snippet } from '@lobehub/ui';
-import { Tab, Tabs } from '@lobehub/ui/mdx';
+import { Highlighter, Snippet } from '@bentwnghk/ui';
+import { Tab, Tabs } from '@bentwnghk/ui/mdx';
 import { Steps } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
