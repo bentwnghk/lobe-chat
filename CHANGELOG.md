@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.28.8](https://github.com/bentwnghk/lobe-chat/compare/v1.28.7...v1.28.8)
+
+<sup>Released on **2024-04-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Ollama model 240421.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Ollama model 240421, closes [#2130](https://github.com/bentwnghk/lobe-chat/issues/2130) ([e797af0](https://github.com/bentwnghk/lobe-chat/commit/e797af0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.7](https://github.com/bentwnghk/lobe-chat/compare/v1.28.6...v1.28.7)
 
 <sup>Released on **2024-04-23**</sup>
