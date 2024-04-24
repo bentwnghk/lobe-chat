@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.29.0](https://github.com/bentwnghk/lobe-chat/compare/v1.28.8...v1.29.0)
+
+<sup>Released on **2024-04-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Fully support ollama with browser request mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Fully support ollama with browser request mode, closes [#2168](https://github.com/bentwnghk/lobe-chat/issues/2168) ([562d189](https://github.com/bentwnghk/lobe-chat/commit/562d189))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.28.8](https://github.com/bentwnghk/lobe-chat/compare/v1.28.7...v1.28.8)
 
 <sup>Released on **2024-04-24**</sup>
