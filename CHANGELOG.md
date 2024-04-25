@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.29.2](https://github.com/bentwnghk/lobe-chat/compare/v1.29.1...v1.29.2)
+
+<sup>Released on **2024-04-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix chat client request not support abort.
+
+#### 💄 Styles
+
+- **misc**: Add displaying the message "Reset Successfully.".
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix chat client request not support abort, closes [#2193](https://github.com/bentwnghk/lobe-chat/issues/2193) ([d22ef2c](https://github.com/bentwnghk/lobe-chat/commit/d22ef2c))
+
+#### Styles
+
+- **misc**: Add displaying the message "Reset Successfully.", closes [#2158](https://github.com/bentwnghk/lobe-chat/issues/2158) ([27913ef](https://github.com/bentwnghk/lobe-chat/commit/27913ef))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.29.1](https://github.com/bentwnghk/lobe-chat/compare/v1.29.0...v1.29.1)
 
 <sup>Released on **2024-04-24**</sup>
