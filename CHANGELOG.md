@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.29.3](https://github.com/bentwnghk/lobe-chat/compare/v1.29.2...v1.29.3)
+
+<sup>Released on **2024-04-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Sperate SessionStore to a new AgentStore.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix not handle ollama error correctly.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Sperate SessionStore to a new AgentStore, closes [#2197](https://github.com/bentwnghk/lobe-chat/issues/2197) ([49c0ba6](https://github.com/bentwnghk/lobe-chat/commit/49c0ba6))
+
+#### What's fixed
+
+- **misc**: Fix not handle ollama error correctly ([efdf174](https://github.com/bentwnghk/lobe-chat/commit/efdf174))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.29.2](https://github.com/bentwnghk/lobe-chat/compare/v1.29.1...v1.29.2)
 
 <sup>Released on **2024-04-25**</sup>
