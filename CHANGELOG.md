@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.29.4](https://github.com/bentwnghk/lobe-chat/compare/v1.29.3...v1.29.4)
+
+<sup>Released on **2024-04-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ollama host issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ollama host issue, closes [#2210](https://github.com/bentwnghk/lobe-chat/issues/2210) ([c49d4c7](https://github.com/bentwnghk/lobe-chat/commit/c49d4c7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.29.3](https://github.com/bentwnghk/lobe-chat/compare/v1.29.2...v1.29.3)
 
 <sup>Released on **2024-04-25**</sup>
