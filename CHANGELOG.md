@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.30.2](https://github.com/bentwnghk/lobe-chat/compare/v1.30.1...v1.30.2)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix display error when using `DEFAULT_AGENT_CONFIG` env, fix docker build.
+
+#### 💄 Styles
+
+- **misc**: Hide default model tag and show ollama provider by default.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix display error when using `DEFAULT_AGENT_CONFIG` env, closes [#2231](https://github.com/bentwnghk/lobe-chat/issues/2231) ([42bc734](https://github.com/bentwnghk/lobe-chat/commit/42bc734))
+- **misc**: Fix docker build, closes [#2236](https://github.com/bentwnghk/lobe-chat/issues/2236) ([749a843](https://github.com/bentwnghk/lobe-chat/commit/749a843))
+
+#### Styles
+
+- **misc**: Hide default model tag and show ollama provider by default, closes [#2238](https://github.com/bentwnghk/lobe-chat/issues/2238) ([baa4780](https://github.com/bentwnghk/lobe-chat/commit/baa4780))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.1](https://github.com/bentwnghk/lobe-chat/compare/v1.30.0...v1.30.1)
 
 <sup>Released on **2024-04-27**</sup>
