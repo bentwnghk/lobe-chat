@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.30.1](https://github.com/bentwnghk/lobe-chat/compare/v1.30.0...v1.30.1)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix display error when using DEFAULT_AGENT_CONFIG env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix display error when using DEFAULT_AGENT_CONFIG env ([e46215c](https://github.com/bentwnghk/lobe-chat/commit/e46215c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.30.0](https://github.com/bentwnghk/lobe-chat/compare/v1.29.4...v1.30.0)
 
 <sup>Released on **2024-04-26**</sup>
