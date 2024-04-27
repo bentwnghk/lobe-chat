@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.30.3](https://github.com/bentwnghk/lobe-chat/compare/v1.30.2...v1.30.3)
+
+<sup>Released on **2024-04-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix the plugin string env and search error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix the plugin string env and search error, closes [#2239](https://github.com/bentwnghk/lobe-chat/issues/2239) ([74b1ae0](https://github.com/bentwnghk/lobe-chat/commit/74b1ae0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.2](https://github.com/bentwnghk/lobe-chat/compare/v1.30.1...v1.30.2)
 
 <sup>Released on **2024-04-27**</sup>
