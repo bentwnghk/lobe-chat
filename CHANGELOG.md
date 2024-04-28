@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.30.4](https://github.com/bentwnghk/lobe-chat/compare/v1.30.3...v1.30.4)
+
+<sup>Released on **2024-04-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `/api/proxy` internal proxy attack.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix `/api/proxy` internal proxy attack, closes [#2255](https://github.com/bentwnghk/lobe-chat/issues/2255) ([465665a](https://github.com/bentwnghk/lobe-chat/commit/465665a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.3](https://github.com/bentwnghk/lobe-chat/compare/v1.30.2...v1.30.3)
 
 <sup>Released on **2024-04-27**</sup>
