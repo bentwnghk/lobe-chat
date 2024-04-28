@@ -2,6 +2,47 @@
 
 # Changelog
 
+### [Version 1.30.5](https://github.com/bentwnghk/lobe-chat/compare/v1.30.4...v1.30.5)
+
+<sup>Released on **2024-04-28**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor feature flags store to server config store.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Suport to fetch model list on client.
+
+#### 💄 Styles
+
+- **ollama**: Phi3 Instruct models and its model icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor feature flags store to server config store, closes [#2263](https://github.com/bentwnghk/lobe-chat/issues/2263) ([2e991d7](https://github.com/bentwnghk/lobe-chat/commit/2e991d7))
+
+#### What's fixed
+
+- **misc**: Suport to fetch model list on client, closes [#2252](https://github.com/bentwnghk/lobe-chat/issues/2252) ([76310a8](https://github.com/bentwnghk/lobe-chat/commit/76310a8))
+
+#### Styles
+
+- **ollama**: Phi3 Instruct models and its model icons, closes [#2254](https://github.com/bentwnghk/lobe-chat/issues/2254) ([c9b55cc](https://github.com/bentwnghk/lobe-chat/commit/c9b55cc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.4](https://github.com/bentwnghk/lobe-chat/compare/v1.30.3...v1.30.4)
 
 <sup>Released on **2024-04-28**</sup>
