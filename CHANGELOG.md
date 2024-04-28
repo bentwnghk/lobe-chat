@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.30.6](https://github.com/bentwnghk/lobe-chat/compare/v1.30.5...v1.30.6)
+
+<sup>Released on **2024-04-28**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Rename globalStore to userStore.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Rename globalStore to userStore, closes [#2264](https://github.com/bentwnghk/lobe-chat/issues/2264) ([a3cb538](https://github.com/bentwnghk/lobe-chat/commit/a3cb538))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.5](https://github.com/bentwnghk/lobe-chat/compare/v1.30.4...v1.30.5)
 
 <sup>Released on **2024-04-28**</sup>
