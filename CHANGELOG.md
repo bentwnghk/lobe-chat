@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.31.0](https://github.com/bentwnghk/lobe-chat/compare/v1.30.6...v1.31.0)
+
+<sup>Released on **2024-04-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Support minimax as a new provider.
+
+#### 💄 Styles
+
+- **misc**: Improve Inbox Assistant Welcome Guide.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support minimax as a new provider, closes [#2087](https://github.com/bentwnghk/lobe-chat/issues/2087) ([00abd82](https://github.com/bentwnghk/lobe-chat/commit/00abd82))
+
+#### Styles
+
+- **misc**: Improve Inbox Assistant Welcome Guide, closes [#2086](https://github.com/bentwnghk/lobe-chat/issues/2086) ([df37212](https://github.com/bentwnghk/lobe-chat/commit/df37212))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.6](https://github.com/bentwnghk/lobe-chat/compare/v1.30.5...v1.30.6)
 
 <sup>Released on **2024-04-28**</sup>
