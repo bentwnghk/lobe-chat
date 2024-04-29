@@ -11,19 +11,19 @@ export const OFFICIAL_SITE = 'https://mr5drive.com/';
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const GITHUB = pkg.homepage;
-// export const GITHUB_ISSUES = urlJoin(GITHUB, 'issues/new');
+export const GITHUB_ISSUES = urlJoin(GITHUB, 'issues/new');
 export const CHANGELOG = 'https://mr5drive.com';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
 export const DOCUMENTS = 'https://longman.mister5.net/';
-// export const USAGE_DOCUMENTS = urlJoin(DOCUMENTS, '/usage');
-// export const SELF_HOSTING_DOCUMENTS = urlJoin(DOCUMENTS, '/self-hosting');
+export const USAGE_DOCUMENTS = 'https://oxford.mister5.net/';
+export const SELF_HOSTING_DOCUMENTS = 'https://cambridge.mister5.net/';
 
-// export const WIKI = urlJoin(GITHUB, 'wiki');
-// export const WIKI_PLUGIN_GUIDE = urlJoin(USAGE_DOCUMENTS, '/plugins/development');
+export const WIKI = 'https://collins.mister5.net/';
+export const WIKI_PLUGIN_GUIDE = 'https://macmillan.mister5.net/';
 export const MANUAL_UPGRADE_URL = 'https://ai.mister5.net';
 
-// export const BLOG = urlJoin(OFFICIAL_SITE, 'blog');
+export const BLOG = 'https://junior.mister5.net/';
 
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = OFFICIAL_SITE;
