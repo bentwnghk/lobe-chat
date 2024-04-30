@@ -2,6 +2,51 @@
 
 # Changelog
 
+### [Version 1.31.1](https://github.com/bentwnghk/lobe-chat/compare/v1.31.0...v1.31.1)
+
+<sup>Released on **2024-04-30**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move app page to the `(main)` layout group.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Effectively interrupt auto scrolling, fix only inject welcome question in inbox, plugins with multiple settings cannot be correctly configured.
+
+#### 💄 Styles
+
+- **misc**: Add 404 and Error page, patching models info, Revise some text.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move app page to the `(main)` layout group, closes [#2297](https://github.com/bentwnghk/lobe-chat/issues/2297) ([6cc2c38](https://github.com/bentwnghk/lobe-chat/commit/6cc2c38))
+
+#### What's fixed
+
+- **misc**: Effectively interrupt auto scrolling, closes [#2223](https://github.com/bentwnghk/lobe-chat/issues/2223) ([afe4974](https://github.com/bentwnghk/lobe-chat/commit/afe4974))
+- **misc**: Fix only inject welcome question in inbox, closes [#2289](https://github.com/bentwnghk/lobe-chat/issues/2289) ([cc8edd3](https://github.com/bentwnghk/lobe-chat/commit/cc8edd3))
+- **misc**: Plugins with multiple settings cannot be correctly configured, closes [#1991](https://github.com/bentwnghk/lobe-chat/issues/1991) ([0c041aa](https://github.com/bentwnghk/lobe-chat/commit/0c041aa))
+
+#### Styles
+
+- **misc**: Add 404 and Error page, closes [#2299](https://github.com/bentwnghk/lobe-chat/issues/2299) ([938a3e9](https://github.com/bentwnghk/lobe-chat/commit/938a3e9))
+- **misc**: Patching models info, closes [#2269](https://github.com/bentwnghk/lobe-chat/issues/2269) [#22802280](https://github.com/bentwnghk/lobe-chat/issues/22802280) ([03bcb06](https://github.com/bentwnghk/lobe-chat/commit/03bcb06))
+- **misc**: Revise some text, closes [#2296](https://github.com/bentwnghk/lobe-chat/issues/2296) ([018427f](https://github.com/bentwnghk/lobe-chat/commit/018427f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.31.0](https://github.com/bentwnghk/lobe-chat/compare/v1.30.6...v1.31.0)
 
 <sup>Released on **2024-04-29**</sup>
