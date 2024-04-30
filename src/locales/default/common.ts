@@ -7,6 +7,7 @@ export default {
 
   autoGenerate: '自动补全',
   autoGenerateTooltip: '基于提示词自动补全助手描述',
+  blog: '产品博客',
   cancel: '取消',
   changelog: '更新日志',
   close: '关闭',
@@ -30,7 +31,9 @@ export default {
     globalSetting: '导出全局设置',
   },
   feedback: '反馈与建议',
+  follow: '在 {{name}} 上关注我们',
   historyRange: '历史范围',
+
   import: '导入配置',
   importModal: {
     finish: {
@@ -92,10 +95,12 @@ export default {
   layoutInitializing: '正在加载布局...',
   noDescription: '暂无描述',
   oauth: 'SSO 登录',
+  officialSite: '官方网站',
   ok: '确定',
   password: '密码',
   pin: '置顶',
   pinOff: '取消置顶',
+  privacy: '隐私政策',
   regenerate: '重新生成',
   rename: '重命名',
   reset: '重置',
@@ -141,7 +146,9 @@ export default {
     learnMore: '了解更多',
     title: '帮助 Mr.🆖 Chat 做得更好',
   },
+
   temp: '临时',
+  terms: '服务条款',
   updateAgent: '更新助理信息',
   upgradeVersion: {
     action: '升级',

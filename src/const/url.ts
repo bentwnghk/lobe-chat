@@ -44,3 +44,6 @@ export const imageUrl = (filename: string) => withBasePath(`/images/${filename}`
 
 export const EMAIL_SUPPORT = 'mr.ng@mystudies.net';
 export const EMAIL_BUSINESS = 'mr.ng@mystudies.net';
+
+export const MEDIDUM = 'https://mr5drive.com/';
+export const X = 'https://mr5drive.com/';
