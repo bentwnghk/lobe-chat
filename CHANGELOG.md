@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.31.3](https://github.com/bentwnghk/lobe-chat/compare/v1.31.2...v1.31.3)
+
+<sup>Released on **2024-04-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix telemetry preference modal and default agent config error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix telemetry preference modal and default agent config error, closes [#2312](https://github.com/bentwnghk/lobe-chat/issues/2312) ([8900445](https://github.com/bentwnghk/lobe-chat/commit/8900445))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.31.2](https://github.com/bentwnghk/lobe-chat/compare/v1.31.1...v1.31.2)
 
 <sup>Released on **2024-04-30**</sup>
