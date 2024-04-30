@@ -7,7 +7,7 @@ export default {
 
   autoGenerate: '自动补全',
   autoGenerateTooltip: '基于提示词自动补全助手描述',
-  blog: '产品博客',
+  blog: 'Mr.🆖 服务状态',
   cancel: '取消',
   changelog: '更新日志',
   close: '关闭',

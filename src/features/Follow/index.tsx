@@ -1,7 +1,7 @@
 'use client';
 
 import { SiDiscord, SiGithub, SiMedium, SiX } from '@icons-pack/react-simple-icons';
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
@@ -35,24 +35,28 @@ const Follow = memo(() => {
         <ActionIcon
           className={styles.icon}
           icon={SiGithub as any}
-          title={t('follow', { name: 'GitHub' })}
+          title={t('follow', { name: 'Mr.🆖 Chat' })}
         />
       </Link>
       <Link href={X} rel="noreferrer" target={'_blank'}>
-        <ActionIcon className={styles.icon} icon={SiX as any} title={t('follow', { name: 'X' })} />
+        <ActionIcon
+          className={styles.icon}
+          icon={SiX as any}
+          title={t('follow', { name: 'Mr.🆖 牛津詞典' })}
+        />
       </Link>
       <Link href={DISCORD} rel="noreferrer" target={'_blank'}>
         <ActionIcon
           className={styles.icon}
           icon={SiDiscord as any}
-          title={t('follow', { name: 'Discord' })}
+          title={t('follow', { name: 'Mr.🆖 AiSpeak' })}
         />
       </Link>
       <Link href={MEDIDUM} rel="noreferrer" target={'_blank'}>
         <ActionIcon
           className={styles.icon}
           icon={SiMedium as any}
-          title={t('follow', { name: 'Medium' })}
+          title={t('follow', { name: 'Mr.🆖 Library' })}
         />
       </Link>
     </Flexbox>

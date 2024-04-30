@@ -23,7 +23,7 @@ export const WIKI = 'https://collins.mister5.net/';
 export const WIKI_PLUGIN_GUIDE = 'https://macmillan.mister5.net/';
 export const MANUAL_UPGRADE_URL = 'https://ai.mister5.net';
 
-export const BLOG = 'https://junior.mister5.net/';
+export const BLOG = 'https://status.mr5drive.com/';
 
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = OFFICIAL_SITE;
@@ -45,5 +45,5 @@ export const imageUrl = (filename: string) => withBasePath(`/images/${filename}`
 export const EMAIL_SUPPORT = 'mr.ng@mystudies.net';
 export const EMAIL_BUSINESS = 'mr.ng@mystudies.net';
 
-export const MEDIDUM = 'https://mr5drive.com/';
-export const X = 'https://mr5drive.com/';
+export const MEDIDUM = 'https://books.mr5drive.com/';
+export const X = 'https://oxford.mister5.net/';
