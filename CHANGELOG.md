@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.31.2](https://github.com/bentwnghk/lobe-chat/compare/v1.31.1...v1.31.2)
+
+<sup>Released on **2024-04-30**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move NavBar to `[@nav](https://github.com/nav)` slot route, Refactor Welcome Layout.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Minimax truncationed output, URL rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move NavBar to `[@nav](https://github.com/nav)` slot route, closes [#2306](https://github.com/bentwnghk/lobe-chat/issues/2306) ([aee7231](https://github.com/bentwnghk/lobe-chat/commit/aee7231))
+- **misc**: Refactor Welcome Layout, closes [#2314](https://github.com/bentwnghk/lobe-chat/issues/2314) ([1040051](https://github.com/bentwnghk/lobe-chat/commit/1040051))
+
+#### What's fixed
+
+- **misc**: Minimax truncationed output, closes [#2308](https://github.com/bentwnghk/lobe-chat/issues/2308) ([488f319](https://github.com/bentwnghk/lobe-chat/commit/488f319))
+- **misc**: URL rename ([715321f](https://github.com/bentwnghk/lobe-chat/commit/715321f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.31.1](https://github.com/bentwnghk/lobe-chat/compare/v1.31.0...v1.31.1)
 
 <sup>Released on **2024-04-30**</sup>
