@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.32.0](https://github.com/bentwnghk/lobe-chat/compare/v1.31.3...v1.32.0)
+
+<sup>Released on **2024-04-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Import settings from url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Import settings from url, closes [#2226](https://github.com/bentwnghk/lobe-chat/issues/2226) ([b1f6c20](https://github.com/bentwnghk/lobe-chat/commit/b1f6c20))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.31.3](https://github.com/bentwnghk/lobe-chat/compare/v1.31.2...v1.31.3)
 
 <sup>Released on **2024-04-30**</sup>
