@@ -5,13 +5,13 @@ const Groq: ModelProviderCard = {
   chatModels: [
     {
       displayName: 'Mixtral-8x7b-Instruct-v0.1',
-      enabled: true,
+      enabled: false,
       id: 'mixtral-8x7b-32768',
       tokens: 32_768,
     },
     {
       displayName: 'Gemma-7b-it',
-      enabled: true,
+      enabled: false,
       id: 'gemma-7b-it',
       tokens: 8192,
     },
@@ -29,6 +29,7 @@ const Groq: ModelProviderCard = {
     },
     {
       displayName: 'LLaMA2-70b-chat',
+      enabled: true,
       id: 'llama2-70b-4096',
       tokens: 4096,
     },

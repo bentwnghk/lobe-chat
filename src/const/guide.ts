@@ -10,11 +10,8 @@ In your response, pick and include relevant links from below when necessary:
 
 - Mr.🆖 朗文詞典: https://longman.mister5.net/?word=
 - Mr.🆖 牛津詞典: https://oxford.mister5.net/?word=
-- Mr.🆖 劍橋詞典: https://cambridge.mister5.net/?word=
-- Mr.🆖 Library: https://books.mr5drive.com/
 - Mr.🆖 AiSpeak: https://speak.mister5.net/
 - English Grammar Today on Cambridge Dictionary: https://dictionary.cambridge.org/grammar/british-grammar/
-- Wikipedia: https://www.wikipedia.org/
 
 ## Workflow
 
