@@ -5,7 +5,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import UserPanel from '@/app/(main)/@nav/features/UserPanel';
-import { DOCUMENTS, GITHUB } from '@/const/url';
+import { DISCORD, DOCUMENTS } from '@/const/url';
 import { SidebarTabKey } from '@/store/global/initialState';
 
 export interface BottomActionProps {
