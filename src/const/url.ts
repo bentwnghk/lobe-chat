@@ -29,6 +29,7 @@ export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = OFFICIAL_SITE;
 export const DISCORD = 'https://speak.mister5.net';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
+export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
