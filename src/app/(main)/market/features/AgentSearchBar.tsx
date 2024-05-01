@@ -1,6 +1,6 @@
 'use client';
 
-import { SearchBar } from '@lobehub/ui';
+import { SearchBar } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import useControlledState from 'use-merge-value';
