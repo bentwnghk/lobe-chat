@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert } from '@lobehub/ui';
+import { Alert } from '@bentwnghk/ui';
 import { Badge, ConfigProvider, Popover } from 'antd';
 import { createStyles } from 'antd-style';
 import { PropsWithChildren, memo, useCallback, useState } from 'react';

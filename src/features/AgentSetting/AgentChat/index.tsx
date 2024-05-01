@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, ItemGroup, SelectWithImg, SliderWithInput } from '@lobehub/ui';
+import { Form, ItemGroup, SelectWithImg, SliderWithInput } from '@bentwnghk/ui';
 import { Input, Switch } from 'antd';
 import { useThemeMode } from 'antd-style';
 import { debounce } from 'lodash-es';

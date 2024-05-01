@@ -1,4 +1,4 @@
-import { Alert } from '@lobehub/ui';
+import { Alert } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import Link from 'next/link';
 import { memo } from 'react';

@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Bot, Cloudy, Info, Mic2, Settings2, Webhook } from 'lucide-react';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

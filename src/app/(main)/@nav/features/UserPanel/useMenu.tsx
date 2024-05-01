@@ -1,4 +1,4 @@
-import { DiscordIcon, Icon } from '@lobehub/ui';
+import { DiscordIcon, Icon } from '@bentwnghk/ui';
 import { Badge } from 'antd';
 import {
   Book,

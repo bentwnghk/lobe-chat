@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { Popover } from 'antd';
 import { useTheme } from 'antd-style';
 import { Monitor, Moon, Sun } from 'lucide-react';

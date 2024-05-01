@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, ItemGroup, SliderWithInput } from '@lobehub/ui';
+import { Form, ItemGroup, SliderWithInput } from '@bentwnghk/ui';
 import { Switch } from 'antd';
 import { debounce } from 'lodash-es';
 import { memo } from 'react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { Avatar, type AvatarProps } from '@lobehub/ui';
+import { Avatar, type AvatarProps } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { DEFAULT_USER_AVATAR_URL } from '@/const/meta';

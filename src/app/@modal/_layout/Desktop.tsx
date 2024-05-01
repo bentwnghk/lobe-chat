@@ -1,6 +1,6 @@
 'use client';
 
-import { Modal } from '@lobehub/ui';
+import { Modal } from '@bentwnghk/ui';
 import { useRouter } from 'next/navigation';
 import { PropsWithChildren, useState } from 'react';
 

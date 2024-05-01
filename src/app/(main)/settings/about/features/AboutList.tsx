@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid, Icon } from '@lobehub/ui';
+import { Grid, Icon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import {
   Book,
@@ -53,7 +53,7 @@ const AboutList = memo(() => {
     {
       icon: Home,
       label: t('officialSite'),
-      onClick: () => window.open('https://lobehub.com', '__blank'),
+      onClick: () => window.open('https://mr5drive.com', '__blank'),
       value: 'officialSite',
     },
 
@@ -66,7 +66,7 @@ const AboutList = memo(() => {
     {
       icon: Rss,
       label: t('blog'),
-      onClick: () => window.open('https://lobehub.com/blog', '__blank'),
+      onClick: () => window.open('https://status.mr5drive.com/', '__blank'),
       value: 'blog',
     },
     {
