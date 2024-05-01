@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.32.1](https://github.com/bentwnghk/lobe-chat/compare/v1.32.0...v1.32.1)
+
+<sup>Released on **2024-05-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor Market Layout.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rename.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor Market Layout, closes [#2320](https://github.com/bentwnghk/lobe-chat/issues/2320) ([c05c3c1](https://github.com/bentwnghk/lobe-chat/commit/c05c3c1))
+
+#### What's fixed
+
+- **misc**: Rename ([7802925](https://github.com/bentwnghk/lobe-chat/commit/7802925))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.32.0](https://github.com/bentwnghk/lobe-chat/compare/v1.31.3...v1.32.0)
 
 <sup>Released on **2024-04-30**</sup>
