@@ -5,7 +5,7 @@ import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
 import { CURRENT_VERSION } from '@/const/version';
-import Follow from '@/features/Follow';
+// import Follow from '@/features/Follow';
 import { useServerConfigStore } from '@/store/serverConfig';
 import { serverConfigSelectors } from '@/store/serverConfig/selectors';
 
@@ -28,7 +28,6 @@ const Page = memo(({ mobile }: { mobile?: boolean }) => {
         <AboutList />
         {enabledTelemetryChat && <Analytics />}
       </Flexbox>
-      <Follow />
       <div>Empowering your self-directed learning with AI</div>
       <div style={{ fontWeight: 400, opacity: 0.33 }}>{COPYRIGHT}</div>
     </Flexbox>
