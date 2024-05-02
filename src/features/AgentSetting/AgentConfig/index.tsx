@@ -1,4 +1,4 @@
-import { Form, ItemGroup, SelectWithImg, SliderWithInput } from '@lobehub/ui';
+import { Form, ItemGroup, SelectWithImg, SliderWithInput } from '@bentwnghk/ui';
 import { Form as AFrom, Input, Switch } from 'antd';
 import { useThemeMode } from 'antd-style';
 import { debounce } from 'lodash-es';

@@ -1,4 +1,4 @@
-import { DivProps } from '@lobehub/ui';
+import { DivProps } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import Image from 'next/image';
 import { memo } from 'react';
