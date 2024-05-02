@@ -4,7 +4,7 @@ import { Flexbox } from 'react-layout-kit';
 
 import Follow from '@/features/Follow';
 
-const COPYRIGHT = `© ${new Date().getFullYear()} Mr.🆖 Chat`;
+const COPYRIGHT = `© ${new Date().getFullYear()} Mr.🆖`;
 
 const DesktopLayout = ({ children }: PropsWithChildren) => {
   return (

@@ -1,4 +1,4 @@
-import { Icon, List } from '@lobehub/ui';
+import { Icon, List } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { ChevronRight } from 'lucide-react';
 import { ReactNode, memo } from 'react';

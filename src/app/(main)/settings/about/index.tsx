@@ -1,6 +1,6 @@
 'use client';
 
-import { Logo, Tag } from '@lobehub/ui';
+import { Logo, Tag } from '@bentwnghk/ui';
 import Link from 'next/link';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -14,7 +14,7 @@ import { serverConfigSelectors } from '@/store/serverConfig/selectors';
 import AboutList from './features/AboutList';
 import Analytics from './features/Analytics';
 
-const COPYRIGHT = `© 2023-${new Date().getFullYear()} LobeHub, LLC`;
+const COPYRIGHT = `© 2023-${new Date().getFullYear()} Mr.🆖`;
 
 const Page = memo(({ mobile }: { mobile?: boolean }) => {
   const enabledTelemetryChat = useServerConfigStore(serverConfigSelectors.enabledTelemetryChat);
