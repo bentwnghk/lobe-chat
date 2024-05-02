@@ -1,5 +1,3 @@
-'use client';
-
 import { CheckCircleFilled } from '@ant-design/icons';
 import { Alert, Highlighter } from '@bentwnghk/ui';
 import { Button } from 'antd';
