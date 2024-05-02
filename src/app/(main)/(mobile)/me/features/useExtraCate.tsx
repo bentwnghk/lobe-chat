@@ -45,7 +45,7 @@ export const useExtraCate = () => {
     {
       icon: <Icon icon={DiscordIcon} size={iconSize} />,
       key: 'discord',
-      label: 'Discord',
+      label: 'Mr.🆖 AiSpeak 🗣️',
       onClick: () => window.open(DISCORD, '__blank'),
     },
   ];
