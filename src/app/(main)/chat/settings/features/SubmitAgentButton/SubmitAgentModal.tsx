@@ -1,3 +1,5 @@
+'use client';
+
 import { Alert, Modal, type ModalProps } from '@bentwnghk/ui';
 import { Button, Divider, Input } from 'antd';
 import { useTheme } from 'antd-style';

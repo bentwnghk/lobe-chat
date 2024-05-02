@@ -29,6 +29,7 @@ export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = OFFICIAL_SITE;
 export const DISCORD = 'https://speak.mister5.net';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
+export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
@@ -48,3 +49,4 @@ export const EMAIL_BUSINESS = 'mr.ng@mystudies.net';
 
 export const MEDIDUM = 'https://books.mr5drive.com/';
 export const X = 'https://oxford.mister5.net/';
+export const RELEASES_URL = urlJoin(GITHUB, 'releases');
