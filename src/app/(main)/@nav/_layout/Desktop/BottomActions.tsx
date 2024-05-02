@@ -15,7 +15,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { DOCUMENTS } from '@/const/url';
+import { DISCORD, DOCUMENTS } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 import { useGlobalStore } from '@/store/global';
