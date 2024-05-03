@@ -50,7 +50,7 @@ const AboutList = memo(() => {
   ];
 
   return (
-    <Grid className={styles.container} maxItemWidth={432} width={'100%'}>
+    <Grid className={styles.container} width={'100%'}>
       {items.map(({ value, icon, label, href }) => (
         <Link href={href} key={value} style={{ color: 'inherit' }} target={'_blank'}>
           <Flexbox className={styles.card} gap={8} horizontal>
