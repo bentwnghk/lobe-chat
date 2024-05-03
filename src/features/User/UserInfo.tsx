@@ -7,7 +7,7 @@ import { Flexbox } from 'react-layout-kit';
 
 import UserAvatar from './UserAvatar';
 
-const DEFAULT_USERNAME = 'LobeChat Community Edition';
+const DEFAULT_USERNAME = 'Mr.🆖 Sponsored Edition';
 
 const useStyles = createStyles(({ css, token }) => ({
   nickname: css`
