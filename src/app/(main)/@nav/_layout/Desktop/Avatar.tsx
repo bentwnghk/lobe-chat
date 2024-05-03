@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Tooltip } from 'antd';
 import { LucideX } from 'lucide-react';
 import { memo } from 'react';

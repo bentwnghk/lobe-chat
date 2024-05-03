@@ -1,4 +1,4 @@
-import { DiscordIcon, Icon } from '@lobehub/ui';
+import { DiscordIcon, Icon } from '@bentwnghk/ui';
 import { Badge } from 'antd';
 import {
   Book,
@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
 import { type MenuProps } from '@/components/Menu';
-import { DISCORD, DOCUMENTS, EMAIL_SUPPORT, GITHUB_ISSUES } from '@/const/url';
+import { DISCORD, DOCUMENTS, EMAIL_SUPPORT, X } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 
@@ -119,7 +119,7 @@ export const useMenu = () => {
           icon: <Icon icon={Feather} />,
           key: 'feedback',
           label: (
-            <Link href={GITHUB_ISSUES} target={'_blank'}>
+            <Link href={X} target={'_blank'}>
               {t('userPanel.feedback')}
             </Link>
           ),

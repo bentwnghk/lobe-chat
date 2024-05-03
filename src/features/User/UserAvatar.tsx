@@ -1,6 +1,6 @@
 'use client';
 
-import { Avatar, type AvatarProps } from '@lobehub/ui';
+import { Avatar, type AvatarProps } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 
