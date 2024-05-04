@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.33.1](https://github.com/bentwnghk/lobe-chat/compare/v1.33.0...v1.33.1)
+
+<sup>Released on **2024-05-04**</sup>
+
+#### 💄 Styles
+
+- **misc**: Imporve mobile styles and loading skeleton, Imporve mobile styles and loading skeleton.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Imporve mobile styles and loading skeleton, closes [#2363](https://github.com/bentwnghk/lobe-chat/issues/2363) ([80bb280](https://github.com/bentwnghk/lobe-chat/commit/80bb280))
+- **misc**: Imporve mobile styles and loading skeleton, closes [#2363](https://github.com/bentwnghk/lobe-chat/issues/2363) ([8ee3591](https://github.com/bentwnghk/lobe-chat/commit/8ee3591))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.33.0](https://github.com/bentwnghk/lobe-chat/compare/v1.32.2...v1.33.0)
 
 <sup>Released on **2024-05-04**</sup>
