@@ -58,7 +58,7 @@ const BedrockProvider = memo(() => {
           name: [LLMProviderConfigKey, providerKey, 'region'],
         },
       ]}
-      checkModel={'anthropic.claude-instant-v1'}
+      checkModel={'anthropic.claude-3-haiku-20240307-v1:0'}
       provider={ModelProvider.Bedrock}
       title={
         <Flexbox align={'center'} gap={8} horizontal>
