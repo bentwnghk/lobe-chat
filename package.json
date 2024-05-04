@@ -16,14 +16,14 @@
   ],
   "homepage": "https://ai.mister5.net/",
   "bugs": {
-    "url": "https://github.com/bentwnghk/lobe-chat/issues/new/choose"
+    "url": "https://mr5drive.com/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/bentwnghk/lobe-chat.git"
   },
   "license": "MIT",
-  "author": "LobeHub <i@lobehub.com>",
+  "author": "Mr. Ng <mr.ng@mystudies.net>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",
