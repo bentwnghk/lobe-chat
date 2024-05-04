@@ -18,11 +18,10 @@ exports[`agentSelectors > defaultAgentConfig > should merge DEFAULT_AGENT_CONFIG
   "systemRole": "user",
   "tts": {
     "showAllLocaleVoice": false,
-    "sttLocale": "en-US",
-    "ttsService": "edge",
+    "sttLocale": "auto",
+    "ttsService": "openai",
     "voice": {
       "openai": "alloy",
-      "edge": "en-US-JennyNeural",
     },
   },
 }

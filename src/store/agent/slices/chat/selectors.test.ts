@@ -3,9 +3,9 @@ import { describe, expect, it } from 'vitest';
 import { INBOX_SESSION_ID } from '@/const/session';
 import { DEFAULT_AGENT_CONFIG, DEFAUTT_AGENT_TTS_CONFIG } from '@/const/settings';
 import { AgentStore } from '@/store/agent';
-import { UserStore } from '@/store/user';
-import { settingsSelectors } from '@/store/user/slices/settings/selectors';
-import { LobeAgentConfig } from '@/types/agent';
+// import { UserStore } from '@/store/user';
+// import { settingsSelectors } from '@/store/user/slices/settings/selectors';
+// import { LobeAgentConfig } from '@/types/agent';
 
 import { agentSelectors } from './selectors';
 
@@ -113,7 +113,7 @@ describe('agentSelectors', () => {
         },
       } as AgentStore;
       const ttsVoice = agentSelectors.currentAgentTTSVoice('en')(modifiedStore);
-      expect(ttsVoice).toBe('en-US-JennyNeural');
+      expect(ttsVoice).toBe('ar-SA-HamedNeural');
     });
 
     it('should return the default voice for microsoft TTS service', () => {
@@ -128,7 +128,7 @@ describe('agentSelectors', () => {
         },
       } as AgentStore;
       const ttsVoice = agentSelectors.currentAgentTTSVoice('en')(modifiedStore);
-      expect(ttsVoice).toBe('en-US-JennyNeural');
+      expect(ttsVoice).toBe('ar-SA-HamedNeural');
     });
 
     it('should return the first voice if the specified voice does not exist', () => {
