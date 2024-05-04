@@ -10,10 +10,11 @@ exports[`settingsSelectors > currentSettings > should merge DEFAULT_SETTINGS and
       "systemRole": "",
       "tts": {
         "showAllLocaleVoice": false,
-        "sttLocale": "auto",
-        "ttsService": "openai",
+        "sttLocale": "en-US",
+        "ttsService": "edge",
         "voice": {
           "openai": "alloy",
+          "edge": "en-US-JennyNeural",
         },
       },
     },
@@ -85,10 +86,11 @@ exports[`settingsSelectors > defaultAgent > should merge DEFAULT_AGENT and s.set
     "systemRole": "user",
     "tts": {
       "showAllLocaleVoice": false,
-      "sttLocale": "auto",
-      "ttsService": "openai",
+      "sttLocale": "en-US",
+      "ttsService": "edge",
       "voice": {
         "openai": "alloy",
+        "edge": "en-US-JennyNeural",
       },
     },
   },
