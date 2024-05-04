@@ -29,7 +29,7 @@
     "globalSetting": "Export Global Settings"
   },
   "feedback": "Feedback",
-  "follow": "Follow us on {{name}}",
+  "follow": "Visit {{name}}",
   "fullscreen": "Full Screen Mode",
   "historyRange": "History Range",
   "import": "Import Configuration",
