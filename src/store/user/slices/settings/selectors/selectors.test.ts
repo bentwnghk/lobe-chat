@@ -20,10 +20,11 @@ describe('settingsSelectors', () => {
               params: {},
               tts: {
                 showAllLocaleVoice: false,
-                sttLocale: 'auto',
-                ttsService: 'openai',
+                sttLocale: 'en-US',
+                ttsService: 'edge',
                 voice: {
                   openai: 'alloy',
+                  edge: 'en-US-JennyNeural',
                 },
               },
             },

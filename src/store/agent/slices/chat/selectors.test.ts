@@ -113,7 +113,7 @@ describe('agentSelectors', () => {
         },
       } as AgentStore;
       const ttsVoice = agentSelectors.currentAgentTTSVoice('en')(modifiedStore);
-      expect(ttsVoice).toBe('ar-SA-HamedNeural');
+      expect(ttsVoice).toBe('en-US-JennyNeural');
     });
 
     it('should return the default voice for microsoft TTS service', () => {
@@ -128,7 +128,7 @@ describe('agentSelectors', () => {
         },
       } as AgentStore;
       const ttsVoice = agentSelectors.currentAgentTTSVoice('en')(modifiedStore);
-      expect(ttsVoice).toBe('ar-SA-HamedNeural');
+      expect(ttsVoice).toBe('en-US-JennyNeural');
     });
 
     it('should return the first voice if the specified voice does not exist', () => {
