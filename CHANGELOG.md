@@ -2,6 +2,60 @@
 
 # Changelog
 
+### [Version 1.32.2](https://github.com/bentwnghk/lobe-chat/compare/v1.32.1...v1.32.2)
+
+<sup>Released on **2024-05-04**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor Setting Layout, user store add an auth slice.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Disabled autogenerate field icon when empty system role, Fix intercepting-routes on mobile, Fix router path in UserPanel, Fix Setings Layout, Fix undefined 'DISCORD', Test CI and Release CI, Test CI and Release CI, Test CI and Release CI, Test CI and Release CI, Test CI and Release CI.
+
+#### 💄 Styles
+
+- **misc**: Add user panel and refactor the next-auth, autoScroll to the fully end, improve market layout styles and mobile style, refactor setting layout and improve setting design.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor Setting Layout, closes [#2336](https://github.com/bentwnghk/lobe-chat/issues/2336) ([282082e](https://github.com/bentwnghk/lobe-chat/commit/282082e))
+- **misc**: User store add an auth slice, closes [#2214](https://github.com/bentwnghk/lobe-chat/issues/2214) ([948b257](https://github.com/bentwnghk/lobe-chat/commit/948b257))
+
+#### What's fixed
+
+- **misc**: Disabled autogenerate field icon when empty system role, closes [#2076](https://github.com/bentwnghk/lobe-chat/issues/2076) ([27095f5](https://github.com/bentwnghk/lobe-chat/commit/27095f5))
+- **misc**: Fix intercepting-routes on mobile ([abe228c](https://github.com/bentwnghk/lobe-chat/commit/abe228c))
+- **misc**: Fix router path in UserPanel ([c779e02](https://github.com/bentwnghk/lobe-chat/commit/c779e02))
+- **misc**: Fix Setings Layout, closes [#2340](https://github.com/bentwnghk/lobe-chat/issues/2340) ([6a2e9a9](https://github.com/bentwnghk/lobe-chat/commit/6a2e9a9))
+- **misc**: Fix undefined 'DISCORD' ([41c70be](https://github.com/bentwnghk/lobe-chat/commit/41c70be))
+- **misc**: Test CI and Release CI ([a909afe](https://github.com/bentwnghk/lobe-chat/commit/a909afe))
+- **misc**: Test CI and Release CI ([aff22b5](https://github.com/bentwnghk/lobe-chat/commit/aff22b5))
+- **misc**: Test CI and Release CI ([1db3b59](https://github.com/bentwnghk/lobe-chat/commit/1db3b59))
+- **misc**: Test CI and Release CI ([e0c82c8](https://github.com/bentwnghk/lobe-chat/commit/e0c82c8))
+- **misc**: Test CI and Release CI ([97634ca](https://github.com/bentwnghk/lobe-chat/commit/97634ca))
+
+#### Styles
+
+- **misc**: Add user panel and refactor the next-auth, closes [#2349](https://github.com/bentwnghk/lobe-chat/issues/2349) ([5cecee0](https://github.com/bentwnghk/lobe-chat/commit/5cecee0))
+- **misc**: AutoScroll to the fully end, closes [#2345](https://github.com/bentwnghk/lobe-chat/issues/2345) ([5458e98](https://github.com/bentwnghk/lobe-chat/commit/5458e98))
+- **misc**: Improve market layout styles and mobile style, closes [#2347](https://github.com/bentwnghk/lobe-chat/issues/2347) ([79b8115](https://github.com/bentwnghk/lobe-chat/commit/79b8115))
+- **misc**: Refactor setting layout and improve setting design, closes [#2344](https://github.com/bentwnghk/lobe-chat/issues/2344) ([fa16721](https://github.com/bentwnghk/lobe-chat/commit/fa16721))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.1](https://github.com/bentwnghk/lobe-chat/compare/v1.32.0...v1.32.1)
 
 <sup>Released on **2024-05-01**</sup>
