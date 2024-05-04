@@ -71,7 +71,7 @@ describe('LobeBedrockAI', () => {
       // Act
       await instance.chat({
         messages: [{ content: 'Hello', role: 'user' }],
-        model: 'anthropic.claude-v2:1',
+        model: 'anthropic.claude-3-haiku-20240307-v1:0',
         temperature: 0,
       });
 
@@ -83,7 +83,7 @@ describe('LobeBedrockAI', () => {
       it('should return a Response on successful API call', async () => {
         const result = await instance.chat({
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           temperature: 0,
         });
 
@@ -105,7 +105,7 @@ describe('LobeBedrockAI', () => {
         // Act
         const result = await instance.chat({
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           temperature: 0,
           top_p: 1,
         });
@@ -121,7 +121,7 @@ describe('LobeBedrockAI', () => {
             top_p: 1,
           }),
           contentType: 'application/json',
-          modelId: 'anthropic.claude-v2:1',
+          modelId: 'anthropic.claude-3-haiku-20240307-v1:0',
         });
         expect(result).toBeInstanceOf(Response);
       });
@@ -143,7 +143,7 @@ describe('LobeBedrockAI', () => {
             { content: 'You are an awesome greeter', role: 'system' },
             { content: 'Hello', role: 'user' },
           ],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           temperature: 0,
           top_p: 1,
         });
@@ -160,7 +160,7 @@ describe('LobeBedrockAI', () => {
             top_p: 1,
           }),
           contentType: 'application/json',
-          modelId: 'anthropic.claude-v2:1',
+          modelId: 'anthropic.claude-3-haiku-20240307-v1:0',
         });
         expect(result).toBeInstanceOf(Response);
       });
@@ -180,7 +180,7 @@ describe('LobeBedrockAI', () => {
         const result = await instance.chat({
           max_tokens: 2048,
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           temperature: 0.5,
           top_p: 1,
         });
@@ -196,7 +196,7 @@ describe('LobeBedrockAI', () => {
             top_p: 1,
           }),
           contentType: 'application/json',
-          modelId: 'anthropic.claude-v2:1',
+          modelId: 'anthropic.claude-3-haiku-20240307-v1:0',
         });
         expect(result).toBeInstanceOf(Response);
       });
@@ -217,7 +217,7 @@ describe('LobeBedrockAI', () => {
           frequency_penalty: 0.5, // Unsupported option
           max_tokens: 2048,
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           presence_penalty: 0.5,
           temperature: 0.5,
           top_p: 1,
@@ -234,7 +234,7 @@ describe('LobeBedrockAI', () => {
             top_p: 1,
           }),
           contentType: 'application/json',
-          modelId: 'anthropic.claude-v2:1',
+          modelId: 'anthropic.claude-3-haiku-20240307-v1:0',
         });
         expect(result).toBeInstanceOf(Response);
       });
@@ -247,7 +247,7 @@ describe('LobeBedrockAI', () => {
         // Act
         await instance.chat({
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           temperature: 0,
         });
 
@@ -271,7 +271,7 @@ describe('LobeBedrockAI', () => {
           instance.chat({
             max_tokens: 100,
             messages: [{ content: 'Hello', role: 'user' }],
-            model: 'anthropic.claude-v2:1',
+            model: 'anthropic.claude-3-haiku-20240307-v1:0',
             temperature: 0,
           }),
         ).rejects.toThrow(
@@ -381,7 +381,7 @@ describe('LobeBedrockAI', () => {
       await instance.chat(
         {
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'anthropic.claude-v2:1',
+          model: 'anthropic.claude-3-haiku-20240307-v1:0',
           temperature: 0,
         },
         { callback: { onStart } },
