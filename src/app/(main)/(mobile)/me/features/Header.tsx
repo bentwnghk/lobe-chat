@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, MobileNavBar } from '@lobehub/ui';
+import { ActionIcon, MobileNavBar } from '@bentwnghk/ui';
 import { useScroll } from 'ahooks';
 import { useTheme } from 'antd-style';
 import { Moon, Sun } from 'lucide-react';
