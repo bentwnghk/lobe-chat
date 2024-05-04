@@ -36,10 +36,11 @@ export const DEFAULT_BASE_SETTINGS: GlobalBaseSettings = {
 
 export const DEFAUTT_AGENT_TTS_CONFIG: LobeAgentTTSConfig = {
   showAllLocaleVoice: false,
-  sttLocale: 'auto',
-  ttsService: 'openai',
+  sttLocale: 'en-US',
+  ttsService: 'edge',
   voice: {
     openai: 'alloy',
+    edge: 'en-US-JennyNeural',
   },
 };
 
@@ -78,7 +79,7 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     accessKeyId: '',
     enabled: false,
     enabledModels: filterEnabledModels(BedrockProviderCard),
-    region: 'us-east-1',
+    region: 'us-west-2',
     secretAccessKey: '',
   },
   google: {
@@ -107,7 +108,7 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     enabledModels: filterEnabledModels(MoonshotProviderCard),
   },
   ollama: {
-    enabled: false,
+    enabled: true,
     enabledModels: filterEnabledModels(OllamaProviderCard),
     endpoint: '',
     fetchOnClient: true,
