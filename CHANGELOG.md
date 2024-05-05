@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.1](https://github.com/bentwnghk/lobe-chat/compare/v1.34.0...v1.34.1)
+
+<sup>Released on **2024-05-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix agent meta input disabled.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix agent meta input disabled, closes [#2381](https://github.com/bentwnghk/lobe-chat/issues/2381) ([d1fc512](https://github.com/bentwnghk/lobe-chat/commit/d1fc512))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.34.0](https://github.com/bentwnghk/lobe-chat/compare/v1.33.1...v1.34.0)
 
 <sup>Released on **2024-05-05**</sup>
