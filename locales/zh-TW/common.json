@@ -162,6 +162,7 @@
     "newVersion": "有新版本可用：{{version}}"
   },
   "userPanel": {
+    "anonymousNickName": "匿名使用者",
     "billing": "帳單管理",
     "defaultNickname": "一般用戶",
     "discord": "Mr.🆖 AiSpeak 🗣️",

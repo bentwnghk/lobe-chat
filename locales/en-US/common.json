@@ -162,6 +162,7 @@
     "newVersion": "New version available: {{version}}"
   },
   "userPanel": {
+    "anonymousNickName": "Anonymous User",
     "billing": "Billing Management",
     "defaultNickname": "Standard User",
     "discord": "Mr.🆖 AiSpeak 🗣️",
