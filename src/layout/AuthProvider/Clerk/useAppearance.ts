@@ -96,10 +96,10 @@ export const useAppearance = () => {
     baseTheme: isDarkMode ? dark : undefined,
     elements: styles,
     layout: {
-      helpPageUrl: 'https://lobehub.com/docs',
-      privacyPageUrl: 'https://lobehub.com/privacy',
+      helpPageUrl: 'https://mr5drive.com/docs',
+      privacyPageUrl: 'https://mr5drive.com/privacy',
       socialButtonsVariant: 'blockButton',
-      termsPageUrl: 'https://lobehub.com/terms',
+      termsPageUrl: 'https://mr5drive.com/terms',
     },
     variables: {
       borderRadius: `${theme.borderRadius}px`,
