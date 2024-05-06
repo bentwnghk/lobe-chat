@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.2](https://github.com/bentwnghk/lobe-chat/compare/v1.34.1...v1.34.2)
+
+<sup>Released on **2024-05-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix docker build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix docker build, closes [#2385](https://github.com/bentwnghk/lobe-chat/issues/2385) ([9cf60b5](https://github.com/bentwnghk/lobe-chat/commit/9cf60b5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.1](https://github.com/bentwnghk/lobe-chat/compare/v1.34.0...v1.34.1)
 
 <sup>Released on **2024-05-05**</sup>
