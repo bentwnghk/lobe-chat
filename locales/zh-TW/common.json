@@ -5,6 +5,7 @@
   "appInitializing": "Mr.🆖 Chat 初始化中，請耐心等候...",
   "autoGenerate": "自動生成",
   "autoGenerateTooltip": "基於提示詞自動生成助手描述",
+  "autoGenerateTooltipDisabled": "請填寫提示詞後使用自動補全功能",
   "blog": "Mr.🆖 服務狀態",
   "cancel": "取消",
   "changelog": "變更日誌",

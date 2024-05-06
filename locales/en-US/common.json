@@ -5,6 +5,7 @@
   "appInitializing": "Mr.🆖 Chat is initializing, please wait...",
   "autoGenerate": "Auto Generate",
   "autoGenerateTooltip": "Auto-generate agent description based on prompts",
+  "autoGenerateTooltipDisabled": "Please enter a tooltip before using the autocomplete feature",
   "blog": "Mr.🆖 Service Status",
   "cancel": "Cancel",
   "changelog": "Changelog",
