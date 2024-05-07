@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.34.7](https://github.com/bentwnghk/lobe-chat/compare/v1.34.6...v1.34.7)
+
+<sup>Released on **2024-05-07**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the message slice internal method name.
+
+#### 💄 Styles
+
+- **misc**: Add gemini-1.0-pro-002.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the message slice internal method name, closes [#2407](https://github.com/bentwnghk/lobe-chat/issues/2407) ([8c70bdd](https://github.com/bentwnghk/lobe-chat/commit/8c70bdd))
+
+#### Styles
+
+- **misc**: Add gemini-1.0-pro-002, closes [#2406](https://github.com/bentwnghk/lobe-chat/issues/2406) ([44b29a9](https://github.com/bentwnghk/lobe-chat/commit/44b29a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.6](https://github.com/bentwnghk/lobe-chat/compare/v1.34.5...v1.34.6)
 
 <sup>Released on **2024-05-06**</sup>
