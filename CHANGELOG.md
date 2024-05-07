@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.35.0](https://github.com/bentwnghk/lobe-chat/compare/v1.34.7...v1.35.0)
+
+<sup>Released on **2024-05-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Add DataStatistics.
+
+#### 💄 Styles
+
+- **misc**: Improve llm list when all closed.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add DataStatistics ([cf474bb](https://github.com/bentwnghk/lobe-chat/commit/cf474bb))
+
+#### Styles
+
+- **misc**: Improve llm list when all closed, closes [#2409](https://github.com/bentwnghk/lobe-chat/issues/2409) ([1eb20c7](https://github.com/bentwnghk/lobe-chat/commit/1eb20c7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.7](https://github.com/bentwnghk/lobe-chat/compare/v1.34.6...v1.34.7)
 
 <sup>Released on **2024-05-07**</sup>
