@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.2](https://github.com/bentwnghk/lobe-chat/compare/v1.35.1...v1.35.2)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Agent Settings Form.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Agent Settings Form ([12c62a0](https://github.com/bentwnghk/lobe-chat/commit/12c62a0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.1](https://github.com/bentwnghk/lobe-chat/compare/v1.35.0...v1.35.1)
 
 <sup>Released on **2024-05-08**</sup>
