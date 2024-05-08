@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar } from '@lobehub/ui';
+import { MobileNavBar } from '@bentwnghk/ui';
 import { memo, useState } from 'react';
 
 import { useQueryRoute } from '@/hooks/useQueryRoute';
