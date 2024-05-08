@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.35.3](https://github.com/bentwnghk/lobe-chat/compare/v1.35.2...v1.35.3)
+
+<sup>Released on **2024-05-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix editing long message issue, Fix panel expand, Rename info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix editing long message issue, closes [#2431](https://github.com/bentwnghk/lobe-chat/issues/2431) ([380d8da](https://github.com/bentwnghk/lobe-chat/commit/380d8da))
+- **misc**: Fix panel expand ([5e78089](https://github.com/bentwnghk/lobe-chat/commit/5e78089))
+- **misc**: Rename info ([8de901d](https://github.com/bentwnghk/lobe-chat/commit/8de901d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.2](https://github.com/bentwnghk/lobe-chat/compare/v1.35.1...v1.35.2)
 
 <sup>Released on **2024-05-08**</sup>
