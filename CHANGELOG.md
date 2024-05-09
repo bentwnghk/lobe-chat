@@ -2,6 +2,60 @@
 
 # Changelog
 
+## [Version 1.36.0](https://github.com/bentwnghk/lobe-chat/compare/v1.35.4...v1.36.0)
+
+<sup>Released on **2024-05-09**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to improve provider locale.
+
+#### ✨ Features
+
+- **misc**: Support perplexity proxy url.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix anthropic messages need pairs, fix parameter conditions for perplexity, fix Perplexity duplicate token.
+
+#### 💄 Styles
+
+- **misc**: Improve groq location error, improve location error, improve model provider ux, support groq proxy url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to improve provider locale ([538b7bc](https://github.com/bentwnghk/lobe-chat/commit/538b7bc))
+
+#### What's improved
+
+- **misc**: Support perplexity proxy url ([30bbe61](https://github.com/bentwnghk/lobe-chat/commit/30bbe61))
+
+#### What's fixed
+
+- **misc**: Fix anthropic messages need pairs ([0e01db0](https://github.com/bentwnghk/lobe-chat/commit/0e01db0))
+- **misc**: Fix parameter conditions for perplexity ([156cf5f](https://github.com/bentwnghk/lobe-chat/commit/156cf5f))
+- **misc**: Fix Perplexity duplicate token ([6695c4b](https://github.com/bentwnghk/lobe-chat/commit/6695c4b))
+
+#### Styles
+
+- **misc**: Improve groq location error ([023c21b](https://github.com/bentwnghk/lobe-chat/commit/023c21b))
+- **misc**: Improve location error ([862c0ae](https://github.com/bentwnghk/lobe-chat/commit/862c0ae))
+- **misc**: Improve model provider ux, closes [#2439](https://github.com/bentwnghk/lobe-chat/issues/2439) ([0deb079](https://github.com/bentwnghk/lobe-chat/commit/0deb079))
+- **misc**: Support groq proxy url ([ba1ba2a](https://github.com/bentwnghk/lobe-chat/commit/ba1ba2a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.4](https://github.com/bentwnghk/lobe-chat/compare/v1.35.3...v1.35.4)
 
 <sup>Released on **2024-05-09**</sup>
