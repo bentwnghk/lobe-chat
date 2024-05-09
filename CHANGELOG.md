@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.4](https://github.com/bentwnghk/lobe-chat/compare/v1.35.3...v1.35.4)
+
+<sup>Released on **2024-05-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix mobile session style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix mobile session style ([998a191](https://github.com/bentwnghk/lobe-chat/commit/998a191))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.3](https://github.com/bentwnghk/lobe-chat/compare/v1.35.2...v1.35.3)
 
 <sup>Released on **2024-05-08**</sup>
