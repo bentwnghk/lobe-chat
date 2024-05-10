@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.36.1](https://github.com/bentwnghk/lobe-chat/compare/v1.36.0...v1.36.1)
+
+<sup>Released on **2024-05-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Azure OpenAI Vision models issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Azure OpenAI Vision models issue, closes [#2429](https://github.com/bentwnghk/lobe-chat/issues/2429) ([9b8a4b1](https://github.com/bentwnghk/lobe-chat/commit/9b8a4b1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.36.0](https://github.com/bentwnghk/lobe-chat/compare/v1.35.4...v1.36.0)
 
 <sup>Released on **2024-05-09**</sup>
