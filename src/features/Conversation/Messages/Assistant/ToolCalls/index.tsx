@@ -1,4 +1,4 @@
-import { Avatar, Highlighter, Icon } from '@lobehub/ui';
+import { Avatar, Highlighter, Icon } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { Loader2, LucideChevronDown, LucideChevronRight, LucideToyBrick } from 'lucide-react';
 import { memo, useState } from 'react';

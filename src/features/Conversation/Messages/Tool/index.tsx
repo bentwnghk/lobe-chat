@@ -1,4 +1,4 @@
-import { Snippet } from '@lobehub/ui';
+import { Snippet } from '@bentwnghk/ui';
 import { memo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
