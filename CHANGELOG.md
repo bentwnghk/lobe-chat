@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.37.0](https://github.com/bentwnghk/lobe-chat/compare/v1.36.2...v1.37.0)
+
+<sup>Released on **2024-05-12**</sup>
+
+#### ✨ Features
+
+- **misc**: upgrade to the new `tool calls` mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: upgrade to the new `tool calls` mode, closes [#2414](https://github.com/bentwnghk/lobe-chat/issues/2414) ([7404f3b](https://github.com/bentwnghk/lobe-chat/commit/7404f3b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.36.2](https://github.com/bentwnghk/lobe-chat/compare/v1.36.1...v1.36.2)
 
 <sup>Released on **2024-05-10**</sup>
