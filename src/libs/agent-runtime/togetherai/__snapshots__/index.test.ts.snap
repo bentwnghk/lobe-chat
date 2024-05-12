@@ -335,7 +335,7 @@ exports[`LobeTogetherAI > models > should get models 1`] = `
   {
     "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",
     "displayName": "Gemma Instruct (7B)",
-    "enabled": true,
+    "enabled": false,
     "functionCall": false,
     "id": "google/gemma-7b-it",
     "maxOutput": 8192,

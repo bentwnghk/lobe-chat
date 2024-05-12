@@ -51,7 +51,7 @@ describe('LobeTogetherAI', () => {
       // Act
       const result = await instance.chat({
         messages: [{ content: 'Hello', role: 'user' }],
-        model: 'mistralai/mistral-7b-instruct:free',
+        model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
         temperature: 0,
       });
 
@@ -70,7 +70,7 @@ describe('LobeTogetherAI', () => {
       const result = await instance.chat({
         max_tokens: 1024,
         messages: [{ content: 'Hello', role: 'user' }],
-        model: 'mistralai/mistral-7b-instruct:free',
+        model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
         temperature: 0.7,
         top_p: 1,
       });
@@ -80,7 +80,7 @@ describe('LobeTogetherAI', () => {
         {
           max_tokens: 1024,
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'mistralai/mistral-7b-instruct:free',
+          model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
           temperature: 0.7,
           stream: true,
           top_p: 1,
@@ -111,7 +111,7 @@ describe('LobeTogetherAI', () => {
         try {
           await instance.chat({
             messages: [{ content: 'Hello', role: 'user' }],
-            model: 'mistralai/mistral-7b-instruct:free',
+            model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
             temperature: 0,
           });
         } catch (e) {
@@ -151,7 +151,7 @@ describe('LobeTogetherAI', () => {
         try {
           await instance.chat({
             messages: [{ content: 'Hello', role: 'user' }],
-            model: 'mistralai/mistral-7b-instruct:free',
+            model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
             temperature: 0,
           });
         } catch (e) {
@@ -187,7 +187,7 @@ describe('LobeTogetherAI', () => {
         try {
           await instance.chat({
             messages: [{ content: 'Hello', role: 'user' }],
-            model: 'mistralai/mistral-7b-instruct:free',
+            model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
             temperature: 0,
           });
         } catch (e) {
@@ -212,7 +212,7 @@ describe('LobeTogetherAI', () => {
         try {
           await instance.chat({
             messages: [{ content: 'Hello', role: 'user' }],
-            model: 'mistralai/mistral-7b-instruct:free',
+            model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
             temperature: 0,
           });
         } catch (e) {
@@ -236,7 +236,7 @@ describe('LobeTogetherAI', () => {
         try {
           await instance.chat({
             messages: [{ content: 'Hello', role: 'user' }],
-            model: 'mistralai/mistral-7b-instruct:free',
+            model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
             temperature: 0,
           });
         } catch (e) {
@@ -284,7 +284,7 @@ describe('LobeTogetherAI', () => {
         // 假设的测试函数调用，你可能需要根据实际情况调整
         await instance.chat({
           messages: [{ content: 'Hello', role: 'user' }],
-          model: 'mistralai/mistral-7b-instruct:free',
+          model: 'mistralai/Mixtral-8x7B-Instruct-v0.1',
           temperature: 0,
         });
 
