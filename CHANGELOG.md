@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.37.1](https://github.com/bentwnghk/lobe-chat/compare/v1.37.0...v1.37.1)
+
+<sup>Released on **2024-05-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix dalle error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix dalle error ([7c493de](https://github.com/bentwnghk/lobe-chat/commit/7c493de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.37.0](https://github.com/bentwnghk/lobe-chat/compare/v1.36.2...v1.37.0)
 
 <sup>Released on **2024-05-12**</sup>
