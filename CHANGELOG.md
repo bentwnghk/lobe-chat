@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.37.2](https://github.com/bentwnghk/lobe-chat/compare/v1.37.1...v1.37.2)
+
+<sup>Released on **2024-05-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix azure openai stream.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix azure openai stream, closes [#2465](https://github.com/bentwnghk/lobe-chat/issues/2465) ([760fe67](https://github.com/bentwnghk/lobe-chat/commit/760fe67))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.37.1](https://github.com/bentwnghk/lobe-chat/compare/v1.37.0...v1.37.1)
 
 <sup>Released on **2024-05-12**</sup>
