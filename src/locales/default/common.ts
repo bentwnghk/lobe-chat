@@ -167,6 +167,7 @@ export default {
   userPanel: {
     anonymousNickName: '匿名用户',
     billing: '账单管理',
+    data: '数据存储',
     defaultNickname: '一般用户',
     discord: 'Mr.🆖 AiSpeak 🗣️',
     docs: 'Mr.🆖 朗文詞典',
