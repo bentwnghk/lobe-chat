@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.39.0](https://github.com/bentwnghk/lobe-chat/compare/v1.38.1...v1.39.0)
+
+<sup>Released on **2024-05-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move next-auth hooks to user store actions.
+
+#### ✨ Features
+
+- **misc**: Support DeepSeek as new model provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Dragging text mistakenly as image, pin `antd@5.17.0` to fix build error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move next-auth hooks to user store actions, closes [#2364](https://github.com/bentwnghk/lobe-chat/issues/2364) ([6dbcd70](https://github.com/bentwnghk/lobe-chat/commit/6dbcd70))
+
+#### What's improved
+
+- **misc**: Support DeepSeek as new model provider, closes [#2446](https://github.com/bentwnghk/lobe-chat/issues/2446) ([18028f3](https://github.com/bentwnghk/lobe-chat/commit/18028f3))
+
+#### What's fixed
+
+- **misc**: Dragging text mistakenly as image, closes [#2111](https://github.com/bentwnghk/lobe-chat/issues/2111) ([3c047ef](https://github.com/bentwnghk/lobe-chat/commit/3c047ef))
+- **misc**: Pin `antd@5.17.0` to fix build error, closes [#2483](https://github.com/bentwnghk/lobe-chat/issues/2483) ([aa03833](https://github.com/bentwnghk/lobe-chat/commit/aa03833))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.38.1](https://github.com/bentwnghk/lobe-chat/compare/v1.38.0...v1.38.1)
 
 <sup>Released on **2024-05-13**</sup>
