@@ -72,7 +72,7 @@ class Ld {
     return {
       '@id': this.getId(SITE_URL, '#organization'),
       '@type': 'Organization',
-      'alternateName': 'LobeChat',
+      'alternateName': 'Mr.🆖 Chat',
       'contactPoint': {
         '@type': 'ContactPoint',
         'contactType': 'customer support',
@@ -89,12 +89,12 @@ class Ld {
         'url': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
         'width': 512,
       },
-      'name': 'LobeHub',
+      'name': 'Mr.🆖 Chat',
       'sameAs': [
         X,
-        'https://github.com/lobehub',
-        'https://medium.com/@lobehub',
-        'https://www.youtube.com/@lobehub',
+        'https://ai.mister5.net/',
+        'https://mystudies.net/',
+        'https://ai.mystudies.net/',
       ],
       'url': OFFICIAL_SITE,
     };
@@ -192,7 +192,7 @@ class Ld {
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
-      'name': 'LobeChat',
+      'name': 'Mr.🆖 Chat',
       'publisher': {
         '@id': this.getId(SITE_URL, '#organization'),
       },
@@ -207,7 +207,7 @@ class Ld {
   }
 
   private fixTitle(title: string) {
-    return title.includes('LobeChat') ? title : `${title} · LobeChat`;
+    return title.includes('Mr.🆖 Chat') ? title : `${title} · Mr.🆖 Chat`;
   }
 
   private fixUrl(url: string) {
