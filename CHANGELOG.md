@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.39.4](https://github.com/bentwnghk/lobe-chat/compare/v1.39.3...v1.39.4)
+
+<sup>Released on **2024-05-15**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 1.5 Flash model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Gemini 1.5 Flash model, closes [#2507](https://github.com/bentwnghk/lobe-chat/issues/2507) ([5568472](https://github.com/bentwnghk/lobe-chat/commit/5568472))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.39.3](https://github.com/bentwnghk/lobe-chat/compare/v1.39.2...v1.39.3)
 
 <sup>Released on **2024-05-15**</sup>
