@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.39.5](https://github.com/bentwnghk/lobe-chat/compare/v1.39.4...v1.39.5)
+
+<sup>Released on **2024-05-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the create message flow to fix some bugs.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the create message flow to fix some bugs, closes [#2521](https://github.com/bentwnghk/lobe-chat/issues/2521) ([7263a33](https://github.com/bentwnghk/lobe-chat/commit/7263a33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.39.4](https://github.com/bentwnghk/lobe-chat/compare/v1.39.3...v1.39.4)
 
 <sup>Released on **2024-05-15**</sup>
