@@ -1,4 +1,4 @@
-import * as lobeUIModules from '@lobehub/ui';
+import * as lobeUIModules from '@bentwnghk/ui';
 import { act, renderHook, waitFor } from '@testing-library/react';
 import useSWR, { mutate } from 'swr';
 import { Mock, afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
