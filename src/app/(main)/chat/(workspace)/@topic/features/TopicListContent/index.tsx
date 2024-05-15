@@ -1,6 +1,6 @@
 'use client';
 
-import { EmptyCard } from '@lobehub/ui';
+import { EmptyCard } from '@bentwnghk/ui';
 import { useThemeMode } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import React, { Suspense, memo, useCallback, useRef } from 'react';
