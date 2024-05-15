@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.39.3](https://github.com/bentwnghk/lobe-chat/compare/v1.39.2...v1.39.3)
+
+<sup>Released on **2024-05-15**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix setting modal on responsive and some other style problem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix setting modal on responsive and some other style problem, closes [#2512](https://github.com/bentwnghk/lobe-chat/issues/2512) ([f6b4ca4](https://github.com/bentwnghk/lobe-chat/commit/f6b4ca4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.39.2](https://github.com/bentwnghk/lobe-chat/compare/v1.39.1...v1.39.2)
 
 <sup>Released on **2024-05-15**</sup>
