@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.40.0](https://github.com/bentwnghk/lobe-chat/compare/v1.39.5...v1.40.0)
+
+<sup>Released on **2024-05-18**</sup>
+
+#### ✨ Features
+
+- **misc**: Bump version and add enable ollama env.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix enable ollama env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Bump version and add enable ollama env, closes [#2554](https://github.com/bentwnghk/lobe-chat/issues/2554) ([f5ce7c9](https://github.com/bentwnghk/lobe-chat/commit/f5ce7c9))
+
+#### What's fixed
+
+- **misc**: Fix enable ollama env ([9c3f5a8](https://github.com/bentwnghk/lobe-chat/commit/9c3f5a8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.39.5](https://github.com/bentwnghk/lobe-chat/compare/v1.39.4...v1.39.5)
 
 <sup>Released on **2024-05-15**</sup>
