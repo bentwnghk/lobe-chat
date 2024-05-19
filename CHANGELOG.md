@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.40.1](https://github.com/bentwnghk/lobe-chat/compare/v1.40.0...v1.40.1)
+
+<sup>Released on **2024-05-19**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Upgrade antd and fix lint type.
+
+#### 💄 Styles
+
+- **misc**: Add two feature flags: check_updates 、welcome_suggest.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Upgrade antd and fix lint type, closes [#2567](https://github.com/bentwnghk/lobe-chat/issues/2567) ([efe28da](https://github.com/bentwnghk/lobe-chat/commit/efe28da))
+
+#### Styles
+
+- **misc**: Add two feature flags: check_updates 、welcome_suggest, closes [#2555](https://github.com/bentwnghk/lobe-chat/issues/2555) ([84c69c9](https://github.com/bentwnghk/lobe-chat/commit/84c69c9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.40.0](https://github.com/bentwnghk/lobe-chat/compare/v1.39.5...v1.40.0)
 
 <sup>Released on **2024-05-18**</sup>
