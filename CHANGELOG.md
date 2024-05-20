@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.40.3](https://github.com/bentwnghk/lobe-chat/compare/v1.40.2...v1.40.3)
+
+<sup>Released on **2024-05-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor analytics env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor analytics env, closes [#2570](https://github.com/bentwnghk/lobe-chat/issues/2570) ([d809d3f](https://github.com/bentwnghk/lobe-chat/commit/d809d3f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.40.2](https://github.com/bentwnghk/lobe-chat/compare/v1.40.1...v1.40.2)
 
 <sup>Released on **2024-05-20**</sup>
