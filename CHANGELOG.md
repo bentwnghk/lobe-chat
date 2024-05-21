@@ -2,6 +2,54 @@
 
 # Changelog
 
+### [Version 1.40.4](https://github.com/bentwnghk/lobe-chat/compare/v1.40.3...v1.40.4)
+
+<sup>Released on **2024-05-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor a Notification component, refactor code, refactor message action, refactor the type, refactor user preference.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix duplicate model panel key.
+
+#### 💄 Styles
+
+- **misc**: Add ENABLED_OPENAI env, add fetch error notification, improve openai fetch client switch, improve redirect when login.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor a Notification component ([28db3d5](https://github.com/bentwnghk/lobe-chat/commit/28db3d5))
+- **misc**: Refactor code, closes [#2584](https://github.com/bentwnghk/lobe-chat/issues/2584) ([086244c](https://github.com/bentwnghk/lobe-chat/commit/086244c))
+- **misc**: Refactor message action ([224bd67](https://github.com/bentwnghk/lobe-chat/commit/224bd67))
+- **misc**: Refactor the type ([ddf1abf](https://github.com/bentwnghk/lobe-chat/commit/ddf1abf))
+- **misc**: Refactor user preference ([1823b0d](https://github.com/bentwnghk/lobe-chat/commit/1823b0d))
+
+#### What's fixed
+
+- **misc**: Fix duplicate model panel key, closes [#2591](https://github.com/bentwnghk/lobe-chat/issues/2591) ([c733fcf](https://github.com/bentwnghk/lobe-chat/commit/c733fcf))
+
+#### Styles
+
+- **misc**: Add ENABLED_OPENAI env ([35f6230](https://github.com/bentwnghk/lobe-chat/commit/35f6230))
+- **misc**: Add fetch error notification ([0186b4b](https://github.com/bentwnghk/lobe-chat/commit/0186b4b))
+- **misc**: Improve openai fetch client switch ([3cad470](https://github.com/bentwnghk/lobe-chat/commit/3cad470))
+- **misc**: Improve redirect when login ([cb26655](https://github.com/bentwnghk/lobe-chat/commit/cb26655))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.40.3](https://github.com/bentwnghk/lobe-chat/compare/v1.40.2...v1.40.3)
 
 <sup>Released on **2024-05-20**</sup>
