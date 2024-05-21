@@ -16,7 +16,7 @@ import {
   ZeroOne,
   Zhipu,
 } from '@lobehub/icons';
-import { Logo } from '@lobehub/ui';
+import { Logo } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { Center } from 'react-layout-kit';
 

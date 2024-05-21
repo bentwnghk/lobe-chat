@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Skeleton } from 'antd';
 import { css, cx } from 'antd-style';
 import { ChevronDown, ChevronUp } from 'lucide-react';
@@ -13,7 +13,7 @@ const container = css`
   }
 `;
 
-const Highlighter = dynamic(() => import('@lobehub/ui/es/Highlighter'), {
+const Highlighter = dynamic(() => import('@bentwnghk/ui/es/Highlighter'), {
   loading: () => <Skeleton avatar={false} title={false} />,
   ssr: false,
 });
