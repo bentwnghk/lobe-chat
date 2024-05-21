@@ -34,7 +34,7 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     accessKeyId: '',
     enabled: false,
     enabledModels: filterEnabledModels(BedrockProviderCard),
-    region: 'us-east-1',
+    region: 'us-west-2',
     secretAccessKey: '',
   },
   deepseek: {
@@ -68,7 +68,7 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     enabledModels: filterEnabledModels(MoonshotProviderCard),
   },
   ollama: {
-    enabled: true,
+    enabled: false,
     enabledModels: filterEnabledModels(OllamaProviderCard),
     endpoint: '',
     fetchOnClient: true,
