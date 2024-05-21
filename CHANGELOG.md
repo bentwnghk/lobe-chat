@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.41.0](https://github.com/bentwnghk/lobe-chat/compare/v1.40.4...v1.41.0)
+
+<sup>Released on **2024-05-21**</sup>
+
+#### ✨ Features
+
+- **misc**: Add system agent to select another model provider for translation.
+
+#### 💄 Styles
+
+- **misc**: `Tooltip` should not be selected & Model selector overlaps with reset button.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add system agent to select another model provider for translation, closes [#1902](https://github.com/bentwnghk/lobe-chat/issues/1902) ([3945387](https://github.com/bentwnghk/lobe-chat/commit/3945387))
+
+#### Styles
+
+- **misc**: `Tooltip` should not be selected & Model selector overlaps with reset button, closes [#2500](https://github.com/bentwnghk/lobe-chat/issues/2500) [#2511](https://github.com/bentwnghk/lobe-chat/issues/2511) [#2581](https://github.com/bentwnghk/lobe-chat/issues/2581) ([0c62fb7](https://github.com/bentwnghk/lobe-chat/commit/0c62fb7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.40.4](https://github.com/bentwnghk/lobe-chat/compare/v1.40.3...v1.40.4)
 
 <sup>Released on **2024-05-21**</sup>
