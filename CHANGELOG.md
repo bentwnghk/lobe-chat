@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.41.1](https://github.com/bentwnghk/lobe-chat/compare/v1.41.0...v1.41.1)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix setting modal style problem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix setting modal style problem, closes [#2599](https://github.com/bentwnghk/lobe-chat/issues/2599) ([1a3f8f3](https://github.com/bentwnghk/lobe-chat/commit/1a3f8f3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.41.0](https://github.com/bentwnghk/lobe-chat/compare/v1.40.4...v1.41.0)
 
 <sup>Released on **2024-05-21**</sup>
