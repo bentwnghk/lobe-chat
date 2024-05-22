@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.41.4](https://github.com/bentwnghk/lobe-chat/compare/v1.41.3...v1.41.4)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to serverDB ENV.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to serverDB ENV, closes [#2612](https://github.com/bentwnghk/lobe-chat/issues/2612) ([fa1409e](https://github.com/bentwnghk/lobe-chat/commit/fa1409e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.3](https://github.com/bentwnghk/lobe-chat/compare/v1.41.2...v1.41.3)
 
 <sup>Released on **2024-05-22**</sup>
