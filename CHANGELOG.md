@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.41.3](https://github.com/bentwnghk/lobe-chat/compare/v1.41.2...v1.41.3)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move feature flags ENV.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move feature flags ENV, closes [#2605](https://github.com/bentwnghk/lobe-chat/issues/2605) ([054a404](https://github.com/bentwnghk/lobe-chat/commit/054a404))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.2](https://github.com/bentwnghk/lobe-chat/compare/v1.41.1...v1.41.2)
 
 <sup>Released on **2024-05-22**</sup>
