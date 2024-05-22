@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.41.2](https://github.com/bentwnghk/lobe-chat/compare/v1.41.1...v1.41.2)
+
+<sup>Released on **2024-05-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the app ENV, refactor the langfuse env, refactor the llm env.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix market and plugin cache.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the app ENV, closes [#2604](https://github.com/bentwnghk/lobe-chat/issues/2604) ([acc0fdc](https://github.com/bentwnghk/lobe-chat/commit/acc0fdc))
+- **misc**: Refactor the langfuse env, closes [#2602](https://github.com/bentwnghk/lobe-chat/issues/2602) ([cbebfbc](https://github.com/bentwnghk/lobe-chat/commit/cbebfbc))
+- **misc**: Refactor the llm env, closes [#2592](https://github.com/bentwnghk/lobe-chat/issues/2592) ([5eb225a](https://github.com/bentwnghk/lobe-chat/commit/5eb225a))
+
+#### What's fixed
+
+- **misc**: Fix market and plugin cache, closes [#2608](https://github.com/bentwnghk/lobe-chat/issues/2608) ([a3f161e](https://github.com/bentwnghk/lobe-chat/commit/a3f161e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.1](https://github.com/bentwnghk/lobe-chat/compare/v1.41.0...v1.41.1)
 
 <sup>Released on **2024-05-22**</sup>
