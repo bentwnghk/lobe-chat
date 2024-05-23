@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.41.6](https://github.com/bentwnghk/lobe-chat/compare/v1.41.5...v1.41.6)
+
+<sup>Released on **2024-05-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the home redirect implement.
+
+#### 💄 Styles
+
+- **misc**: Improve PWA install guide.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the home redirect implement, closes [#2626](https://github.com/bentwnghk/lobe-chat/issues/2626) ([ab4216e](https://github.com/bentwnghk/lobe-chat/commit/ab4216e))
+
+#### Styles
+
+- **misc**: Improve PWA install guide, closes [#2617](https://github.com/bentwnghk/lobe-chat/issues/2617) ([7fee545](https://github.com/bentwnghk/lobe-chat/commit/7fee545))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.5](https://github.com/bentwnghk/lobe-chat/compare/v1.41.4...v1.41.5)
 
 <sup>Released on **2024-05-23**</sup>
