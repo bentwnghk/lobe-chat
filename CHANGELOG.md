@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.41.5](https://github.com/bentwnghk/lobe-chat/compare/v1.41.4...v1.41.5)
+
+<sup>Released on **2024-05-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Refactor user store and fix custom model list form.
+
+#### 💄 Styles
+
+- **misc**: Fix image style and improve drag upload box.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Refactor user store and fix custom model list form, closes [#2620](https://github.com/bentwnghk/lobe-chat/issues/2620) ([81ea886](https://github.com/bentwnghk/lobe-chat/commit/81ea886))
+
+#### Styles
+
+- **misc**: Fix image style and improve drag upload box, closes [#2610](https://github.com/bentwnghk/lobe-chat/issues/2610) ([5e1a4d6](https://github.com/bentwnghk/lobe-chat/commit/5e1a4d6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.4](https://github.com/bentwnghk/lobe-chat/compare/v1.41.3...v1.41.4)
 
 <sup>Released on **2024-05-22**</sup>
