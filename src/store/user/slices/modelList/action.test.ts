@@ -185,7 +185,7 @@ describe('LLMSettingsSliceAction', () => {
       const enabledProviders = modelProviderSelectors.modelProviderListForModelSelect(
         result.current,
       );
-      expect(enabledProviders).toHaveLength(3);
+      expect(enabledProviders).toHaveLength(2);
       expect(enabledProviders.at(-1)!.id).toBe('perplexity');
     });
   });
