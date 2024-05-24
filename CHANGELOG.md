@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.41.8](https://github.com/bentwnghk/lobe-chat/compare/v1.41.7...v1.41.8)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix avatar missing on client DB mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix avatar missing on client DB mode, closes [#2645](https://github.com/bentwnghk/lobe-chat/issues/2645) ([12726c2](https://github.com/bentwnghk/lobe-chat/commit/12726c2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.7](https://github.com/bentwnghk/lobe-chat/compare/v1.41.6...v1.41.7)
 
 <sup>Released on **2024-05-24**</sup>
