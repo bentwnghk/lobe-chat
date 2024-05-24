@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.41.7](https://github.com/bentwnghk/lobe-chat/compare/v1.41.6...v1.41.7)
+
+<sup>Released on **2024-05-24**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the global app status and fix PWA installer.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the global app status and fix PWA installer, closes [#2637](https://github.com/bentwnghk/lobe-chat/issues/2637) ([1f70305](https://github.com/bentwnghk/lobe-chat/commit/1f70305))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.6](https://github.com/bentwnghk/lobe-chat/compare/v1.41.5...v1.41.6)
 
 <sup>Released on **2024-05-23**</sup>
