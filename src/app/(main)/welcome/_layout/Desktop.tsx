@@ -23,7 +23,6 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
         </GridShowcase>
         <Flexbox align={'center'} horizontal justify={'space-between'}>
           <span style={{ opacity: 0.5 }}>{COPYRIGHT}</span>
-          <Follow />
         </Flexbox>
       </Flexbox>
       {/* ↓ cloud slot ↓ */}
