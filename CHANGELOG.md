@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.41.9](https://github.com/bentwnghk/lobe-chat/compare/v1.41.8...v1.41.9)
+
+<sup>Released on **2024-05-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Migrate some agent config to `chatConfig`.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix bedrock show by default on vercel.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Migrate some agent config to `chatConfig`, closes [#2646](https://github.com/bentwnghk/lobe-chat/issues/2646) ([2f311dc](https://github.com/bentwnghk/lobe-chat/commit/2f311dc))
+
+#### What's fixed
+
+- **misc**: Fix bedrock show by default on vercel, closes [#2634](https://github.com/bentwnghk/lobe-chat/issues/2634) ([7ad3af2](https://github.com/bentwnghk/lobe-chat/commit/7ad3af2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.8](https://github.com/bentwnghk/lobe-chat/compare/v1.41.7...v1.41.8)
 
 <sup>Released on **2024-05-24**</sup>
