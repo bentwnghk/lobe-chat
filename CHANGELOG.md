@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.41.13](https://github.com/bentwnghk/lobe-chat/compare/v1.41.12...v1.41.13)
+
+<sup>Released on **2024-05-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix the missing user id in chat compeletition and fix remove unstarred topic not working.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix the missing user id in chat compeletition and fix remove unstarred topic not working, closes [#2677](https://github.com/bentwnghk/lobe-chat/issues/2677) ([c9fb2de](https://github.com/bentwnghk/lobe-chat/commit/c9fb2de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.12](https://github.com/bentwnghk/lobe-chat/compare/v1.41.11...v1.41.12)
 
 <sup>Released on **2024-05-27**</sup>
