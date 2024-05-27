@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.1](https://github.com/bentwnghk/lobe-chat/compare/v1.42.0...v1.42.1)
+
+<sup>Released on **2024-05-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve the display effect of plug-in API name and description.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve the display effect of plug-in API name and description, closes [#2678](https://github.com/bentwnghk/lobe-chat/issues/2678) ([19cd0b9](https://github.com/bentwnghk/lobe-chat/commit/19cd0b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.42.0](https://github.com/bentwnghk/lobe-chat/compare/v1.41.13...v1.42.0)
 
 <sup>Released on **2024-05-27**</sup>
