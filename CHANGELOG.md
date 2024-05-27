@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.42.0](https://github.com/bentwnghk/lobe-chat/compare/v1.41.13...v1.42.0)
+
+<sup>Released on **2024-05-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Support topic agent.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix trpc/edge path error when setting `NEXT_PUBLIC_BASE_PATH`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support topic agent, closes [#2683](https://github.com/bentwnghk/lobe-chat/issues/2683) ([56865fe](https://github.com/bentwnghk/lobe-chat/commit/56865fe))
+
+#### What's fixed
+
+- **misc**: Fix trpc/edge path error when setting `NEXT_PUBLIC_BASE_PATH`, closes [#2681](https://github.com/bentwnghk/lobe-chat/issues/2681) ([622b390](https://github.com/bentwnghk/lobe-chat/commit/622b390))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.13](https://github.com/bentwnghk/lobe-chat/compare/v1.41.12...v1.41.13)
 
 <sup>Released on **2024-05-27**</sup>
