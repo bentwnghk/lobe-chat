@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.41.12](https://github.com/bentwnghk/lobe-chat/compare/v1.41.11...v1.41.12)
+
+<sup>Released on **2024-05-27**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor `keyVaults` and rename `endpoint` to `baseURL`.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix connection checker, fix the batch import error.
+
+#### 💄 Styles
+
+- **misc**: Fix PluginStore layout.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor `keyVaults` and rename `endpoint` to `baseURL`, closes [#2673](https://github.com/bentwnghk/lobe-chat/issues/2673) ([4049bc7](https://github.com/bentwnghk/lobe-chat/commit/4049bc7))
+
+#### What's fixed
+
+- **misc**: Fix connection checker, closes [#2672](https://github.com/bentwnghk/lobe-chat/issues/2672) ([bef8926](https://github.com/bentwnghk/lobe-chat/commit/bef8926))
+- **misc**: Fix the batch import error, closes [#2671](https://github.com/bentwnghk/lobe-chat/issues/2671) ([db8f2c6](https://github.com/bentwnghk/lobe-chat/commit/db8f2c6))
+
+#### Styles
+
+- **misc**: Fix PluginStore layout, closes [#2590](https://github.com/bentwnghk/lobe-chat/issues/2590) [#2511](https://github.com/bentwnghk/lobe-chat/issues/2511) ([e1ae39b](https://github.com/bentwnghk/lobe-chat/commit/e1ae39b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.41.11](https://github.com/bentwnghk/lobe-chat/compare/v1.41.10...v1.41.11)
 
 <sup>Released on **2024-05-26**</sup>
