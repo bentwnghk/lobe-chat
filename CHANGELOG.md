@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.42.4](https://github.com/bentwnghk/lobe-chat/compare/v1.42.3...v1.42.4)
+
+<sup>Released on **2024-05-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add optimistic loading for image uploading, improve display of `set limited history messages`, `randomness` and `voice input`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add optimistic loading for image uploading, closes [#2700](https://github.com/bentwnghk/lobe-chat/issues/2700) ([f99c9ce](https://github.com/bentwnghk/lobe-chat/commit/f99c9ce))
+- **misc**: Improve display of `set limited history messages`, `randomness` and `voice input`, closes [#2586](https://github.com/bentwnghk/lobe-chat/issues/2586) ([22c9b9c](https://github.com/bentwnghk/lobe-chat/commit/22c9b9c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.3](https://github.com/bentwnghk/lobe-chat/compare/v1.42.2...v1.42.3)
 
 <sup>Released on **2024-05-28**</sup>
