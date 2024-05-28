@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.42.3](https://github.com/bentwnghk/lobe-chat/compare/v1.42.2...v1.42.3)
+
+<sup>Released on **2024-05-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auto focus issues, fix the default agent not work correctly on new device.
+
+#### 💄 Styles
+
+- **misc**: Add `SYSTEM_AGENT` env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix auto focus issues, closes [#2697](https://github.com/bentwnghk/lobe-chat/issues/2697) ([8df856e](https://github.com/bentwnghk/lobe-chat/commit/8df856e))
+- **misc**: Fix the default agent not work correctly on new device, closes [#2699](https://github.com/bentwnghk/lobe-chat/issues/2699) ([e4c7536](https://github.com/bentwnghk/lobe-chat/commit/e4c7536))
+
+#### Styles
+
+- **misc**: Add `SYSTEM_AGENT` env, closes [#2694](https://github.com/bentwnghk/lobe-chat/issues/2694) ([0dfcf8d](https://github.com/bentwnghk/lobe-chat/commit/0dfcf8d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.2](https://github.com/bentwnghk/lobe-chat/compare/v1.42.1...v1.42.2)
 
 <sup>Released on **2024-05-28**</sup>
