@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.2](https://github.com/bentwnghk/lobe-chat/compare/v1.42.1...v1.42.2)
+
+<sup>Released on **2024-05-28**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor agent store data.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor agent store data, closes [#2690](https://github.com/bentwnghk/lobe-chat/issues/2690) ([e201937](https://github.com/bentwnghk/lobe-chat/commit/e201937))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.1](https://github.com/bentwnghk/lobe-chat/compare/v1.42.0...v1.42.1)
 
 <sup>Released on **2024-05-27**</sup>
