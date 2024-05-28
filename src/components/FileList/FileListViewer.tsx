@@ -1,4 +1,4 @@
-import { ImageGallery } from '@lobehub/ui';
+import { ImageGallery } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import GalleyGrid from '@/components/GalleyGrid';
