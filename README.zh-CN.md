@@ -250,14 +250,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
-| 最近新增                                                                                                                                                            | 助手说明                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Dart/Flutter Dev](https://chat-preview.lobehub.com/market?agent=dart-flutter)<br/><sup>By **[rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>  | Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.<br/>`dart` `flutter` `개발` `상태-관리` `riverpod` |
-| [C# .NET 技术专家](https://chat-preview.lobehub.com/market?agent=dotnet-expert)<br/><sup>By **[johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup> | C# .NET 技术专家<br/>`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`                                                    |
-| [日常小助手](https://chat-preview.lobehub.com/market?agent=junior-helper)<br/><sup>By **[Qinks6](https://github.com/Qinks6)** on **2024-05-28**</sup>               | 一个能搜索、能画图的小可爱<br/>`助手` `搜索` `绘图` `信息查询` `用户交互`                                                                                                   |
-| [Node.js 优化师](https://chat-preview.lobehub.com/market?agent=node-js-devoloper)<br/><sup>By **[chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>   | 擅长 Node.js 代码审查、性能优化、异步编程、错误处理、代码重构、依赖管理、安全增强、测试覆盖率和文档编写。<br/>`node-js` `代码优化` `性能优化` `异步编程` `错误处理`         |
+| 最近新增                                                                                                                                                            | 助手说明                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Dart/Flutter Dev](https://chat-preview.lobehub.com/market?agent=dart-flutter)<br/><sup>By **[rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>  | Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.<br/>`dart` `flutter` `개발` `상태-관리` `riverpod`     |
+| [C# .NET 技术专家](https://chat-preview.lobehub.com/market?agent=dotnet-expert)<br/><sup>By **[johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup> | C# .NET 技术专家<br/>`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`                                                        |
+| [基督传教士](https://chat-preview.lobehub.com/market?agent=jesus-missionary)<br/><sup>By **[epochaudio](https://github.com/epochaudio)** on **2024-05-28**</sup>    | 作为一名耶稣传教士，我将依据圣经教导以启迪你对神的话语的理解和实际运用。无论是在困惑还是寻求灵性成长的过程中，我都在这智慧的源泉旁为你服务<br/>`圣经教学` `基督传教` `神学布道` |
+| [日常小助手](https://chat-preview.lobehub.com/market?agent=junior-helper)<br/><sup>By **[Qinks6](https://github.com/Qinks6)** on **2024-05-28**</sup>               | 一个能搜索、能画图的小可爱<br/>`助手` `搜索` `绘图` `信息查询` `用户交互`                                                                                                       |
 
-> 📊 Total agents: [<kbd>**279**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**280**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
@@ -500,7 +500,7 @@ API Key 是使用 LobeChat 进行大语言模型会话的必要信息，本节�
 
 | NPM                               | 仓库                                    | 描述                                                                                     | 版本                                      |
 | --------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------- |
-| [@bentwnghk/ui][lobe-ui-link]     | [lobehub/lobe-ui][lobe-ui-github]       | 构建 AIGC 网页应用程序而设计的开源 UI 组件库                                             | [![][lobe-ui-shield]][lobe-ui-link]       |
+| [@lobehub/ui][lobe-ui-link]       | [lobehub/lobe-ui][lobe-ui-github]       | 构建 AIGC 网页应用程序而设计的开源 UI 组件库                                             | [![][lobe-ui-shield]][lobe-ui-link]       |
 | [@lobehub/icons][lobe-icons-link] | [lobehub/lobe-icons][lobe-icons-github] | 主流 AI / LLM 模型和公司 SVG Logo 与 Icon 合集                                           | [![][lobe-icons-shield]][lobe-icons-link] |
 | [@lobehub/tts][lobe-tts-link]     | [lobehub/lobe-tts][lobe-tts-github]     | AI TTS / STT 语音合成 / 识别 React Hooks 库                                              | [![][lobe-tts-shield]][lobe-tts-link]     |
 | [@lobehub/lint][lobe-lint-link]   | [lobehub/lobe-lint][lobe-lint-github]   | LobeHub 代码样式规范 ESlint，Stylelint，Commitlint，Prettier，Remark 和 Semantic Release | [![][lobe-lint-shield]][lobe-lint-link]   |
@@ -753,8 +753,8 @@ This project is [MIT](./LICENSE) licensed.
 [lobe-tts-link]: https://www.npmjs.com/package/@lobehub/tts
 [lobe-tts-shield]: https://img.shields.io/npm/v/@lobehub/tts?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [lobe-ui-github]: https://github.com/lobehub/lobe-ui
-[lobe-ui-link]: https://www.npmjs.com/package/@bentwnghk/ui
-[lobe-ui-shield]: https://img.shields.io/npm/v/@bentwnghk/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[lobe-ui-link]: https://www.npmjs.com/package/@lobehub/ui
+[lobe-ui-shield]: https://img.shields.io/npm/v/@lobehub/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [pr-welcome-link]: https://github.com/lobehub/lobe-chat/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
