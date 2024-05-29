@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.42.6](https://github.com/bentwnghk/lobe-chat/compare/v1.42.5...v1.42.6)
+
+<sup>Released on **2024-05-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the config import for server import.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix import config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the config import for server import, closes [#2718](https://github.com/bentwnghk/lobe-chat/issues/2718) ([d4ee64b](https://github.com/bentwnghk/lobe-chat/commit/d4ee64b))
+
+#### What's fixed
+
+- **misc**: Fix import config, closes [#2720](https://github.com/bentwnghk/lobe-chat/issues/2720) ([a5ddd9a](https://github.com/bentwnghk/lobe-chat/commit/a5ddd9a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.5](https://github.com/bentwnghk/lobe-chat/compare/v1.42.4...v1.42.5)
 
 <sup>Released on **2024-05-29**</sup>
