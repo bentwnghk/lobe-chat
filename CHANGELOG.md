@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.5](https://github.com/bentwnghk/lobe-chat/compare/v1.42.4...v1.42.5)
+
+<sup>Released on **2024-05-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the settings to add optimistic updating.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the settings to add optimistic updating, closes [#2709](https://github.com/bentwnghk/lobe-chat/issues/2709) ([fade53e](https://github.com/bentwnghk/lobe-chat/commit/fade53e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.4](https://github.com/bentwnghk/lobe-chat/compare/v1.42.3...v1.42.4)
 
 <sup>Released on **2024-05-28**</sup>
