@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.8](https://github.com/bentwnghk/lobe-chat/compare/v1.42.7...v1.42.8)
+
+<sup>Released on **2024-06-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve config upload modal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve config upload modal, closes [#2745](https://github.com/bentwnghk/lobe-chat/issues/2745) ([af9af9f](https://github.com/bentwnghk/lobe-chat/commit/af9af9f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.7](https://github.com/bentwnghk/lobe-chat/compare/v1.42.6...v1.42.7)
 
 <sup>Released on **2024-05-31**</sup>
