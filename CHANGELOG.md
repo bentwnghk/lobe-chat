@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.9](https://github.com/bentwnghk/lobe-chat/compare/v1.42.8...v1.42.9)
+
+<sup>Released on **2024-06-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve loading state.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve loading state, closes [#2767](https://github.com/bentwnghk/lobe-chat/issues/2767) ([fbdfde9](https://github.com/bentwnghk/lobe-chat/commit/fbdfde9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.8](https://github.com/bentwnghk/lobe-chat/compare/v1.42.7...v1.42.8)
 
 <sup>Released on **2024-06-01**</sup>
