@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.10](https://github.com/bentwnghk/lobe-chat/compare/v1.42.9...v1.42.10)
+
+<sup>Released on **2024-06-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix send button loading on only add user message.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix send button loading on only add user message, closes [#2774](https://github.com/bentwnghk/lobe-chat/issues/2774) ([a7f2982](https://github.com/bentwnghk/lobe-chat/commit/a7f2982))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.9](https://github.com/bentwnghk/lobe-chat/compare/v1.42.8...v1.42.9)
 
 <sup>Released on **2024-06-03**</sup>
