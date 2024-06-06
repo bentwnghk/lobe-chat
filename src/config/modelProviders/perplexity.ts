@@ -28,7 +28,12 @@ const Perplexity: ModelProviderCard = {
       tokens: 32_768,
     },
   ],
+  checkModel: 'pplx-7b-chat',
   id: 'perplexity',
+  name: 'Perplexity',
+  proxyUrl: {
+    placeholder: 'https://api.perplexity.ai',
+  },
 };
 
 export default Perplexity;
