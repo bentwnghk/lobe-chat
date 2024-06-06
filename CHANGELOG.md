@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.13](https://github.com/bentwnghk/lobe-chat/compare/v1.42.12...v1.42.13)
+
+<sup>Released on **2024-06-06**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor model provider implement.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor model provider implement, closes [#2801](https://github.com/bentwnghk/lobe-chat/issues/2801) ([7bb4fec](https://github.com/bentwnghk/lobe-chat/commit/7bb4fec))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.12](https://github.com/bentwnghk/lobe-chat/compare/v1.42.11...v1.42.12)
 
 <sup>Released on **2024-06-04**</sup>
