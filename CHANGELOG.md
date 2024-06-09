@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.42.16](https://github.com/bentwnghk/lobe-chat/compare/v1.42.15...v1.42.16)
+
+<sup>Released on **2024-06-09**</sup>
+
+#### 💄 Styles
+
+- **misc**: Do not show noDescription in new sesstion, Expand `Clear` tooltip maxWidth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Do not show noDescription in new sesstion, closes [#2749](https://github.com/bentwnghk/lobe-chat/issues/2749) ([30b00aa](https://github.com/bentwnghk/lobe-chat/commit/30b00aa))
+- **misc**: Expand `Clear` tooltip maxWidth, closes [#2822](https://github.com/bentwnghk/lobe-chat/issues/2822) ([a5c3d6f](https://github.com/bentwnghk/lobe-chat/commit/a5c3d6f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.15](https://github.com/bentwnghk/lobe-chat/compare/v1.42.14...v1.42.15)
 
 <sup>Released on **2024-06-08**</sup>
