@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.42.17](https://github.com/bentwnghk/lobe-chat/compare/v1.42.16...v1.42.17)
+
+<sup>Released on **2024-06-12**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Qwen2 models, Add Zhipu new models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Qwen2 models, closes [#2832](https://github.com/bentwnghk/lobe-chat/issues/2832) ([fb97be9](https://github.com/bentwnghk/lobe-chat/commit/fb97be9))
+- **misc**: Add Zhipu new models, closes [#2830](https://github.com/bentwnghk/lobe-chat/issues/2830) ([5be43f0](https://github.com/bentwnghk/lobe-chat/commit/5be43f0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.16](https://github.com/bentwnghk/lobe-chat/compare/v1.42.15...v1.42.16)
 
 <sup>Released on **2024-06-09**</sup>
