@@ -6,7 +6,7 @@
   "autoGenerate": "自动补全",
   "autoGenerateTooltip": "基于提示词自动补全助手描述",
   "autoGenerateTooltipDisabled": "请填写提示词后使用自动补全功能",
-  "blog": "Mr.🆖 服务状态",
+  "blog": "Mr.🆖 AI Creator",
   "cancel": "取消",
   "changelog": "更新日志",
   "close": "关闭",
@@ -40,22 +40,22 @@
   "follow": "浏览 {{name}}",
   "footer": {
     "action": {
-      "feedback": "分享您宝贵的建议",
-      "star": "在 GitHub 给添加星标"
+      "feedback": "到【应用设置 > 语言模型】输入您的密钥",
+      "star": "在 Mr.🆖 AI API 购买一个"
     },
-    "and": "并",
+    "and": "然后",
     "feedback": {
-      "action": "分享反馈",
-      "desc": "您的每一个想法和建议对我们来说都弥足珍贵，我们迫不及待地想知道您的看法！欢迎联系我们提供产品功能和使用体验反馈，帮助我们将 Mr.🆖 Chat 建设得更好。",
-      "title": "在 GitHub 分享您宝贵的反馈"
+      "action": "输入密钥",
+      "desc": "从 Mr.🆖 AI API 取得 API Key 后，在【应用设定 > 语言模型】中输入您的密钥。请记得将 <API 代理程式位址> 从「https://api.openai.com/v1」变更为「https://api.mister5.net/v1」。",
+      "title": "到【应用设置】输入您的密钥"
     },
     "later": "稍后",
     "star": {
-      "action": "点亮星标",
-      "desc": "如果您喜爱我们的产品，并希望支持我们，可以去 GitHub 给我们点一颗星吗？这个小小的动作对我们来说意义重大，能激励我们为您持续提供特性体验。",
-      "title": "在 GitHub 为我们点亮星标"
+      "action": "购买密钥",
+      "desc": "整合各种开源和闭源大型语言模型 (LLM) 存取方式，低成本构建或部署生成式人工智能 (Generative AI) 应用。计费采额度消耗制，随时充值，且无使用时限。",
+      "title": "Mr.🆖 AI API"
     },
-    "title": "喜欢我们的产品？"
+    "title": "没有 OpenAI API 密钥？"
   },
   "fullscreen": "全屏模式",
   "historyRange": "历史范围",
@@ -90,7 +90,7 @@
       "speed": "上传速度"
     }
   },
-  "information": "社区与资讯",
+  "information": "Mr.🆖 AI Apps",
   "installPWA": "安装浏览器应用 (PWA)",
   "lang": {
     "ar": "阿拉伯语",
@@ -130,9 +130,9 @@
     "zh-TW": "繁体中文"
   },
   "layoutInitializing": "正在加载布局...",
-  "legal": "法律声明",
+  "legal": "其他 Mr.🆖 应用程序",
   "mail": {
-    "business": "商务合作",
+    "business": "购买 AI API 密钥",
     "support": "邮件支持"
   },
   "noDescription": "暂无描述",
@@ -142,7 +142,7 @@
   "password": "密码",
   "pin": "置顶",
   "pinOff": "取消置顶",
-  "privacy": "隐私政策",
+  "privacy": "Mr.🆖 朗文詞典",
   "regenerate": "重新生成",
   "rename": "重命名",
   "reset": "重置",
@@ -198,7 +198,7 @@
     "title": "帮助 Mr.🆖 Chat 做得更好"
   },
   "temp": "临时",
-  "terms": "服务条款",
+  "terms": "Mr.🆖 AiSpeak",
   "updateAgent": "更新助理信息",
   "upgradeVersion": {
     "action": "升级",

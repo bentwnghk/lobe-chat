@@ -7,12 +7,12 @@ import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
 export const OFFICIAL_URL = 'https://ai.mister5.net/';
-export const OFFICIAL_SITE = 'https://mr5drive.com/';
+export const OFFICIAL_SITE = 'https://aichat.mister5.net';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const GITHUB = pkg.homepage;
-export const GITHUB_ISSUES = urlJoin(GITHUB, 'issues/new/choose');
+export const GITHUB_ISSUES = withBasePath(`/settings/modal?session=inbox&tab=llm`);
 export const CHANGELOG = 'https://mr5drive.com';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
@@ -29,8 +29,8 @@ export const BLOG = 'https://status.mr5drive.com/';
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = OFFICIAL_SITE;
 export const DISCORD = 'https://speak.mister5.net';
-export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
-export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
+export const PRIVACY_URL = 'https://longman.mister5.net';
+export const TERMS_URL = 'https://speak.mister5.net';
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
@@ -49,13 +49,13 @@ export const imageUrl = (filename: string) => withBasePath(`/images/${filename}`
 
 export const LOBE_URL_IMPORT_NAME = 'settings';
 export const EMAIL_SUPPORT = 'mr.ng@mystudies.net';
-export const EMAIL_BUSINESS = 'mr.ng@mystudies.net';
+export const EMAIL_BUSINESS = 'https://api.mister5.net';
 
 export const MEDIDUM = 'https://books.mr5drive.com/';
 export const X = 'https://oxford.mister5.net/';
-export const RELEASES_URL = urlJoin(GITHUB, 'releases');
+export const RELEASES_URL = CHANGELOG;
 
 export const R2_CDN_URL = 'https://hub-apac-1.lobeobjects.space/';
 
-export const getR2Url = (filename: string) => urlJoin(R2_CDN_URL, filename);
+export const getR2Url = (filename: string) => withBasePath(`/images/${filename}`);
 export const mailTo = (email: string) => `mailto:${email}`;

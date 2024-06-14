@@ -10,7 +10,7 @@ import { Center, Flexbox } from 'react-layout-kit';
 
 import GuideModal from '@/components/GuideModal';
 import GuideVideo from '@/components/GuideVideo';
-import { GITHUB, GITHUB_ISSUES, getR2Url } from '@/const/url';
+import { EMAIL_BUSINESS, GITHUB_ISSUES, getR2Url } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 
 const useStyles = createStyles(
@@ -40,7 +40,7 @@ const Footer = memo<PropsWithChildren>(() => {
             <Icon icon={MessageSquareHeart} /> {`${t('footer.title')} `}
             <Link
               aria-label={'star'}
-              href={GITHUB}
+              href={EMAIL_BUSINESS}
               onClick={(e) => {
                 e.preventDefault();
                 setOpenStar(true);
@@ -65,20 +65,20 @@ const Footer = memo<PropsWithChildren>(() => {
       </Flexbox>
       <GuideModal
         cancelText={t('footer.later')}
-        cover={<GuideVideo height={269} src={getR2Url('/assets/star.mp4')} width={358} />}
+        cover={<GuideVideo height={269} src={getR2Url('star.png')} width={358} />}
         desc={t('footer.star.desc')}
         okText={t('footer.star.action')}
         onCancel={() => setOpenStar(false)}
         onOk={() => {
           if (isOnServerSide) return;
-          window.open(GITHUB, '__blank');
+          window.open(EMAIL_BUSINESS, '__blank');
         }}
         open={openStar}
         title={t('footer.star.title')}
       />
       <GuideModal
         cancelText={t('footer.later')}
-        cover={<GuideVideo height={269} src={getR2Url('/assets/feedback.mp4')} width={358} />}
+        cover={<GuideVideo height={269} src={getR2Url('feedback.png')} width={358} />}
         desc={t('footer.feedback.desc')}
         okText={t('footer.feedback.action')}
         onCancel={() => setOpenFeedback(false)}

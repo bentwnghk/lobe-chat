@@ -1,6 +1,12 @@
 'use client';
 
-import { SiDiscord, SiGithub, SiMedium, SiRss, SiX } from '@icons-pack/react-simple-icons';
+import {
+//  SiDiscord,
+//  SiGithub,
+//  SiMedium,
+  SiRss,
+//  SiX,
+} from '@icons-pack/react-simple-icons';
 import { Form } from '@bentwnghk/ui';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';
@@ -9,16 +15,16 @@ import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
 import {
-  BLOG,
-  DISCORD,
+//  BLOG,
+//  DISCORD,
   EMAIL_BUSINESS,
   EMAIL_SUPPORT,
-  GITHUB,
-  MEDIDUM,
+//  GITHUB,
+//  MEDIDUM,
   OFFICIAL_SITE,
   PRIVACY_URL,
   TERMS_URL,
-  X,
+//  X,
   mailTo,
 } from '@/const/url';
 import { useServerConfigStore } from '@/store/serverConfig';
@@ -45,7 +51,7 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
 
   return (
     <>
-      <Form.Group style={{ width: '100%' }} title={`${t('about')} LobeChat`} variant={'pure'}>
+      <Form.Group style={{ width: '100%' }} title={`${t('about')} Mr.🆖 Chat`} variant={'pure'}>
         <Flexbox gap={20} paddingBlock={20} width={'100%'}>
           <div className={styles.title}>{t('version')}</div>
           <Version mobile={mobile} />
@@ -65,7 +71,7 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 value: 'support',
               },
               {
-                href: mailTo(EMAIL_BUSINESS),
+                href: EMAIL_BUSINESS,
                 label: t('mail.business'),
                 value: 'business',
               },
@@ -78,34 +84,34 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
             grid
             items={[
               {
-                href: BLOG,
+                href: 'https://create.mister5.net',
                 icon: SiRss,
                 label: t('blog'),
                 value: 'blog',
               },
               {
-                href: GITHUB,
-                icon: SiGithub,
-                label: 'GitHub',
+                href: 'https://ai2.mister5.net',
+                icon: SiRss,
+                label: 'Mr.🆖 AI English Tutor',
                 value: 'feedback',
               },
               {
-                href: DISCORD,
-                icon: SiDiscord,
-                label: 'Discord',
+                href: 'https://llm.mister5.net',
+                icon: SiRss,
+                label: 'Mr.🆖 DocChat',
                 value: 'discord',
               },
               {
-                href: X,
-                icon: SiX as any,
-                label: 'X / Twitter',
+                href: 'https://ai5.mister5.net',
+                icon: SiRss as any,
+                label: 'Mr.🆖 ChatGPT+',
                 value: 'x',
               },
 
               {
-                href: MEDIDUM,
-                icon: SiMedium,
-                label: 'Medium',
+                href: 'https://ai.mister5.net',
+                icon: SiRss,
+                label: 'Mr.🆖 Chat',
                 value: 'medium',
               },
             ]}

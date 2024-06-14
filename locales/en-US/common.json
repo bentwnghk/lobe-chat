@@ -6,7 +6,7 @@
   "autoGenerate": "Auto Generate",
   "autoGenerateTooltip": "Auto-generate agent description based on prompts",
   "autoGenerateTooltipDisabled": "Please enter a tooltip before using the autocomplete feature",
-  "blog": "Mr.🆖 Service Status",
+  "blog": "Mr.🆖 AI Creator",
   "cancel": "Cancel",
   "changelog": "Changelog",
   "close": "Close",
@@ -40,22 +40,22 @@
   "follow": "Visit {{name}}",
   "footer": {
     "action": {
-      "feedback": "Share Your Valuable Feedback",
-      "star": "Star on GitHub"
+      "feedback": "enter your key in [App Settings > Language Model]",
+      "star": "Buy one from Mr.🆖 AI API"
     },
     "and": "and",
     "feedback": {
-      "action": "Share Feedback",
-      "desc": "Every idea and suggestion from you is precious to us. We can't wait to hear your thoughts! Feel free to contact us to provide feedback on product features and user experience, helping us make Mr.🆖 Chat even better.",
-      "title": "Share Your Valuable Feedback on GitHub"
+      "action": "Enter Key",
+      "desc": "After getting an API Key from Mr.🆖 AI API, enter it in [App Settings > Language Model]. Remember to change the <API Proxy Address> from 'https://api.openai.com/v1' to 'https://api.mister5.net/v1'.",
+      "title": "Enter your key in [App Settings]"
     },
     "later": "Later",
     "star": {
-      "action": "Star It",
-      "desc": "If you love our product and want to support us, could you go to GitHub and give us a star? This small gesture means a lot to us and motivates us to continue providing you with great experiences.",
-      "title": "Star Us on GitHub"
+      "action": "Buy Key",
+      "desc": "Integrates a variety of open and closed source large language model (LLM) access methods, enabling you to deploy your generative AI applications at low cost. Billing is based on token consumption. Recharge your account at any time, and there is no expiry of your purchased token points.",
+      "title": "Mr.🆖 AI API"
     },
-    "title": "Like Our Product?"
+    "title": "Don't have an OpenAI API key?"
   },
   "fullscreen": "Full Screen Mode",
   "historyRange": "History Range",
@@ -90,7 +90,7 @@
       "speed": "Upload speed"
     }
   },
-  "information": "Community and News",
+  "information": "Mr.🆖 AI Apps",
   "installPWA": "Install browser app",
   "lang": {
     "ar": "Arabic",
@@ -130,9 +130,9 @@
     "zh-TW": "Traditional Chinese"
   },
   "layoutInitializing": "Initializing layout...",
-  "legal": "Legal Disclaimer",
+  "legal": "Other Mr.🆖 Apps",
   "mail": {
-    "business": "Business Cooperation",
+    "business": "Buy AI API Key",
     "support": "Email Support"
   },
   "noDescription": "No description available",
@@ -142,7 +142,7 @@
   "password": "Password",
   "pin": "Pin",
   "pinOff": "Unpin",
-  "privacy": "Privacy Policy",
+  "privacy": "Mr.🆖 朗文詞典",
   "regenerate": "Regenerate",
   "rename": "Rename",
   "reset": "Reset",
@@ -198,7 +198,7 @@
     "title": "Help Mr.🆖 Chat be better"
   },
   "temp": "Temporary",
-  "terms": "Terms of Service",
+  "terms": "Mr.🆖 AiSpeak",
   "updateAgent": "Update Agent Information",
   "upgradeVersion": {
     "action": "Upgrade",
