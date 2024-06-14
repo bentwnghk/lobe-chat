@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.42.18](https://github.com/bentwnghk/lobe-chat/compare/v1.42.17...v1.42.18)
+
+<sup>Released on **2024-06-14**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update error card style, Update settings footer style and about page.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update error card style, closes [#2868](https://github.com/bentwnghk/lobe-chat/issues/2868) ([a9d678b](https://github.com/bentwnghk/lobe-chat/commit/a9d678b))
+- **misc**: Update settings footer style and about page, closes [#2846](https://github.com/bentwnghk/lobe-chat/issues/2846) ([d815109](https://github.com/bentwnghk/lobe-chat/commit/d815109))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.17](https://github.com/bentwnghk/lobe-chat/compare/v1.42.16...v1.42.17)
 
 <sup>Released on **2024-06-12**</sup>
