@@ -14,7 +14,7 @@ import GuideModal from '@/components/GuideModal';
 import { EMAIL_BUSINESS, GITHUB_ISSUES } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 import { SettingsTabs } from '@/store/global/initialState';
-import { useQueryRoute } from '@/hooks/useQueryRoute';
+import { useRouter } from 'next/navigation';
 import urlJoin from 'url-join';
 
 const useStyles = createStyles(
@@ -29,7 +29,7 @@ const Footer = memo<PropsWithChildren>(() => {
   const [openStar, setOpenStar] = useState(false);
   const [openFeedback, setOpenFeedback] = useState(false);
   const { styles } = useStyles();
-  const router = useQueryRoute();
+  const router = useRouter();
   return (
     <>
       <Flexbox flex={1} justify={'flex-end'}>
@@ -89,7 +89,7 @@ const Footer = memo<PropsWithChildren>(() => {
         onCancel={() => setOpenFeedback(false)}
         onOk={() => {
           if (isOnServerSide) return;
-          router.push(urlJoin('/settings', SettingsTabs.LLM));
+          router.push(urlJoin('withBasePath(`/settings`)', SettingsTabs.LLM));
         }}
         open={openFeedback}
         title={t('footer.feedback.title')}
