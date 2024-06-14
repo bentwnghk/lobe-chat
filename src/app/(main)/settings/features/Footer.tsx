@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { Center, Flexbox } from 'react-layout-kit';
 
 import GuideModal from '@/components/GuideModal';
-import GuideVideo from '@/components/GuideVideo';
+import imageUrl from '@/components/GuideVideo';
 import { EMAIL_BUSINESS, GITHUB_ISSUES, getR2Url } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 
@@ -65,7 +65,7 @@ const Footer = memo<PropsWithChildren>(() => {
       </Flexbox>
       <GuideModal
         cancelText={t('footer.later')}
-        cover={<GuideVideo height={269} src={getR2Url('/images/star.mp4')} width={358} />}
+        cover={imageUrl('star.png')}
         desc={t('footer.star.desc')}
         okText={t('footer.star.action')}
         onCancel={() => setOpenStar(false)}
@@ -78,7 +78,7 @@ const Footer = memo<PropsWithChildren>(() => {
       />
       <GuideModal
         cancelText={t('footer.later')}
-        cover={<GuideVideo height={269} src={getR2Url('/images/feedback.mp4')} width={358} />}
+        cover={imageUrl('feedback.png')}
         desc={t('footer.feedback.desc')}
         okText={t('footer.feedback.action')}
         onCancel={() => setOpenFeedback(false)}
