@@ -9,8 +9,8 @@ import { useTranslation } from 'react-i18next';
 import { Center, Flexbox } from 'react-layout-kit';
 
 import GuideModal from '@/components/GuideModal';
-import imageUrl from '@/components/GuideVideo';
-import { EMAIL_BUSINESS, GITHUB_ISSUES, getR2Url } from '@/const/url';
+// import GuideVideo from '@/components/GuideVideo';
+import { EMAIL_BUSINESS, GITHUB_ISSUES, imageUrl } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 
 const useStyles = createStyles(
