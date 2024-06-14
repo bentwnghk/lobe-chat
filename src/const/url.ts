@@ -7,7 +7,7 @@ import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
 export const OFFICIAL_URL = 'https://ai.mister5.net/';
-export const OFFICIAL_SITE = 'https://aichat.mister5.net';
+export const OFFICIAL_SITE = withBasePath(`/`);
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
@@ -57,5 +57,5 @@ export const RELEASES_URL = CHANGELOG;
 
 export const R2_CDN_URL = 'https://hub-apac-1.lobeobjects.space/';
 
-export const getR2Url = (filename: string) => withBasePath(`/images/${filename}`);
+export const getR2Url = (filename: string) => urlJoin(R2_CDN_URL, filename);
 export const mailTo = (email: string) => `mailto:${email}`;

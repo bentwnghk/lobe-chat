@@ -84,17 +84,17 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
             grid
             items={[
               {
-                href: 'https://create.mister5.net',
-                icon: SiRss,
-                label: t('blog'),
-                value: 'blog',
-              },
-              {
                 href: 'https://ai2.mister5.net',
                 icon: SiRss,
                 label: 'Mr.🆖 AI English Tutor',
                 value: 'feedback',
               },
+              {
+                href: 'https://create.mister5.net',
+                icon: SiRss,
+                label: t('blog'),
+                value: 'blog',
+              },              
               {
                 href: 'https://llm.mister5.net',
                 icon: SiRss,
