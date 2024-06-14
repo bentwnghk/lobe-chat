@@ -86,7 +86,7 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
               {
                 href: 'https://ai2.mister5.net',
                 icon: SiRss,
-                label: 'Mr.🆖 AI English Tutor',
+                label: 'Mr.🆖 AI Tutor',
                 value: 'feedback',
               },
               {

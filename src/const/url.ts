@@ -13,7 +13,7 @@ export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const GITHUB = pkg.homepage;
 export const GITHUB_ISSUES = withBasePath(`/settings/modal?session=inbox&tab=llm`);
-export const CHANGELOG = 'https://mr5drive.com';
+export const CHANGELOG = 'https://api.mister5.net';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
 export const DOCUMENTS = 'https://longman.mister5.net/';

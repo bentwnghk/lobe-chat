@@ -8,7 +8,7 @@
   "autoGenerateTooltipDisabled": "请填写提示词后使用自动补全功能",
   "blog": "Mr.🆖 AI Creator",
   "cancel": "取消",
-  "changelog": "更新日志",
+  "changelog": "购买密钥",
   "close": "关闭",
   "contact": "联系我们",
   "copy": "复制",
@@ -41,12 +41,12 @@
   "footer": {
     "action": {
       "feedback": "到【应用设置 > 语言模型】输入您的密钥",
-      "star": "在 Mr.🆖 AI API 购买一个"
+      "star": "在 Mr.🆖 AI API 购买"
     },
     "and": "然后",
     "feedback": {
       "action": "输入密钥",
-      "desc": "从 Mr.🆖 AI API 取得 API Key 后，在【应用设定 > 语言模型】中输入您的密钥。请记得将 <API 代理程式位址> 从「https://api.openai.com/v1」变更为「https://api.mister5.net/v1」。",
+      "desc": "从 Mr.🆖 AI API 取得 API Key 后，在【应用设定 > 语言模型】中输入您的密钥。请记得将 <API 代理位址> 从「https://api.openai.com/v1」变更为「https://api.mister5.net/v1」。",
       "title": "到【应用设置】输入您的密钥"
     },
     "later": "稍后",
