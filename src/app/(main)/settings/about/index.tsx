@@ -53,10 +53,10 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
     <>
       <Form.Group style={{ width: '100%' }} title={`${t('about')} Mr.🆖 Chat`} variant={'pure'}>
         <Flexbox gap={20} paddingBlock={20} width={'100%'}>
-          <div className={styles.title}>{t('version')}</div>
           <Version mobile={mobile} />
-          <Divider style={{ marginBlock: 0 }} />
+          <div className={styles.title}>{t('version')}</div>
           <div className={styles.title}>{t('abouttext')}</div>
+          <Divider style={{ marginBlock: 0 }} />
           <AboutList
             ItemRender={ItemLink}
             items={[
