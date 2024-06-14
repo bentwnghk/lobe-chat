@@ -85,7 +85,7 @@ const Footer = memo<PropsWithChildren>(() => {
         onCancel={() => setOpenFeedback(false)}
         onOk={() => {
           if (isOnServerSide) return;
-          window.open(GITHUB_ISSUES, '__parent');
+          window.open(GITHUB_ISSUES, '__self');
         }}
         open={openFeedback}
         title={t('footer.feedback.title')}
