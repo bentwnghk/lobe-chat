@@ -12,7 +12,7 @@ export const OFFICIAL_SITE = 'https://mr5drive.com/';
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const GITHUB = pkg.homepage;
-export const GITHUB_ISSUES = urlJoin(GITHUB, 'issues/new');
+export const GITHUB_ISSUES = urlJoin(GITHUB, 'issues/new/choose');
 export const CHANGELOG = 'https://mr5drive.com';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
@@ -54,3 +54,8 @@ export const EMAIL_BUSINESS = 'mr.ng@mystudies.net';
 export const MEDIDUM = 'https://books.mr5drive.com/';
 export const X = 'https://oxford.mister5.net/';
 export const RELEASES_URL = urlJoin(GITHUB, 'releases');
+
+export const R2_CDN_URL = 'https://hub-apac-1.lobeobjects.space/';
+
+export const getR2Url = (filename: string) => urlJoin(R2_CDN_URL, filename);
+export const mailTo = (email: string) => `mailto:${email}`;
