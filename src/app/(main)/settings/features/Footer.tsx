@@ -4,13 +4,14 @@ import { Icon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { MessageSquareHeart } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { PropsWithChildren, memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Center, Flexbox } from 'react-layout-kit';
 
 import GuideModal from '@/components/GuideModal';
 // import GuideVideo from '@/components/GuideVideo';
-import { EMAIL_BUSINESS, GITHUB_ISSUES, imageUrl } from '@/const/url';
+import { EMAIL_BUSINESS, GITHUB_ISSUES } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 
 const useStyles = createStyles(
@@ -65,7 +66,7 @@ const Footer = memo<PropsWithChildren>(() => {
       </Flexbox>
       <GuideModal
         cancelText={t('footer.later')}
-        cover={imageUrl('star.png')}
+        cover={<Image alt={'Mr.🆖 Chat'} height={269} src={'/images/star.png'} width={358} />}
         desc={t('footer.star.desc')}
         okText={t('footer.star.action')}
         onCancel={() => setOpenStar(false)}
@@ -78,7 +79,7 @@ const Footer = memo<PropsWithChildren>(() => {
       />
       <GuideModal
         cancelText={t('footer.later')}
-        cover={imageUrl('feedback.png')}
+        cover={<Image alt={'Mr.🆖 Chat'} height={269} src={'/images/feedback.png'} width={358} />}
         desc={t('footer.feedback.desc')}
         okText={t('footer.feedback.action')}
         onCancel={() => setOpenFeedback(false)}
