@@ -13,6 +13,9 @@ import GuideModal from '@/components/GuideModal';
 // import GuideVideo from '@/components/GuideVideo';
 import { EMAIL_BUSINESS, GITHUB_ISSUES } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
+import { SettingsTabs } from '@/store/global/initialState';
+import { useQueryRoute } from '@/hooks/useQueryRoute';
+import urlJoin from 'url-join';
 
 const useStyles = createStyles(
   ({ css, token }) => css`
@@ -26,6 +29,7 @@ const Footer = memo<PropsWithChildren>(() => {
   const [openStar, setOpenStar] = useState(false);
   const [openFeedback, setOpenFeedback] = useState(false);
   const { styles } = useStyles();
+  const router = useQueryRoute();
   return (
     <>
       <Flexbox flex={1} justify={'flex-end'}>
@@ -85,7 +89,7 @@ const Footer = memo<PropsWithChildren>(() => {
         onCancel={() => setOpenFeedback(false)}
         onOk={() => {
           if (isOnServerSide) return;
-          window.open(GITHUB_ISSUES, '__blank');
+          router.push(urlJoin('/settings', SettingsTabs.LLM));
         }}
         open={openFeedback}
         title={t('footer.feedback.title')}

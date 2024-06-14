@@ -9,7 +9,7 @@ import {
   HardDriveUpload,
   LifeBuoy,
   LogOut,
-  Mail,
+//  Mail,
   Maximize,
   Settings2,
 } from 'lucide-react';
@@ -178,7 +178,7 @@ export const useMenu = () => {
           ),
         },
         {
-          icon: <Icon icon={Feather} />,
+          icon: <Icon icon={Book} />,
           key: 'feedback',
           label: (
             <Link href={X} target={'_blank'}>
@@ -187,7 +187,7 @@ export const useMenu = () => {
           ),
         },
         {
-          icon: <Icon icon={Mail} />,
+          icon: <Icon icon={Feather} />,
           key: 'email',
           label: (
             <Link href={EMAIL_BUSINESS} target={'_blank'}>
