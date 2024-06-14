@@ -55,7 +55,7 @@ export const MEDIDUM = 'https://books.mr5drive.com/';
 export const X = 'https://oxford.mister5.net/';
 export const RELEASES_URL = CHANGELOG;
 
-export const R2_CDN_URL = 'https://hub-apac-1.lobeobjects.space/';
+export const R2_CDN_URL = withBasePath(`/`);
 
 export const getR2Url = (filename: string) => urlJoin(R2_CDN_URL, filename);
 export const mailTo = (email: string) => `mailto:${email}`;
