@@ -8,7 +8,7 @@
   "autoGenerateTooltipDisabled": "请填写提示词后使用自动补全功能",
   "blog": "Mr.🆖 AI Creator",
   "cancel": "取消",
-  "changelog": "购买密钥",
+  "changelog": "购买金钥",
   "close": "关闭",
   "contact": "联系我们",
   "copy": "复制",
@@ -40,22 +40,22 @@
   "follow": "浏览 {{name}}",
   "footer": {
     "action": {
-      "feedback": "到【应用设置 > 语言模型】输入您的密钥",
+      "feedback": "到【应用设置 > 语言模型】输入您的金钥",
       "star": "在 Mr.🆖 AI API 购买"
     },
     "and": "然后",
     "feedback": {
-      "action": "输入密钥",
-      "desc": "从 Mr.🆖 AI API 取得 API Key 后，在【应用设定 > 语言模型】中输入您的密钥。请记得将 <API 代理位址> 从「https://api.openai.com/v1」变更为「https://api.mister5.net/v1」。",
-      "title": "到【应用设置】输入您的密钥"
+      "action": "输入金钥",
+      "desc": "从 Mr.🆖 AI API 取得 API 金钥后，在【应用设定 > 语言模型】中输入您的金钥。请记得将 <API 代理位址> 从「https://api.openai.com/v1」变更为「https://api.mister5.net/v1」。",
+      "title": "到【应用设置】输入您的金钥"
     },
     "later": "稍后",
     "star": {
-      "action": "购买密钥",
+      "action": "购买金钥",
       "desc": "整合各种开源和闭源大型语言模型 (LLM) 存取方式，低成本构建或部署生成式人工智能 (Generative AI) 应用。计费采额度消耗制，随时充值，且无使用时限。",
       "title": "Mr.🆖 AI API"
     },
-    "title": "没有 OpenAI API 密钥？"
+    "title": "没有 OpenAI API 金钥？"
   },
   "fullscreen": "全屏模式",
   "historyRange": "历史范围",
@@ -132,7 +132,7 @@
   "layoutInitializing": "正在加载布局...",
   "legal": "其他 Mr.🆖 应用程式",
   "mail": {
-    "business": "购买 AI API 密钥",
+    "business": "购买 AI API 金钥",
     "support": "邮件支持"
   },
   "noDescription": "暂无描述",
@@ -212,7 +212,7 @@
     "defaultNickname": "一般用户",
     "discord": "Mr.🆖 AiSpeak 🗣️",
     "docs": "Mr.🆖 朗文詞典",
-    "email": "邮件支持",
+    "email": "购买 AI API 金钥",
     "feedback": "Mr.🆖 牛津詞典",
     "help": "帮助中心",
     "moveGuide": "设置按钮搬到这里啦",
