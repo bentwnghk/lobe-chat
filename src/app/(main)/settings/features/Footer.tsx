@@ -72,7 +72,7 @@ const Footer = memo<PropsWithChildren>(() => {
         onCancel={() => setOpenStar(false)}
         onOk={() => {
           if (isOnServerSide) return;
-          window.open(EMAIL_BUSINESS, '_blank');
+          window.open(EMAIL_BUSINESS, '__blank');
         }}
         open={openStar}
         title={t('footer.star.title')}
@@ -85,7 +85,7 @@ const Footer = memo<PropsWithChildren>(() => {
         onCancel={() => setOpenFeedback(false)}
         onOk={() => {
           if (isOnServerSide) return;
-          window.open(GITHUB_ISSUES, '_blank');
+          window.open(GITHUB_ISSUES, '__blank');
         }}
         open={openFeedback}
         title={t('footer.feedback.title')}
