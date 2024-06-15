@@ -8,7 +8,7 @@
   "autoGenerateTooltipDisabled": "Please enter a tooltip before using the autocomplete feature",
   "blog": "Mr.🆖 AI Creator",
   "cancel": "Cancel",
-  "changelog": "Buy Key",
+  "changelog": "Get Key",
   "close": "Close",
   "contact": "Contact Us",
   "copy": "Copy",
@@ -41,7 +41,7 @@
   "footer": {
     "action": {
       "feedback": "enter your key in [App Settings > Language Model]",
-      "star": "Buy one from Mr.🆖 AI API"
+      "star": "Get one from Mr.🆖 AI API"
     },
     "and": "and",
     "feedback": {
@@ -51,11 +51,11 @@
     },
     "later": "Later",
     "star": {
-      "action": "Buy Key",
+      "action": "Get Key",
       "desc": "Integrates a variety of open and closed source large language model (LLM) access methods, enabling you to deploy your generative AI applications at low cost. Billing is based on token consumption. Recharge your account at any time, and there is no expiry of your purchased token points.",
       "title": "Mr.🆖 AI API"
     },
-    "title": "Don't have an OpenAI API key?"
+    "title": "Don't have an OpenAI API Key?"
   },
   "fullscreen": "Full Screen Mode",
   "historyRange": "History Range",
@@ -132,7 +132,7 @@
   "layoutInitializing": "Initializing layout...",
   "legal": "Other Mr.🆖 Apps",
   "mail": {
-    "business": "Buy AI API Key",
+    "business": "Get AI API Key",
     "support": "Email Support"
   },
   "noDescription": "No description available",
@@ -212,7 +212,7 @@
     "defaultNickname": "Standard User",
     "discord": "Mr.🆖 AiSpeak 🗣️",
     "docs": "Mr.🆖 Longman Dictionary",
-    "email": "Buy AI API Key",
+    "email": "Get AI API Key",
     "feedback": "Mr.🆖 Oxford Dictionary",
     "help": "Help Center",
     "moveGuide": "The settings button has been moved here",
