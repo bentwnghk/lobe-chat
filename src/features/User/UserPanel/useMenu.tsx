@@ -158,11 +158,11 @@ export const useMenu = () => {
 
   const helps: MenuProps['items'] = [
     {
-      icon: <Icon icon={DiscordIcon} />,
-      key: 'discord',
+      icon: <Icon icon={Feather} />,
+      key: 'email',
       label: (
-        <Link href={DISCORD} target={'_blank'}>
-          {t('userPanel.discord')}
+        <Link href={EMAIL_BUSINESS} target={'_blank'}>
+          {t('userPanel.email')}
         </Link>
       ),
     },
@@ -187,11 +187,11 @@ export const useMenu = () => {
           ),
         },
         {
-          icon: <Icon icon={Feather} />,
-          key: 'email',
+          icon: <Icon icon={DiscordIcon} />,
+          key: 'discord',
           label: (
-            <Link href={EMAIL_BUSINESS} target={'_blank'}>
-              {t('userPanel.email')}
+            <Link href={DISCORD} target={'_blank'}>
+              {t('userPanel.discord')}
             </Link>
           ),
         },
