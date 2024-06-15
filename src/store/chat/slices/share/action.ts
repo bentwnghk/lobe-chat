@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import { produce } from 'immer';
 import { StateCreator } from 'zustand/vanilla';
 
-import { OFFICIAL_SITE } from '@/const/url';
+import { OFFICIAL_URL } from '@/const/url';
 import { DEFAULT_USER_AVATAR_URL } from '@/const/meta';
 import { shareService } from '@/services/share';
 import { useAgentStore } from '@/store/agent';
@@ -21,7 +21,7 @@ interface ShareMessage {
 
 const Footer: ShareMessage = {
   from: 'gpt',
-  value: `Share from [**🤯 Mr.🆖 Chat**](${{OFFICIAL_SITE}}) - ${dayjs().format(
+  value: `Share from [**🤯 Mr.🆖 Chat**](${OFFICIAL_URL}) - ${dayjs().format(
     'YYYY-MM-DD',
   )}`,
 };
