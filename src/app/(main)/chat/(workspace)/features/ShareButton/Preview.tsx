@@ -3,13 +3,13 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import pkg from '@/../package.json';
 import ModelTag from '@/components/ModelTag';
 import ChatList from '@/features/Conversation/components/ChatList';
 import { useAgentStore } from '@/store/agent';
 import { agentSelectors } from '@/store/agent/selectors';
 import { useSessionStore } from '@/store/session';
 import { sessionMetaSelectors, sessionSelectors } from '@/store/session/selectors';
+import { OFFICIAL_SITE } from '@/const/url';
 
 import PluginTag from '../PluginTag';
 import { useStyles } from './style';
@@ -63,7 +63,7 @@ const Preview = memo<FieldType & { title?: string }>(
             {withFooter ? (
               <Flexbox align={'center'} className={styles.footer} gap={4}>
                 <Logo extra={'chat'} type={'combine'} />
-                <div className={styles.url}>{pkg.homepage}</div>
+                <div className={styles.url}>{OFFICIAL_SITE}</div>
               </Flexbox>
             ) : (
               <div />
