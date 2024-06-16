@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.42.19](https://github.com/bentwnghk/lobe-chat/compare/v1.42.18...v1.42.19)
+
+<sup>Released on **2024-06-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix issues for client fetch.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix issues for client fetch, closes [#2753](https://github.com/bentwnghk/lobe-chat/issues/2753) ([6f5be5d](https://github.com/bentwnghk/lobe-chat/commit/6f5be5d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.18](https://github.com/bentwnghk/lobe-chat/compare/v1.42.17...v1.42.18)
 
 <sup>Released on **2024-06-14**</sup>
