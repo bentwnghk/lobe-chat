@@ -2,6 +2,42 @@
 
 # Changelog
 
+### [Version 1.43.1](https://github.com/bentwnghk/lobe-chat/compare/v1.43.0...v1.43.1)
+
+<sup>Released on **2024-06-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix clerk `UNAUTHORIZED` auth error, fix onboard and auth for community version, openai key and openai proxy are invalid in feature flags.
+
+#### 💄 Styles
+
+- **misc**: Add stepfun as a new provider, fix footer being cut on wide screen.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix clerk `UNAUTHORIZED` auth error, closes [#2907](https://github.com/bentwnghk/lobe-chat/issues/2907) ([bb33ba4](https://github.com/bentwnghk/lobe-chat/commit/bb33ba4))
+- **misc**: Fix onboard and auth for community version, closes [#2908](https://github.com/bentwnghk/lobe-chat/issues/2908) ([b02020d](https://github.com/bentwnghk/lobe-chat/commit/b02020d))
+- **misc**: Openai key and openai proxy are invalid in feature flags, closes [#2886](https://github.com/bentwnghk/lobe-chat/issues/2886) ([ec4f481](https://github.com/bentwnghk/lobe-chat/commit/ec4f481))
+
+#### Styles
+
+- **misc**: Add stepfun as a new provider, closes [#2803](https://github.com/bentwnghk/lobe-chat/issues/2803) ([e1989a1](https://github.com/bentwnghk/lobe-chat/commit/e1989a1))
+- **misc**: Fix footer being cut on wide screen, closes [#2905](https://github.com/bentwnghk/lobe-chat/issues/2905) ([3a1e0cf](https://github.com/bentwnghk/lobe-chat/commit/3a1e0cf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.43.0](https://github.com/bentwnghk/lobe-chat/compare/v1.42.19...v1.43.0)
 
 <sup>Released on **2024-06-17**</sup>
