@@ -2,6 +2,53 @@
 
 # Changelog
 
+## [Version 1.43.0](https://github.com/bentwnghk/lobe-chat/compare/v1.42.19...v1.43.0)
+
+<sup>Released on **2024-06-17**</sup>
+
+#### ✨ Features
+
+- **misc**: Release LobeChat 1.0, support server db mode with Postgres / Drizzle ORM / tRPC.
+
+#### 💄 Styles
+
+- **misc**: Remove r2 cdn url.
+
+#### 🔧 Chores
+
+- **misc**: Bump version.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Release LobeChat 1.0, closes [#2897](https://github.com/bentwnghk/lobe-chat/issues/2897) ([97bb377](https://github.com/bentwnghk/lobe-chat/commit/97bb377))
+- **misc**: Support server db mode with Postgres / Drizzle ORM / tRPC, closes [#2556](https://github.com/bentwnghk/lobe-chat/issues/2556) ([b26afbf](https://github.com/bentwnghk/lobe-chat/commit/b26afbf))
+
+#### Styles
+
+- **misc**: Remove r2 cdn url, closes [#2878](https://github.com/bentwnghk/lobe-chat/issues/2878) ([19fd4d5](https://github.com/bentwnghk/lobe-chat/commit/19fd4d5))
+
+#### Chores
+
+- **misc**: Bump version, closes [#2896](https://github.com/bentwnghk/lobe-chat/issues/2896) ([6e2d03b](https://github.com/bentwnghk/lobe-chat/commit/6e2d03b))
+
+</details>
+
+#### 💥 BREAKING CHANGES
+
+- **misc**: Update LICENSE to Apache 2.0
+- **misc**: update to 1.0.0
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.42.19](https://github.com/bentwnghk/lobe-chat/compare/v1.42.18...v1.42.19)
 
 <sup>Released on **2024-06-16**</sup>
