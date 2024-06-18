@@ -2,9 +2,7 @@ export default {
   about: '关于',
   abouttext: '此应用由伍Sir开发，旨在使学生能够在人工智能的帮助下进行自主学习。',
   advanceSettings: '高级设置',
-
-  appInitializing: 'Mr.🆖 Chat 启动中，请耐心等待...',
-
+  appInitializing: '应用启动中，请耐心等待...',
   autoGenerate: '自动补全',
   autoGenerateTooltip: '基于提示词自动补全助手描述',
   autoGenerateTooltipDisabled: '请填写提示词后使用自动补全功能',

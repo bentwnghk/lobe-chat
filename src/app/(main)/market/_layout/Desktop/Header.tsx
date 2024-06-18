@@ -1,6 +1,7 @@
 'use client';
 
-import { ChatHeader, Logo } from '@bentwnghk/ui';
+import { ChatHeader } from '@bentwnghk/ui';
+import { LobeChat } from '@bentwnghk/ui/brand';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 
@@ -18,7 +19,7 @@ const Header = memo(() => {
 
   return (
     <ChatHeader
-      left={<Logo className={styles.logo} extra={'Discover'} size={36} type={'text'} />}
+      left={<LobeChat className={styles.logo} extra={'Discover'} size={36} type={'text'} />}
       right={<ShareAgentButton />}
     />
   );
