@@ -1,5 +1,5 @@
 import { Avatar, ChatHeaderTitle, Markdown } from '@bentwnghk/ui';
-import { LobeChat } from '@lobehub/ui/brand';
+import { LobeChat } from '@bentwnghk/ui/brand';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
