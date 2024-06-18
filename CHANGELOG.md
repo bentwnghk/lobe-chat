@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.43.2](https://github.com/bentwnghk/lobe-chat/compare/v1.43.1...v1.43.2)
+
+<sup>Released on **2024-06-18**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Remove some i18n text.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Remove some i18n text, closes [#2862](https://github.com/bentwnghk/lobe-chat/issues/2862) ([1fd7d76](https://github.com/bentwnghk/lobe-chat/commit/1fd7d76))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.43.1](https://github.com/bentwnghk/lobe-chat/compare/v1.43.0...v1.43.1)
 
 <sup>Released on **2024-06-17**</sup>
