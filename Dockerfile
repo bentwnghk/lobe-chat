@@ -35,6 +35,7 @@ ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY "pk_live_Y2xlcmsubWlzdGVyNS5uZXQk"
 # Database-related
 ENV NEXT_PUBLIC_SERVICE_MODE "server"
 ENV KEY_VAULTS_SECRET "VMelKsBfIx1eDUay8h4P/yXppVKwhWw02fNRyWJnF64="
+ENV DATABASE_URL "postgres://default:aMHmRuOU1wN7@db:5432/aichat_db"
 ENV NEXT_PUBLIC_S3_DOMAIN "https://s3-for-5chat.mr-ng.com"
 
 # Sentry
