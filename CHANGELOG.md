@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.43.5](https://github.com/bentwnghk/lobe-chat/compare/v1.43.4...v1.43.5)
+
+<sup>Released on **2024-06-19**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Typo in reset settings.
+
+#### 💄 Styles
+
+- **misc**: Fix phi3 icon display under OpenRouter.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Typo in reset settings, closes [#2926](https://github.com/bentwnghk/lobe-chat/issues/2926) ([93d460a](https://github.com/bentwnghk/lobe-chat/commit/93d460a))
+
+#### Styles
+
+- **misc**: Fix phi3 icon display under OpenRouter, closes [#2877](https://github.com/bentwnghk/lobe-chat/issues/2877) ([4173015](https://github.com/bentwnghk/lobe-chat/commit/4173015))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.43.4](https://github.com/bentwnghk/lobe-chat/compare/v1.43.3...v1.43.4)
 
 <sup>Released on **2024-06-19**</sup>
