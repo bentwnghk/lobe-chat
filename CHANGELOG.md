@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.43.7](https://github.com/bentwnghk/lobe-chat/compare/v1.43.6...v1.43.7)
+
+<sup>Released on **2024-06-19**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix and improve tool calling.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix and improve tool calling, closes [#2941](https://github.com/bentwnghk/lobe-chat/issues/2941) ([ea06536](https://github.com/bentwnghk/lobe-chat/commit/ea06536))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.43.6](https://github.com/bentwnghk/lobe-chat/compare/v1.43.5...v1.43.6)
 
 <sup>Released on **2024-06-19**</sup>
