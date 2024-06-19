@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.43.6](https://github.com/bentwnghk/lobe-chat/compare/v1.43.5...v1.43.6)
+
+<sup>Released on **2024-06-19**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auto avatar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix auto avatar, closes [#2939](https://github.com/bentwnghk/lobe-chat/issues/2939) ([f40300c](https://github.com/bentwnghk/lobe-chat/commit/f40300c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.43.5](https://github.com/bentwnghk/lobe-chat/compare/v1.43.4...v1.43.5)
 
 <sup>Released on **2024-06-19**</sup>
