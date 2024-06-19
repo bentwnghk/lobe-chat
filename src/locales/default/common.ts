@@ -209,6 +209,7 @@ export default {
     moveGuide: '设置按钮搬到这里啦',
     plans: '订阅方案',
     preview: '预览版',
+    privacy: '隐私政策',
     profile: '账户管理',
     setting: '应用设置',
     usages: '用量统计',
