@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.43.4](https://github.com/bentwnghk/lobe-chat/compare/v1.43.3...v1.43.4)
+
+<sup>Released on **2024-06-19**</sup>
+
+#### 💄 Styles
+
+- **model**: Update `deepseek-coder` model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **model**: Update `deepseek-coder` model, closes [#2927](https://github.com/bentwnghk/lobe-chat/issues/2927) ([c8d45e4](https://github.com/bentwnghk/lobe-chat/commit/c8d45e4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.43.3](https://github.com/bentwnghk/lobe-chat/compare/v1.43.2...v1.43.3)
 
 <sup>Released on **2024-06-18**</sup>
