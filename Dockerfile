@@ -28,7 +28,13 @@ RUN pnpm i
 COPY . .
 
 ENV NEXT_PUBLIC_BASE_PATH ""
+
+# Clerk
 ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY "pk_live_Y2xlcmsubWlzdGVyNS5uZXQk"
+
+# Database-related
+ENV NEXT_PUBLIC_SERVICE_MODE "server"
+ENV NEXT_PUBLIC_S3_DOMAIN "https://s3-for-5chat.mr-ng.com"
 
 # Sentry
 ENV NEXT_PUBLIC_SENTRY_DSN ""
