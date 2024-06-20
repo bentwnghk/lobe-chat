@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.44.0](https://github.com/bentwnghk/lobe-chat/compare/v1.43.7...v1.44.0)
+
+<sup>Released on **2024-06-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Supoort Claude 3.5 Sonnet.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix to send image without text.
+
+#### 💄 Styles
+
+- **misc**: Fixed System Agent missing in mobile layout.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Supoort Claude 3.5 Sonnet, closes [#2955](https://github.com/bentwnghk/lobe-chat/issues/2955) ([aa1d7b7](https://github.com/bentwnghk/lobe-chat/commit/aa1d7b7))
+
+#### What's fixed
+
+- **misc**: Fix to send image without text, closes [#2952](https://github.com/bentwnghk/lobe-chat/issues/2952) ([b3e915e](https://github.com/bentwnghk/lobe-chat/commit/b3e915e))
+
+#### Styles
+
+- **misc**: Fixed System Agent missing in mobile layout, closes [#2954](https://github.com/bentwnghk/lobe-chat/issues/2954) ([596b9c8](https://github.com/bentwnghk/lobe-chat/commit/596b9c8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.43.7](https://github.com/bentwnghk/lobe-chat/compare/v1.43.6...v1.43.7)
 
 <sup>Released on **2024-06-19**</sup>
