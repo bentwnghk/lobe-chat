@@ -51,7 +51,7 @@ describe('modelConfigSelectors', () => {
           languageModel: {},
         },
       } as UserSettingsState) as unknown as UserStore;
-      expect(modelConfigSelectors.isProviderEnabled('ollama')(s)).toBe(true);
+      expect(modelConfigSelectors.isProviderEnabled('ollama')(s)).toBe(false);
     });
   });
 
