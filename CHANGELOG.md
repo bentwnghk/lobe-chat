@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.44.2](https://github.com/bentwnghk/lobe-chat/compare/v1.44.1...v1.44.2)
+
+<sup>Released on **2024-06-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Create first-time user on server db.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Create first-time user on server db, closes [#2977](https://github.com/bentwnghk/lobe-chat/issues/2977) ([6f53f35](https://github.com/bentwnghk/lobe-chat/commit/6f53f35))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.1](https://github.com/bentwnghk/lobe-chat/compare/v1.44.0...v1.44.1)
 
 <sup>Released on **2024-06-21**</sup>
