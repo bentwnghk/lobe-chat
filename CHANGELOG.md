@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.44.3](https://github.com/bentwnghk/lobe-chat/compare/v1.44.2...v1.44.3)
+
+<sup>Released on **2024-06-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the server db implement, remove deprecated env.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix incorrect baseURL for Groq in client mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the server db implement, closes [#2991](https://github.com/bentwnghk/lobe-chat/issues/2991) ([fa78599](https://github.com/bentwnghk/lobe-chat/commit/fa78599))
+- **misc**: Remove deprecated env, closes [#2983](https://github.com/bentwnghk/lobe-chat/issues/2983) ([15a681f](https://github.com/bentwnghk/lobe-chat/commit/15a681f))
+
+#### What's fixed
+
+- **misc**: Fix incorrect baseURL for Groq in client mode, closes [#2747](https://github.com/bentwnghk/lobe-chat/issues/2747) ([af14225](https://github.com/bentwnghk/lobe-chat/commit/af14225))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.2](https://github.com/bentwnghk/lobe-chat/compare/v1.44.1...v1.44.2)
 
 <sup>Released on **2024-06-22**</sup>
