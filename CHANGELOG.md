@@ -2,6 +2,42 @@
 
 # Changelog
 
+### [Version 1.44.5](https://github.com/bentwnghk/lobe-chat/compare/v1.44.4...v1.44.5)
+
+<sup>Released on **2024-06-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix agent tags, fix anthropic parallel tools calling.
+
+#### 💄 Styles
+
+- **ui**: Fixed incorrect text display on connect check.
+- **misc**: Always show action on mobile.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix agent tags, closes [#3015](https://github.com/bentwnghk/lobe-chat/issues/3015) ([01e965b](https://github.com/bentwnghk/lobe-chat/commit/01e965b))
+- **misc**: Fix anthropic parallel tools calling, closes [#3010](https://github.com/bentwnghk/lobe-chat/issues/3010) ([1d891ac](https://github.com/bentwnghk/lobe-chat/commit/1d891ac))
+
+#### Styles
+
+- **ui**: Fixed incorrect text display on connect check, closes [#2994](https://github.com/bentwnghk/lobe-chat/issues/2994) ([5160f23](https://github.com/bentwnghk/lobe-chat/commit/5160f23))
+- **misc**: Always show action on mobile, closes [#1863](https://github.com/bentwnghk/lobe-chat/issues/1863) ([f40292e](https://github.com/bentwnghk/lobe-chat/commit/f40292e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.4](https://github.com/bentwnghk/lobe-chat/compare/v1.44.3...v1.44.4)
 
 <sup>Released on **2024-06-24**</sup>
