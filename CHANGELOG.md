@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.44.7](https://github.com/bentwnghk/lobe-chat/compare/v1.44.6...v1.44.7)
+
+<sup>Released on **2024-06-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix azure tools calling.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix azure tools calling, closes [#3046](https://github.com/bentwnghk/lobe-chat/issues/3046) ([b929985](https://github.com/bentwnghk/lobe-chat/commit/b929985))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.6](https://github.com/bentwnghk/lobe-chat/compare/v1.44.5...v1.44.6)
 
 <sup>Released on **2024-06-25**</sup>
