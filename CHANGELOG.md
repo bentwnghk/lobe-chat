@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.44.8](https://github.com/bentwnghk/lobe-chat/compare/v1.44.7...v1.44.8)
+
+<sup>Released on **2024-06-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: -check_updates cannot be set by FEATURE_FLAGS.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: -check_updates cannot be set by FEATURE_FLAGS, closes [#3038](https://github.com/bentwnghk/lobe-chat/issues/3038) ([bdadfee](https://github.com/bentwnghk/lobe-chat/commit/bdadfee))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.7](https://github.com/bentwnghk/lobe-chat/compare/v1.44.6...v1.44.7)
 
 <sup>Released on **2024-06-26**</sup>
