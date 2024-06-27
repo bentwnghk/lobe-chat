@@ -11,6 +11,8 @@ export const OFFICIAL_SITE = withBasePath(`/`);
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
+export const OG_URL = '/og/cover.png?v=1';
+
 export const GITHUB = pkg.homepage;
 export const GITHUB_ISSUES = withBasePath(`/settings/modal?session=inbox&tab=llm`);
 export const CHANGELOG = 'https://api.mister5.net';
