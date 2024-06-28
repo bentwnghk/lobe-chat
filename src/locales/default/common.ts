@@ -15,7 +15,7 @@ export default {
   copyFail: '复制失败',
   copySuccess: '复制成功',
   dataStatistics: {
-    messages: '消息',
+    messages: '对话',
     sessions: '助手',
     today: '今日新增',
     topics: '话题',
@@ -30,10 +30,10 @@ export default {
   export: '导出配置',
   exportType: {
     agent: '导出助手设定',
-    agentWithMessage: '导出助手和消息',
+    agentWithMessage: '导出助手和对话',
     all: '导出全局设置和所有助手数据',
     allAgent: '导出所有助手设定',
-    allAgentWithMessage: '导出所有助手和消息',
+    allAgentWithMessage: '导出所有助手和对话',
     globalSetting: '导出全局设置',
   },
   feedback: '反馈与建议',
@@ -76,7 +76,7 @@ export default {
     result: {
       added: '导入成功',
       errors: '导入出错',
-      messages: '消息',
+      messages: '对话',
       sessionGroups: '分组',
       sessions: '助手',
       skips: '重复跳过',
@@ -159,7 +159,7 @@ export default {
     channel: '频道',
     disabled: {
       actions: { enable: '开启云端同步', settings: '配置同步参数' },
-      desc: '当前会话数据仅存储于此浏览器中。如果你需要在多个设备间同步数据，请配置并开启云端同步。',
+      desc: '当前对话数据仅存储于此浏览器中。如果你需要在多个设备间同步数据，请配置并开启云端同步。',
       title: '数据同步未开启',
     },
     enabled: {
@@ -177,7 +177,7 @@ export default {
     unconnected: { tip: '信令服务器连接失败，将无法建立点对点通信频道，请检查网络后重试' },
   },
   tab: {
-    chat: '会话',
+    chat: '对话',
     market: '发现',
     me: '我',
     setting: '设置',

@@ -7,7 +7,7 @@ export const chainSummaryTitle = (messages: OpenAIChatMessage[]): Partial<ChatSt
   return {
     messages: [
       {
-        content: '你是一名擅长会话的助理，你需要将用户的会话总结为 10 个字以内的标题',
+        content: '你是一名擅长对话的助理，你需要将用户的对话总结为 10 个字以内的标题',
         role: 'system',
       },
       {

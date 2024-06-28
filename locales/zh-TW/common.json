@@ -15,7 +15,7 @@
   "copyFail": "複製失敗",
   "copySuccess": "複製成功",
   "dataStatistics": {
-    "messages": "消息",
+    "messages": "對話",
     "sessions": "助手",
     "today": "今日新增",
     "topics": "話題"
@@ -77,7 +77,7 @@
       "added": "匯入成功",
       "errors": "匯入出錯",
       "messages": "訊息",
-      "sessionGroups": "會話分組",
+      "sessionGroups": "對話分組",
       "sessions": "助手",
       "skips": "重複跳過",
       "topics": "話題",
@@ -165,7 +165,7 @@
         "enable": "開啟雲端同步",
         "settings": "配置同步參數"
       },
-      "desc": "當前會話數據僅存儲於此瀏覽器中。如果你需要在多個裝置間同步數據，請配置並開啟雲端同步。",
+      "desc": "當前對話數據僅存儲於此瀏覽器中。如果你需要在多個裝置間同步數據，請配置並開啟雲端同步。",
       "title": "數據同步未開啟"
     },
     "enabled": {

@@ -21,9 +21,9 @@ export default {
     clear: {
       action: '立即清除',
       confirm: '确认清除所有聊天数据？',
-      desc: '将会清除所有会话数据，包括助手、文件、消息、插件等',
-      success: '已清除所有会话消息',
-      title: '清除所有会话消息',
+      desc: '将会清除所有对话数据，包括助手、文件、对话、插件等',
+      success: '已清除所有对话',
+      title: '清除所有对话',
     },
     reset: {
       action: '立即重置',
@@ -37,9 +37,9 @@ export default {
   header: {
     desc: '偏好与模型设置',
     global: '全局设置',
-    session: '会话设置',
-    sessionDesc: '角色设定与会话偏好',
-    sessionWithName: '会话设置 · {{name}}',
+    session: '对话设置',
+    sessionDesc: '角色设定与对话偏好',
+    sessionWithName: '对话设置 · {{name}}',
     title: '设置',
   },
   llm: {
@@ -97,7 +97,7 @@ export default {
       },
     },
     fetchOnClient: {
-      desc: '客户端请求模式将从浏览器直接发起会话请求，可提升响应速度',
+      desc: '客户端请求模式将从浏览器直接发起对话请求，可提升响应速度',
       title: '使用客户端请求模式',
     },
     fetcher: {
@@ -108,7 +108,7 @@ export default {
     },
     helpDoc: '配置教程',
     modelList: {
-      desc: '选择在会话中展示的模型，选择的模型会在模型列表中展示',
+      desc: '选择在对话中展示的模型，选择的模型会在模型列表中展示',
       placeholder: '请从列表中选择模型',
       title: '模型列表',
       total: '共 {{count}} 个模型可用',
@@ -160,8 +160,8 @@ export default {
   },
   settingChat: {
     autoCreateTopicThreshold: {
-      desc: '当前消息数超过设定该值后，将自动创建话题',
-      title: '消息阈值',
+      desc: '当前对话数超过设定该值后，将自动创建话题',
+      title: '对话阈值',
     },
     chatStyleType: {
       title: '聊天窗口样式',
@@ -171,29 +171,29 @@ export default {
       },
     },
     compressThreshold: {
-      desc: '当未压缩的历史消息超过该值时，将进行压缩',
-      title: '历史消息长度压缩阈值',
+      desc: '当未压缩的历史对话超过该值时，将进行压缩',
+      title: '历史对话长度压缩阈值',
     },
     enableAutoCreateTopic: {
-      desc: '会话过程中是否自动创建话题，仅在临时话题中生效',
+      desc: '对话过程中是否自动创建话题，仅在临时话题中生效',
       title: '自动创建话题',
     },
     enableCompressThreshold: {
-      title: '是否开启历史消息长度压缩阈值',
+      title: '是否开启历史对话长度压缩阈值',
     },
     enableHistoryCount: {
       alias: '不限制',
-      limited: '只包含 {{number}} 条会话消息',
-      setlimited: '使用历史消息数',
-      title: '限制历史消息数',
-      unlimited: '不限历史消息数',
+      limited: '只包含 {{number}} 条对话',
+      setlimited: '使用历史对话数',
+      title: '限制历史对话数',
+      unlimited: '不限历史对话数',
     },
     historyCount: {
-      desc: '每次请求携带的消息数（包括最新编写的提问。每个提问和回答都计算1）',
-      title: '附带消息数',
+      desc: '每次请求携带的对话数（包括最新编写的提问。每个提问和回答都计算1）',
+      title: '附带对话数',
     },
     inputTemplate: {
-      desc: '用户最新的一条消息会填充到此模板',
+      desc: '用户最新的一条对话会填充到此模板',
       placeholder: '预处理模版 {{text}} 将替换为实时输入信息',
       title: '用户输入预处理',
     },
@@ -386,7 +386,7 @@ export default {
     translation: {
       label: '翻译模型',
       modelDesc: '指定用于翻译的模型',
-      title: '消息内容翻译',
+      title: '对话内容翻译',
     },
   },
   tab: {

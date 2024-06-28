@@ -1,10 +1,10 @@
 export default {
   addAgent: '添加助手',
-  addAgentAndConverse: '添加助手并会话',
+  addAgentAndConverse: '添加助手并对话',
   addAgentSuccess: '添加成功',
   guide: {
     func1: {
-      desc1: '在会话窗口中通过右上角设置进入你想提交助手的设置页面;',
+      desc1: '在对话窗口中通过右上角设置进入你想提交助手的设置页面;',
       desc2: '点击右上角提交到助手市场按钮。',
       tag: '方法一',
       title: '通过 Mr.🆖 Chat 提交',

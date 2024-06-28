@@ -4,10 +4,10 @@
   },
   "agentDefaultMessage": "你好，我是 **{{name}}**，你可以立即与我开始对话，也可以前往 [助手设置](/chat/settings#session={{id}}) 完善我的信息。",
   "agentDefaultMessageWithSystemRole": "你好，我是 **{{name}}**，{{systemRole}}，让我们开始对话吧！",
-  "agentsAndConversations": "助手与会话",
+  "agentsAndConversations": "助手与对话",
   "backToBottom": "跳转至当前",
-  "clearCurrentMessages": "清空当前会话消息",
-  "confirmClearCurrentMessages": "即将清空当前会话消息，清空后将无法找回，请确认你的操作",
+  "clearCurrentMessages": "清空当前对话",
+  "confirmClearCurrentMessages": "即将清空当前对话，清空后将无法找回，请确认你的操作",
   "confirmRemoveSessionItemAlert": "即将删除该助手，删除后该将无法找回，请确认你的操作",
   "confirmRemoveSessionSuccess": "助手删除成功",
   "defaultAgent": "自定义助手",
@@ -26,8 +26,8 @@
     "title": "随便聊聊"
   },
   "input": {
-    "addAi": "添加一条 AI 消息",
-    "addUser": "添加一条用户消息",
+    "addAi": "添加一条 AI 对话",
+    "addUser": "添加一条用户对话",
     "more": "更多",
     "send": "发送",
     "sendWithCmdEnter": "按 {{meta}} + Enter 键发送",
@@ -80,7 +80,7 @@
   },
   "temp": "临时",
   "tokenDetails": {
-    "chats": "会话消息",
+    "chats": "对话",
     "rest": "剩余可用",
     "systemRole": "角色设定",
     "title": "上下文明细",
@@ -106,13 +106,13 @@
     "duplicateLoading": "话题复制中...",
     "duplicateSuccess": "话题复制成功",
     "guide": {
-      "desc": "点击发送左侧按钮可将当前会话保存为历史话题，并开启新一轮会话",
+      "desc": "点击发送左侧按钮可将当前对话保存为历史话题，并开启新一轮对话",
       "title": "话题列表"
     },
     "openNewTopic": "开启新话题",
     "removeAll": "删除全部话题",
     "removeUnstarred": "删除未收藏话题",
-    "saveCurrentMessages": "将当前会话保存为话题",
+    "saveCurrentMessages": "将当前对话保存为话题",
     "searchPlaceholder": "搜索话题...",
     "title": "话题"
   },

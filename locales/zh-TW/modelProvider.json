@@ -41,7 +41,7 @@
     "title": "Bedrock",
     "unlock": {
       "customRegion": "自定義服務區域",
-      "description": "輸入你的 AWS AccessKeyId / SecretAccessKey 即可開始會話。應用程式不會記錄你的驗證配置",
+      "description": "輸入你的 AWS AccessKeyId / SecretAccessKey 即可開始對話。應用程式不會記錄你的驗證配置",
       "title": "使用自定義 Bedrock 驗證資訊"
     }
   },
@@ -93,7 +93,7 @@
     "unlock": {
       "cancel": "取消下載",
       "confirm": "下載",
-      "description": "輸入你的 Ollama 模型標籤，完成即可繼續會話",
+      "description": "輸入你的 Ollama 模型標籤，完成即可繼續對話",
       "downloaded": "{{completed}} / {{total}}",
       "starting": "開始下載...",
       "title": "下載指定的 Ollama 模型"

@@ -1,7 +1,7 @@
 export default {
   clerkAuth: {
     loginSuccess: {
-      action: '继续会话',
+      action: '继续对话',
       desc: '{{greeting}}，很高兴能够继续为你服务。让我们接着刚刚的话题聊下去吧',
       title: '欢迎回来， {{nickName}}',
     },
@@ -109,7 +109,7 @@ export default {
   unlock: {
     addProxyUrl: '添加 OpenAI 代理地址（可选）',
     apiKey: {
-      description: '输入你的 {{name}} API Key 即可开始会话',
+      description: '输入你的 {{name}} API Key 即可开始对话',
       title: '使用自定义 {{name}} API Key',
     },
     closeMessage: '关闭提示',

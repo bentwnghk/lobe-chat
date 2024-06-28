@@ -42,7 +42,7 @@ export default {
     unlock: {
       customRegion: '自定义服务区域',
       description:
-        '输入你的 AWS AccessKeyId / SecretAccessKey 即可开始会话。应用不会记录你的鉴权配置',
+        '输入你的 AWS AccessKeyId / SecretAccessKey 即可开始对话。应用不会记录你的鉴权配置',
       title: '使用自定义 Bedrock 鉴权信息',
     },
   },
@@ -96,7 +96,7 @@ export default {
     unlock: {
       cancel: '取消下载',
       confirm: '下载',
-      description: '输入你的 Ollama 模型标签，完成即可继续会话',
+      description: '输入你的 Ollama 模型标签，完成即可继续对话',
       downloaded: '{{completed}} / {{total}}',
       starting: '开始下载...',
       title: '下载指定的 Ollama 模型',

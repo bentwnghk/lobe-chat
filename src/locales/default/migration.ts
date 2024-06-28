@@ -14,7 +14,7 @@ export default {
       '在新版本中，Mr.🆖 Chat 的数据存储有了巨大的飞跃。因此我们要对旧版数据进行升级，进而为你带来更好的使用体验。',
     features: {
       capability: {
-        desc: '基于 IndexedDB 技术，足以装下你一生的会话消息',
+        desc: '基于 IndexedDB 技术，足以装下你一生的对话消息',
         title: '大容量',
       },
       performance: {

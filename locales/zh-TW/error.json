@@ -1,7 +1,7 @@
 {
   "clerkAuth": {
     "loginSuccess": {
-      "action": "繼續會話",
+      "action": "繼續對話",
       "desc": "{{greeting}}，很高興能夠繼續為你服務。讓我們接著剛剛的話題聊下去吧",
       "title": "歡迎回來， {{nickName}}"
     }
@@ -89,7 +89,7 @@
   "unlock": {
     "addProxyUrl": "新增 OpenAI 代理網址（選填）",
     "apiKey": {
-      "description": "輸入您的 {{name}} API 金鑰即可開始會話",
+      "description": "輸入您的 {{name}} API 金鑰即可開始對話",
       "title": "使用自定義 {{name}} API 金鑰"
     },
     "closeMessage": "關閉提示",
