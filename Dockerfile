@@ -29,16 +29,6 @@ COPY . .
 
 ENV NEXT_PUBLIC_BASE_PATH ""
 
-# Clerk
-# ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY ""
-# ENV CLERK_WEBHOOK_SECRET ""
-
-# Database-related
-# ENV NEXT_PUBLIC_SERVICE_MODE ""
-# ENV KEY_VAULTS_SECRET ""
-# ENV DATABASE_URL ""
-# ENV NEXT_PUBLIC_S3_DOMAIN ""
-
 # Sentry
 ENV NEXT_PUBLIC_SENTRY_DSN ""
 ENV SENTRY_ORG ""
@@ -80,6 +70,9 @@ RUN chown nextjs:nodejs .next
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=sharp --chown=nextjs:nodejs /app/node_modules/.pnpm ./node_modules/.pnpm
+
+COPY entrypoint.sh .
+RUN ["chmod", "+x", "/app/entrypoint.sh"]
 
 USER nextjs
 
@@ -145,4 +138,5 @@ ENV DEEPSEEK_API_KEY ""
 # Qwen
 ENV QWEN_API_KEY ""
 
+ENTRYPOINT ["/app/entrypoint.sh"]
 CMD ["node", "server.js"]
