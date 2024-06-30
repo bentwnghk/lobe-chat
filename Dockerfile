@@ -39,7 +39,7 @@ ENV NEXT_PUBLIC_S3_DOMAIN=$NEXT_PUBLIC_S3_DOMAIN
 
 ENV KEY_VAULTS_SECRET="VMelKsBfIx1eDUay8h4P/yXppVKwhWw02fNRyWJnF64="
 ENV DATABASE_DRIVER="node"
-ENV DATABASE_URL="postgres://default:aMHmRuOU1wN7@localhost:5432/aichat_db"
+ENV DATABASE_URL="postgres://default:aMHmRuOU1wN7@postgres:5432/aichat_db"
 
 # Clerk 相关配置
 ENV CLERK_WEBHOOK_SECRET=unknown
