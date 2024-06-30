@@ -39,7 +39,7 @@ ENV NEXT_PUBLIC_S3_DOMAIN=$NEXT_PUBLIC_S3_DOMAIN
 
 ENV KEY_VAULTS_SECRET="VMelKsBfIx1eDUay8h4P/yXppVKwhWw02fNRyWJnF64="
 # ENV DATABASE_DRIVER="node"
-ENV DATABASE_URL="postgresql://aichat_db_owner:vLVYzN26FMqf@ep-lucky-dew-a126xb9j-pooler.ap-southeast-1.aws.neon.tech/aichat_db?sslmode=require"
+ENV DATABASE_URL="postgresql://unknown:unknown@ep-lucky-dew-a126xb9j-pooler.ap-southeast-1.aws.neon.tech/unknown?sslmode=require"
 
 # Clerk 相关配置
 ENV CLERK_WEBHOOK_SECRET="unknown"
