@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.44.11](https://github.com/bentwnghk/lobe-chat/compare/v1.44.10...v1.44.11)
+
+<sup>Released on **2024-06-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix clerk `UNAUTHORIZED` error after long-time hang-up.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix clerk `UNAUTHORIZED` error after long-time hang-up, closes [#3084](https://github.com/bentwnghk/lobe-chat/issues/3084) ([a148c3b](https://github.com/bentwnghk/lobe-chat/commit/a148c3b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.10](https://github.com/bentwnghk/lobe-chat/compare/v1.44.9...v1.44.10)
 
 <sup>Released on **2024-06-28**</sup>
