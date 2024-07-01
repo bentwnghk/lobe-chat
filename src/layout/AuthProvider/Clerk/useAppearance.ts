@@ -101,10 +101,10 @@ export const useAppearance = () => {
     baseTheme: isDarkMode ? dark : undefined,
     elements: styles,
     layout: {
-      helpPageUrl: 'https://mr5drive.com/docs',
-      privacyPageUrl: 'https://mr5drive.com/privacy',
+      helpPageUrl: 'https://aichat.mister5.net/docs',
+      privacyPageUrl: 'https://aichat.mister5.net/privacy',
       socialButtonsVariant: 'blockButton',
-      termsPageUrl: 'https://mr5drive.com/terms',
+      termsPageUrl: 'https://aichat.mister5.net/terms',
     },
     variables: {
       borderRadius: `${theme.borderRadius}px`,

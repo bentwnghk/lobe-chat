@@ -24,7 +24,7 @@ export const SELF_HOSTING_DOCUMENTS = 'https://cambridge.mister5.net/';
 
 export const WIKI = 'https://collins.mister5.net/';
 export const WIKI_PLUGIN_GUIDE = 'https://macmillan.mister5.net/';
-export const MANUAL_UPGRADE_URL = 'https://ai.mister5.net';
+export const MANUAL_UPGRADE_URL = 'https://aichat.mister5.net';
 
 export const BLOG = 'https://status.mr5drive.com/';
 
@@ -36,7 +36,7 @@ export const TERMS_URL = 'https://speak.mister5.net';
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
-export const MORE_MODEL_PROVIDER_REQUEST_URL = 'https://mr5drive.com';
+export const MORE_MODEL_PROVIDER_REQUEST_URL = 'https://aichat.mister5.net';
 
 export const AGENTS_INDEX_GITHUB = 'https://github.com/lobehub/lobe-chat-agents';
 export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');

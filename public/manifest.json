@@ -58,7 +58,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://ai.mister5.net/manifest.json"
+      "url": "https://aichat.mister5.net/manifest.json"
     }
   ],
   "scope": "/",

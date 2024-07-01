@@ -103,16 +103,9 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
               },
               {
                 href: 'https://ai5.mister5.net',
-                icon: SiRss as any,
+                icon: SiRss,
                 label: 'Mr.🆖 ChatGPT+',
                 value: 'x',
-              },
-
-              {
-                href: 'https://ai.mister5.net',
-                icon: SiRss,
-                label: 'Mr.🆖 Chat',
-                value: 'medium',
               },
             ]}
           />

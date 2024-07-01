@@ -14,9 +14,9 @@
     "tts",
     "stt"
   ],
-  "homepage": "https://ai.mister5.net/",
+  "homepage": "https://aichat.mister5.net/",
   "bugs": {
-    "url": "https://mr5drive.com/"
+    "url": "https://aichat.mister5.net/"
   },
   "repository": {
     "type": "git",
