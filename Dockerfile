@@ -39,7 +39,7 @@ ENV NEXT_PUBLIC_S3_DOMAIN=$NEXT_PUBLIC_S3_DOMAIN
 
 ENV KEY_VAULTS_SECRET="VMelKsBfIx1eDUay8h4P/yXppVKwhWw02fNRyWJnF64="
 ENV DATABASE_DRIVER="node"
-ENV DATABASE_URL="postgresql://unknown:unknown@localhost:5433/unknown"
+ENV DATABASE_URL="postgresql://unknown:unknown@db:5433/unknown"
 
 # Clerk 相关配置
 ENV CLERK_WEBHOOK_SECRET="unknown"
