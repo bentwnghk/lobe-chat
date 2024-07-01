@@ -174,7 +174,7 @@ export const useProviderList = (): ProviderItem[] => {
       },
       {
         ...BaichuanProviderCard,
-        docUrl: urlJoin(BASE_DOC_URL, 'baichuan'),
+        docUrl: urlJoin(BASE_DOC_URL, 'search?q=baichuan'),
         title: <Baichuan.Combine size={ 20 } type={ 'color' } />,
       },
     ],
