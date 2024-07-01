@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { ConfigProvider, Empty } from 'antd';
 import { useTheme } from 'antd-style';
 import { LucideSquareArrowLeft, LucideSquareArrowRight } from 'lucide-react';

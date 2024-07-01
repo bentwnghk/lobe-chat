@@ -1,6 +1,6 @@
 'use client';
 
-import { DraggablePanel, DraggablePanelContainer } from '@lobehub/ui';
+import { DraggablePanel, DraggablePanelContainer } from '@bentwnghk/ui';
 import { createStyles, useResponsive } from 'antd-style';
 import { PropsWithChildren, memo } from 'react';
 import { Flexbox } from 'react-layout-kit';

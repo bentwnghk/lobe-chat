@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { LoaderCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';

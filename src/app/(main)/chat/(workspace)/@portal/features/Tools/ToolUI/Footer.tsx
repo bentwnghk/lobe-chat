@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { LucideBotMessageSquare } from 'lucide-react';
 import { useTranslation } from 'react-i18next';

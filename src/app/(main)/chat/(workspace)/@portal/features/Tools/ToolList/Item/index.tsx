@@ -1,4 +1,4 @@
-import { Icon, Tag } from '@lobehub/ui';
+import { Icon, Tag } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { CircuitBoard } from 'lucide-react';
