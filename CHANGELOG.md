@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.44.12](https://github.com/bentwnghk/lobe-chat/compare/v1.44.11...v1.44.12)
+
+<sup>Released on **2024-07-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to prepare for Chat Portal.
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 1.5 stable version model & 2M context window.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to prepare for Chat Portal, closes [#3093](https://github.com/bentwnghk/lobe-chat/issues/3093) ([e7c1ba8](https://github.com/bentwnghk/lobe-chat/commit/e7c1ba8))
+
+#### Styles
+
+- **misc**: Add Gemini 1.5 stable version model & 2M context window, closes [#2744](https://github.com/bentwnghk/lobe-chat/issues/2744) ([a35143b](https://github.com/bentwnghk/lobe-chat/commit/a35143b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.11](https://github.com/bentwnghk/lobe-chat/compare/v1.44.10...v1.44.11)
 
 <sup>Released on **2024-06-30**</sup>
