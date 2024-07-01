@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.45.1](https://github.com/bentwnghk/lobe-chat/compare/v1.45.0...v1.45.1)
+
+<sup>Released on **2024-07-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the portal file, refactor the portal implement.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Display issue when select default model in System Agent.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the portal file, closes [#3106](https://github.com/bentwnghk/lobe-chat/issues/3106) ([2d9635f](https://github.com/bentwnghk/lobe-chat/commit/2d9635f))
+- **misc**: Refactor the portal implement, closes [#3110](https://github.com/bentwnghk/lobe-chat/issues/3110) ([53fb292](https://github.com/bentwnghk/lobe-chat/commit/53fb292))
+
+#### What's fixed
+
+- **misc**: Display issue when select default model in System Agent, closes [#3095](https://github.com/bentwnghk/lobe-chat/issues/3095) ([49f7f33](https://github.com/bentwnghk/lobe-chat/commit/49f7f33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.45.0](https://github.com/bentwnghk/lobe-chat/compare/v1.44.12...v1.45.0)
 
 <sup>Released on **2024-07-01**</sup>
