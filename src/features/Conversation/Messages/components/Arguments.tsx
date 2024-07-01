@@ -1,7 +1,7 @@
 import { Highlighter } from '@bentwnghk/ui';
 import { memo } from 'react';
 
-import { useYamlArguments } from '../hooks/useYamlArguments';
+import { useYamlArguments } from '@/hooks/useYamlArguments';
 
 export interface ArgumentsProps {
   arguments?: string;
