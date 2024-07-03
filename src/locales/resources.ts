@@ -1,9 +1,20 @@
 import resources from './default';
 
 export const locales = [
+  'ar',
+  'bg-BG',
+  'de-DE',
   'en-US',
+  'es-ES',
+  'fr-FR',
+  'ja-JP',
+  'ko-KR',
+  'pt-BR',
+  'ru-RU',
+  'tr-TR',
   'zh-CN',
   'zh-TW',
+  'vi-VN',
 ] as const;
 
 export type DefaultResources = typeof resources;
