@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.45.5](https://github.com/bentwnghk/lobe-chat/compare/v1.45.4...v1.45.5)
+
+<sup>Released on **2024-07-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Allow builtin tools to trigger AI message.
+
+#### 💄 Styles
+
+- **misc**: Improve delete assistant message with tools.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Allow builtin tools to trigger AI message, closes [#3135](https://github.com/bentwnghk/lobe-chat/issues/3135) ([6c4c8f7](https://github.com/bentwnghk/lobe-chat/commit/6c4c8f7))
+
+#### Styles
+
+- **misc**: Improve delete assistant message with tools, closes [#3127](https://github.com/bentwnghk/lobe-chat/issues/3127) ([1230777](https://github.com/bentwnghk/lobe-chat/commit/1230777))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.45.4](https://github.com/bentwnghk/lobe-chat/compare/v1.45.3...v1.45.4)
 
 <sup>Released on **2024-07-03**</sup>
