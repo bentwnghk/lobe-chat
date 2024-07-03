@@ -24,7 +24,7 @@ export type Locales = (typeof locales)[number];
 export const normalizeLocale = (locale?: string): string => {
   if (!locale) return 'en-US';
 
-  if (locale.startsWith('zh')) return 'zh-TW';
+  if (locale.startsWith('ar')) return 'ar';
 
   for (const l of locales) {
     if (l.startsWith(locale)) {
