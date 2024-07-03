@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.45.4](https://github.com/bentwnghk/lobe-chat/compare/v1.45.3...v1.45.4)
+
+<sup>Released on **2024-07-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Clerk provider refreshes continously.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Clerk provider refreshes continously, closes [#3131](https://github.com/bentwnghk/lobe-chat/issues/3131) ([ffbb399](https://github.com/bentwnghk/lobe-chat/commit/ffbb399))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.45.3](https://github.com/bentwnghk/lobe-chat/compare/v1.45.2...v1.45.3)
 
 <sup>Released on **2024-07-02**</sup>
