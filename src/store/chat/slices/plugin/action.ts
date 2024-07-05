@@ -111,7 +111,7 @@ export const chatPlugin: StateCreator<
         type: ChatErrorType.PluginFailToTransformArguments,
         body: {
           message:
-            "[plugin] fail to transform plugin arguments to ai state, it may due to model's limited tools calling capacity. You can refer to https://lobehub.com/docs/usage/tools-calling for more detail.",
+            "[plugin] fail to transform plugin arguments to ai state, it may due to model's limited tools calling capacity.",
           stack: err.stack,
           arguments: params,
           schema,
