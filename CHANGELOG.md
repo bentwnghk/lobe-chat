@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.45.7](https://github.com/bentwnghk/lobe-chat/compare/v1.45.6...v1.45.7)
+
+<sup>Released on **2024-07-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Improve tools calling error feedback when arguments are not correctly.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Improve tools calling error feedback when arguments are not correctly, closes [#3150](https://github.com/bentwnghk/lobe-chat/issues/3150) ([1fa160f](https://github.com/bentwnghk/lobe-chat/commit/1fa160f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.45.6](https://github.com/bentwnghk/lobe-chat/compare/v1.45.5...v1.45.6)
 
 <sup>Released on **2024-07-04**</sup>
