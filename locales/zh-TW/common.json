@@ -46,7 +46,7 @@
     "and": "然後",
     "feedback": {
       "action": "輸入金鑰",
-      "desc": "從 Mr.🆖 AI API 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。請記得將 <API 代理位址> 從「https://api.openai.com/v1」變更為「https://api.mister5.net/v1」。",
+      "desc": "從 Mr.🆖 AI API 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。請記得將 <API 代理位址> 從「https://api.openai.com/v1」變更為「https://api.mr5ai.com/v1」。",
       "title": "到【應用設定】輸入您的金鑰"
     },
     "later": "稍後",

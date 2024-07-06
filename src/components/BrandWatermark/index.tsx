@@ -29,7 +29,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       {...rest}
     >
       <span>Powered by</span>
-      <Link className={styles.logoLink} href={'https://api.mister5.net'} target={'_blank'}>
+      <Link className={styles.logoLink} href={'https://api.mr5ai.com'} target={'_blank'}>
         <LobeHub size={20} type={'text'} />
       </Link>
     </Flexbox>

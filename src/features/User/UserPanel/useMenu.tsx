@@ -213,7 +213,7 @@ export const useMenu = () => {
       icon: <Icon icon={LifeBuoy} />,
       key: 'privacy',
       label: (
-        <Link href='https://speak.mister5.net/privacy.html' target={'_blank'}>
+        <Link href='https://privacy.mr5ai.com/' target={'_blank'}>
           {t('userPanel.privacy')}
         </Link>
       ),

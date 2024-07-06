@@ -92,7 +92,7 @@ class Ld {
       'name': 'Mr.🆖 Chat',
       'sameAs': [
         X,
-        'https://aichat.mister5.net/',
+        'https://mr5ai.com/',
       ],
       'url': OFFICIAL_SITE,
     };
