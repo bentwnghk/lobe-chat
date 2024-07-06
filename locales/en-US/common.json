@@ -46,7 +46,7 @@
     "and": "and",
     "feedback": {
       "action": "Enter Key",
-      "desc": "After getting an API Key from Mr.🆖 AI API, enter it in [App Settings > Language Model]. Remember to change the <API Proxy Address> from 'https://api.openai.com/v1' to 'https://api.mr5ai.com/v1'.",
+      "desc": "After getting an API Key from Mr.🆖 AI API, enter it in [App Settings > Language Model].",
       "title": "Enter your key in [App Settings]"
     },
     "later": "Later",

@@ -46,13 +46,13 @@
     "and": "然後",
     "feedback": {
       "action": "輸入金鑰",
-      "desc": "從 Mr.🆖 AI API 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。請記得將 <API 代理位址> 從「https://api.openai.com/v1」變更為「https://api.mr5ai.com/v1」。",
+      "desc": "從 Mr.🆖 AI API 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。",
       "title": "到【應用設定】輸入您的金鑰"
     },
     "later": "稍後",
     "star": {
       "action": "取得金鑰",
-      "desc": "整合各種開源和閉源大型語言模型 (LLM) 存取方式，低成本構建或部署生成式人工智能 (Generative AI) 應用。計費採額度消耗制，隨時充值，且無使用時限。",
+      "desc": "整合各種開源和閉源大型語言模型 (LLM) 存取方式，低成本部署生成式人工智能 (Generative AI) 應用。計費採額度消耗制，隨時充值，且無使用時限。",
       "title": "Mr.🆖 AI API"
     },
     "title": "沒有 OpenAI API 金鑰？"
