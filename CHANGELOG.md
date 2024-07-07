@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.45.8](https://github.com/bentwnghk/lobe-chat/compare/v1.45.7...v1.45.8)
+
+<sup>Released on **2024-07-07**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fixed mobile web page navigation issue with inbox assistant, support to disable clerk signup with feature flag.
+
+#### 💄 Styles
+
+- **misc**: Update deepseek max token.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fixed mobile web page navigation issue with inbox assistant, closes [#2693](https://github.com/bentwnghk/lobe-chat/issues/2693) ([4476a5e](https://github.com/bentwnghk/lobe-chat/commit/4476a5e))
+- **misc**: Support to disable clerk signup with feature flag, closes [#3126](https://github.com/bentwnghk/lobe-chat/issues/3126) ([4ead315](https://github.com/bentwnghk/lobe-chat/commit/4ead315))
+
+#### Styles
+
+- **misc**: Update deepseek max token, closes [#3143](https://github.com/bentwnghk/lobe-chat/issues/3143) ([4a241b9](https://github.com/bentwnghk/lobe-chat/commit/4a241b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.45.7](https://github.com/bentwnghk/lobe-chat/compare/v1.45.6...v1.45.7)
 
 <sup>Released on **2024-07-05**</sup>
