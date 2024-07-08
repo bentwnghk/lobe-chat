@@ -52,7 +52,7 @@
     "later": "稍后",
     "star": {
       "action": "取得金钥",
-      "desc": "整合各种开源和闭源大型语言模型 (LLM) 存取方式，低成本部署生成式人工智能 (Generative AI) 应用。计费采额度消耗制，随时充值，且无使用时限。",
+      "desc": "存取全球主流大型语言模型 (LLM)，低成本部署生成式人工智能 (Generative AI) 应用。计费采用额度消耗制，随时充值，且无使用时限。",
       "title": "Mr.🆖 AI API"
     },
     "title": "没有 OpenAI API 金钥？"
