@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.2](https://github.com/bentwnghk/lobe-chat/compare/v1.46.1...v1.46.2)
+
+<sup>Released on **2024-07-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Allow user to use their own WebRTC signaling.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Allow user to use their own WebRTC signaling, closes [#3182](https://github.com/bentwnghk/lobe-chat/issues/3182) ([c7f8f38](https://github.com/bentwnghk/lobe-chat/commit/c7f8f38))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.46.1](https://github.com/bentwnghk/lobe-chat/compare/v1.46.0...v1.46.1)
 
 <sup>Released on **2024-07-09**</sup>
