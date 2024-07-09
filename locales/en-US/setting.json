@@ -345,7 +345,7 @@
       "unknownOS": "Unknown OS"
     },
     "warning": {
-      "tip": "After a long period of community testing, WebRTC synchronization may not reliably meet general data synchronization needs. Please <1>deploy a signaling server</1> before use."
+      "tip": "After a long period of testing, WebRTC synchronization may not reliably meet general data synchronization needs. Please <1>deploy a signaling server</1> before use."
     },
     "webrtc": {
       "channelName": {
