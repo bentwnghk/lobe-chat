@@ -181,7 +181,7 @@ export const useProviderList = (): ProviderItem[] => {
       },
       {
         ...TaichuProviderCard,
-        docUrl: urlJoin(BASE_DOC_URL, 'earch?q=taichu'),
+        docUrl: urlJoin(BASE_DOC_URL, 'search?q=taichu'),
         title: <AiMass.Combine size={ 28 } type={ 'color' } />,
       },
     ],
