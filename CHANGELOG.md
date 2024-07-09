@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.1](https://github.com/bentwnghk/lobe-chat/compare/v1.46.0...v1.46.1)
+
+<sup>Released on **2024-07-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Automatic refresh when change language.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Automatic refresh when change language, closes [#3181](https://github.com/bentwnghk/lobe-chat/issues/3181) ([b597c5a](https://github.com/bentwnghk/lobe-chat/commit/b597c5a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.46.0](https://github.com/bentwnghk/lobe-chat/compare/v1.45.10...v1.46.0)
 
 <sup>Released on **2024-07-09**</sup>
