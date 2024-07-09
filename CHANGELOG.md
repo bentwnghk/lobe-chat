@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.46.0](https://github.com/bentwnghk/lobe-chat/compare/v1.45.10...v1.46.0)
+
+<sup>Released on **2024-07-09**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Taichu model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Taichu model provider, closes [#3129](https://github.com/bentwnghk/lobe-chat/issues/3129) ([a4580e9](https://github.com/bentwnghk/lobe-chat/commit/a4580e9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.45.10](https://github.com/bentwnghk/lobe-chat/compare/v1.45.9...v1.45.10)
 
 <sup>Released on **2024-07-08**</sup>
