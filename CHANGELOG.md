@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.3](https://github.com/bentwnghk/lobe-chat/compare/v1.46.2...v1.46.3)
+
+<sup>Released on **2024-07-09**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Support disable clientFetch by default.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Support disable clientFetch by default, closes [#3133](https://github.com/bentwnghk/lobe-chat/issues/3133) [#3108](https://github.com/bentwnghk/lobe-chat/issues/3108) ([4415652](https://github.com/bentwnghk/lobe-chat/commit/4415652))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.46.2](https://github.com/bentwnghk/lobe-chat/compare/v1.46.1...v1.46.2)
 
 <sup>Released on **2024-07-09**</sup>
