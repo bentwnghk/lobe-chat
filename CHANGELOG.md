@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.4](https://github.com/bentwnghk/lobe-chat/compare/v1.46.3...v1.46.4)
+
+<sup>Released on **2024-07-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix assistant meta change race issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix assistant meta change race issue, closes [#3184](https://github.com/bentwnghk/lobe-chat/issues/3184) ([6335be4](https://github.com/bentwnghk/lobe-chat/commit/6335be4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.46.3](https://github.com/bentwnghk/lobe-chat/compare/v1.46.2...v1.46.3)
 
 <sup>Released on **2024-07-09**</sup>
