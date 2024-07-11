@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.5](https://github.com/bentwnghk/lobe-chat/compare/v1.46.4...v1.46.5)
+
+<sup>Released on **2024-07-11**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve agent runtime code.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve agent runtime code, closes [#3199](https://github.com/bentwnghk/lobe-chat/issues/3199) ([9f211e2](https://github.com/bentwnghk/lobe-chat/commit/9f211e2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.46.4](https://github.com/bentwnghk/lobe-chat/compare/v1.46.3...v1.46.4)
 
 <sup>Released on **2024-07-10**</sup>
