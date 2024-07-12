@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.47.0](https://github.com/bentwnghk/lobe-chat/compare/v1.46.5...v1.47.0)
+
+<sup>Released on **2024-07-12**</sup>
+
+#### ✨ Features
+
+- **misc**: Add 360AI model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add 360AI model provider, closes [#3130](https://github.com/bentwnghk/lobe-chat/issues/3130) ([79c5f86](https://github.com/bentwnghk/lobe-chat/commit/79c5f86))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.46.5](https://github.com/bentwnghk/lobe-chat/compare/v1.46.4...v1.46.5)
 
 <sup>Released on **2024-07-11**</sup>
