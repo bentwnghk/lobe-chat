@@ -188,7 +188,7 @@ export const useProviderList = (): ProviderItem[] => {
       },
       {
         ...Ai360ProviderCard,
-        docUrl: urlJoin(BASE_DOC_URL, 'ai360'),
+        docUrl: urlJoin(BASE_DOC_URL, 'search?q=ai360'),
         title: <Ai360.Combine size={ 20 } type={ 'color' } />,
       },
     ],
