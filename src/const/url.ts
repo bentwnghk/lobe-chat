@@ -7,6 +7,7 @@ import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
 export const OFFICIAL_URL = 'https://mr5ai.com/';
+export const OFFICIAL_PREVIEW_URL = 'https://mr5ai.com/';
 export const OFFICIAL_SITE = withBasePath(`/`);
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);

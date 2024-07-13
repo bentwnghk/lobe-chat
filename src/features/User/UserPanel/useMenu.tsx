@@ -4,6 +4,7 @@ import { ItemType } from 'antd/es/menu/interface';
 import {
   Book,
   CircleUserRound,
+  Cloudy,
   Download,
   Feather,
   HardDriveDownload,
@@ -21,7 +22,13 @@ import { Flexbox } from 'react-layout-kit';
 import urlJoin from 'url-join';
 
 import type { MenuProps } from '@/components/Menu';
-import { DISCORD, DOCUMENTS, EMAIL_BUSINESS, X } from '@/const/url';
+import {
+  DISCORD,
+  DOCUMENTS,
+  EMAIL_BUSINESS,
+  X,
+  OFFICIAL_URL,
+} from '@/const/url';
 import { isServerMode } from '@/const/version';
 import DataImporter from '@/features/DataImporter';
 import { useOpenSettings } from '@/hooks/useInterceptingRoutes';
@@ -29,6 +36,7 @@ import { usePWAInstall } from '@/hooks/usePWAInstall';
 import { useQueryRoute } from '@/hooks/useQueryRoute';
 import { configService } from '@/services/config';
 import { SettingsTabs } from '@/store/global/initialState';
+import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 import { useUserStore } from '@/store/user';
 import { authSelectors } from '@/store/user/selectors';
 
@@ -62,6 +70,7 @@ export const useMenu = () => {
   const hasNewVersion = useNewVersion();
   const openSettings = useOpenSettings();
   const { t } = useTranslation(['common', 'setting', 'auth']);
+  const { showCloudPromotion } = useServerConfigStore(featureFlagsSelectors);
   const [isLogin, isLoginWithAuth, isLoginWithClerk, openUserProfile] = useUserStore((s) => [
     authSelectors.isLogin(s),
     authSelectors.isLoginWithAuth(s),
@@ -163,6 +172,15 @@ export const useMenu = () => {
       ].filter(Boolean) as ItemType[]);
 
   const helps: MenuProps['items'] = [
+    showCloudPromotion && {
+      icon: <Icon icon={Cloudy} />,
+      key: 'cloud',
+      label: (
+        <Link href={OFFICIAL_URL} target={'_blank'}>
+          {t('userPanel.cloud', { name: 'Mr.🆖 AI Chat' })}
+        </Link>
+      ),
+    },
     {
       icon: <Icon icon={Feather} />,
       key: 'email',
@@ -221,7 +239,7 @@ export const useMenu = () => {
     {
       type: 'divider',
     },
-  ];
+  ].filter(Boolean) as ItemType[];
 
   const mainItems = [
     {

@@ -2,6 +2,14 @@
   "about": "關於",
   "abouttext": "💡 此應用程式由伍Sir開發，旨在使學生能夠在人工智能的幫助下進行自主學習。",
   "advanceSettings": "進階設定",
+  "alert": {
+    "cloud": {
+      "action": "免費體驗",
+      "desc": "我們為所有註冊用戶提供了 {{credit}} 免費的計算積分，無需複雜配置開箱即用，支持無限對話歷史記錄與全局雲同步，更多高級特性等你一起探索。",
+      "descOnMobile": "我們為所有註冊用戶提供了 {{credit}} 免費的計算積分，無需複雜配置即可使用。",
+      "title": "歡迎體驗 {{name}}"
+    }
+  },
   "appInitializing": "應用程式初始化中，請耐心等候...",
   "autoGenerate": "自動生成",
   "autoGenerateTooltip": "基於提示詞自動生成助手描述",
@@ -208,6 +216,7 @@
   "userPanel": {
     "anonymousNickName": "匿名使用者",
     "billing": "帳單管理",
+    "cloud": "體驗 {{name}}",
     "data": "資料儲存",
     "defaultNickname": "一般用戶",
     "discord": "Mr.🆖 AiSpeak 🗣️",

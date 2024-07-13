@@ -46,8 +46,8 @@ const config = {
 
     return paths;
   },
-  siteUrl,
   generateRobotsTxt: true,
+  siteUrl,
 };
 
 export default config;
