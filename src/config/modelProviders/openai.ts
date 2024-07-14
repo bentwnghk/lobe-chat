@@ -132,7 +132,7 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
   ],
-  checkModel: 'gpt-3.5-turbo',
+  checkModel: 'gpt-35-turbo',
   enabled: true,
   id: 'openai',
   modelList: { showModelFetcher: true },
