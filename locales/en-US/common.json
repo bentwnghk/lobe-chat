@@ -49,19 +49,19 @@
   "footer": {
     "action": {
       "feedback": "enter your key in [App Settings > Language Model]",
-      "star": "Get one from Mr.🆖 AI API"
+      "star": "Get one from Mr.🆖 AI Hub"
     },
     "and": "and",
     "feedback": {
       "action": "Enter Key",
-      "desc": "After getting an API Key from Mr.🆖 AI API, enter it in [App Settings > Language Model].",
+      "desc": "After getting an API Key from Mr.🆖 AI Hub, enter it in [App Settings > Language Model].",
       "title": "Enter your key in [App Settings]"
     },
     "later": "Later",
     "star": {
       "action": "Get Key",
       "desc": "Access the world's mainstream large-scale language models (LLM), enabling you to deploy your generative AI applications at low cost. Billing is based on token consumption. Recharge your account at any time, and there is no expiry of your purchased token points.",
-      "title": "Mr.🆖 AI API"
+      "title": "Mr.🆖 AI Hub"
     },
     "title": "Don't have an OpenAI API Key?"
   },

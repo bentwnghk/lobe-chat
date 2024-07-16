@@ -49,19 +49,19 @@
   "footer": {
     "action": {
       "feedback": "到【應用設定 > 語言模型】輸入您的金鑰",
-      "star": "在 Mr.🆖 AI API 取得"
+      "star": "在 Mr.🆖 AI Hub 取得"
     },
     "and": "然後",
     "feedback": {
       "action": "輸入金鑰",
-      "desc": "從 Mr.🆖 AI API 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。",
+      "desc": "從 Mr.🆖 AI Hub 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。",
       "title": "到【應用設定】輸入您的金鑰"
     },
     "later": "稍後",
     "star": {
       "action": "取得金鑰",
       "desc": "存取全球主流大型語言模型 (LLM)，低成本部署生成式人工智能 (Generative AI) 應用。計費採用額度消耗制，隨時充值，且無使用時限。",
-      "title": "Mr.🆖 AI API"
+      "title": "Mr.🆖 AI Hub"
     },
     "title": "沒有 OpenAI API 金鑰？"
   },
