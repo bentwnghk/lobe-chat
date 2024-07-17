@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.48.3](https://github.com/bentwnghk/lobe-chat/compare/v1.48.2...v1.48.3)
+
+<sup>Released on **2024-07-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix delete session group.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix delete session group, closes [#3245](https://github.com/bentwnghk/lobe-chat/issues/3245) ([8f7167d](https://github.com/bentwnghk/lobe-chat/commit/8f7167d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.48.2](https://github.com/bentwnghk/lobe-chat/compare/v1.48.1...v1.48.2)
 
 <sup>Released on **2024-07-17**</sup>
