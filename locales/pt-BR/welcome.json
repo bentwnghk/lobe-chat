@@ -25,7 +25,7 @@
       "q12": "Teach me how I could improve my English listening skills.",
       "q13": "Teach me how I could improve my English writing skills.",
       "q14": "Act as a professional English vocabulary textbook writer. I will give you a text with words square-bracketed in it. Your job is to generate a glossary with the meanings of the square-bracketed words and their Traditional Chinese translations, and include English example sentences and their Chinese translations. After that, create a vocabulary test to test understanding and use of the words. Set 10 MCQs and 10 gap-filling questions. The gaps in the gap-filling questions are to be completed only with the square-bracketed words. Finally, provide answers to the test.",
-      "q15": "Act as a professional TEOSL teacher who is skilled at adapting reading texts to cater for learners' diversity. I will provide you with a text below, and I want you to keep the text structure and paragraphing but simplify the vocabulary and language structure used, so that a 14-year-old student with basic English proficiency could easily understand the text."
+      "q15": "Act as a professional TESOL teacher who is skilled at adapting reading texts to cater for learners' diversity. I will provide you with a text below, and I want you to keep the text structure and paragraphing but simplify the vocabulary and language structure used, so that a 14-year-old student with basic English proficiency could easily understand the text."
     },
     "questions": {
       "moreBtn": "Saiba mais",
