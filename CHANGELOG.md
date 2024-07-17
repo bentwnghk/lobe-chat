@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.48.0](https://github.com/bentwnghk/lobe-chat/compare/v1.47.3...v1.48.0)
+
+<sup>Released on **2024-07-17**</sup>
+
+#### ✨ Features
+
+- **misc**: Spport qwen-vl and tool call for qwen.
+
+#### 💄 Styles
+
+- **misc**: Improve brand url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Spport qwen-vl and tool call for qwen, closes [#3114](https://github.com/bentwnghk/lobe-chat/issues/3114) ([5216a85](https://github.com/bentwnghk/lobe-chat/commit/5216a85))
+
+#### Styles
+
+- **misc**: Improve brand url, closes [#3238](https://github.com/bentwnghk/lobe-chat/issues/3238) ([eef066f](https://github.com/bentwnghk/lobe-chat/commit/eef066f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.47.3](https://github.com/bentwnghk/lobe-chat/compare/v1.47.2...v1.47.3)
 
 <sup>Released on **2024-07-15**</sup>
