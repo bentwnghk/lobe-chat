@@ -24,7 +24,7 @@ import urlJoin from 'url-join';
 import type { MenuProps } from '@/components/Menu';
 import {
   DISCORD,
-  DOCUMENTS,
+  DOCUMENTS_REFER_URL,
   EMAIL_BUSINESS,
   X,
   OFFICIAL_URL,
@@ -196,7 +196,7 @@ export const useMenu = () => {
           icon: <Icon icon={Book} />,
           key: 'docs',
           label: (
-            <Link href={DOCUMENTS} target={'_blank'}>
+            <Link href={DOCUMENTS_REFER_URL} target={'_blank'}>
               {t('userPanel.docs')}
             </Link>
           ),

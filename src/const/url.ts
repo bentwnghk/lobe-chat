@@ -6,6 +6,8 @@ import { withBasePath } from '@/utils/basePath';
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
+// export const UTM_SOURCE = 'chat_preview';
+
 export const OFFICIAL_URL = 'https://mr5ai.com/';
 export const OFFICIAL_PREVIEW_URL = 'https://mr5ai.com/';
 export const OFFICIAL_SITE = withBasePath(`/`);
@@ -23,6 +25,9 @@ export const DOCUMENTS = 'https://longman.mister5.net/';
 export const USAGE_DOCUMENTS = 'https://google.com/';
 export const SELF_HOSTING_DOCUMENTS = 'https://google.com/';
 export const WEBRTC_SYNC_DOCUMENTS = 'https://google.com/';
+
+// use this for the link
+export const DOCUMENTS_REFER_URL = DOCUMENTS;
 
 export const WIKI = 'https://collins.mister5.net/';
 export const WIKI_PLUGIN_GUIDE = 'https://macmillan.mister5.net/';
