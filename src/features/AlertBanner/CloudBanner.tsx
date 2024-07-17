@@ -11,7 +11,7 @@ import Marquee from 'react-fast-marquee';
 import { useTranslation } from 'react-i18next';
 import { Center, Flexbox } from 'react-layout-kit';
 
-import { OFFICIAL_URL, UTM_SOURCE } from '@/const/url';
+import { OFFICIAL_URL } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 
 export const BANNER_HEIGHT = 40;
@@ -78,7 +78,7 @@ const CloudBanner = memo<{ mobile?: boolean }>(({ mobile }) => {
       <div className={styles.background} />
       <Center className={styles.wrapper} gap={16} horizontal width={'100%'}>
         {isTruncated ? <Marquee pauseOnHover>{content}</Marquee> : content}
-        <Link href={`${OFFICIAL_URL}?utm_source=${UTM_SOURCE}&utm_medium=banner`} target={'_blank'}>
+        <Link href={OFFICIAL_URL} target={'_blank'}>
           <Button size={'small'} type="primary">
             {t('alert.cloud.action')} <Icon icon={ArrowRightIcon} />
           </Button>
