@@ -92,7 +92,7 @@ export const useProviderList = (): ProviderItem[] => {
     () => [
       {
         ...openAIProvider,
-        docUrl: urlJoin(BASE_DOC_URL, 'search?q=openai'),
+        docUrl: urlJoin(BASE_DOC_URL, 'search?q=Mr.🆖 AI Hub'),
       },
       {
         ...ollamaProvider,

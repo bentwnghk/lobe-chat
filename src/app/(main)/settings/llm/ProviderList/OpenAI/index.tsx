@@ -14,7 +14,7 @@ export const useOpenAIProvider = (): ProviderItem => {
   return {
     ...OpenAIProviderCard,
     proxyUrl: showOpenAIProxyUrl && {
-      placeholder: 'https://api.openai.com/v1',
+      placeholder: 'https://api.mr5ai.com/v1',
     },
     showApiKey: showOpenAIApiKey,
     // title: <OpenAI.Combine size={24} />,
