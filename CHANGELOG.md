@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.49.1](https://github.com/bentwnghk/lobe-chat/compare/v1.49.0...v1.49.1)
+
+<sup>Released on **2024-07-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the DragUpload.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the DragUpload, closes [#3263](https://github.com/bentwnghk/lobe-chat/issues/3263) ([19186eb](https://github.com/bentwnghk/lobe-chat/commit/19186eb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.49.0](https://github.com/bentwnghk/lobe-chat/compare/v1.48.4...v1.49.0)
 
 <sup>Released on **2024-07-19**</sup>
