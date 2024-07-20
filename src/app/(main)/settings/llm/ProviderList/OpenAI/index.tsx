@@ -21,7 +21,7 @@ export const useOpenAIProvider = (): ProviderItem => {
     title: (
       <Flexbox align={'center'} gap={4} horizontal>
         <LobeHub size={24} />
-        <LobeHub size={20} type={'text'} />
+        <LobeHub size={24} type={'text'} />
       </Flexbox>
     ),
   };
