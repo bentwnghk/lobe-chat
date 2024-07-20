@@ -1,7 +1,7 @@
 'use client';
 
 // import { OpenAI } from '@lobehub/icons';
-import { LobeHub, LobeChat } from '@bentwnghk/ui/brand';
+import { LobeHub } from '@bentwnghk/ui/brand';
 import { Flexbox } from 'react-layout-kit';
 
 import { OpenAIProviderCard } from '@/config/modelProviders';
@@ -21,7 +21,7 @@ export const useOpenAIProvider = (): ProviderItem => {
     title: (
       <Flexbox align={'center'} gap={4} horizontal>
         <LobeHub size={24} />
-        <LobeChat size={24} />
+        <LobeHub size={20} type={'text'} />
       </Flexbox>
     ),
   };
