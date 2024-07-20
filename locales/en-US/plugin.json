@@ -70,7 +70,7 @@
         "pattenErrorMessage": "Only alphanumeric characters, hyphen -, and underscore _ are allowed"
       },
       "manifest": {
-        "desc": "Mr.🆖 Chat will install the plugin using this link",
+        "desc": "Mr.🆖 AI will install the plugin using this link",
         "label": "Plugin Description (Manifest) URL",
         "preview": "Preview Manifest",
         "refresh": "Refresh"
@@ -103,7 +103,7 @@
       "edit": "Edit Custom Plugin"
     },
     "type": {
-      "lobe": "Mr.🆖 Chat Plugin",
+      "lobe": "Mr.🆖 AI Plugin",
       "openai": "OpenAI Plugin"
     },
     "update": "Update",

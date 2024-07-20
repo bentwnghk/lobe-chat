@@ -37,11 +37,11 @@ const Version = memo<{ mobile?: boolean }>(({ mobile }) => {
       <Flexbox align={'center'} flex={'none'} gap={16} horizontal>
         <Link href={OFFICIAL_SITE} target={'_blank'}>
           <Center className={styles.logo} height={64} width={64}>
-            <Image alt={'Mr.🆖 Chat'} height={52} src={'/icons/icon-192x192.png'} width={52} />
+            <Image alt={'Mr.🆖 AI'} height={52} src={'/icons/icon-192x192.png'} width={52} />
           </Center>
         </Link>
         <Flexbox>
-          <div style={{ fontSize: 18, fontWeight: 'bolder' }}>Mr.🆖 Chat</div>
+          <div style={{ fontSize: 18, fontWeight: 'bolder' }}>Mr.🆖 AI</div>
           <div>
             <Tag color={theme.colorFillSecondary} style={{ color: theme.colorTextSecondary }}>
               v{CURRENT_VERSION}

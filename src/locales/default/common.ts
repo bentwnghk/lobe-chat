@@ -193,9 +193,9 @@ export default {
   telemetry: {
     allow: '允许',
     deny: '拒绝',
-    desc: '我们希望匿名获取你的使用信息，进而帮助我们改进 Mr.🆖 Chat，并为你提供更好的产品体验。你可以在「设置」 - 「关于」随时关闭。',
+    desc: '我们希望匿名获取你的使用信息，进而帮助我们改进 Mr.🆖 AI，并为你提供更好的产品体验。你可以在「设置」 - 「关于」随时关闭。',
     learnMore: '了解更多',
-    title: '帮助 Mr.🆖 Chat 做得更好',
+    title: '帮助 Mr.🆖 AI 做得更好',
   },
   temp: '临时',
   terms: 'Mr.🆖 AiSpeak',

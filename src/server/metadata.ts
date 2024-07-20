@@ -5,7 +5,7 @@ import { formatDescLength, formatTitleLength } from '@/utils/genOG';
 
 export class Meta {
   public generate({
-    description = 'Mr.🆖 Chat offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience',
+    description = 'Mr.🆖 AI offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience',
     title,
     image = OG_URL,
     url,
@@ -23,7 +23,7 @@ export class Meta {
     const formatedTitle = formatTitleLength(title, 21);
     // eslint-disable-next-line no-param-reassign
     const formatedDescription = formatDescLength(description, tags);
-    const siteTitle = title.includes('Mr.🆖 Chat') ? title : title + ' · Mr.🆖 Chat';
+    const siteTitle = title.includes('Mr.🆖 AI') ? title : title + ' · Mr.🆖 AI';
     return {
       alternates: { canonical: getCanonicalUrl(url) },
       description: formatedDescription,
@@ -85,7 +85,7 @@ export class Meta {
         },
       ],
       locale: 'en-US',
-      siteName: 'Mr.🆖 Chat',
+      siteName: 'Mr.🆖 AI',
       title,
       type,
       url,

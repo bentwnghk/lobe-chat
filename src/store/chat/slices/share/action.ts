@@ -21,7 +21,7 @@ interface ShareMessage {
 
 const Footer: ShareMessage = {
   from: 'gpt',
-  value: `Share from [**🤯 Mr.🆖 Chat**](${OFFICIAL_URL}) - ${dayjs().format(
+  value: `Share from [**🤯 Mr.🆖 AI**](${OFFICIAL_URL}) - ${dayjs().format(
     'YYYY-MM-DD',
   )}`,
 };

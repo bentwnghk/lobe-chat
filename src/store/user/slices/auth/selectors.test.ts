@@ -84,7 +84,7 @@ describe('userProfileSelectors', () => {
         enableAuth: () => false,
       } as unknown as UserStore;
 
-      expect(userProfileSelectors.username(store)).toBe('Mr.🆖 Chat');
+      expect(userProfileSelectors.username(store)).toBe('Mr.🆖 AI');
     });
 
     it('should return user username when signed in', () => {

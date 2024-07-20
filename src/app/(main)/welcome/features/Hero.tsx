@@ -43,7 +43,7 @@ const Hero = memo(() => {
         justify={'center'}
         wrap={'wrap'}
       >
-        <strong style={{ fontSize: 'min(56px, 8vw)' }}>Mr.🆖 Chat</strong>
+        <strong style={{ fontSize: 'min(56px, 8vw)' }}>Mr.🆖 AI</strong>
         <span>{t('slogan.title')}</span>
       </Flexbox>
       <Flexbox

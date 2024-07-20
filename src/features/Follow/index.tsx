@@ -35,7 +35,7 @@ const Follow = memo(() => {
         <ActionIcon
           className={styles.icon}
           icon={SiGithub as any}
-          title={t('follow', { name: 'Mr.🆖 Chat' })}
+          title={t('follow', { name: 'Mr.🆖 AI' })}
         />
       </Link>
       <Link href={X} rel="noreferrer" target={'_blank'}>

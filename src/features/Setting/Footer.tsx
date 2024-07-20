@@ -66,7 +66,7 @@ const Footer = memo<PropsWithChildren>(() => {
       </Flexbox>
       <GuideModal
         cancelText={t('footer.later')}
-        cover={<Image alt={'Mr.🆖 Chat'} height={269} src={'/images/star.png'} width={358} />}
+        cover={<Image alt={'Mr.🆖 AI'} height={269} src={'/images/star.png'} width={358} />}
         desc={t('footer.star.desc')}
         okText={t('footer.star.action')}
         onCancel={() => setOpenStar(false)}
@@ -79,7 +79,7 @@ const Footer = memo<PropsWithChildren>(() => {
       />
       <GuideModal
         cancelText={t('footer.later')}
-        cover={<Image alt={'Mr.🆖 Chat'} height={269} src={'/images/feedback.png'} width={358} />}
+        cover={<Image alt={'Mr.🆖 AI'} height={269} src={'/images/feedback.png'} width={358} />}
         desc={t('footer.feedback.desc')}
         okText={t('footer.feedback.action')}
         onCancel={() => setOpenFeedback(false)}

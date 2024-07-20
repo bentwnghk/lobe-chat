@@ -53,7 +53,7 @@
     "client_mode": ["navigate-existing", "auto"]
   },
   "max_age": 31536000,
-  "name": "Mr.🆖 Chat",
+  "name": "Mr.🆖 AI",
   "orientation": "portrait",
   "related_applications": [
     {
@@ -154,7 +154,7 @@
       "immutable": "true"
     }
   ],
-  "short_name": "Mr.🆖 Chat",
+  "short_name": "Mr.🆖 AI",
   "splash_pages": null,
   "start_url": ".",
   "tab_strip": {

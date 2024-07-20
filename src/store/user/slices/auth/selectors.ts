@@ -4,7 +4,7 @@ import { enableClerk } from '@/const/auth';
 import { UserStore } from '@/store/user';
 import { LobeUser } from '@/types/user';
 
-const DEFAULT_USERNAME = 'Mr.🆖 Chat';
+const DEFAULT_USERNAME = 'Mr.🆖 AI';
 
 const nickName = (s: UserStore) => {
   if (!s.enableAuth()) return t('userPanel.defaultNickname', { ns: 'common' });

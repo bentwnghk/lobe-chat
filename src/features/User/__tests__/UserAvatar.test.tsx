@@ -57,27 +57,27 @@ describe('UserAvatar', () => {
       expect(screen.getByAltText('testuser')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
     });
 
-    it('should show Mr.🆖 Chat and default avatar when the user is not logged in and enable auth', () => {
+    it('should show Mr.🆖 AI and default avatar when the user is not logged in and enable auth', () => {
       act(() => {
         useUserStore.setState({ enableAuth: () => true, isSignedIn: false, user: undefined });
       });
 
       render(<UserAvatar />);
-      expect(screen.getByAltText('Mr.🆖 Chat')).toBeInTheDocument();
-      expect(screen.getByAltText('Mr.🆖 Chat')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
+      expect(screen.getByAltText('Mr.🆖 AI')).toBeInTheDocument();
+      expect(screen.getByAltText('Mr.🆖 AI')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
     });
   });
 
   describe('disable Auth', () => {
-    it('should show Mr.🆖 Chat and default avatar when the user is not logged in and disabled auth', () => {
+    it('should show Mr.🆖 AI and default avatar when the user is not logged in and disabled auth', () => {
       enableAuth = false;
       act(() => {
         useUserStore.setState({ enableAuth: () => false, isSignedIn: false, user: undefined });
       });
 
       render(<UserAvatar />);
-      expect(screen.getByAltText('Mr.🆖 Chat')).toBeInTheDocument();
-      expect(screen.getByAltText('Mr.🆖 Chat')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
+      expect(screen.getByAltText('Mr.🆖 AI')).toBeInTheDocument();
+      expect(screen.getByAltText('Mr.🆖 AI')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
     });
   });
 });
