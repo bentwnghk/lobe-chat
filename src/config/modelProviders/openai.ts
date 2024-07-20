@@ -145,7 +145,7 @@ const OpenAI: ModelProviderCard = {
   enabled: true,
   id: 'openai',
   modelList: { showModelFetcher: true },
-  name: 'OpenAI',
+  name: 'Mr.🆖 AI Hub',
 };
 
 export default OpenAI;
