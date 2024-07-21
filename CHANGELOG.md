@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.49.3](https://github.com/bentwnghk/lobe-chat/compare/v1.49.2...v1.49.3)
+
+<sup>Released on **2024-07-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Add trpc query client with react-query.
+
+#### 💄 Styles
+
+- **misc**: Update Zhipu models (GLM-4-AllTools & CodeGeeX-4).
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Add trpc query client with react-query, closes [#3282](https://github.com/bentwnghk/lobe-chat/issues/3282) ([013ee54](https://github.com/bentwnghk/lobe-chat/commit/013ee54))
+
+#### Styles
+
+- **misc**: Update Zhipu models (GLM-4-AllTools & CodeGeeX-4), closes [#3255](https://github.com/bentwnghk/lobe-chat/issues/3255) ([a92939f](https://github.com/bentwnghk/lobe-chat/commit/a92939f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.49.2](https://github.com/bentwnghk/lobe-chat/compare/v1.49.1...v1.49.2)
 
 <sup>Released on **2024-07-21**</sup>
