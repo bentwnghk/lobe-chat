@@ -28,7 +28,7 @@ const Perplexity: ModelProviderCard = {
       tokens: 32_768,
     },
   ],
-  checkModel: 'pplx-7b-chat',
+  checkModel: 'llama-3-8b-instruct',
   id: 'perplexity',
   name: 'Perplexity',
   proxyUrl: {
