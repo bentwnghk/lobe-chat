@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.49.5](https://github.com/bentwnghk/lobe-chat/compare/v1.49.4...v1.49.5)
+
+<sup>Released on **2024-07-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move server modules.
+
+#### 💄 Styles
+
+- **misc**: Add new model provider Novita AI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move server modules, closes [#3291](https://github.com/bentwnghk/lobe-chat/issues/3291) ([c7c9f39](https://github.com/bentwnghk/lobe-chat/commit/c7c9f39))
+
+#### Styles
+
+- **misc**: Add new model provider Novita AI, closes [#3177](https://github.com/bentwnghk/lobe-chat/issues/3177) ([08b063f](https://github.com/bentwnghk/lobe-chat/commit/08b063f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.49.4](https://github.com/bentwnghk/lobe-chat/compare/v1.49.3...v1.49.4)
 
 <sup>Released on **2024-07-22**</sup>
