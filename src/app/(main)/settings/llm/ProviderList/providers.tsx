@@ -11,6 +11,7 @@ import {
   Minimax,
   Mistral,
   Moonshot,
+  Novita,
   OpenRouter,
   Perplexity,
   Stepfun,
@@ -35,6 +36,7 @@ import {
   MinimaxProviderCard,
   MistralProviderCard,
   MoonshotProviderCard,
+  NovitaProviderCard,
   OpenRouterProviderCard,
   PerplexityProviderCard,
   QwenProviderCard,
@@ -125,6 +127,11 @@ export const useProviderList = (): ProviderItem[] => {
         ...OpenRouterProviderCard,
         docUrl: urlJoin(BASE_DOC_URL, 'search?q=openrouter'),
         title: <OpenRouter.Combine iconProps={{ color: OpenRouter.colorPrimary }} size={20} />,
+      },
+      {
+        ...NovitaProviderCard,
+        docUrl: urlJoin(BASE_DOC_URL, 'search?q=novita'),
+        title: <Novita.Combine size={20} type={'color'} />,
       },
       {
         ...TogetherAIProviderCard,
