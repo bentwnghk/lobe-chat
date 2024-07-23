@@ -81,24 +81,6 @@ ENV S3_SECRET_ACCESS_KEY="unknown"
 ENV S3_ENDPOINT="https://unknown.com"
 ENV S3_BUCKET="unknown"
 
-# Sentry
-ENV NEXT_PUBLIC_SENTRY_DSN ""
-ENV SENTRY_ORG ""
-ENV SENTRY_PROJECT ""
-
-# Posthog
-ENV NEXT_PUBLIC_ANALYTICS_POSTHOG ""
-ENV NEXT_PUBLIC_POSTHOG_KEY ""
-ENV NEXT_PUBLIC_POSTHOG_HOST ""
-
-# Umami
-ENV NEXT_PUBLIC_ANALYTICS_UMAMI ""
-ENV NEXT_PUBLIC_UMAMI_SCRIPT_URL ""
-ENV NEXT_PUBLIC_UMAMI_WEBSITE_ID ""
-
-# Node
-ENV NODE_OPTIONS "--max-old-space-size=8192"
-
 # run build standalone for docker version
 RUN npm run build:docker
 
@@ -176,9 +158,6 @@ ENV \
     ZEROONE_API_KEY="" \
     # Zhipu
     ZHIPU_API_KEY=""
-
-COPY entrypoint.sh .
-RUN ["chmod", "+x", "/app/entrypoint.sh"]
 
 USER nextjs
 
