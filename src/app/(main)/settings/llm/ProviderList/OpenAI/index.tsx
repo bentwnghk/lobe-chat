@@ -10,13 +10,12 @@ import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfi
 import { ProviderItem } from '../../type';
 
 export const useOpenAIProvider = (): ProviderItem => {
-  // const { showOpenAIProxyUrl, showOpenAIApiKey } = useServerConfigStore(featureFlagsSelectors);
-  const { showOpenAIApiKey } = useServerConfigStore(featureFlagsSelectors);
+  const { showOpenAIProxyUrl, showOpenAIApiKey } = useServerConfigStore(featureFlagsSelectors);
   return {
     ...OpenAIProviderCard,
-    // proxyUrl: showOpenAIProxyUrl && {
-      // placeholder: 'https://api.mr5ai.com/v1',
-    // },
+    proxyUrl: showOpenAIProxyUrl && {
+      placeholder: 'https://api.mr5ai.com/v1',
+    },
     showApiKey: showOpenAIApiKey,
     // title: <OpenAI.Combine size={24} />,
     title: (
