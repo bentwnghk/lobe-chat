@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.49.7](https://github.com/bentwnghk/lobe-chat/compare/v1.49.6...v1.49.7)
+
+<sup>Released on **2024-07-24**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Upgrade snapshot version.
+
+#### 💄 Styles
+
+- **misc**: Fix the scrolling of the return result area of function calling.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Upgrade snapshot version, closes [#3296](https://github.com/bentwnghk/lobe-chat/issues/3296) ([2c14fef](https://github.com/bentwnghk/lobe-chat/commit/2c14fef))
+
+#### Styles
+
+- **misc**: Fix the scrolling of the return result area of function calling, closes [#3295](https://github.com/bentwnghk/lobe-chat/issues/3295) ([9c8f469](https://github.com/bentwnghk/lobe-chat/commit/9c8f469))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.49.6](https://github.com/bentwnghk/lobe-chat/compare/v1.49.5...v1.49.6)
 
 <sup>Released on **2024-07-23**</sup>
