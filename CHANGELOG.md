@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.49.9](https://github.com/bentwnghk/lobe-chat/compare/v1.49.8...v1.49.9)
+
+<sup>Released on **2024-07-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add new models to groq which are llama 3.1, Updated Groq model list to include llama-3.1 and llama3-Groq.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add new models to groq which are llama 3.1, closes [#3301](https://github.com/bentwnghk/lobe-chat/issues/3301) ([ec20fd0](https://github.com/bentwnghk/lobe-chat/commit/ec20fd0))
+- **misc**: Updated Groq model list to include llama-3.1 and llama3-Groq, closes [#3313](https://github.com/bentwnghk/lobe-chat/issues/3313) ([a9cfad6](https://github.com/bentwnghk/lobe-chat/commit/a9cfad6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.49.8](https://github.com/bentwnghk/lobe-chat/compare/v1.49.7...v1.49.8)
 
 <sup>Released on **2024-07-24**</sup>
