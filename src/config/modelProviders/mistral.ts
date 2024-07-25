@@ -35,10 +35,11 @@ const Mistral: ModelProviderCard = {
       tokens: 32_768,
     },
     {
-      displayName: 'Mistral Large',
+      displayName: 'Mistral Large 2',
       enabled: true,
+      functionCall: true,
       id: 'mistral-large-latest',
-      tokens: 32_768,
+      tokens: 128_000,
     },
   ],
   checkModel: 'open-mistral-7b',
