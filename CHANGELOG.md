@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.50.2](https://github.com/bentwnghk/lobe-chat/compare/v1.50.1...v1.50.2)
+
+<sup>Released on **2024-07-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Avoid baseURL being an empty string, resulting in incorrect client fetch.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Avoid baseURL being an empty string, resulting in incorrect client fetch, closes [#3308](https://github.com/bentwnghk/lobe-chat/issues/3308) ([15a9bc1](https://github.com/bentwnghk/lobe-chat/commit/15a9bc1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.50.1](https://github.com/bentwnghk/lobe-chat/compare/v1.50.0...v1.50.1)
 
 <sup>Released on **2024-07-26**</sup>
