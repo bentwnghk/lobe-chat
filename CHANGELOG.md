@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.50.0](https://github.com/bentwnghk/lobe-chat/compare/v1.49.10...v1.50.0)
+
+<sup>Released on **2024-07-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Enabled function calling on Deepseek models.
+
+#### 💄 Styles
+
+- **misc**: Fix file upload height.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Enabled function calling on Deepseek models, closes [#3312](https://github.com/bentwnghk/lobe-chat/issues/3312) ([35f31cb](https://github.com/bentwnghk/lobe-chat/commit/35f31cb))
+
+#### Styles
+
+- **misc**: Fix file upload height, closes [#3319](https://github.com/bentwnghk/lobe-chat/issues/3319) ([8343f35](https://github.com/bentwnghk/lobe-chat/commit/8343f35))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.49.10](https://github.com/bentwnghk/lobe-chat/compare/v1.49.9...v1.49.10)
 
 <sup>Released on **2024-07-26**</sup>
