@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.49.10](https://github.com/bentwnghk/lobe-chat/compare/v1.49.9...v1.49.10)
+
+<sup>Released on **2024-07-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve input file upload.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve input file upload, closes [#3314](https://github.com/bentwnghk/lobe-chat/issues/3314) ([de85553](https://github.com/bentwnghk/lobe-chat/commit/de85553))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.49.9](https://github.com/bentwnghk/lobe-chat/compare/v1.49.8...v1.49.9)
 
 <sup>Released on **2024-07-25**</sup>
