@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.50.3](https://github.com/bentwnghk/lobe-chat/compare/v1.50.2...v1.50.3)
+
+<sup>Released on **2024-07-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update minimax models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update minimax models, closes [#3354](https://github.com/bentwnghk/lobe-chat/issues/3354) ([8113729](https://github.com/bentwnghk/lobe-chat/commit/8113729))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.50.2](https://github.com/bentwnghk/lobe-chat/compare/v1.50.1...v1.50.2)
 
 <sup>Released on **2024-07-26**</sup>
