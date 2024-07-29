@@ -34,7 +34,7 @@ vi.mock('next/link', () => ({
   )),
 }));
 
-vi.mock('@lobehub/ui', () => ({
+vi.mock('@bentwnghk/ui', () => ({
   ActionIcon: vi.fn(({ title }) => <div>{title}</div>),
 }));
 
