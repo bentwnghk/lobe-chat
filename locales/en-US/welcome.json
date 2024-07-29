@@ -10,6 +10,7 @@
       "title": "New Assistant Recommendations:"
     },
     "defaultMessage": "I am your personal intelligent assistant Mr.🆖, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
+    "defaultMessageWithoutCreate": "I am your personal AI assistant, Mr.🆖. How can I assist you now?",
     "qa": {
       "q01": "Do a grammar check on the text I provide.",
       "q02": "Give me 5 different versions of the text I provide.",

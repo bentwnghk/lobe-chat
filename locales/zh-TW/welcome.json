@@ -10,6 +10,7 @@
       "title": "新增助理推薦："
     },
     "defaultMessage": "我是您的私人智能助理 Mr.🆖，請問現在能幫您做什麼？\n如果需要獲得更加專業或定制的助手，可以點擊 `+` 創建自定義助手",
+    "defaultMessageWithoutCreate": "我是您的私人智能助理 Mr.🆖，請問現在能幫您做什麼？",
     "qa": {
       "q01": "Do a grammar check on the text I provide.",
       "q02": "Give me 5 different versions of the text I provide.",
