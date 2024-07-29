@@ -8,7 +8,7 @@ const Groq: ModelProviderCard = {
       enabled: false,
       functionCall: true,
       id: 'llama-3.1-405b-reasoning',
-      tokens: 16384,
+      tokens: 16_384,
     },
     {
       displayName: 'LLaMA 3.1 70B',
