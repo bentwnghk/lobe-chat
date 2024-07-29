@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.50.5](https://github.com/bentwnghk/lobe-chat/compare/v1.50.4...v1.50.5)
+
+<sup>Released on **2024-07-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Disable anthropic browser request.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Disable anthropic browser request, closes [#3359](https://github.com/bentwnghk/lobe-chat/issues/3359) ([a519837](https://github.com/bentwnghk/lobe-chat/commit/a519837))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.50.4](https://github.com/bentwnghk/lobe-chat/compare/v1.50.3...v1.50.4)
 
 <sup>Released on **2024-07-29**</sup>
