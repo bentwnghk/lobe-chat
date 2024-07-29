@@ -146,6 +146,7 @@ const OpenAI: ModelProviderCard = {
   ],
   checkModel: 'gpt-35-turbo',
   enabled: true,
+  disableBrowserRequest: true,
   id: 'openai',
   modelList: { showModelFetcher: true },
   name: 'Mr.🆖 AI Hub',
