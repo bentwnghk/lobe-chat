@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.51.0](https://github.com/bentwnghk/lobe-chat/compare/v1.50.9...v1.51.0)
+
+<sup>Released on **2024-08-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Add NextAuth as authentication service in server database.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add NextAuth as authentication service in server database, closes [#2935](https://github.com/bentwnghk/lobe-chat/issues/2935) ([5a0b972](https://github.com/bentwnghk/lobe-chat/commit/5a0b972))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.50.9](https://github.com/bentwnghk/lobe-chat/compare/v1.50.8...v1.50.9)
 
 <sup>Released on **2024-08-02**</sup>
