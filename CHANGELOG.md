@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.50.9](https://github.com/bentwnghk/lobe-chat/compare/v1.50.8...v1.50.9)
+
+<sup>Released on **2024-08-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 1.5 Pro Exp model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Gemini 1.5 Pro Exp model, closes [#3384](https://github.com/bentwnghk/lobe-chat/issues/3384) ([0de8b7b](https://github.com/bentwnghk/lobe-chat/commit/0de8b7b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.50.8](https://github.com/bentwnghk/lobe-chat/compare/v1.50.7...v1.50.8)
 
 <sup>Released on **2024-08-02**</sup>
