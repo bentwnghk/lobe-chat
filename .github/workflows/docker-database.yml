@@ -2,6 +2,8 @@ name: Publish Database Docker Image
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
   release:
     types: [published]
 
@@ -22,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: lobehub/lobe-chat-database
+          images: bentwng/lobe-chat-database
           tags: |
             type=raw,value=latest
             type=ref,event=tag

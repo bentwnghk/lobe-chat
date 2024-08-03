@@ -144,7 +144,7 @@ const OpenAI: ModelProviderCard = {
       tokens: 16_385,
     },
   ],
-  checkModel: 'gpt-35-turbo',
+  checkModel: 'gpt-4o-mini',
   disableBrowserRequest: true,
   enabled: true,
   id: 'openai',
