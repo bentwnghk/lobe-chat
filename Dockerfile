@@ -40,29 +40,6 @@ ENV NEXT_PUBLIC_ANALYTICS_UMAMI="" \
     NEXT_PUBLIC_UMAMI_SCRIPT_URL="" \
     NEXT_PUBLIC_UMAMI_WEBSITE_ID=""
 
-ARG NEXT_PUBLIC_SERVICE_MODE="server"
-ARG NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_live_Y2xlcmsubXI1YWkuY29tJA"
-ARG NEXT_PUBLIC_S3_DOMAIN="https://s3-for-5chat.mystudies.net"
-
-ENV NEXT_PUBLIC_SERVICE_MODE=$NEXT_PUBLIC_SERVICE_MODE
-ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=$NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
-ENV NEXT_PUBLIC_S3_DOMAIN=$NEXT_PUBLIC_S3_DOMAIN
-
-ENV KEY_VAULTS_SECRET="VMelKsBfIx1eDUay8h4P/yXppVKwhWw02fNRyWJnF64="
-# ENV DATABASE_DRIVER="node"
-# ENV DATABASE_URL="postgresql://unknown:unknown@db:5433/unknown"
-ENV DATABASE_URL="postgresql://unknown:unknown@ep-lucky-dew-a126xb9j-pooler.ap-southeast-1.aws.neon.tech/unknown?sslmode=require"
-
-# Clerk 相关配置
-ENV CLERK_WEBHOOK_SECRET="unknown"
-ENV CLERK_SECRET_KEY="unknown"
-
-# S3 相关配置（上传图片必须）
-ENV S3_ACCESS_KEY_ID="unknown"
-ENV S3_SECRET_ACCESS_KEY="unknown"
-ENV S3_ENDPOINT="https://unknown.com"
-ENV S3_BUCKET="unknown"
-
 # Node
 ENV NODE_OPTIONS="--max-old-space-size=8192"
 
