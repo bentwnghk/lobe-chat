@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.52.0](https://github.com/bentwnghk/lobe-chat/compare/v1.51.1...v1.52.0)
+
+<sup>Released on **2024-08-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Skip login page if only one provider exists.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Skip login page if only one provider exists, closes [#3400](https://github.com/bentwnghk/lobe-chat/issues/3400) ([52da1d8](https://github.com/bentwnghk/lobe-chat/commit/52da1d8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.51.1](https://github.com/bentwnghk/lobe-chat/compare/v1.51.0...v1.51.1)
 
 <sup>Released on **2024-08-03**</sup>
