@@ -5,7 +5,6 @@ const Groq: ModelProviderCard = {
   chatModels: [
     {
       displayName: 'LLaMA 3.1 405B',
-      enabled: false,
       functionCall: true,
       id: 'llama-3.1-405b-reasoning',
       tokens: 16_384,
