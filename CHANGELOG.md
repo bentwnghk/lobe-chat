@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.52.1](https://github.com/bentwnghk/lobe-chat/compare/v1.52.0...v1.52.1)
+
+<sup>Released on **2024-08-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Azure modelTag icon display.
+
+#### 💄 Styles
+
+- **config**: Update Azure model and API versions.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Azure modelTag icon display, closes [#3394](https://github.com/bentwnghk/lobe-chat/issues/3394) ([ee6baa8](https://github.com/bentwnghk/lobe-chat/commit/ee6baa8))
+
+#### Styles
+
+- **config**: Update Azure model and API versions, closes [#3405](https://github.com/bentwnghk/lobe-chat/issues/3405) ([a4938eb](https://github.com/bentwnghk/lobe-chat/commit/a4938eb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.52.0](https://github.com/bentwnghk/lobe-chat/compare/v1.51.1...v1.52.0)
 
 <sup>Released on **2024-08-05**</sup>
