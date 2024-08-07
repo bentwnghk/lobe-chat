@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.52.3](https://github.com/bentwnghk/lobe-chat/compare/v1.52.2...v1.52.3)
+
+<sup>Released on **2024-08-07**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix import clerk `AuthObject` from public api.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix import clerk `AuthObject` from public api, closes [#3416](https://github.com/bentwnghk/lobe-chat/issues/3416) ([af8960d](https://github.com/bentwnghk/lobe-chat/commit/af8960d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.52.2](https://github.com/bentwnghk/lobe-chat/compare/v1.52.1...v1.52.2)
 
 <sup>Released on **2024-08-06**</sup>
