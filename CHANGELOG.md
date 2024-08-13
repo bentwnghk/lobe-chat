@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.52.7](https://github.com/bentwnghk/lobe-chat/compare/v1.52.6...v1.52.7)
+
+<sup>Released on **2024-08-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Resize the image size in chat message.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Resize the image size in chat message, closes [#3462](https://github.com/bentwnghk/lobe-chat/issues/3462) ([37c7429](https://github.com/bentwnghk/lobe-chat/commit/37c7429))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.52.6](https://github.com/bentwnghk/lobe-chat/compare/v1.52.5...v1.52.6)
 
 <sup>Released on **2024-08-13**</sup>
