@@ -202,7 +202,7 @@ export const useProviderList = (): ProviderItem[] => {
       },
       {
         ...SiliconCloudProviderCard,
-        docUrl: urlJoin(BASE_DOC_URL, 'siliconcloud'),
+        docUrl: urlJoin(BASE_DOC_URL, 'search?q=siliconcloud'),
         title: <SiliconCloud.Combine size={20} type={'color'} />,
       },
     ],
