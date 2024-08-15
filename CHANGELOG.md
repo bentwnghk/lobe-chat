@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.54.0](https://github.com/bentwnghk/lobe-chat/compare/v1.53.0...v1.54.0)
+
+<sup>Released on **2024-08-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Add 2 new models to openai provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add 2 new models to openai provider, closes [#3470](https://github.com/bentwnghk/lobe-chat/issues/3470) ([cc9ffdd](https://github.com/bentwnghk/lobe-chat/commit/cc9ffdd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.53.0](https://github.com/bentwnghk/lobe-chat/compare/v1.52.7...v1.53.0)
 
 <sup>Released on **2024-08-14**</sup>
