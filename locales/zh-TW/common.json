@@ -15,6 +15,7 @@
   "autoGenerateTooltip": "基於提示詞自動生成助手描述",
   "autoGenerateTooltipDisabled": "請填寫提示詞後使用自動補全功能",
   "blog": "Mr.🆖 AI Creator",
+  "batchDelete": "批次刪除",
   "cancel": "取消",
   "changelog": "取得金鑰",
   "close": "關閉",
@@ -33,6 +34,7 @@
   "delete": "刪除",
   "discord": "Mr.🆖 AiSpeak",
   "document": "Mr.🆖 詞典",
+  "download": "下載",
   "duplicate": "建立副本",
   "edit": "編輯",
   "export": "匯出設定",
@@ -194,6 +196,7 @@
   },
   "tab": {
     "chat": "對話",
+    "files": "檔案",
     "market": "發現",
     "me": "我",
     "setting": "設定"

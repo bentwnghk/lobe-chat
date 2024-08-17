@@ -15,6 +15,7 @@ export default {
   autoGenerateTooltip: '基于提示词自动补全助手描述',
   autoGenerateTooltipDisabled: '请填写提示词后使用自动补全功能',
   blog: 'Mr.🆖 AI Creator',
+  batchDelete: '批量删除',
   cancel: '取消',
   changelog: '取得金钥',
   close: '关闭',
@@ -33,6 +34,7 @@ export default {
   delete: '删除',
   discord: 'Mr.🆖 AiSpeak',
   document: 'Mr.🆖 詞典',
+  download: '下载',
   duplicate: '创建副本',
   edit: '编辑',
   export: '导出配置',
@@ -186,6 +188,7 @@ export default {
   },
   tab: {
     chat: '对话',
+    files: '文件',
     market: '发现',
     me: '我',
     setting: '设置',

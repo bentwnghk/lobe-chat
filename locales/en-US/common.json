@@ -15,6 +15,7 @@
   "autoGenerateTooltip": "Auto-generate assistant description based on prompts",
   "autoGenerateTooltipDisabled": "Please enter a tooltip before using the autocomplete feature",
   "blog": "Mr.🆖 AI Creator",
+  "batchDelete": "Batch Delete",
   "cancel": "Cancel",
   "changelog": "Get Key",
   "close": "Close",
@@ -33,6 +34,7 @@
   "delete": "Delete",
   "discord": "Mr.🆖 AiSpeak",
   "document": "Mr.🆖 Dictionary",
+  "download": "Download",
   "duplicate": "Create Duplicate",
   "edit": "Edit",
   "export": "Export Configuration",
@@ -194,6 +196,7 @@
   },
   "tab": {
     "chat": "Chat",
+    "files": "Files",
     "market": "Discover",
     "me": "Me",
     "setting": "Settings"
