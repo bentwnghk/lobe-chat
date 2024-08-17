@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { ConfigProvider, Popover, TooltipProps } from 'antd';
 import { createStyles, useTheme } from 'antd-style';
 import { XIcon } from 'lucide-react';

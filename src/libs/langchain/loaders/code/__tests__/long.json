@@ -1,6 +1,6 @@
 [
   {
-    "pageContent": "import { copyToClipboard } from '@lobehub/ui';\nimport isEqual from 'fast-deep-equal';\nimport { produce } from 'immer';\nimport { template } from 'lodash-es';\nimport { SWRResponse, mutate } from 'swr';\nimport { StateCreator } from 'zustand/vanilla';",
+    "pageContent": "import { copyToClipboard } from '@bentwnghk/ui';\nimport isEqual from 'fast-deep-equal';\nimport { produce } from 'immer';\nimport { template } from 'lodash-es';\nimport { SWRResponse, mutate } from 'swr';\nimport { StateCreator } from 'zustand/vanilla';",
     "metadata": { "loc": { "lines": { "from": 1, "to": 6 } } }
   },
   {
