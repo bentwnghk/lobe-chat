@@ -6,7 +6,8 @@ export default {
     cloud: {
       action: '立即体验',
       desc: '我们为所有注册用户提供了免费的 {{credit}} 额度计算积分，无需复杂配置开箱即用, 支持全局云同步与进阶联网查询，更多高级特性等你探索。',
-      descOnMobile: '我们为所有注册用户提供了免费的 {{credit}} 额度计算积分，无需复杂配置开箱即用。',
+      descOnMobile:
+        '我们为所有注册用户提供了免费的 {{credit}} 额度计算积分，无需复杂配置开箱即用。',
       title: '{{name}} 开始公测',
     },
   },
@@ -14,8 +15,8 @@ export default {
   autoGenerate: '自动补全',
   autoGenerateTooltip: '基于提示词自动补全助手描述',
   autoGenerateTooltipDisabled: '请填写提示词后使用自动补全功能',
-  blog: 'Mr.🆖 AI Creator',
   batchDelete: '批量删除',
+  blog: 'Mr.🆖 AI Creator',
   cancel: '取消',
   changelog: '取得金钥',
   close: '关闭',
