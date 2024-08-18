@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.54.3](https://github.com/bentwnghk/lobe-chat/compare/v1.54.2...v1.54.3)
+
+<sup>Released on **2024-08-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add `SILICONCLOUD_MODEL_LIST` & `SILICONCLOUD_PROXY_URL` support for SiliconCloud.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add `SILICONCLOUD_MODEL_LIST` & `SILICONCLOUD_PROXY_URL` support for SiliconCloud, closes [#3492](https://github.com/bentwnghk/lobe-chat/issues/3492) ([e41be6d](https://github.com/bentwnghk/lobe-chat/commit/e41be6d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.54.2](https://github.com/bentwnghk/lobe-chat/compare/v1.54.1...v1.54.2)
 
 <sup>Released on **2024-08-17**</sup>
