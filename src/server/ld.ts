@@ -1,11 +1,9 @@
 import urlJoin from 'url-join';
 
-import { getAppConfig } from '@/config/app';
 import { EMAIL_BUSINESS, EMAIL_SUPPORT, OFFICIAL_SITE, OFFICIAL_URL, X } from '@/const/url';
 
 import pkg from '../../package.json';
 
-const { SITE_URL = OFFICIAL_URL } = getAppConfig();
 const LAST_MODIFIED = new Date().toISOString();
 export const AUTHOR_LIST = {
   arvinxx: {
@@ -70,7 +68,7 @@ class Ld {
 
   genOrganization() {
     return {
-      '@id': this.getId(SITE_URL, '#organization'),
+      '@id': this.getId(OFFICIAL_URL, '#organization'),
       '@type': 'Organization',
       'alternateName': 'Mr.🆖 AI',
       'contactPoint': {
@@ -100,7 +98,7 @@ class Ld {
 
   getAuthors(ids: string[] = []) {
     const defaultAuthor = {
-      '@id': this.getId(SITE_URL, '#organization'),
+      '@id': this.getId(OFFICIAL_URL, '#organization'),
       '@type': 'Organization',
     };
     if (!ids || ids.length === 0) return defaultAuthor;
@@ -140,7 +138,7 @@ class Ld {
       '@id': fixedUrl,
       '@type': 'WebPage',
       'about': {
-        '@id': this.getId(SITE_URL, '#organization'),
+        '@id': this.getId(OFFICIAL_URL, '#organization'),
       },
       'breadcrumbs': {
         '@id': this.getId(fixedUrl, '#breadcrumb'),
@@ -153,7 +151,7 @@ class Ld {
       },
       'inLanguage': 'en-US',
       'isPartOf': {
-        '@id': this.getId(SITE_URL, '#website'),
+        '@id': this.getId(OFFICIAL_URL, '#website'),
       },
       'name': this.fixTitle(title),
       'primaryImageOfPage': {
@@ -186,15 +184,15 @@ class Ld {
 
   genWebSite() {
     const baseInfo: any = {
-      '@id': this.getId(SITE_URL, '#website'),
+      '@id': this.getId(OFFICIAL_URL, '#website'),
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
       'name': 'Mr.🆖 AI',
       'publisher': {
-        '@id': this.getId(SITE_URL, '#organization'),
+        '@id': this.getId(OFFICIAL_URL, '#organization'),
       },
-      'url': SITE_URL,
+      'url': OFFICIAL_URL,
     };
 
     return baseInfo;
@@ -209,7 +207,7 @@ class Ld {
   }
 
   private fixUrl(url: string) {
-    return urlJoin(SITE_URL, url);
+    return urlJoin(OFFICIAL_URL, url);
   }
 }
 
