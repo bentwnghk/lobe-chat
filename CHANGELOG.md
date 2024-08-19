@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.54.5](https://github.com/bentwnghk/lobe-chat/compare/v1.54.4...v1.54.5)
+
+<sup>Released on **2024-08-19**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the `SITE_URL` to `APP_URL`.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix topic scroll issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the `SITE_URL` to `APP_URL`, closes [#3504](https://github.com/bentwnghk/lobe-chat/issues/3504) ([46bdcea](https://github.com/bentwnghk/lobe-chat/commit/46bdcea))
+
+#### What's fixed
+
+- **misc**: Fix topic scroll issue, closes [#3505](https://github.com/bentwnghk/lobe-chat/issues/3505) ([c719c7a](https://github.com/bentwnghk/lobe-chat/commit/c719c7a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.54.4](https://github.com/bentwnghk/lobe-chat/compare/v1.54.3...v1.54.4)
 
 <sup>Released on **2024-08-18**</sup>
