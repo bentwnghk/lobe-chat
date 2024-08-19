@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.54.7](https://github.com/bentwnghk/lobe-chat/compare/v1.54.6...v1.54.7)
+
+<sup>Released on **2024-08-19**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fixed bedrock llama model id.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fixed bedrock llama model id, closes [#3518](https://github.com/bentwnghk/lobe-chat/issues/3518) ([34b4c69](https://github.com/bentwnghk/lobe-chat/commit/34b4c69))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.54.6](https://github.com/bentwnghk/lobe-chat/compare/v1.54.5...v1.54.6)
 
 <sup>Released on **2024-08-19**</sup>
