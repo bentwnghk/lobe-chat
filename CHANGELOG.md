@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.54.6](https://github.com/bentwnghk/lobe-chat/compare/v1.54.5...v1.54.6)
+
+<sup>Released on **2024-08-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update zhipu models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update zhipu models, closes [#3509](https://github.com/bentwnghk/lobe-chat/issues/3509) ([e323b50](https://github.com/bentwnghk/lobe-chat/commit/e323b50))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.54.5](https://github.com/bentwnghk/lobe-chat/compare/v1.54.4...v1.54.5)
 
 <sup>Released on **2024-08-19**</sup>
