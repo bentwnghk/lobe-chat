@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { FileText, Globe, ImageIcon, LayoutGrid, Mic2, SquarePlay } from 'lucide-react';
 import Link from 'next/link';
 import { memo, useMemo } from 'react';

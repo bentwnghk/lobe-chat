@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';

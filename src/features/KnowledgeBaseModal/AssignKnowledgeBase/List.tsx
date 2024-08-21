@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Empty } from 'antd';
 import { ServerCrash } from 'lucide-react';
 import { memo } from 'react';

@@ -1,4 +1,4 @@
-import { SearchBar } from '@lobehub/ui';
+import { SearchBar } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Tooltip } from '@lobehub/ui';
+import { ActionIcon, Icon, Tooltip } from '@bentwnghk/ui';
 import { Dropdown, MenuProps, Upload } from 'antd';
 import { css, cx } from 'antd-style';
 import { FileUp, FolderUp, ImageUp, Paperclip } from 'lucide-react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button, Dropdown, MenuProps, Upload } from 'antd';
 import { css, cx } from 'antd-style';
 import { FileUp, FolderUp, PlusCircleIcon } from 'lucide-react';

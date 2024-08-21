@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { Button, Divider, Typography } from 'antd';
 import { useTheme } from 'antd-style';
 import { ArrowLeftIcon, DownloadIcon } from 'lucide-react';

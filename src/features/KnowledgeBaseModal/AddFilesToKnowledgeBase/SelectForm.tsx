@@ -1,4 +1,4 @@
-import { MaterialFileTypeIcon } from '@lobehub/ui';
+import { MaterialFileTypeIcon } from '@bentwnghk/ui';
 import { App, Button, Form, Select } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Upload } from 'antd';
 import { FileUp, LucideImage } from 'lucide-react';
 import { memo } from 'react';

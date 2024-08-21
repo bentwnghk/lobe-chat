@@ -1,4 +1,4 @@
-import { ImageGallery } from '@lobehub/ui';
+import { ImageGallery } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';

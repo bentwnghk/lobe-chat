@@ -1,4 +1,4 @@
-import { FileTypeIcon, Icon } from '@lobehub/ui';
+import { FileTypeIcon, Icon } from '@bentwnghk/ui';
 import { Typography, Upload } from 'antd';
 import { createStyles, useTheme } from 'antd-style';
 import { ArrowUpIcon, PlusIcon } from 'lucide-react';

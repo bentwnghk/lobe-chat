@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Descriptions, Divider, Tag } from 'antd';
 import { useTheme } from 'antd-style';
 import dayjs from 'dayjs';

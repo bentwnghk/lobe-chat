@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, copyToClipboard } from '@lobehub/ui';
+import { ActionIcon, Icon, copyToClipboard } from '@bentwnghk/ui';
 import { App, Dropdown } from 'antd';
 import { ItemType } from 'antd/es/menu/interface';
 import {

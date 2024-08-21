@@ -1,4 +1,4 @@
-import { Tooltip } from '@lobehub/ui';
+import { Tooltip } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
