@@ -25,6 +25,7 @@ export const DOCUMENTS = 'https://longman.mister5.net/';
 export const USAGE_DOCUMENTS = 'https://google.com/';
 export const SELF_HOSTING_DOCUMENTS = 'https://google.com/';
 export const WEBRTC_SYNC_DOCUMENTS = 'https://google.com/';
+export const DATABASE_SELF_HOSTING_URL = 'https://google.com/';
 
 // use this for the link
 export const DOCUMENTS_REFER_URL = DOCUMENTS;
