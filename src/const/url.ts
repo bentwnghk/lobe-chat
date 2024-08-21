@@ -6,7 +6,7 @@ import { withBasePath } from '@/utils/basePath';
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
-// export const UTM_SOURCE = 'chat_preview';
+export const UTM_SOURCE = 'chat_preview';
 
 export const OFFICIAL_URL = 'https://mr5ai.com/';
 export const OFFICIAL_PREVIEW_URL = 'https://mr5ai.com/';
