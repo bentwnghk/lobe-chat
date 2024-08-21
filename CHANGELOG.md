@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.55.0](https://github.com/bentwnghk/lobe-chat/compare/v1.54.7...v1.55.0)
+
+<sup>Released on **2024-08-21**</sup>
+
+#### ✨ Features
+
+- **misc**: Files and knowledge base.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Files and knowledge base, closes [#3487](https://github.com/bentwnghk/lobe-chat/issues/3487) ([6574c01](https://github.com/bentwnghk/lobe-chat/commit/6574c01))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.54.7](https://github.com/bentwnghk/lobe-chat/compare/v1.54.6...v1.54.7)
 
 <sup>Released on **2024-08-19**</sup>
