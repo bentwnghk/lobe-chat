@@ -26,13 +26,12 @@ ARG USE_CN_MIRROR
 ENV KEY_VAULTS_SECRET="use-for-build" \
     NEXT_PUBLIC_SERVICE_MODE="server" \
     DATABASE_DRIVER="node" \
-    DATABASE_URL="postgres://postgres:password@localhost:5432/postgres" \
-    NEXT_PUBLIC_S3_DOMAIN="https://s3-for-5chat.mystudies.net" \
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_live_Y2xlcmsubXI1YWkuY29tJA"
+    DATABASE_URL="postgres://postgres:password@localhost:5432/postgres"
 
 # Clerk
 ENV CLERK_WEBHOOK_SECRET="use-for-build" \
-    CLERK_SECRET_KEY="use-for-build"
+    CLERK_SECRET_KEY="use-for-build" \
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_live_Y2xlcmsubXI1YWkuY29tJA"
 
 # Sentry
 ENV NEXT_PUBLIC_SENTRY_DSN="" \
@@ -128,7 +127,6 @@ ENV KEY_VAULTS_SECRET="" \
 
 # Next Auth
 ENV NEXT_AUTH_SECRET="" \
-    ACCESS_CODE="" \
     NEXTAUTH_URL="" \
     NEXT_AUTH_SSO_PROVIDERS=""
 
@@ -137,9 +135,11 @@ ENV CLERK_WEBHOOK_SECRET="" \
     CLERK_SECRET_KEY=""
 
 # S3
-ENV S3_ACCESS_KEY_ID="" \
+ENV NEXT_PUBLIC_S3_DOMAIN="" \
+    S3_ACCESS_KEY_ID="" \
     S3_SECRET_ACCESS_KEY="" \
-    S3_BUCKET=""
+    S3_BUCKET="" \
+    S3_ENDPOINT=""
 
 # Model Variables
 ENV \
