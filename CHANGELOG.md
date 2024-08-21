@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.55.1](https://github.com/bentwnghk/lobe-chat/compare/v1.55.0...v1.55.1)
+
+<sup>Released on **2024-08-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix embeddings multi-insert when there is issues with async task.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix embeddings multi-insert when there is issues with async task, closes [#3530](https://github.com/bentwnghk/lobe-chat/issues/3530) ([e2cfff7](https://github.com/bentwnghk/lobe-chat/commit/e2cfff7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.55.0](https://github.com/bentwnghk/lobe-chat/compare/v1.54.7...v1.55.0)
 
 <sup>Released on **2024-08-21**</sup>
