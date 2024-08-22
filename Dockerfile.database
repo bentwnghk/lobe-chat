@@ -25,6 +25,7 @@ ARG USE_CN_MIRROR
 
 ENV KEY_VAULTS_SECRET="use-for-build" \
     NEXT_PUBLIC_SERVICE_MODE="server" \
+    NEXT_PUBLIC_S3_DOMAIN="https://s3-for-lobechat.mystudies.net" \
     DATABASE_DRIVER="node" \
     DATABASE_URL="postgres://postgres:password@localhost:5432/postgres"
 
@@ -135,8 +136,7 @@ ENV CLERK_WEBHOOK_SECRET="" \
     CLERK_SECRET_KEY=""
 
 # S3
-ENV NEXT_PUBLIC_S3_DOMAIN="" \
-    S3_ACCESS_KEY_ID="" \
+ENV S3_ACCESS_KEY_ID="" \
     S3_SECRET_ACCESS_KEY="" \
     S3_BUCKET="" \
     S3_ENDPOINT=""
