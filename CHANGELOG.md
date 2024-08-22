@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.55.6](https://github.com/bentwnghk/lobe-chat/compare/v1.55.5...v1.55.6)
+
+<sup>Released on **2024-08-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor s3 env and support path-style for minio.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor s3 env and support path-style for minio, closes [#3559](https://github.com/bentwnghk/lobe-chat/issues/3559) ([1658403](https://github.com/bentwnghk/lobe-chat/commit/1658403))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.5](https://github.com/bentwnghk/lobe-chat/compare/v1.55.4...v1.55.5)
 
 <sup>Released on **2024-08-22**</sup>
