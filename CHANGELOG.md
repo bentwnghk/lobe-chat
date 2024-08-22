@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.55.7](https://github.com/bentwnghk/lobe-chat/compare/v1.55.6...v1.55.7)
+
+<sup>Released on **2024-08-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `NEXT_PUBLIC_S3_DOMAIN` error on Docker, Logout button not shown on mobile view when using nextauth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix `NEXT_PUBLIC_S3_DOMAIN` error on Docker, closes [#3564](https://github.com/bentwnghk/lobe-chat/issues/3564) ([bc6b64c](https://github.com/bentwnghk/lobe-chat/commit/bc6b64c))
+- **misc**: Logout button not shown on mobile view when using nextauth, closes [#3561](https://github.com/bentwnghk/lobe-chat/issues/3561) ([0c4efe4](https://github.com/bentwnghk/lobe-chat/commit/0c4efe4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.6](https://github.com/bentwnghk/lobe-chat/compare/v1.55.5...v1.55.6)
 
 <sup>Released on **2024-08-22**</sup>
