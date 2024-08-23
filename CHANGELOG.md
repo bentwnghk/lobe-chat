@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.55.9](https://github.com/bentwnghk/lobe-chat/compare/v1.55.8...v1.55.9)
+
+<sup>Released on **2024-08-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Refactor and fix dalle.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Refactor and fix dalle, closes [#3572](https://github.com/bentwnghk/lobe-chat/issues/3572) ([8b39b61](https://github.com/bentwnghk/lobe-chat/commit/8b39b61))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.8](https://github.com/bentwnghk/lobe-chat/compare/v1.55.7...v1.55.8)
 
 <sup>Released on **2024-08-23**</sup>
