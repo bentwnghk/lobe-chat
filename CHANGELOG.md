@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.55.8](https://github.com/bentwnghk/lobe-chat/compare/v1.55.7...v1.55.8)
+
+<sup>Released on **2024-08-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Improve s3 path-style url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Improve s3 path-style url, closes [#3567](https://github.com/bentwnghk/lobe-chat/issues/3567) ([96bb38a](https://github.com/bentwnghk/lobe-chat/commit/96bb38a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.7](https://github.com/bentwnghk/lobe-chat/compare/v1.55.6...v1.55.7)
 
 <sup>Released on **2024-08-22**</sup>
