@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.55.10](https://github.com/bentwnghk/lobe-chat/compare/v1.55.9...v1.55.10)
+
+<sup>Released on **2024-08-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove orphan chunks if there is no related file.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Remove orphan chunks if there is no related file, closes [#3578](https://github.com/bentwnghk/lobe-chat/issues/3578) ([36bcaf3](https://github.com/bentwnghk/lobe-chat/commit/36bcaf3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.9](https://github.com/bentwnghk/lobe-chat/compare/v1.55.8...v1.55.9)
 
 <sup>Released on **2024-08-23**</sup>
