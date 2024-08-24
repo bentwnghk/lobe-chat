@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.55.12](https://github.com/bentwnghk/lobe-chat/compare/v1.55.11...v1.55.12)
+
+<sup>Released on **2024-08-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix tts file saving in server mode.
+
+#### 💄 Styles
+
+- **misc**: Update 01.AI models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix tts file saving in server mode, closes [#3585](https://github.com/bentwnghk/lobe-chat/issues/3585) ([ab1cb47](https://github.com/bentwnghk/lobe-chat/commit/ab1cb47))
+
+#### Styles
+
+- **misc**: Update 01.AI models, closes [#3586](https://github.com/bentwnghk/lobe-chat/issues/3586) ([c4a7f70](https://github.com/bentwnghk/lobe-chat/commit/c4a7f70))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.11](https://github.com/bentwnghk/lobe-chat/compare/v1.55.10...v1.55.11)
 
 <sup>Released on **2024-08-24**</sup>
