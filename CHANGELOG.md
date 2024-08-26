@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.55.14](https://github.com/bentwnghk/lobe-chat/compare/v1.55.13...v1.55.14)
+
+<sup>Released on **2024-08-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix cannot clone agent when imported from client, fix dayjs error in en-US language, fix multi file upload dupicate.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix cannot clone agent when imported from client, closes [#3606](https://github.com/bentwnghk/lobe-chat/issues/3606) ([1fd2fa0](https://github.com/bentwnghk/lobe-chat/commit/1fd2fa0))
+- **misc**: Fix dayjs error in en-US language, closes [#3604](https://github.com/bentwnghk/lobe-chat/issues/3604) ([174f4df](https://github.com/bentwnghk/lobe-chat/commit/174f4df))
+- **misc**: Fix multi file upload dupicate, closes [#3603](https://github.com/bentwnghk/lobe-chat/issues/3603) ([60dbed7](https://github.com/bentwnghk/lobe-chat/commit/60dbed7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.13](https://github.com/bentwnghk/lobe-chat/compare/v1.55.12...v1.55.13)
 
 <sup>Released on **2024-08-24**</sup>
