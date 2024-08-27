@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.55.15](https://github.com/bentwnghk/lobe-chat/compare/v1.55.14...v1.55.15)
+
+<sup>Released on **2024-08-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Feature flag `knowledge_base` doesn't affect ActionBar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Feature flag `knowledge_base` doesn't affect ActionBar, closes [#3609](https://github.com/bentwnghk/lobe-chat/issues/3609) ([1a5286b](https://github.com/bentwnghk/lobe-chat/commit/1a5286b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.55.14](https://github.com/bentwnghk/lobe-chat/compare/v1.55.13...v1.55.14)
 
 <sup>Released on **2024-08-26**</sup>
