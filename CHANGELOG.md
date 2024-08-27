@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.56.1](https://github.com/bentwnghk/lobe-chat/compare/v1.56.0...v1.56.1)
+
+<sup>Released on **2024-08-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Bypass vercel deployment protection, fix can send message on uploading files.
+
+#### 💄 Styles
+
+- **misc**: Update Qwen models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Bypass vercel deployment protection, closes [#3627](https://github.com/bentwnghk/lobe-chat/issues/3627) ([47da20d](https://github.com/bentwnghk/lobe-chat/commit/47da20d))
+- **misc**: Fix can send message on uploading files, closes [#3618](https://github.com/bentwnghk/lobe-chat/issues/3618) ([fe4329a](https://github.com/bentwnghk/lobe-chat/commit/fe4329a))
+
+#### Styles
+
+- **misc**: Update Qwen models, closes [#3626](https://github.com/bentwnghk/lobe-chat/issues/3626) ([4393386](https://github.com/bentwnghk/lobe-chat/commit/4393386))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.56.0](https://github.com/bentwnghk/lobe-chat/compare/v1.55.15...v1.56.0)
 
 <sup>Released on **2024-08-27**</sup>
