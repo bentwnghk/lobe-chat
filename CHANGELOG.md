@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.57.0](https://github.com/bentwnghk/lobe-chat/compare/v1.56.1...v1.57.0)
+
+<sup>Released on **2024-08-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Supports Cloudflare Zero Trust login.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix agent setting, improve aysnc error type.
+
+#### 💄 Styles
+
+- **misc**: Improve zhipu model config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Supports Cloudflare Zero Trust login, closes [#3624](https://github.com/bentwnghk/lobe-chat/issues/3624) ([ac2bf68](https://github.com/bentwnghk/lobe-chat/commit/ac2bf68))
+
+#### What's fixed
+
+- **misc**: Fix agent setting, closes [#3633](https://github.com/bentwnghk/lobe-chat/issues/3633) ([298fddb](https://github.com/bentwnghk/lobe-chat/commit/298fddb))
+- **misc**: Improve aysnc error type, closes [#3638](https://github.com/bentwnghk/lobe-chat/issues/3638) ([dbae456](https://github.com/bentwnghk/lobe-chat/commit/dbae456))
+
+#### Styles
+
+- **misc**: Improve zhipu model config, closes [#3635](https://github.com/bentwnghk/lobe-chat/issues/3635) ([1274e6a](https://github.com/bentwnghk/lobe-chat/commit/1274e6a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.56.1](https://github.com/bentwnghk/lobe-chat/compare/v1.56.0...v1.56.1)
 
 <sup>Released on **2024-08-27**</sup>
