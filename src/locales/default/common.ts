@@ -229,5 +229,5 @@ export default {
     setting: '应用设置',
     usages: '用量统计',
   },
-  version: 'Empowering your self-directed learning with AI 🌈',
+  version: 'Revolutionizing your work and study with AI 🌈',
 };
