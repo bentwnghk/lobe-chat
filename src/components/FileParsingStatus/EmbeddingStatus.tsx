@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@bentwnghk/ui';
 import { Tag } from 'antd';
 import { createStyles } from 'antd-style';
 import { BoltIcon, RotateCwIcon } from 'lucide-react';

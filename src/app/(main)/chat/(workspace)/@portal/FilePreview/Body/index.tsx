@@ -1,4 +1,4 @@
-import { Icon, Markdown } from '@lobehub/ui';
+import { Icon, Markdown } from '@bentwnghk/ui';
 import { Segmented } from 'antd';
 import { BoltIcon, FileIcon } from 'lucide-react';
 import { useState } from 'react';
