@@ -1,5 +1,5 @@
 import { IDocument } from '@cyntler/react-doc-viewer';
-import { FluentEmoji } from '@lobehub/ui';
+import { FluentEmoji } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
