@@ -2,6 +2,51 @@
 
 # Changelog
 
+## [Version 1.58.0](https://github.com/bentwnghk/lobe-chat/compare/v1.57.4...v1.58.0)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Upstage model provider support.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix file relative chunks.
+
+#### 💄 Styles
+
+- **misc**: Fix ms doc file preview, Update Qwen and Gemini models info, Update Stepfun models info, Update the sorting of each provider model, Update the sorting of each provider model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Upstage model provider support, closes [#3670](https://github.com/bentwnghk/lobe-chat/issues/3670) ([4b8591b](https://github.com/bentwnghk/lobe-chat/commit/4b8591b))
+
+#### What's fixed
+
+- **misc**: Fix file relative chunks, closes [#3676](https://github.com/bentwnghk/lobe-chat/issues/3676) ([afe1906](https://github.com/bentwnghk/lobe-chat/commit/afe1906))
+
+#### Styles
+
+- **misc**: Fix ms doc file preview, closes [#3686](https://github.com/bentwnghk/lobe-chat/issues/3686) ([2cd78cf](https://github.com/bentwnghk/lobe-chat/commit/2cd78cf))
+- **misc**: Update Qwen and Gemini models info, closes [#3693](https://github.com/bentwnghk/lobe-chat/issues/3693) ([ba01641](https://github.com/bentwnghk/lobe-chat/commit/ba01641))
+- **misc**: Update Stepfun models info, closes [#3685](https://github.com/bentwnghk/lobe-chat/issues/3685) ([478b40a](https://github.com/bentwnghk/lobe-chat/commit/478b40a))
+- **misc**: Update the sorting of each provider model, closes [#3689](https://github.com/bentwnghk/lobe-chat/issues/3689) ([e82c9dd](https://github.com/bentwnghk/lobe-chat/commit/e82c9dd))
+- **misc**: Update the sorting of each provider model, closes [#3688](https://github.com/bentwnghk/lobe-chat/issues/3688) ([2630bbc](https://github.com/bentwnghk/lobe-chat/commit/2630bbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.57.4](https://github.com/bentwnghk/lobe-chat/compare/v1.57.3...v1.57.4)
 
 <sup>Released on **2024-08-30**</sup>
