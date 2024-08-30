@@ -46,6 +46,9 @@ export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL = 'https://api.mr5ai.com';
 
+export const MORE_FILE_PREVIEW_REQUEST_URL =
+  'https://github.com/lobehub/lobe-chat/discussions/3684';
+
 export const AGENTS_INDEX_GITHUB = 'https://github.com/lobehub/lobe-chat-agents';
 export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');
 
