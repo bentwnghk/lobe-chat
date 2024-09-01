@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.58.1](https://github.com/bentwnghk/lobe-chat/compare/v1.58.0...v1.58.1)
+
+<sup>Released on **2024-09-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add `*_MODEL_LIST` for Qwen and ZeroOne, fix model info, update Claude 3.5 Sonnet maxOutput vaule.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add `*_MODEL_LIST` for Qwen and ZeroOne, closes [#3704](https://github.com/bentwnghk/lobe-chat/issues/3704) ([05419dc](https://github.com/bentwnghk/lobe-chat/commit/05419dc))
+- **misc**: Fix model info, closes [#3696](https://github.com/bentwnghk/lobe-chat/issues/3696) ([4d98037](https://github.com/bentwnghk/lobe-chat/commit/4d98037))
+- **misc**: Update Claude 3.5 Sonnet maxOutput vaule, closes [#3705](https://github.com/bentwnghk/lobe-chat/issues/3705) ([685bd74](https://github.com/bentwnghk/lobe-chat/commit/685bd74))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.58.0](https://github.com/bentwnghk/lobe-chat/compare/v1.57.4...v1.58.0)
 
 <sup>Released on **2024-08-30**</sup>
