@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.58.2](https://github.com/bentwnghk/lobe-chat/compare/v1.58.1...v1.58.2)
+
+<sup>Released on **2024-09-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Novita AI model info & add `NOVITA_MODEL_LIST` support, update Together AI model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Novita AI model info & add `NOVITA_MODEL_LIST` support, closes [#3715](https://github.com/bentwnghk/lobe-chat/issues/3715) ([4ab33f6](https://github.com/bentwnghk/lobe-chat/commit/4ab33f6))
+- **misc**: Update Together AI model list, closes [#3713](https://github.com/bentwnghk/lobe-chat/issues/3713) ([0dde3b1](https://github.com/bentwnghk/lobe-chat/commit/0dde3b1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.1](https://github.com/bentwnghk/lobe-chat/compare/v1.58.0...v1.58.1)
 
 <sup>Released on **2024-09-01**</sup>
