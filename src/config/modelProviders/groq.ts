@@ -6,14 +6,14 @@ const Groq: ModelProviderCard = {
   chatModels: [
     // TODO: During preview launch, Groq is limiting 3.1 models to max_tokens of 8k.
     {
-      displayName: 'Llama 3.1 8B (Preview)',
+      displayName: 'Llama 3.1 8B',
       enabled: true,
       functionCall: true,
       id: 'llama-3.1-8b-instant',
       tokens: 8000,
     },
     {
-      displayName: 'Llama 3.1 70B (Preview)',
+      displayName: 'Llama 3.1 70B',
       enabled: true,
       functionCall: true,
       id: 'llama-3.1-70b-versatile',
