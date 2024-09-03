@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.58.4](https://github.com/bentwnghk/lobe-chat/compare/v1.58.3...v1.58.4)
+
+<sup>Released on **2024-09-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix provider disabled title style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix provider disabled title style, closes [#3743](https://github.com/bentwnghk/lobe-chat/issues/3743) ([2c72452](https://github.com/bentwnghk/lobe-chat/commit/2c72452))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.3](https://github.com/bentwnghk/lobe-chat/compare/v1.58.2...v1.58.3)
 
 <sup>Released on **2024-09-02**</sup>
