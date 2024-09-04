@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.58.5](https://github.com/bentwnghk/lobe-chat/compare/v1.58.4...v1.58.5)
+
+<sup>Released on **2024-09-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `.PDF` can not be chunked, fix speed and rag prompt.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix `.PDF` can not be chunked, closes [#3720](https://github.com/bentwnghk/lobe-chat/issues/3720) ([4244c04](https://github.com/bentwnghk/lobe-chat/commit/4244c04))
+- **misc**: Fix speed and rag prompt, closes [#3751](https://github.com/bentwnghk/lobe-chat/issues/3751) ([dce200c](https://github.com/bentwnghk/lobe-chat/commit/dce200c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.4](https://github.com/bentwnghk/lobe-chat/compare/v1.58.3...v1.58.4)
 
 <sup>Released on **2024-09-03**</sup>
