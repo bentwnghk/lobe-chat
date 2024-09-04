@@ -1,7 +1,7 @@
 'use client';
 
 import { ProColumns, ProTable } from '@ant-design/pro-components';
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Button, Typography, Upload } from 'antd';
 import { createStyles } from 'antd-style';
 import { Edit2Icon, Trash2Icon } from 'lucide-react';
