@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.58.6](https://github.com/bentwnghk/lobe-chat/compare/v1.58.5...v1.58.6)
+
+<sup>Released on **2024-09-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix typo in RAG prompt.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix typo in RAG prompt, closes [#3764](https://github.com/bentwnghk/lobe-chat/issues/3764) ([ff61fa6](https://github.com/bentwnghk/lobe-chat/commit/ff61fa6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.5](https://github.com/bentwnghk/lobe-chat/compare/v1.58.4...v1.58.5)
 
 <sup>Released on **2024-09-04**</sup>
