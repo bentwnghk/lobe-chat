@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.58.8](https://github.com/bentwnghk/lobe-chat/compare/v1.58.7...v1.58.8)
+
+<sup>Released on **2024-09-06**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add `LLaVA 1.5 7B` model in Groq, Update Bedrock model list & add `AWS_BEDROCK_MODEL_LIST` support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add `LLaVA 1.5 7B` model in Groq, closes [#3769](https://github.com/bentwnghk/lobe-chat/issues/3769) ([f78a0b1](https://github.com/bentwnghk/lobe-chat/commit/f78a0b1))
+- **misc**: Update Bedrock model list & add `AWS_BEDROCK_MODEL_LIST` support, closes [#3723](https://github.com/bentwnghk/lobe-chat/issues/3723) ([0aad972](https://github.com/bentwnghk/lobe-chat/commit/0aad972))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.7](https://github.com/bentwnghk/lobe-chat/compare/v1.58.6...v1.58.7)
 
 <sup>Released on **2024-09-06**</sup>
