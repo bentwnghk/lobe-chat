@@ -29,7 +29,6 @@ const nextConfig = {
       '@bentwnghk/ui',
       'gpt-tokenizer',
       'chroma-js',
-      'shiki',
     ],
     webVitalsAttribution: ['CLS', 'LCP'],
   },
