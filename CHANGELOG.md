@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.58.9](https://github.com/bentwnghk/lobe-chat/compare/v1.58.8...v1.58.9)
+
+<sup>Released on **2024-09-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auth log.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix auth log, closes [#3795](https://github.com/bentwnghk/lobe-chat/issues/3795) ([71aa405](https://github.com/bentwnghk/lobe-chat/commit/71aa405))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.8](https://github.com/bentwnghk/lobe-chat/compare/v1.58.7...v1.58.8)
 
 <sup>Released on **2024-09-06**</sup>
