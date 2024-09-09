@@ -4,18 +4,6 @@ import { ModelProviderCard } from '@/types/llm';
 const Perplexity: ModelProviderCard = {
   chatModels: [
     {
-      displayName: 'Llama 3.1 Sonar Small Chat',
-      enabled: true,
-      id: 'llama-3.1-sonar-small-128k-chat',
-      tokens: 128_000,
-    },
-    {
-      displayName: 'Llama 3.1 Sonar Large Chat',
-      enabled: true,
-      id: 'llama-3.1-sonar-large-128k-chat',
-      tokens: 128_000,
-    },
-    {
       displayName: 'Llama 3.1 Sonar Small Online',
       enabled: true,
       id: 'llama-3.1-sonar-small-128k-online',
@@ -26,6 +14,24 @@ const Perplexity: ModelProviderCard = {
       enabled: true,
       id: 'llama-3.1-sonar-large-128k-online',
       tokens: 127_072,
+    },
+    {
+      displayName: 'Llama 3.1 Sonar Huge Online',
+      enabled: true,
+      id: 'llama-3.1-sonar-huge-128k-online',
+      tokens: 128_000,
+    },
+    {
+      displayName: 'Llama 3.1 Sonar Small Chat',
+      enabled: true,
+      id: 'llama-3.1-sonar-small-128k-chat',
+      tokens: 128_000,
+    },
+    {
+      displayName: 'Llama 3.1 Sonar Large Chat',
+      enabled: true,
+      id: 'llama-3.1-sonar-large-128k-chat',
+      tokens: 128_000,
     },
     {
       displayName: 'Llama 3.1 8B Instruct',
