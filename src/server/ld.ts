@@ -1,5 +1,6 @@
 import urlJoin from 'url-join';
 
+import { BRANDING_NAME } from '@/const/branding';
 import { EMAIL_BUSINESS, EMAIL_SUPPORT, OFFICIAL_SITE, OFFICIAL_URL, X } from '@/const/url';
 
 import pkg from '../../package.json';
@@ -203,7 +204,7 @@ class Ld {
   }
 
   private fixTitle(title: string) {
-    return title.includes('Mr.🆖 AI') ? title : `${title} · Mr.🆖 AI`;
+    return title.includes(BRANDING_NAME) ? title : `${title} · ${BRANDING_NAME}`;
   }
 
   private fixUrl(url: string) {

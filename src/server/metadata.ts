@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 
+import { BRANDING_NAME } from '@/const/branding';
 import { OG_URL, getCanonicalUrl } from '@/const/url';
 import { formatDescLength, formatTitleLength } from '@/utils/genOG';
 
@@ -23,7 +24,7 @@ export class Meta {
     const formatedTitle = formatTitleLength(title, 21);
     // eslint-disable-next-line no-param-reassign
     const formatedDescription = formatDescLength(description, tags);
-    const siteTitle = title.includes('Mr.🆖 AI') ? title : title + ' · Mr.🆖 AI';
+    const siteTitle = title.includes(BRANDING_NAME) ? title : title + ` · ${BRANDING_NAME}`;
     return {
       alternates: { canonical: getCanonicalUrl(url) },
       description: formatedDescription,

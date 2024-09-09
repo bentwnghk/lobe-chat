@@ -11,6 +11,7 @@ import { Center, Flexbox } from 'react-layout-kit';
 
 import GuideModal from '@/components/GuideModal';
 // import GuideVideo from '@/components/GuideVideo';
+import { BRANDING_NAME } from '@/const/branding';
 import { EMAIL_BUSINESS, GITHUB_ISSUES } from '@/const/url';
 import { isOnServerSide } from '@/utils/env';
 
@@ -67,7 +68,7 @@ const Footer = memo<PropsWithChildren>(() => {
       <GuideModal
         cancelText={t('footer.later')}
         cover={<Image alt={'Mr.🆖 AI'} height={269} src={'/images/star.png'} width={358} />}
-        desc={t('footer.star.desc')}
+        desc={t('footer.star.desc', { appName: BRANDING_NAME })}
         okText={t('footer.star.action')}
         onCancel={() => setOpenStar(false)}
         onOk={() => {
@@ -80,7 +81,7 @@ const Footer = memo<PropsWithChildren>(() => {
       <GuideModal
         cancelText={t('footer.later')}
         cover={<Image alt={'Mr.🆖 AI'} height={269} src={'/images/feedback.png'} width={358} />}
-        desc={t('footer.feedback.desc')}
+        desc={t('footer.feedback.desc', { appName: BRANDING_NAME })}
         okText={t('footer.feedback.action')}
         onCancel={() => setOpenFeedback(false)}
         onOk={() => {
