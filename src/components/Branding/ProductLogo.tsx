@@ -1,4 +1,4 @@
-import { LobeChat } from '@lobehub/ui/brand';
+import { LobeChat } from '@bentwnghk/ui/brand';
 import { memo } from 'react';
 
 interface ProductLogoProps {
