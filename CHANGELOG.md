@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.58.14](https://github.com/bentwnghk/lobe-chat/compare/v1.58.13...v1.58.14)
+
+<sup>Released on **2024-09-09**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update perplexity model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update perplexity model list, closes [#3836](https://github.com/bentwnghk/lobe-chat/issues/3836) ([b70671b](https://github.com/bentwnghk/lobe-chat/commit/b70671b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.13](https://github.com/bentwnghk/lobe-chat/compare/v1.58.12...v1.58.13)
 
 <sup>Released on **2024-09-09**</sup>
