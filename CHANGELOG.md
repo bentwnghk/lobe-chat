@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.58.13](https://github.com/bentwnghk/lobe-chat/compare/v1.58.12...v1.58.13)
+
+<sup>Released on **2024-09-09**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve branding implement, temperature range from 0 to 2.
+
+#### 💄 Styles
+
+- **misc**: Fix title in about settings, Update model display name & Remove Qwen preview model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve branding implement, closes [#3832](https://github.com/bentwnghk/lobe-chat/issues/3832) ([b5e6b8b](https://github.com/bentwnghk/lobe-chat/commit/b5e6b8b))
+- **misc**: Temperature range from 0 to 2, closes [#3355](https://github.com/bentwnghk/lobe-chat/issues/3355) ([4a9114e](https://github.com/bentwnghk/lobe-chat/commit/4a9114e))
+
+#### Styles
+
+- **misc**: Fix title in about settings, closes [#3841](https://github.com/bentwnghk/lobe-chat/issues/3841) ([6b7a366](https://github.com/bentwnghk/lobe-chat/commit/6b7a366))
+- **misc**: Update model display name & Remove Qwen preview model, closes [#3757](https://github.com/bentwnghk/lobe-chat/issues/3757) ([dd439ba](https://github.com/bentwnghk/lobe-chat/commit/dd439ba))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.12](https://github.com/bentwnghk/lobe-chat/compare/v1.58.11...v1.58.12)
 
 <sup>Released on **2024-09-08**</sup>
