@@ -24,7 +24,7 @@ const Groq: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'llama-3.1-405b-reasoning',
-      tokens: 8_192,
+      tokens: 8192,
     },
     {
       displayName: 'Llama 3 Groq 8B Tool Use (Preview)',
