@@ -19,7 +19,7 @@ const Perplexity: ModelProviderCard = {
       displayName: 'Llama 3.1 Sonar Huge Online',
       enabled: true,
       id: 'llama-3.1-sonar-huge-128k-online',
-      tokens: 128_000,
+      tokens: 127_072,
     },
     {
       displayName: 'Llama 3.1 Sonar Small Chat',
