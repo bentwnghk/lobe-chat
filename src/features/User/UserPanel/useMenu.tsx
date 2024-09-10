@@ -1,4 +1,4 @@
-import { ActionIcon, DiscordIcon, Icon } from '@bentwnghk/ui';
+import { ActionIcon, DiscordIcon, Icon } from '@lobehub/ui';
 import { Badge } from 'antd';
 import { ItemType } from 'antd/es/menu/interface';
 import {
@@ -11,7 +11,7 @@ import {
   HardDriveUpload,
   LifeBuoy,
   LogOut,
-//  Mail,
+  Mail,
   Maximize,
   Settings2,
 } from 'lucide-react';
@@ -22,12 +22,15 @@ import { Flexbox } from 'react-layout-kit';
 import urlJoin from 'url-join';
 
 import type { MenuProps } from '@/components/Menu';
+import { LOBE_CHAT_CLOUD } from '@/const/branding';
 import {
   DISCORD,
   DOCUMENTS_REFER_URL,
-  EMAIL_BUSINESS,
-  X,
+  EMAIL_SUPPORT,
+  GITHUB_ISSUES,
   OFFICIAL_URL,
+  UTM_SOURCE,
+  mailTo,
 } from '@/const/url';
 import { isServerMode } from '@/const/version';
 import DataImporter from '@/features/DataImporter';
@@ -70,7 +73,7 @@ export const useMenu = () => {
   const hasNewVersion = useNewVersion();
   const openSettings = useOpenSettings();
   const { t } = useTranslation(['common', 'setting', 'auth']);
-  const { showCloudPromotion } = useServerConfigStore(featureFlagsSelectors);
+  const { showCloudPromotion, hideDocs } = useServerConfigStore(featureFlagsSelectors);
   const [isLogin, isLoginWithAuth, isLoginWithClerk, openUserProfile] = useUserStore((s) => [
     authSelectors.isLogin(s),
     authSelectors.isLoginWithAuth(s),
@@ -171,42 +174,15 @@ export const useMenu = () => {
         },
       ].filter(Boolean) as ItemType[]);
 
-  const helps: MenuProps['items'] = [
-    showCloudPromotion && {
-      icon: <Icon icon={Cloudy} />,
-      key: 'cloud',
-      label: (
-        <Link href={OFFICIAL_URL} target={'_blank'}>
-          {t('userPanel.cloud', { name: 'Mr.🆖 AI Chat' })}
-        </Link>
-      ),
-    },
-    {
-      icon: <Icon icon={Feather} />,
-      key: 'email',
-      label: (
-        <Link href={EMAIL_BUSINESS} target={'_blank'}>
-          {t('userPanel.email')}
-        </Link>
-      ),
-    },
-    {
-      children: [
-        {
-          icon: <Icon icon={Book} />,
-          key: 'docs',
+  const helps: MenuProps['items'] = hideDocs
+    ? []
+    : ([
+        showCloudPromotion && {
+          icon: <Icon icon={Cloudy} />,
+          key: 'cloud',
           label: (
-            <Link href={DOCUMENTS_REFER_URL} target={'_blank'}>
-              {t('userPanel.docs')}
-            </Link>
-          ),
-        },
-        {
-          icon: <Icon icon={Book} />,
-          key: 'feedback',
-          label: (
-            <Link href={X} target={'_blank'}>
-              {t('userPanel.feedback')}
+            <Link href={`${OFFICIAL_URL}?utm_source=${UTM_SOURCE}`} target={'_blank'}>
+              {t('userPanel.cloud', { name: LOBE_CHAT_CLOUD })}
             </Link>
           ),
         },
@@ -219,27 +195,44 @@ export const useMenu = () => {
             </Link>
           ),
         },
-      ],
-      icon: <Icon icon={LifeBuoy} />,
-      key: 'help',
-      label: t('userPanel.help'),
-    },
-    {
-      type: 'divider',
-    },
-    {
-      icon: <Icon icon={LifeBuoy} />,
-      key: 'privacy',
-      label: (
-        <Link href='https://privacy.mr5ai.com/' target={'_blank'}>
-          {t('userPanel.privacy')}
-        </Link>
-      ),
-    },
-    {
-      type: 'divider',
-    },
-  ].filter(Boolean) as ItemType[];
+        {
+          children: [
+            {
+              icon: <Icon icon={Book} />,
+              key: 'docs',
+              label: (
+                <Link href={DOCUMENTS_REFER_URL} target={'_blank'}>
+                  {t('userPanel.docs')}
+                </Link>
+              ),
+            },
+            {
+              icon: <Icon icon={Feather} />,
+              key: 'feedback',
+              label: (
+                <Link href={GITHUB_ISSUES} target={'_blank'}>
+                  {t('userPanel.feedback')}
+                </Link>
+              ),
+            },
+            {
+              icon: <Icon icon={Mail} />,
+              key: 'email',
+              label: (
+                <Link href={mailTo(EMAIL_SUPPORT)} target={'_blank'}>
+                  {t('userPanel.email')}
+                </Link>
+              ),
+            },
+          ],
+          icon: <Icon icon={LifeBuoy} />,
+          key: 'help',
+          label: t('userPanel.help'),
+        },
+        {
+          type: 'divider',
+        },
+      ].filter(Boolean) as ItemType[]);
 
   const mainItems = [
     {

@@ -13,6 +13,7 @@ import GuideModal from '@/components/GuideModal';
 // import GuideVideo from '@/components/GuideVideo';
 import { BRANDING_NAME } from '@/const/branding';
 import { EMAIL_BUSINESS, GITHUB_ISSUES } from '@/const/url';
+import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 import { isOnServerSide } from '@/utils/env';
 
 const useStyles = createStyles(
@@ -27,7 +28,10 @@ const Footer = memo<PropsWithChildren>(() => {
   const [openStar, setOpenStar] = useState(false);
   const [openFeedback, setOpenFeedback] = useState(false);
   const { styles } = useStyles();
-  return (
+
+  const { hideGitHub } = useServerConfigStore(featureFlagsSelectors);
+
+  return hideGitHub ? null : (
     <>
       <Flexbox flex={1} justify={'flex-end'}>
         <Center
