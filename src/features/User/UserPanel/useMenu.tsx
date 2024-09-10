@@ -1,4 +1,4 @@
-import { ActionIcon, DiscordIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, DiscordIcon, Icon } from '@bentwnghk/ui';
 import { Badge } from 'antd';
 import { ItemType } from 'antd/es/menu/interface';
 import {
@@ -11,7 +11,7 @@ import {
   HardDriveUpload,
   LifeBuoy,
   LogOut,
-  Mail,
+  // Mail,
   Maximize,
   Settings2,
 } from 'lucide-react';
@@ -26,11 +26,9 @@ import { LOBE_CHAT_CLOUD } from '@/const/branding';
 import {
   DISCORD,
   DOCUMENTS_REFER_URL,
-  EMAIL_SUPPORT,
-  GITHUB_ISSUES,
+  EMAIL_BUSINESS,
+  X,
   OFFICIAL_URL,
-  UTM_SOURCE,
-  mailTo,
 } from '@/const/url';
 import { isServerMode } from '@/const/version';
 import DataImporter from '@/features/DataImporter';
@@ -181,17 +179,17 @@ export const useMenu = () => {
           icon: <Icon icon={Cloudy} />,
           key: 'cloud',
           label: (
-            <Link href={`${OFFICIAL_URL}?utm_source=${UTM_SOURCE}`} target={'_blank'}>
+            <Link href={OFFICIAL_URL} target={'_blank'}>
               {t('userPanel.cloud', { name: LOBE_CHAT_CLOUD })}
             </Link>
           ),
         },
         {
-          icon: <Icon icon={DiscordIcon} />,
-          key: 'discord',
+          icon: <Icon icon={Feather} />,
+          key: 'email',
           label: (
-            <Link href={DISCORD} target={'_blank'}>
-              {t('userPanel.discord')}
+            <Link href={EMAIL_BUSINESS} target={'_blank'}>
+              {t('userPanel.email')}
             </Link>
           ),
         },
@@ -207,20 +205,20 @@ export const useMenu = () => {
               ),
             },
             {
-              icon: <Icon icon={Feather} />,
+              icon: <Icon icon={Book} />,
               key: 'feedback',
               label: (
-                <Link href={GITHUB_ISSUES} target={'_blank'}>
+                <Link href={X} target={'_blank'}>
                   {t('userPanel.feedback')}
                 </Link>
               ),
             },
             {
-              icon: <Icon icon={Mail} />,
-              key: 'email',
+              icon: <Icon icon={DiscordIcon} />,
+              key: 'discord',
               label: (
-                <Link href={mailTo(EMAIL_SUPPORT)} target={'_blank'}>
-                  {t('userPanel.email')}
+                <Link href={DISCORD} target={'_blank'}>
+                  {t('userPanel.discord')}
                 </Link>
               ),
             },
@@ -228,6 +226,18 @@ export const useMenu = () => {
           icon: <Icon icon={LifeBuoy} />,
           key: 'help',
           label: t('userPanel.help'),
+        },
+        {
+          type: 'divider',
+        },
+        {
+          icon: <Icon icon={LifeBuoy} />,
+          key: 'privacy',
+          label: (
+            <Link href='https://privacy.mr5ai.com/' target={'_blank'}>
+              {t('userPanel.privacy')}
+            </Link>
+          ),
         },
         {
           type: 'divider',
