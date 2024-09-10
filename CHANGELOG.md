@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.58.16](https://github.com/bentwnghk/lobe-chat/compare/v1.58.15...v1.58.16)
+
+<sup>Released on **2024-09-10**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Change empty content stream behavior.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Change empty content stream behavior, closes [#3883](https://github.com/bentwnghk/lobe-chat/issues/3883) ([e910f68](https://github.com/bentwnghk/lobe-chat/commit/e910f68))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.15](https://github.com/bentwnghk/lobe-chat/compare/v1.58.14...v1.58.15)
 
 <sup>Released on **2024-09-10**</sup>
