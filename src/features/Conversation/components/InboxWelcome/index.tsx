@@ -58,11 +58,7 @@ const InboxWelcome = memo(() => {
             appName: BRANDING_NAME,
           })}
         </Markdown>
-        {showWelcomeSuggest && (
-          <>
-            {!isCustomBranding && <QuestionSuggest mobile={mobile} />}
-          </>
-        )}
+        {showWelcomeSuggest && !isCustomBranding && <QuestionSuggest mobile={mobile} />}
       </Flexbox>
     </Center>
   );
