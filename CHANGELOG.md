@@ -2,6 +2,52 @@
 
 # Changelog
 
+### [Version 1.58.15](https://github.com/bentwnghk/lobe-chat/compare/v1.58.14...v1.58.15)
+
+<sup>Released on **2024-09-10**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor brand implement for better custom.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Baichuan should not introduce `freequency_penality` parameters, fix `/etc/resolv.conf`edit permission in docker image, fix claude 3.5 image with s3 url, fix tools calling in some edge cases, Gemini cannot input images when server database is enabled, Update baichuan param.
+
+#### 💄 Styles
+
+- **misc**: Add siliconcloud new model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor brand implement for better custom, closes [#3868](https://github.com/bentwnghk/lobe-chat/issues/3868) ([815b366](https://github.com/bentwnghk/lobe-chat/commit/815b366))
+
+#### What's fixed
+
+- **misc**: Baichuan should not introduce `freequency_penality` parameters, closes [#3871](https://github.com/bentwnghk/lobe-chat/issues/3871) ([66a061e](https://github.com/bentwnghk/lobe-chat/commit/66a061e))
+- **misc**: Fix `/etc/resolv.conf`edit permission in docker image, closes [#3880](https://github.com/bentwnghk/lobe-chat/issues/3880) ([fdaa190](https://github.com/bentwnghk/lobe-chat/commit/fdaa190))
+- **misc**: Fix claude 3.5 image with s3 url, closes [#3870](https://github.com/bentwnghk/lobe-chat/issues/3870) ([89c8dd4](https://github.com/bentwnghk/lobe-chat/commit/89c8dd4))
+- **misc**: Fix tools calling in some edge cases, closes [#3872](https://github.com/bentwnghk/lobe-chat/issues/3872) ([2ed759d](https://github.com/bentwnghk/lobe-chat/commit/2ed759d))
+- **misc**: Gemini cannot input images when server database is enabled, closes [#3370](https://github.com/bentwnghk/lobe-chat/issues/3370) ([eb552d2](https://github.com/bentwnghk/lobe-chat/commit/eb552d2))
+- **misc**: Update baichuan param, closes [#3356](https://github.com/bentwnghk/lobe-chat/issues/3356) ([29bced1](https://github.com/bentwnghk/lobe-chat/commit/29bced1))
+
+#### Styles
+
+- **misc**: Add siliconcloud new model, closes [#3865](https://github.com/bentwnghk/lobe-chat/issues/3865) ([c6b5a45](https://github.com/bentwnghk/lobe-chat/commit/c6b5a45))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.14](https://github.com/bentwnghk/lobe-chat/compare/v1.58.13...v1.58.14)
 
 <sup>Released on **2024-09-09**</sup>
