@@ -1,4 +1,4 @@
-import { LobeChat, LobeChatProps } from '@lobehub/ui/brand';
+import { LobeChat, LobeChatProps } from '@bentwnghk/ui/brand';
 import { memo } from 'react';
 
 import { isCustomBranding } from '@/const/version';

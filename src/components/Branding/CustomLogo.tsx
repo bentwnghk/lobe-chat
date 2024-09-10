@@ -1,4 +1,4 @@
-import { LobeChatProps } from '@lobehub/ui/brand';
+import { LobeChatProps } from '@bentwnghk/ui/brand';
 import Image from 'next/image';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
