@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.59.2](https://github.com/bentwnghk/lobe-chat/compare/v1.59.1...v1.59.2)
+
+<sup>Released on **2024-09-11**</sup>
+
+#### 💄 Styles
+
+- **misc**: Optimize model token display method.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Optimize model token display method, closes [#3697](https://github.com/bentwnghk/lobe-chat/issues/3697) ([249795c](https://github.com/bentwnghk/lobe-chat/commit/249795c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.59.1](https://github.com/bentwnghk/lobe-chat/compare/v1.59.0...v1.59.1)
 
 <sup>Released on **2024-09-11**</sup>
