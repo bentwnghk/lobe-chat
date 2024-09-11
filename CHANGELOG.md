@@ -2,6 +2,53 @@
 
 # Changelog
 
+## [Version 1.59.0](https://github.com/bentwnghk/lobe-chat/compare/v1.58.16...v1.59.0)
+
+<sup>Released on **2024-09-11**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Fireworks AI Model Provider, Add Spark model provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add `LLM_VISION_IMAGE_USE_BASE64` to support local s3 in vision model.
+
+#### 💄 Styles
+
+- **ui**: Improve UI layout and text.
+- **misc**: Reorder the provider list, Update CustomLogo, update spark check model to spark-lite & default disable useless model, update Upstage model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Fireworks AI Model Provider, closes [#3392](https://github.com/bentwnghk/lobe-chat/issues/3392) [#48](https://github.com/bentwnghk/lobe-chat/issues/48) ([fa0d84d](https://github.com/bentwnghk/lobe-chat/commit/fa0d84d))
+- **misc**: Add Spark model provider, closes [#3098](https://github.com/bentwnghk/lobe-chat/issues/3098) [#25](https://github.com/bentwnghk/lobe-chat/issues/25) ([fc85c20](https://github.com/bentwnghk/lobe-chat/commit/fc85c20))
+
+#### What's fixed
+
+- **misc**: Add `LLM_VISION_IMAGE_USE_BASE64` to support local s3 in vision model, closes [#3887](https://github.com/bentwnghk/lobe-chat/issues/3887) ([16e57ed](https://github.com/bentwnghk/lobe-chat/commit/16e57ed))
+
+#### Styles
+
+- **ui**: Improve UI layout and text, closes [#3762](https://github.com/bentwnghk/lobe-chat/issues/3762) ([7c08f29](https://github.com/bentwnghk/lobe-chat/commit/7c08f29))
+- **misc**: Reorder the provider list, closes [#3886](https://github.com/bentwnghk/lobe-chat/issues/3886) ([4d641f5](https://github.com/bentwnghk/lobe-chat/commit/4d641f5))
+- **misc**: Update CustomLogo, closes [#3874](https://github.com/bentwnghk/lobe-chat/issues/3874) ([dd7c8df](https://github.com/bentwnghk/lobe-chat/commit/dd7c8df))
+- **misc**: Update spark check model to spark-lite & default disable useless model, closes [#3885](https://github.com/bentwnghk/lobe-chat/issues/3885) ([9d7e47c](https://github.com/bentwnghk/lobe-chat/commit/9d7e47c))
+- **misc**: Update Upstage model list, closes [#3890](https://github.com/bentwnghk/lobe-chat/issues/3890) ([82e2570](https://github.com/bentwnghk/lobe-chat/commit/82e2570))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.16](https://github.com/bentwnghk/lobe-chat/compare/v1.58.15...v1.58.16)
 
 <sup>Released on **2024-09-10**</sup>
