@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.59.1](https://github.com/bentwnghk/lobe-chat/compare/v1.59.0...v1.59.1)
+
+<sup>Released on **2024-09-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin `next@14.2.8` to fix Internal error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin `next@14.2.8` to fix Internal error, closes [#3905](https://github.com/bentwnghk/lobe-chat/issues/3905) ([1013652](https://github.com/bentwnghk/lobe-chat/commit/1013652))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.59.0](https://github.com/bentwnghk/lobe-chat/compare/v1.58.16...v1.59.0)
 
 <sup>Released on **2024-09-11**</sup>
