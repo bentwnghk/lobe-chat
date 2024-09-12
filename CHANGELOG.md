@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.59.3](https://github.com/bentwnghk/lobe-chat/compare/v1.59.2...v1.59.3)
+
+<sup>Released on **2024-09-12**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve models and add more info for providers and models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve models and add more info for providers and models, closes [#3911](https://github.com/bentwnghk/lobe-chat/issues/3911) ([8a8fc6a](https://github.com/bentwnghk/lobe-chat/commit/8a8fc6a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.59.2](https://github.com/bentwnghk/lobe-chat/compare/v1.59.1...v1.59.2)
 
 <sup>Released on **2024-09-11**</sup>
