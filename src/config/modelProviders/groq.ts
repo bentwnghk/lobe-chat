@@ -34,7 +34,7 @@ const Groq: ModelProviderCard = {
     },
     {
       description:
-        'Llama 3.1 405B 提供强大的AI推理能力，适合复杂应用，支持超多的计算处理并保证高效和准确率。',
+        'Llama 3.1 405B 指令模型，具备超大规模参数，适合复杂任务和高负载场景下的指令跟随。',
       displayName: 'Llama 3.1 405B',
       enabled: true,
       functionCall: true,
