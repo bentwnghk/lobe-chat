@@ -2,6 +2,61 @@
 
 # Changelog
 
+## [Version 1.60.0](https://github.com/bentwnghk/lobe-chat/compare/v1.59.4...v1.60.0)
+
+<sup>Released on **2024-09-13**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Support Environment Variable Inference For NextAuth.
+
+#### ✨ Features
+
+- **misc**: Support openai new OpenAI o1-preview/o1-mini models.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Qwen model param error, support webhooks for logto.
+
+#### 💄 Styles
+
+- **model**: Remove `OpenAI` deprecated model.
+- **misc**: Default disable mistral provider useless models, Remove brackets from model names with dates in OpenAI, Support Google Model List, Update siliconcloud model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Support Environment Variable Inference For NextAuth, closes [#3701](https://github.com/bentwnghk/lobe-chat/issues/3701) ([b956755](https://github.com/bentwnghk/lobe-chat/commit/b956755))
+
+#### What's improved
+
+- **misc**: Support openai new OpenAI o1-preview/o1-mini models, closes [#3943](https://github.com/bentwnghk/lobe-chat/issues/3943) ([61bfeb2](https://github.com/bentwnghk/lobe-chat/commit/61bfeb2))
+
+#### What's fixed
+
+- **misc**: Qwen model param error, closes [#3902](https://github.com/bentwnghk/lobe-chat/issues/3902) ([c9f00e5](https://github.com/bentwnghk/lobe-chat/commit/c9f00e5))
+- **misc**: Support webhooks for logto, closes [#3774](https://github.com/bentwnghk/lobe-chat/issues/3774) ([0cfee6b](https://github.com/bentwnghk/lobe-chat/commit/0cfee6b))
+
+#### Styles
+
+- **model**: Remove `OpenAI` deprecated model, closes [#3465](https://github.com/bentwnghk/lobe-chat/issues/3465) ([68a4fb2](https://github.com/bentwnghk/lobe-chat/commit/68a4fb2))
+- **misc**: Default disable mistral provider useless models, closes [#3922](https://github.com/bentwnghk/lobe-chat/issues/3922) ([bdbc647](https://github.com/bentwnghk/lobe-chat/commit/bdbc647))
+- **misc**: Remove brackets from model names with dates in OpenAI, closes [#3927](https://github.com/bentwnghk/lobe-chat/issues/3927) ([2a937bc](https://github.com/bentwnghk/lobe-chat/commit/2a937bc))
+- **misc**: Support Google Model List, closes [#3938](https://github.com/bentwnghk/lobe-chat/issues/3938) ([be4efc7](https://github.com/bentwnghk/lobe-chat/commit/be4efc7))
+- **misc**: Update siliconcloud model, closes [#3935](https://github.com/bentwnghk/lobe-chat/issues/3935) ([882e981](https://github.com/bentwnghk/lobe-chat/commit/882e981))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.59.4](https://github.com/bentwnghk/lobe-chat/compare/v1.59.3...v1.59.4)
 
 <sup>Released on **2024-09-12**</sup>
