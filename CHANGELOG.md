@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.60.3](https://github.com/bentwnghk/lobe-chat/compare/v1.60.2...v1.60.3)
+
+<sup>Released on **2024-09-14**</sup>
+
+#### 💄 Styles
+
+- **misc**: Delete "-" in deepseek displayname.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Delete "-" in deepseek displayname, closes [#3958](https://github.com/bentwnghk/lobe-chat/issues/3958) ([c0e89f5](https://github.com/bentwnghk/lobe-chat/commit/c0e89f5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.60.2](https://github.com/bentwnghk/lobe-chat/compare/v1.60.1...v1.60.2)
 
 <sup>Released on **2024-09-13**</sup>
