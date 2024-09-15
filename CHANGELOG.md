@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.60.4](https://github.com/bentwnghk/lobe-chat/compare/v1.60.3...v1.60.4)
+
+<sup>Released on **2024-09-15**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update fullscreen loading style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update fullscreen loading style, closes [#3948](https://github.com/bentwnghk/lobe-chat/issues/3948) ([aec21d2](https://github.com/bentwnghk/lobe-chat/commit/aec21d2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.60.3](https://github.com/bentwnghk/lobe-chat/compare/v1.60.2...v1.60.3)
 
 <sup>Released on **2024-09-14**</sup>
