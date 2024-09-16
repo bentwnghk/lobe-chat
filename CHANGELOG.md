@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.60.5](https://github.com/bentwnghk/lobe-chat/compare/v1.60.4...v1.60.5)
+
+<sup>Released on **2024-09-16**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Rename artifacts to plugins in portal.
+
+#### 💄 Styles
+
+- **misc**: Add MiniCPM-V 8B model entries to Ollama model providers.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Rename artifacts to plugins in portal, closes [#3986](https://github.com/bentwnghk/lobe-chat/issues/3986) ([073b936](https://github.com/bentwnghk/lobe-chat/commit/073b936))
+
+#### Styles
+
+- **misc**: Add MiniCPM-V 8B model entries to Ollama model providers, closes [#3984](https://github.com/bentwnghk/lobe-chat/issues/3984) ([f9c26de](https://github.com/bentwnghk/lobe-chat/commit/f9c26de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.60.4](https://github.com/bentwnghk/lobe-chat/compare/v1.60.3...v1.60.4)
 
 <sup>Released on **2024-09-15**</sup>
