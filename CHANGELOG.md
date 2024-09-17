@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.60.6](https://github.com/bentwnghk/lobe-chat/compare/v1.60.5...v1.60.6)
+
+<sup>Released on **2024-09-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix a corner case of `tools_call` with empty object.
+
+#### 💄 Styles
+
+- **misc**: Delete duplicate models in ollama.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix a corner case of `tools_call` with empty object, closes [#3955](https://github.com/bentwnghk/lobe-chat/issues/3955) ([d3fabdc](https://github.com/bentwnghk/lobe-chat/commit/d3fabdc))
+
+#### Styles
+
+- **misc**: Delete duplicate models in ollama, closes [#3989](https://github.com/bentwnghk/lobe-chat/issues/3989) ([ece60ee](https://github.com/bentwnghk/lobe-chat/commit/ece60ee))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.60.5](https://github.com/bentwnghk/lobe-chat/compare/v1.60.4...v1.60.5)
 
 <sup>Released on **2024-09-16**</sup>
