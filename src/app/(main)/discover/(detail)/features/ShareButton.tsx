@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, CopyButton, Icon, Input, Modal, Tag } from '@lobehub/ui';
+import { ActionIcon, Avatar, CopyButton, Icon, Input, Modal, Tag } from '@bentwnghk/ui';
 import { Button, ButtonProps, Skeleton, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { startCase } from 'lodash-es';

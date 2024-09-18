@@ -1,6 +1,6 @@
 'use client';
 
-import { ChatList, Icon, MobileChatInputArea, MobileChatSendButton } from '@lobehub/ui';
+import { ChatList, Icon, MobileChatInputArea, MobileChatSendButton } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { BotMessageSquare, LoaderCircle } from 'lucide-react';
 import { memo } from 'react';

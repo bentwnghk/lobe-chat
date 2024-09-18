@@ -1,5 +1,5 @@
 import { ModelIcon } from '@lobehub/icons';
-import { ActionIcon, Grid } from '@lobehub/ui';
+import { ActionIcon, Grid } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { ChevronRightIcon } from 'lucide-react';

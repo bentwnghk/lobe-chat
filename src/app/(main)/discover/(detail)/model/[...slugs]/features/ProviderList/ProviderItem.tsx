@@ -1,5 +1,5 @@
 import { ModelTag, ProviderCombine } from '@lobehub/icons';
-import { ActionIcon, Grid, Icon, Tooltip } from '@lobehub/ui';
+import { ActionIcon, Grid, Icon, Tooltip } from '@bentwnghk/ui';
 import { Tag } from 'antd';
 import { createStyles } from 'antd-style';
 import { BadgeCheck, BookIcon, ChevronRightIcon, KeyIcon } from 'lucide-react';

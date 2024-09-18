@@ -1,6 +1,6 @@
 'use client';
 
-import { Markdown } from '@lobehub/ui';
+import { Markdown } from '@bentwnghk/ui';
 import { Skeleton } from 'antd';
 import { useTheme } from 'antd-style';
 import { memo } from 'react';

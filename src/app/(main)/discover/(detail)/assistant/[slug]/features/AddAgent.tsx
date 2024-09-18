@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { App, Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import { ChevronDownIcon, PlusIcon } from 'lucide-react';

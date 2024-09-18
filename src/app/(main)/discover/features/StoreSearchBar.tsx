@@ -1,6 +1,6 @@
 'use client';
 
-import { SearchBar, SearchBarProps } from '@lobehub/ui';
+import { SearchBar, SearchBarProps } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { usePathname } from 'next/navigation';
 import { useQueryState } from 'nuqs';

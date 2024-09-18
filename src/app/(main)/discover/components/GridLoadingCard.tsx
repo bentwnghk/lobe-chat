@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid } from '@lobehub/ui';
+import { Grid } from '@bentwnghk/ui';
 import { Skeleton } from 'antd';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';

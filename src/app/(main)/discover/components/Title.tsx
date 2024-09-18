@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button, Tag } from 'antd';
 import { createStyles } from 'antd-style';
 import { ChevronRight } from 'lucide-react';

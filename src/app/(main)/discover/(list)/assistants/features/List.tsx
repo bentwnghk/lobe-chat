@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid } from '@lobehub/ui';
+import { Grid } from '@bentwnghk/ui';
 import { Empty } from 'antd';
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

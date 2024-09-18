@@ -1,7 +1,7 @@
 'use client';
 
 import { ProviderIcon } from '@lobehub/icons';
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { MenuProps } from 'antd';
 import { useTheme } from 'antd-style';
 import { LayoutPanelTop } from 'lucide-react';

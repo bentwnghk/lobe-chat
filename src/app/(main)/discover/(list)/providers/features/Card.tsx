@@ -1,5 +1,5 @@
 import { ModelTag, ProviderCombine } from '@lobehub/icons';
-import { Tag } from '@lobehub/ui';
+import { Tag } from '@bentwnghk/ui';
 import { Skeleton, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import dynamic from 'next/dynamic';

@@ -1,6 +1,6 @@
 'use client';
 
-import { TabsNav, Tag } from '@lobehub/ui';
+import { TabsNav, Tag } from '@bentwnghk/ui';
 import { Empty, Skeleton, Table } from 'antd';
 import { useTheme } from 'antd-style';
 import { PuzzleIcon } from 'lucide-react';

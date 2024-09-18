@@ -1,4 +1,4 @@
-import { Avatar, type AvatarProps } from '@lobehub/ui';
+import { Avatar, type AvatarProps } from '@bentwnghk/ui';
 import qs from 'query-string';
 import { memo } from 'react';
 import urlJoin from 'url-join';

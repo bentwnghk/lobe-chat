@@ -1,4 +1,4 @@
-import { Grid, GridProps } from '@lobehub/ui';
+import { Grid, GridProps } from '@bentwnghk/ui';
 import { forwardRef, memo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 import { VirtuosoGrid, VirtuosoGridProps } from 'react-virtuoso';

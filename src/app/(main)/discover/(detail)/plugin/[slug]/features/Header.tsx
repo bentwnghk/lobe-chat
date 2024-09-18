@@ -1,6 +1,6 @@
 'use client';
 
-import { Avatar, Icon, Tag } from '@lobehub/ui';
+import { Avatar, Icon, Tag } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import { startCase } from 'lodash-es';

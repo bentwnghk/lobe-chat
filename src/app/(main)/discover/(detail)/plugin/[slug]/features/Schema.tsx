@@ -1,6 +1,6 @@
 'use client';
 
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import { Skeleton } from 'antd';
 import { memo } from 'react';
 
