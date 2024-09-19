@@ -2,6 +2,7 @@ import qs from 'query-string';
 import urlJoin from 'url-join';
 
 import { withBasePath } from '@/utils/basePath';
+import { isDev } from '@/utils/env';
 
 import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
@@ -11,8 +12,6 @@ export const UTM_SOURCE = 'chat_preview';
 export const OFFICIAL_URL = 'https://mr5ai.com/';
 export const OFFICIAL_PREVIEW_URL = 'https://mr5ai.com/';
 export const OFFICIAL_SITE = withBasePath(`/`);
-
-export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const OG_URL = '/og/cover.png?v=1';
 
@@ -72,3 +71,4 @@ export const mailTo = (email: string) => `mailto:${email}`;
 
 export const AES_GCM_URL = 'https://datatracker.ietf.org/doc/html/draft-ietf-avt-srtp-aes-gcm-01';
 export const BASE_PROVIDER_DOC_URL = 'https://google.com/search?q=';
+export const SITEMAP_BASE_URL = isDev ? '/sitemap.xml/' : 'sitemap';
