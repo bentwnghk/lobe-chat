@@ -2,6 +2,49 @@
 
 # Changelog
 
+## [Version 1.62.0](https://github.com/bentwnghk/lobe-chat/compare/v1.61.0...v1.62.0)
+
+<sup>Released on **2024-09-19**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Ai21Labs model provider, add Github Models provider, support native Artifacts just like Claude.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix InterceptingRoutes in discover.
+
+#### 💄 Styles
+
+- **misc**: Add mistral provider new models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Ai21Labs model provider, closes [#3727](https://github.com/bentwnghk/lobe-chat/issues/3727) ([d2fe0f0](https://github.com/bentwnghk/lobe-chat/commit/d2fe0f0))
+- **misc**: Add Github Models provider, closes [#3869](https://github.com/bentwnghk/lobe-chat/issues/3869) ([8eac1bd](https://github.com/bentwnghk/lobe-chat/commit/8eac1bd))
+- **misc**: Support native Artifacts just like Claude, closes [#3985](https://github.com/bentwnghk/lobe-chat/issues/3985) ([0c42c46](https://github.com/bentwnghk/lobe-chat/commit/0c42c46))
+
+#### What's fixed
+
+- **misc**: Fix InterceptingRoutes in discover, closes [#4011](https://github.com/bentwnghk/lobe-chat/issues/4011) ([2b75040](https://github.com/bentwnghk/lobe-chat/commit/2b75040))
+
+#### Styles
+
+- **misc**: Add mistral provider new models, closes [#4014](https://github.com/bentwnghk/lobe-chat/issues/4014) ([0b70d57](https://github.com/bentwnghk/lobe-chat/commit/0b70d57))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.61.0](https://github.com/bentwnghk/lobe-chat/compare/v1.60.6...v1.61.0)
 
 <sup>Released on **2024-09-18**</sup>
