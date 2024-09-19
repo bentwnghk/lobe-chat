@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { BringToFrontIcon, ChevronDown, ChevronRight, Loader2Icon } from 'lucide-react';
 import { memo, useState } from 'react';

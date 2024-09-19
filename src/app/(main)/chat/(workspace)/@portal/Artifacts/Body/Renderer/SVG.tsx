@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@bentwnghk/ui';
 import { App, Button, Dropdown, Space } from 'antd';
 import { css, cx } from 'antd-style';
 import { CopyIcon, DownloadIcon } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import { memo, useEffect, useMemo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
