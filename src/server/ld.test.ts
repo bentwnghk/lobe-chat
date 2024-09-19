@@ -28,7 +28,7 @@ describe('Ld', () => {
       const org = ld.genOrganization();
 
       expect(org['@type']).toBe('Organization');
-      expect(org.name).toBe('LobeHub');
+      expect(org.name).toBe('Mr.🆖 AI');
       expect(org.url).toBe('https://lobehub.com/');
     });
   });
@@ -57,7 +57,7 @@ describe('Ld', () => {
       });
 
       expect(webpage['@type']).toBe('WebPage');
-      expect(webpage.name).toBe('Test Page · LobeChat');
+      expect(webpage.name).toBe('Test Page · Mr.🆖 AI');
       expect(webpage.description).toBe('Test Description');
     });
   });
@@ -79,7 +79,7 @@ describe('Ld', () => {
       const website = ld.genWebSite();
 
       expect(website['@type']).toBe('WebSite');
-      expect(website.name).toBe('LobeChat');
+      expect(website.name).toBe('Mr.🆖 AI');
     });
   });
 
@@ -95,7 +95,7 @@ describe('Ld', () => {
       });
 
       expect(article['@type']).toBe('Article');
-      expect(article.headline).toBe('Test Article · LobeChat');
+      expect(article.headline).toBe('Test Article · Mr.🆖 AI');
       expect(article.author['@type']).toBe('Person');
     });
   });
