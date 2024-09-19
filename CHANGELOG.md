@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.1](https://github.com/bentwnghk/lobe-chat/compare/v1.62.0...v1.62.1)
+
+<sup>Released on **2024-09-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Updata qwen model info & add qwen2.5 & reorder provider list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Updata qwen model info & add qwen2.5 & reorder provider list, closes [#4020](https://github.com/bentwnghk/lobe-chat/issues/4020) ([d5e7578](https://github.com/bentwnghk/lobe-chat/commit/d5e7578))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.62.0](https://github.com/bentwnghk/lobe-chat/compare/v1.61.0...v1.62.0)
 
 <sup>Released on **2024-09-19**</sup>
