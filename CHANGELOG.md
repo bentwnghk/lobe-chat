@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.62.4](https://github.com/bentwnghk/lobe-chat/compare/v1.62.3...v1.62.4)
+
+<sup>Released on **2024-09-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin `shiki@1.17.7` to fix code highlight, try to implement better ssrf-protect.
+
+#### 💄 Styles
+
+- **misc**: Improve i18n in discover.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin `shiki@1.17.7` to fix code highlight, closes [#4047](https://github.com/bentwnghk/lobe-chat/issues/4047) ([d12bf4c](https://github.com/bentwnghk/lobe-chat/commit/d12bf4c))
+- **misc**: Try to implement better ssrf-protect, closes [#4044](https://github.com/bentwnghk/lobe-chat/issues/4044) ([e960a23](https://github.com/bentwnghk/lobe-chat/commit/e960a23))
+
+#### Styles
+
+- **misc**: Improve i18n in discover, closes [#4049](https://github.com/bentwnghk/lobe-chat/issues/4049) ([8170889](https://github.com/bentwnghk/lobe-chat/commit/8170889))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.3](https://github.com/bentwnghk/lobe-chat/compare/v1.62.2...v1.62.3)
 
 <sup>Released on **2024-09-20**</sup>
