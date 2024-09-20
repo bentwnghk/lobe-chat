@@ -2,6 +2,51 @@
 
 # Changelog
 
+### [Version 1.62.2](https://github.com/bentwnghk/lobe-chat/compare/v1.62.1...v1.62.2)
+
+<sup>Released on **2024-09-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the sitemap implement, refactor the tts route url.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix a bug with server agent config when user not exist.
+
+#### 💄 Styles
+
+- **misc**: Add siliconflow qwen2.5 model, delete siliconflow outdated model & disable stepfun functioncall, enable functioncall for stepfun models, Update qwen models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the sitemap implement, closes [#4012](https://github.com/bentwnghk/lobe-chat/issues/4012) ([d93a161](https://github.com/bentwnghk/lobe-chat/commit/d93a161))
+- **misc**: Refactor the tts route url, closes [#4030](https://github.com/bentwnghk/lobe-chat/issues/4030) ([60dcf19](https://github.com/bentwnghk/lobe-chat/commit/60dcf19))
+
+#### What's fixed
+
+- **misc**: Fix a bug with server agent config when user not exist, closes [#4034](https://github.com/bentwnghk/lobe-chat/issues/4034) ([f6a232b](https://github.com/bentwnghk/lobe-chat/commit/f6a232b))
+
+#### Styles
+
+- **misc**: Add siliconflow qwen2.5 model, closes [#4024](https://github.com/bentwnghk/lobe-chat/issues/4024) ([06ffd99](https://github.com/bentwnghk/lobe-chat/commit/06ffd99))
+- **misc**: Delete siliconflow outdated model & disable stepfun functioncall, closes [#4033](https://github.com/bentwnghk/lobe-chat/issues/4033) ([08c53eb](https://github.com/bentwnghk/lobe-chat/commit/08c53eb))
+- **misc**: Enable functioncall for stepfun models, closes [#4022](https://github.com/bentwnghk/lobe-chat/issues/4022) ([afb3509](https://github.com/bentwnghk/lobe-chat/commit/afb3509))
+- **misc**: Update qwen models, closes [#4026](https://github.com/bentwnghk/lobe-chat/issues/4026) ([6169e8f](https://github.com/bentwnghk/lobe-chat/commit/6169e8f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.1](https://github.com/bentwnghk/lobe-chat/compare/v1.62.0...v1.62.1)
 
 <sup>Released on **2024-09-19**</sup>
