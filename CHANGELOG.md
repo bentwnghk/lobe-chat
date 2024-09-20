@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.62.3](https://github.com/bentwnghk/lobe-chat/compare/v1.62.2...v1.62.3)
+
+<sup>Released on **2024-09-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Custom model initialization not taking effect error.
+
+#### 💄 Styles
+
+- **misc**: Add qwen2.5 math and coder model for siliconcloud provider, support webhooks for casdoor.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Custom model initialization not taking effect error, closes [#4038](https://github.com/bentwnghk/lobe-chat/issues/4038) ([0e0d208](https://github.com/bentwnghk/lobe-chat/commit/0e0d208))
+
+#### Styles
+
+- **misc**: Add qwen2.5 math and coder model for siliconcloud provider, closes [#4043](https://github.com/bentwnghk/lobe-chat/issues/4043) ([d16578f](https://github.com/bentwnghk/lobe-chat/commit/d16578f))
+- **misc**: Support webhooks for casdoor, closes [#3942](https://github.com/bentwnghk/lobe-chat/issues/3942) ([1f2f6a5](https://github.com/bentwnghk/lobe-chat/commit/1f2f6a5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.2](https://github.com/bentwnghk/lobe-chat/compare/v1.62.1...v1.62.2)
 
 <sup>Released on **2024-09-20**</sup>
