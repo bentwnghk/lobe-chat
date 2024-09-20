@@ -121,7 +121,7 @@ describe('Unstructured', () => {
       expect(result.originElements).toHaveLength(12);
 
       expect(result.originElements).toEqual(AutoWithChunkingOutput.originElements);
-      expect(result.originElements).toEqual(AutoWithChunkingOutput.originElements);
+      // expect(result.originElements).toEqual(AutoWithChunkingOutput.originElements);
     });
 
     it.skip('should error', async () => {
