@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.62.6](https://github.com/bentwnghk/lobe-chat/compare/v1.62.5...v1.62.6)
+
+<sup>Released on **2024-09-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Casdoor webhooks providerAccountId not found, fix Content-Security-Policy.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Casdoor webhooks providerAccountId not found, closes [#4055](https://github.com/bentwnghk/lobe-chat/issues/4055) ([b832289](https://github.com/bentwnghk/lobe-chat/commit/b832289))
+- **misc**: Fix Content-Security-Policy, closes [#4056](https://github.com/bentwnghk/lobe-chat/issues/4056) ([d186062](https://github.com/bentwnghk/lobe-chat/commit/d186062))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.5](https://github.com/bentwnghk/lobe-chat/compare/v1.62.4...v1.62.5)
 
 <sup>Released on **2024-09-21**</sup>
