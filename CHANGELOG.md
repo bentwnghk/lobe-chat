@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.62.5](https://github.com/bentwnghk/lobe-chat/compare/v1.62.4...v1.62.5)
+
+<sup>Released on **2024-09-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: `providerAccountId` not exist in provider.
+
+#### 💄 Styles
+
+- **misc**: Improve i18n for discover and improve version check.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: `providerAccountId` not exist in provider, closes [#4053](https://github.com/bentwnghk/lobe-chat/issues/4053) ([91d8999](https://github.com/bentwnghk/lobe-chat/commit/91d8999))
+
+#### Styles
+
+- **misc**: Improve i18n for discover and improve version check, closes [#4052](https://github.com/bentwnghk/lobe-chat/issues/4052) ([ef93712](https://github.com/bentwnghk/lobe-chat/commit/ef93712))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.4](https://github.com/bentwnghk/lobe-chat/compare/v1.62.3...v1.62.4)
 
 <sup>Released on **2024-09-20**</sup>
