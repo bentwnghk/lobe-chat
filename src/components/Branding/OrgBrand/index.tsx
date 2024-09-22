@@ -1,4 +1,4 @@
-import { LobeHub, type LobeHubProps } from '@lobehub/ui/brand';
+import { LobeHub, type LobeHubProps } from '@bentwnghk/ui/brand';
 import { memo } from 'react';
 
 import { ORG_NAME } from '@/const/branding';
