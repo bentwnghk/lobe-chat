@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.7](https://github.com/bentwnghk/lobe-chat/compare/v1.62.6...v1.62.7)
+
+<sup>Released on **2024-09-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to improve branding customization.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to improve branding customization, closes [#4061](https://github.com/bentwnghk/lobe-chat/issues/4061) ([6199e68](https://github.com/bentwnghk/lobe-chat/commit/6199e68))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.6](https://github.com/bentwnghk/lobe-chat/compare/v1.62.5...v1.62.6)
 
 <sup>Released on **2024-09-21**</sup>
