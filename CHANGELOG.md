@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.8](https://github.com/bentwnghk/lobe-chat/compare/v1.62.7...v1.62.8)
+
+<sup>Released on **2024-09-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ollama model download panel.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ollama model download panel, closes [#4070](https://github.com/bentwnghk/lobe-chat/issues/4070) ([fc33336](https://github.com/bentwnghk/lobe-chat/commit/fc33336))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.7](https://github.com/bentwnghk/lobe-chat/compare/v1.62.6...v1.62.7)
 
 <sup>Released on **2024-09-22**</sup>
