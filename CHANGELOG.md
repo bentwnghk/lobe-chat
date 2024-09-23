@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.9](https://github.com/bentwnghk/lobe-chat/compare/v1.62.8...v1.62.9)
+
+<sup>Released on **2024-09-23**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add spark max-32k model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add spark max-32k model, closes [#4071](https://github.com/bentwnghk/lobe-chat/issues/4071) ([c11b57b](https://github.com/bentwnghk/lobe-chat/commit/c11b57b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.8](https://github.com/bentwnghk/lobe-chat/compare/v1.62.7...v1.62.8)
 
 <sup>Released on **2024-09-22**</sup>
