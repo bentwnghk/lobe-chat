@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.10](https://github.com/bentwnghk/lobe-chat/compare/v1.62.9...v1.62.10)
+
+<sup>Released on **2024-09-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix artifacts code language highlight.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix artifacts code language highlight, closes [#4096](https://github.com/bentwnghk/lobe-chat/issues/4096) ([2d956a3](https://github.com/bentwnghk/lobe-chat/commit/2d956a3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.9](https://github.com/bentwnghk/lobe-chat/compare/v1.62.8...v1.62.9)
 
 <sup>Released on **2024-09-23**</sup>
