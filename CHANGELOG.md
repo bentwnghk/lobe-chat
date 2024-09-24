@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.11](https://github.com/bentwnghk/lobe-chat/compare/v1.62.10...v1.62.11)
+
+<sup>Released on **2024-09-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add missing translations.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add missing translations, closes [#4106](https://github.com/bentwnghk/lobe-chat/issues/4106) ([c24bf45](https://github.com/bentwnghk/lobe-chat/commit/c24bf45))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.10](https://github.com/bentwnghk/lobe-chat/compare/v1.62.9...v1.62.10)
 
 <sup>Released on **2024-09-23**</sup>
