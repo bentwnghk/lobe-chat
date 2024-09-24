@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.62.12](https://github.com/bentwnghk/lobe-chat/compare/v1.62.11...v1.62.12)
+
+<sup>Released on **2024-09-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix url config import after user state init.
+
+#### 💄 Styles
+
+- **misc**: Add support function call for 360AI, improve images display in chat messages, left sidebar has only assistants.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix url config import after user state init, closes [#4072](https://github.com/bentwnghk/lobe-chat/issues/4072) ([18a240c](https://github.com/bentwnghk/lobe-chat/commit/18a240c))
+
+#### Styles
+
+- **misc**: Add support function call for 360AI, closes [#4099](https://github.com/bentwnghk/lobe-chat/issues/4099) ([536696b](https://github.com/bentwnghk/lobe-chat/commit/536696b))
+- **misc**: Improve images display in chat messages, closes [#3475](https://github.com/bentwnghk/lobe-chat/issues/3475) ([c54c7ed](https://github.com/bentwnghk/lobe-chat/commit/c54c7ed))
+- **misc**: Left sidebar has only assistants, closes [#4108](https://github.com/bentwnghk/lobe-chat/issues/4108) ([db1f81c](https://github.com/bentwnghk/lobe-chat/commit/db1f81c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.11](https://github.com/bentwnghk/lobe-chat/compare/v1.62.10...v1.62.11)
 
 <sup>Released on **2024-09-24**</sup>
