@@ -2,6 +2,34 @@
 
 # Changelog
 
+### [Version 1.62.13](https://github.com/bentwnghk/lobe-chat/compare/v1.62.12...v1.62.13)
+
+<sup>Released on **2024-09-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add function call support for Stepfun, add google gemini 1.5 002 series, disable taichu2.0 functioncall & default disable taichu2.0v model, update taichu provider info & add taichu vision model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add function call support for Stepfun, closes [#4101](https://github.com/bentwnghk/lobe-chat/issues/4101) ([8d7d96e](https://github.com/bentwnghk/lobe-chat/commit/8d7d96e))
+- **misc**: Add google gemini 1.5 002 series, closes [#4118](https://github.com/bentwnghk/lobe-chat/issues/4118) ([10145fa](https://github.com/bentwnghk/lobe-chat/commit/10145fa))
+- **misc**: Disable taichu2.0 functioncall & default disable taichu2.0v model, closes [#4117](https://github.com/bentwnghk/lobe-chat/issues/4117) ([00da53b](https://github.com/bentwnghk/lobe-chat/commit/00da53b))
+- **misc**: Update taichu provider info & add taichu vision model, closes [#4114](https://github.com/bentwnghk/lobe-chat/issues/4114) ([e5331db](https://github.com/bentwnghk/lobe-chat/commit/e5331db))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.12](https://github.com/bentwnghk/lobe-chat/compare/v1.62.11...v1.62.12)
 
 <sup>Released on **2024-09-24**</sup>
