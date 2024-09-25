@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.62.14](https://github.com/bentwnghk/lobe-chat/compare/v1.62.13...v1.62.14)
+
+<sup>Released on **2024-09-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: MiniMax output long content interrupted by non-existent error.
+
+#### 💄 Styles
+
+- **misc**: Add function call for `taichu_llm`, update google provider model info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: MiniMax output long content interrupted by non-existent error, closes [#4088](https://github.com/bentwnghk/lobe-chat/issues/4088) ([4f6e20d](https://github.com/bentwnghk/lobe-chat/commit/4f6e20d))
+
+#### Styles
+
+- **misc**: Add function call for `taichu_llm`, closes [#4119](https://github.com/bentwnghk/lobe-chat/issues/4119) ([8f629d8](https://github.com/bentwnghk/lobe-chat/commit/8f629d8))
+- **misc**: Update google provider model info, closes [#4129](https://github.com/bentwnghk/lobe-chat/issues/4129) ([b1442b9](https://github.com/bentwnghk/lobe-chat/commit/b1442b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.13](https://github.com/bentwnghk/lobe-chat/compare/v1.62.12...v1.62.13)
 
 <sup>Released on **2024-09-24**</sup>
