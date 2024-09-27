@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.62.16](https://github.com/bentwnghk/lobe-chat/compare/v1.62.15...v1.62.16)
+
+<sup>Released on **2024-09-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add llama3.2 model for openrouter provider, add o1-preview and o1-mini model to github model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add llama3.2 model for openrouter provider, closes [#4151](https://github.com/bentwnghk/lobe-chat/issues/4151) ([6f1a966](https://github.com/bentwnghk/lobe-chat/commit/6f1a966))
+- **misc**: Add o1-preview and o1-mini model to github model provider, closes [#4127](https://github.com/bentwnghk/lobe-chat/issues/4127) ([1e4d016](https://github.com/bentwnghk/lobe-chat/commit/1e4d016))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.15](https://github.com/bentwnghk/lobe-chat/compare/v1.62.14...v1.62.15)
 
 <sup>Released on **2024-09-26**</sup>
