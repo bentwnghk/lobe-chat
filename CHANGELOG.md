@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.63.0](https://github.com/bentwnghk/lobe-chat/compare/v1.62.16...v1.63.0)
+
+<sup>Released on **2024-09-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Hunyuan(Tencent) model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Hunyuan(Tencent) model provider, closes [#4147](https://github.com/bentwnghk/lobe-chat/issues/4147) ([8ddb41b](https://github.com/bentwnghk/lobe-chat/commit/8ddb41b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.62.16](https://github.com/bentwnghk/lobe-chat/compare/v1.62.15...v1.62.16)
 
 <sup>Released on **2024-09-27**</sup>
