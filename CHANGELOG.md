@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.63.4](https://github.com/bentwnghk/lobe-chat/compare/v1.63.3...v1.63.4)
+
+<sup>Released on **2024-09-29**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update groq model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update groq model list, closes [#4195](https://github.com/bentwnghk/lobe-chat/issues/4195) ([ef5164d](https://github.com/bentwnghk/lobe-chat/commit/ef5164d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.63.3](https://github.com/bentwnghk/lobe-chat/compare/v1.63.2...v1.63.3)
 
 <sup>Released on **2024-09-29**</sup>
