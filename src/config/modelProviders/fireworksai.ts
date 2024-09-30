@@ -32,6 +32,26 @@ const FireworksAI: ModelProviderCard = {
     },
     {
       description:
+        'Llama 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      displayName: 'Llama 3.2 11B Vision',
+      enabled: true,
+      functionCall: false,
+      id: 'accounts/fireworks/models/llama-v3p2-11b-vision-instruct',
+      tokens: 131_072,
+      vision: true,
+    },
+    {
+      description:
+        'Llama 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      displayName: 'Llama 3.2 90B Vision',
+      enabled: true,
+      functionCall: false,
+      id: 'accounts/fireworks/models/llama-v3p2-90b-vision-instruct',
+      tokens: 131_072,
+      vision: true,
+    },
+    {
+      description:
         'Llama 3.1 8B 指令模型，专为多语言对话优化，能够在常见行业基准上超越多数开源及闭源模型。',
       displayName: 'Llama 3.1 8B Instruct',
       enabled: true,
