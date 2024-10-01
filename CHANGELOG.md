@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.64.2](https://github.com/bentwnghk/lobe-chat/compare/v1.64.1...v1.64.2)
+
+<sup>Released on **2024-10-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Adjust Wenxin icon size.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Adjust Wenxin icon size, closes [#4229](https://github.com/bentwnghk/lobe-chat/issues/4229) ([6ae79ce](https://github.com/bentwnghk/lobe-chat/commit/6ae79ce))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.64.1](https://github.com/bentwnghk/lobe-chat/compare/v1.64.0...v1.64.1)
 
 <sup>Released on **2024-09-30**</sup>
