@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.64.4](https://github.com/bentwnghk/lobe-chat/compare/v1.64.3...v1.64.4)
+
+<sup>Released on **2024-10-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix recharts deps in the Artifacts React Renderer.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix recharts deps in the Artifacts React Renderer, closes [#4245](https://github.com/bentwnghk/lobe-chat/issues/4245) ([a120d21](https://github.com/bentwnghk/lobe-chat/commit/a120d21))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.64.3](https://github.com/bentwnghk/lobe-chat/compare/v1.64.2...v1.64.3)
 
 <sup>Released on **2024-10-01**</sup>
