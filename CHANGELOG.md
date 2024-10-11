@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.64.10](https://github.com/bentwnghk/lobe-chat/compare/v1.64.9...v1.64.10)
+
+<sup>Released on **2024-10-11**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the backend code for better organization.
+
+#### 💄 Styles
+
+- **misc**: Updata gpt-4o model info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the backend code for better organization, closes [#4287](https://github.com/bentwnghk/lobe-chat/issues/4287) ([9a369ac](https://github.com/bentwnghk/lobe-chat/commit/9a369ac))
+
+#### Styles
+
+- **misc**: Updata gpt-4o model info, closes [#4318](https://github.com/bentwnghk/lobe-chat/issues/4318) ([fa27ddf](https://github.com/bentwnghk/lobe-chat/commit/fa27ddf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.64.9](https://github.com/bentwnghk/lobe-chat/compare/v1.64.8...v1.64.9)
 
 <sup>Released on **2024-10-10**</sup>

@@ -1,6 +1,6 @@
 {
   "name": "@bentwnghk/chat",
-  "version": "1.64.9",
+  "version": "1.64.10",
   "description": "Mr.🆖 AI - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
   "keywords": [
     "framework",
