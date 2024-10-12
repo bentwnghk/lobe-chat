@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.65.0](https://github.com/bentwnghk/lobe-chat/compare/v1.64.12...v1.65.0)
+
+<sup>Released on **2024-10-12**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the chat webapi.
+
+#### ✨ Features
+
+- **misc**: Add HuggingFace Model Provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix function calling issue, disable stream when using tools.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the chat webapi, closes [#4339](https://github.com/bentwnghk/lobe-chat/issues/4339) ([4722444](https://github.com/bentwnghk/lobe-chat/commit/4722444))
+
+#### What's improved
+
+- **misc**: Add HuggingFace Model Provider, closes [#4225](https://github.com/bentwnghk/lobe-chat/issues/4225) ([d310931](https://github.com/bentwnghk/lobe-chat/commit/d310931))
+
+#### What's fixed
+
+- **misc**: Fix function calling issue, disable stream when using tools, closes [#4335](https://github.com/bentwnghk/lobe-chat/issues/4335) ([9f8e0a9](https://github.com/bentwnghk/lobe-chat/commit/9f8e0a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.64.12](https://github.com/bentwnghk/lobe-chat/compare/v1.64.11...v1.64.12)
 
 <sup>Released on **2024-10-12**</sup>
