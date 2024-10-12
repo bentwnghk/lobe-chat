@@ -1,4 +1,4 @@
-import { Markdown } from '@lobehub/ui';
+import { Markdown } from '@bentwnghk/ui';
 import dynamic from 'next/dynamic';
 import { memo } from 'react';
 
