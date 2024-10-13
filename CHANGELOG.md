@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.1](https://github.com/bentwnghk/lobe-chat/compare/v1.65.0...v1.65.1)
+
+<sup>Released on **2024-10-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Allow use email as name in logto.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Allow use email as name in logto, closes [#4350](https://github.com/bentwnghk/lobe-chat/issues/4350) ([d5a046a](https://github.com/bentwnghk/lobe-chat/commit/d5a046a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.65.0](https://github.com/bentwnghk/lobe-chat/compare/v1.64.12...v1.65.0)
 
 <sup>Released on **2024-10-12**</sup>
