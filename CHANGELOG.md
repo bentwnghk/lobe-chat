@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.65.2](https://github.com/bentwnghk/lobe-chat/compare/v1.65.1...v1.65.2)
+
+<sup>Released on **2024-10-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Separate message slice and aiChat slice.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix images not go in to chat context.
+
+#### 💄 Styles
+
+- **misc**: Reorder github model list & updata info & add new model, support multi-windows for PWA.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Separate message slice and aiChat slice, closes [#4359](https://github.com/bentwnghk/lobe-chat/issues/4359) ([7d037f6](https://github.com/bentwnghk/lobe-chat/commit/7d037f6))
+
+#### What's fixed
+
+- **misc**: Fix images not go in to chat context, closes [#4361](https://github.com/bentwnghk/lobe-chat/issues/4361) ([f17ab49](https://github.com/bentwnghk/lobe-chat/commit/f17ab49))
+
+#### Styles
+
+- **misc**: Reorder github model list & updata info & add new model, closes [#4360](https://github.com/bentwnghk/lobe-chat/issues/4360) ([e7767a5](https://github.com/bentwnghk/lobe-chat/commit/e7767a5))
+- **misc**: Support multi-windows for PWA, closes [#4334](https://github.com/bentwnghk/lobe-chat/issues/4334) ([0284606](https://github.com/bentwnghk/lobe-chat/commit/0284606))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.1](https://github.com/bentwnghk/lobe-chat/compare/v1.65.0...v1.65.1)
 
 <sup>Released on **2024-10-13**</sup>
