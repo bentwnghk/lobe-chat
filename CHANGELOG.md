@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.4](https://github.com/bentwnghk/lobe-chat/compare/v1.65.3...v1.65.4)
+
+<sup>Released on **2024-10-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Yi-Lightning model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Yi-Lightning model, closes [#4390](https://github.com/bentwnghk/lobe-chat/issues/4390) ([9e9fb9a](https://github.com/bentwnghk/lobe-chat/commit/9e9fb9a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.3](https://github.com/bentwnghk/lobe-chat/compare/v1.65.2...v1.65.3)
 
 <sup>Released on **2024-10-17**</sup>
