@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.5](https://github.com/bentwnghk/lobe-chat/compare/v1.65.4...v1.65.5)
+
+<sup>Released on **2024-10-20**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Fireworks AI model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Fireworks AI model list, closes [#4394](https://github.com/bentwnghk/lobe-chat/issues/4394) ([fe8ffdd](https://github.com/bentwnghk/lobe-chat/commit/fe8ffdd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.4](https://github.com/bentwnghk/lobe-chat/compare/v1.65.3...v1.65.4)
 
 <sup>Released on **2024-10-18**</sup>
