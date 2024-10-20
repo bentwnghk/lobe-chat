@@ -2,6 +2,42 @@
 
 # Changelog
 
+### [Version 1.65.6](https://github.com/bentwnghk/lobe-chat/compare/v1.65.5...v1.65.6)
+
+<sup>Released on **2024-10-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor azure ad to ms entra id.
+
+#### 💄 Styles
+
+- **misc**: Add Llama 3.1 Nemotron 70B model & reorder some provider model list, add Ministral model, update Together AI model list, add function call & vision, update wenxin 4.0 turbo model to latest.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor azure ad to ms entra id, closes [#4168](https://github.com/bentwnghk/lobe-chat/issues/4168) ([4fa9588](https://github.com/bentwnghk/lobe-chat/commit/4fa9588))
+
+#### Styles
+
+- **misc**: Add Llama 3.1 Nemotron 70B model & reorder some provider model list, closes [#4424](https://github.com/bentwnghk/lobe-chat/issues/4424) ([9355a3d](https://github.com/bentwnghk/lobe-chat/commit/9355a3d))
+- **misc**: Add Ministral model, closes [#4427](https://github.com/bentwnghk/lobe-chat/issues/4427) ([2042df8](https://github.com/bentwnghk/lobe-chat/commit/2042df8))
+- **misc**: Update Together AI model list, add function call & vision, closes [#4393](https://github.com/bentwnghk/lobe-chat/issues/4393) ([d7fbf1b](https://github.com/bentwnghk/lobe-chat/commit/d7fbf1b))
+- **misc**: Update wenxin 4.0 turbo model to latest, closes [#4428](https://github.com/bentwnghk/lobe-chat/issues/4428) ([3389fbb](https://github.com/bentwnghk/lobe-chat/commit/3389fbb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.5](https://github.com/bentwnghk/lobe-chat/compare/v1.65.4...v1.65.5)
 
 <sup>Released on **2024-10-20**</sup>
