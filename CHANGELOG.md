@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.65.7](https://github.com/bentwnghk/lobe-chat/compare/v1.65.6...v1.65.7)
+
+<sup>Released on **2024-10-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update format utils and shared layout.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix azure-ad.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update format utils and shared layout, closes [#4431](https://github.com/bentwnghk/lobe-chat/issues/4431) ([56ed073](https://github.com/bentwnghk/lobe-chat/commit/56ed073))
+
+#### What's fixed
+
+- **misc**: Fix azure-ad, closes [#4438](https://github.com/bentwnghk/lobe-chat/issues/4438) ([8077317](https://github.com/bentwnghk/lobe-chat/commit/8077317))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.6](https://github.com/bentwnghk/lobe-chat/compare/v1.65.5...v1.65.6)
 
 <sup>Released on **2024-10-20**</sup>
