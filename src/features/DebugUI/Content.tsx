@@ -1,5 +1,5 @@
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { App, FloatButton, Spin } from 'antd';
 import { DatabaseIcon, Loader2 } from 'lucide-react';
 import { memo, useState } from 'react';
