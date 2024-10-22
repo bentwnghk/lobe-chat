@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.8](https://github.com/bentwnghk/lobe-chat/compare/v1.65.7...v1.65.8)
+
+<sup>Released on **2024-10-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Fix dynamic import in rsc layout.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Fix dynamic import in rsc layout, closes [#4445](https://github.com/bentwnghk/lobe-chat/issues/4445) ([011d62a](https://github.com/bentwnghk/lobe-chat/commit/011d62a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.7](https://github.com/bentwnghk/lobe-chat/compare/v1.65.6...v1.65.7)
 
 <sup>Released on **2024-10-21**</sup>
