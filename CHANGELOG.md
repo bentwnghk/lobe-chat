@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.11](https://github.com/bentwnghk/lobe-chat/compare/v1.65.10...v1.65.11)
+
+<sup>Released on **2024-10-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor cookie/headers to async mode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor cookie/headers to async mode, closes [#4459](https://github.com/bentwnghk/lobe-chat/issues/4459) ([98c5d21](https://github.com/bentwnghk/lobe-chat/commit/98c5d21))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.10](https://github.com/bentwnghk/lobe-chat/compare/v1.65.9...v1.65.10)
 
 <sup>Released on **2024-10-23**</sup>
