@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.9](https://github.com/bentwnghk/lobe-chat/compare/v1.65.8...v1.65.9)
+
+<sup>Released on **2024-10-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move responsive to server utils folder.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move responsive to server utils folder, closes [#4447](https://github.com/bentwnghk/lobe-chat/issues/4447) ([fe7fe64](https://github.com/bentwnghk/lobe-chat/commit/fe7fe64))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.8](https://github.com/bentwnghk/lobe-chat/compare/v1.65.7...v1.65.8)
 
 <sup>Released on **2024-10-22**</sup>
