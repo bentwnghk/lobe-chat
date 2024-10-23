@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.10](https://github.com/bentwnghk/lobe-chat/compare/v1.65.9...v1.65.10)
+
+<sup>Released on **2024-10-23**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add new claude-3.5-sonnet model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add new claude-3.5-sonnet model, closes [#4452](https://github.com/bentwnghk/lobe-chat/issues/4452) ([7102393](https://github.com/bentwnghk/lobe-chat/commit/7102393))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.9](https://github.com/bentwnghk/lobe-chat/compare/v1.65.8...v1.65.9)
 
 <sup>Released on **2024-10-23**</sup>
