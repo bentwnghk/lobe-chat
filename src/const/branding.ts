@@ -8,3 +8,9 @@ export const BRANDING_NAME = 'Mr.🆖 AI';
 export const BRANDING_LOGO_URL = '';
 
 export const ORG_NAME = 'Mr.🆖 AI';
+
+export const BRANDING_URL = {
+  help: undefined,
+  privacy: undefined,
+  terms: undefined,
+};

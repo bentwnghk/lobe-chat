@@ -4,6 +4,8 @@ import { dark } from '@clerk/themes';
 import { ElementsConfig, Theme } from '@clerk/types';
 import { createStyles, useThemeMode } from 'antd-style';
 
+import { BRANDING_URL } from '@/const/branding';
+
 const prefixCls = 'cl';
 
 export const useStyles = createStyles(
@@ -101,10 +103,10 @@ export const useAppearance = () => {
     baseTheme: isDarkMode ? dark : undefined,
     elements: styles,
     layout: {
-      // helpPageUrl: 'https://mr5ai.com/docs',
-      privacyPageUrl: 'https://privacy.mr5ai.com',
+      // helpPageUrl: BRANDING_URL.help ?? 'https://mr5ai.com/docs',
+      privacyPageUrl: BRANDING_URL.privacy ?? 'https://privacy.mr5ai.com',
       socialButtonsVariant: 'blockButton',
-      // termsPageUrl: 'https://privacy.mr5ai.com/terms',
+      // termsPageUrl: BRANDING_URL.terms ?? 'https://mr5ai.com/terms',
     },
     variables: {
       borderRadius: `${theme.borderRadius}px`,
