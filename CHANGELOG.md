@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.67.0](https://github.com/bentwnghk/lobe-chat/compare/v1.66.1...v1.67.0)
+
+<sup>Released on **2024-10-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the Google Gen AI.
+
+#### ✨ Features
+
+- **misc**: Add SenseNova (商汤) model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the Google Gen AI, closes [#4484](https://github.com/bentwnghk/lobe-chat/issues/4484) ([b890e8d](https://github.com/bentwnghk/lobe-chat/commit/b890e8d))
+
+#### What's improved
+
+- **misc**: Add SenseNova (商汤) model provider, closes [#4162](https://github.com/bentwnghk/lobe-chat/issues/4162) ([7a4e0b3](https://github.com/bentwnghk/lobe-chat/commit/7a4e0b3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.66.1](https://github.com/bentwnghk/lobe-chat/compare/v1.66.0...v1.66.1)
 
 <sup>Released on **2024-10-25**</sup>
