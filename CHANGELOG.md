@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.66.0](https://github.com/bentwnghk/lobe-chat/compare/v1.65.12...v1.66.0)
+
+<sup>Released on **2024-10-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Support system agent config.
+
+#### 💄 Styles
+
+- **misc**: Add bedrock claude-3.5-sonnect-v2.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support system agent config, closes [#4474](https://github.com/bentwnghk/lobe-chat/issues/4474) ([63ba4d3](https://github.com/bentwnghk/lobe-chat/commit/63ba4d3))
+
+#### Styles
+
+- **misc**: Add bedrock claude-3.5-sonnect-v2, closes [#4468](https://github.com/bentwnghk/lobe-chat/issues/4468) ([a7fc251](https://github.com/bentwnghk/lobe-chat/commit/a7fc251))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.12](https://github.com/bentwnghk/lobe-chat/compare/v1.65.11...v1.65.12)
 
 <sup>Released on **2024-10-24**</sup>
