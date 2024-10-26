@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.68.0](https://github.com/bentwnghk/lobe-chat/compare/v1.67.0...v1.68.0)
+
+<sup>Released on **2024-10-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Support ZEN mode.
+
+#### 💄 Styles
+
+- **misc**: Update Google Model list, add `gemini-1.5-flash-8b`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support ZEN mode, closes [#4496](https://github.com/bentwnghk/lobe-chat/issues/4496) ([1a5c7ae](https://github.com/bentwnghk/lobe-chat/commit/1a5c7ae))
+
+#### Styles
+
+- **misc**: Update Google Model list, add `gemini-1.5-flash-8b`, closes [#4495](https://github.com/bentwnghk/lobe-chat/issues/4495) ([499c479](https://github.com/bentwnghk/lobe-chat/commit/499c479))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.67.0](https://github.com/bentwnghk/lobe-chat/compare/v1.66.1...v1.67.0)
 
 <sup>Released on **2024-10-25**</sup>
