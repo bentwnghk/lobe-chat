@@ -1,4 +1,4 @@
-import { Avatar, Tooltip } from '@lobehub/ui';
+import { Avatar, Tooltip } from '@bentwnghk/ui';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';
