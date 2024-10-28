@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.69.1](https://github.com/bentwnghk/lobe-chat/compare/v1.69.0...v1.69.1)
+
+<sup>Released on **2024-10-28**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the plugin prompts to xml format.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Huggingface API interrupting when the output exceeds 140 tokens, fix page not switch when clicking on the pin assistant.
+
+#### 💄 Styles
+
+- **misc**: Remove SenseChat-Vision model, due to model limitation.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the plugin prompts to xml format, closes [#4520](https://github.com/bentwnghk/lobe-chat/issues/4520) ([49be146](https://github.com/bentwnghk/lobe-chat/commit/49be146))
+
+#### What's fixed
+
+- **misc**: Fix Huggingface API interrupting when the output exceeds 140 tokens, closes [#4524](https://github.com/bentwnghk/lobe-chat/issues/4524) ([49acdd7](https://github.com/bentwnghk/lobe-chat/commit/49acdd7))
+- **misc**: Fix page not switch when clicking on the pin assistant, closes [#4521](https://github.com/bentwnghk/lobe-chat/issues/4521) ([30b424a](https://github.com/bentwnghk/lobe-chat/commit/30b424a))
+
+#### Styles
+
+- **misc**: Remove SenseChat-Vision model, due to model limitation, closes [#4493](https://github.com/bentwnghk/lobe-chat/issues/4493) ([2aea033](https://github.com/bentwnghk/lobe-chat/commit/2aea033))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.69.0](https://github.com/bentwnghk/lobe-chat/compare/v1.68.1...v1.69.0)
 
 <sup>Released on **2024-10-27**</sup>
