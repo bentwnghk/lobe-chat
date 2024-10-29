@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.69.2](https://github.com/bentwnghk/lobe-chat/compare/v1.69.1...v1.69.2)
+
+<sup>Released on **2024-10-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove the 'resetConversation' hot key.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Remove the 'resetConversation' hot key, closes [#4526](https://github.com/bentwnghk/lobe-chat/issues/4526) ([653e694](https://github.com/bentwnghk/lobe-chat/commit/653e694))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.1](https://github.com/bentwnghk/lobe-chat/compare/v1.69.0...v1.69.1)
 
 <sup>Released on **2024-10-28**</sup>
