@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.69.5](https://github.com/bentwnghk/lobe-chat/compare/v1.69.4...v1.69.5)
+
+<sup>Released on **2024-10-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the aiChat slice actions.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the aiChat slice actions, closes [#4542](https://github.com/bentwnghk/lobe-chat/issues/4542) ([8b33ba4](https://github.com/bentwnghk/lobe-chat/commit/8b33ba4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.4](https://github.com/bentwnghk/lobe-chat/compare/v1.69.3...v1.69.4)
 
 <sup>Released on **2024-10-29**</sup>
