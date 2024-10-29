@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.69.3](https://github.com/bentwnghk/lobe-chat/compare/v1.69.2...v1.69.3)
+
+<sup>Released on **2024-10-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove PWA Install in Firefox and Arc.
+
+#### 💄 Styles
+
+- **misc**: Add Qwen2.5-72B-Instruct model on HF provider, improve user guide when user not login.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Remove PWA Install in Firefox and Arc, closes [#4532](https://github.com/bentwnghk/lobe-chat/issues/4532) ([4a380c5](https://github.com/bentwnghk/lobe-chat/commit/4a380c5))
+
+#### Styles
+
+- **misc**: Add Qwen2.5-72B-Instruct model on HF provider, closes [#4530](https://github.com/bentwnghk/lobe-chat/issues/4530) ([d3c2f7a](https://github.com/bentwnghk/lobe-chat/commit/d3c2f7a))
+- **misc**: Improve user guide when user not login, closes [#4531](https://github.com/bentwnghk/lobe-chat/issues/4531) ([7513e3b](https://github.com/bentwnghk/lobe-chat/commit/7513e3b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.2](https://github.com/bentwnghk/lobe-chat/compare/v1.69.1...v1.69.2)
 
 <sup>Released on **2024-10-29**</sup>
