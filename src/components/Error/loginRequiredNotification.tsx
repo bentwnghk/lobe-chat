@@ -1,4 +1,4 @@
-import { FluentEmoji } from '@lobehub/ui';
+import { FluentEmoji } from '@bentwnghk/ui';
 import { t } from 'i18next';
 
 import { notification } from '@/components/AntdStaticMethods';
