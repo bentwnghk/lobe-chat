@@ -15,6 +15,7 @@ export const locales = [
   'zh-CN',
   'zh-TW',
   'vi-VN',
+  'fa-IR',
 ] as const;
 
 export type DefaultResources = typeof resources;
@@ -54,6 +55,10 @@ export const localeOptions: LocaleOptions = [
   {
     label: '简体中文',
     value: 'zh-CN',
+  },
+  {
+    label: 'فارسی',
+    value: 'fa-IR',
   },
 ] as LocaleOptions;
 
