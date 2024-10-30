@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.69.6](https://github.com/bentwnghk/lobe-chat/compare/v1.69.5...v1.69.6)
+
+<sup>Released on **2024-10-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix file image prompts in client mode, fix the artifacts interface not scrolling.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix file image prompts in client mode, closes [#4548](https://github.com/bentwnghk/lobe-chat/issues/4548) ([1b66639](https://github.com/bentwnghk/lobe-chat/commit/1b66639))
+- **misc**: Fix the artifacts interface not scrolling, closes [#4499](https://github.com/bentwnghk/lobe-chat/issues/4499) ([8b6e630](https://github.com/bentwnghk/lobe-chat/commit/8b6e630))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.5](https://github.com/bentwnghk/lobe-chat/compare/v1.69.4...v1.69.5)
 
 <sup>Released on **2024-10-29**</sup>
