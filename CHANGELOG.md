@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.69.9](https://github.com/bentwnghk/lobe-chat/compare/v1.69.8...v1.69.9)
+
+<sup>Released on **2024-10-31**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve server log on chat api.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve server log on chat api, closes [#4559](https://github.com/bentwnghk/lobe-chat/issues/4559) ([cd8a134](https://github.com/bentwnghk/lobe-chat/commit/cd8a134))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.8](https://github.com/bentwnghk/lobe-chat/compare/v1.69.7...v1.69.8)
 
 <sup>Released on **2024-10-31**</sup>
