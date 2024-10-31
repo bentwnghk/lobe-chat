@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.69.8](https://github.com/bentwnghk/lobe-chat/compare/v1.69.7...v1.69.8)
+
+<sup>Released on **2024-10-31**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor embedding as plain vector array.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix server `Network connection lost` error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor embedding as plain vector array, closes [#4551](https://github.com/bentwnghk/lobe-chat/issues/4551) ([e2cae36](https://github.com/bentwnghk/lobe-chat/commit/e2cae36))
+
+#### What's fixed
+
+- **misc**: Fix server `Network connection lost` error, closes [#4556](https://github.com/bentwnghk/lobe-chat/issues/4556) ([cf40d91](https://github.com/bentwnghk/lobe-chat/commit/cf40d91))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.7](https://github.com/bentwnghk/lobe-chat/compare/v1.69.6...v1.69.7)
 
 <sup>Released on **2024-10-30**</sup>
