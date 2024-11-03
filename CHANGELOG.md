@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.69.10](https://github.com/bentwnghk/lobe-chat/compare/v1.69.9...v1.69.10)
+
+<sup>Released on **2024-11-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix duplicate key value violates unique constraint "slug_user_id_unique" when create inbox session, Fix MS Entra ID and Azure AD authorization.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix duplicate key value violates unique constraint "slug_user_id_unique" when create inbox session, closes [#4596](https://github.com/bentwnghk/lobe-chat/issues/4596) ([c5af96e](https://github.com/bentwnghk/lobe-chat/commit/c5af96e))
+- **misc**: Fix MS Entra ID and Azure AD authorization, closes [#4579](https://github.com/bentwnghk/lobe-chat/issues/4579) ([ced8a08](https://github.com/bentwnghk/lobe-chat/commit/ced8a08))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.9](https://github.com/bentwnghk/lobe-chat/compare/v1.69.8...v1.69.9)
 
 <sup>Released on **2024-10-31**</sup>
