@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.70.0](https://github.com/bentwnghk/lobe-chat/compare/v1.69.11...v1.70.0)
+
+<sup>Released on **2024-11-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Support group topics by time.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `/webapi/plugin/store` server error, if enable login and not signed in, return unauthorized error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support group topics by time, closes [#4603](https://github.com/bentwnghk/lobe-chat/issues/4603) ([6ff7089](https://github.com/bentwnghk/lobe-chat/commit/6ff7089))
+
+#### What's fixed
+
+- **misc**: Fix `/webapi/plugin/store` server error, closes [#4605](https://github.com/bentwnghk/lobe-chat/issues/4605) ([9edaa55](https://github.com/bentwnghk/lobe-chat/commit/9edaa55))
+- **misc**: If enable login and not signed in, return unauthorized error, closes [#4571](https://github.com/bentwnghk/lobe-chat/issues/4571) ([e00c90e](https://github.com/bentwnghk/lobe-chat/commit/e00c90e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.11](https://github.com/bentwnghk/lobe-chat/compare/v1.69.10...v1.69.11)
 
 <sup>Released on **2024-11-04**</sup>
