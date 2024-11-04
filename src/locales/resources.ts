@@ -56,10 +56,6 @@ export const localeOptions: LocaleOptions = [
     label: '简体中文',
     value: 'zh-CN',
   },
-  {
-    label: 'فارسی',
-    value: 'fa-IR',
-  },
 ] as LocaleOptions;
 
 export const supportLocales: string[] = [...locales, 'en', 'zh'];
