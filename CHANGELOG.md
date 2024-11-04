@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.69.11](https://github.com/bentwnghk/lobe-chat/compare/v1.69.10...v1.69.11)
+
+<sup>Released on **2024-11-04**</sup>
+
+#### 💄 Styles
+
+- **misc**: Disable chunking button for unsupported files.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Disable chunking button for unsupported files, closes [#4153](https://github.com/bentwnghk/lobe-chat/issues/4153) ([87ac46d](https://github.com/bentwnghk/lobe-chat/commit/87ac46d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.69.10](https://github.com/bentwnghk/lobe-chat/compare/v1.69.9...v1.69.10)
 
 <sup>Released on **2024-11-03**</sup>
