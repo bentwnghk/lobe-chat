@@ -1,4 +1,4 @@
-import { Form, type FormItemProps } from '@lobehub/ui';
+import { Form, type FormItemProps } from '@bentwnghk/ui';
 import { Button, Segmented, SegmentedProps, Switch } from 'antd';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

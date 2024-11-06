@@ -1,4 +1,4 @@
-import { Markdown } from '@lobehub/ui';
+import { Markdown } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { useContainerStyles } from '../style';

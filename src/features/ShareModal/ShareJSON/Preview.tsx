@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import { memo } from 'react';
 
 import { useContainerStyles } from '../style';

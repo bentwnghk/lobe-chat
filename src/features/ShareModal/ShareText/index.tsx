@@ -1,4 +1,4 @@
-import { Form, type FormItemProps, Icon, copyToClipboard } from '@lobehub/ui';
+import { Form, type FormItemProps, Icon, copyToClipboard } from '@bentwnghk/ui';
 import { App, Button, Switch } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { CopyIcon } from 'lucide-react';

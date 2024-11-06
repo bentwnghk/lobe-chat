@@ -1,4 +1,4 @@
-import { Modal, type ModalProps } from '@lobehub/ui';
+import { Modal, type ModalProps } from '@bentwnghk/ui';
 import { Segmented, SegmentedProps } from 'antd';
 import { memo, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
