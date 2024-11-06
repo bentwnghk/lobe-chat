@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.71.1](https://github.com/bentwnghk/lobe-chat/compare/v1.71.0...v1.71.1)
+
+<sup>Released on **2024-11-06**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move portal code to features folder, refactor and clean some code, update database fields.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move portal code to features folder, closes [#4631](https://github.com/bentwnghk/lobe-chat/issues/4631) ([bb4ab9c](https://github.com/bentwnghk/lobe-chat/commit/bb4ab9c))
+- **misc**: Refactor and clean some code, closes [#4629](https://github.com/bentwnghk/lobe-chat/issues/4629) ([ad3a154](https://github.com/bentwnghk/lobe-chat/commit/ad3a154))
+- **misc**: Update database fields, closes [#4626](https://github.com/bentwnghk/lobe-chat/issues/4626) ([b851c35](https://github.com/bentwnghk/lobe-chat/commit/b851c35))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.71.0](https://github.com/bentwnghk/lobe-chat/compare/v1.70.1...v1.71.0)
 
 <sup>Released on **2024-11-06**</sup>
