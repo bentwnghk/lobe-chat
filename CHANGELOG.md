@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.71.0](https://github.com/bentwnghk/lobe-chat/compare/v1.70.1...v1.71.0)
+
+<sup>Released on **2024-11-06**</sup>
+
+#### ✨ Features
+
+- **misc**: Support export as markdown and JSON.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support export as markdown and JSON, closes [#4615](https://github.com/bentwnghk/lobe-chat/issues/4615) ([16ded12](https://github.com/bentwnghk/lobe-chat/commit/16ded12))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.70.1](https://github.com/bentwnghk/lobe-chat/compare/v1.70.0...v1.70.1)
 
 <sup>Released on **2024-11-05**</sup>
