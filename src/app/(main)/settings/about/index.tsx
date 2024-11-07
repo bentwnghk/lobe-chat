@@ -106,12 +106,6 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 label: 'Mr.🆖 DocChat',
                 value: 'discord',
               },
-              {
-                href: 'https://ai5.mister5.net',
-                icon: SiRss,
-                label: 'Mr.🆖 ChatGPT+',
-                value: 'x',
-              },
             ]}
           />
           <Divider style={{ marginBlock: 0 }} />
