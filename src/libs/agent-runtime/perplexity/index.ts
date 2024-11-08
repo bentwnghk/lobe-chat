@@ -16,7 +16,7 @@ export const LobePerplexityAI = LobeOpenAICompatibleFactory({
       if (presence_penalty !== 0) {
         param = { presence_penalty };
       } else {
-        const defaultFrequencyPenalty = 1;
+        const defaultFrequencyPenalty = 1.0;
 
         param = { frequency_penalty: frequency_penalty || defaultFrequencyPenalty };
       }

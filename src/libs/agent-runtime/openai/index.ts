@@ -11,7 +11,7 @@ export const o1Models = new Set([
 
 export const pruneO1Payload = (payload: ChatStreamPayload) => ({
   ...payload,
-  frequency_penalty: 0,
+  frequency_penalty: 1.0,
   messages: payload.messages.map((message: OpenAIChatMessage) => ({
     ...message,
     role: message.role === 'system' ? 'user' : message.role,
