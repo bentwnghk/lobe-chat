@@ -1,5 +1,5 @@
 import { ModelTag } from '@lobehub/icons';
-import { Icon, Markdown } from '@lobehub/ui';
+import { Icon, Markdown } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { ScrollText } from 'lucide-react';
