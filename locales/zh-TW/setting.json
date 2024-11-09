@@ -176,7 +176,7 @@
       "title": "自動建立話題"
     },
     "enableCompressHistory": {
-      "title": "開啟歷史消息自動總結"
+      "title": "開啟歷史訊息自動總結"
     },
     "enableHistoryCount": {
       "alias": "不限制",
