@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.72.0](https://github.com/bentwnghk/lobe-chat/compare/v1.71.3...v1.72.0)
+
+<sup>Released on **2024-11-09**</sup>
+
+#### ✨ Features
+
+- **misc**: Support compress history messages.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix env typo of MS Entra ID.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support compress history messages, closes [#4639](https://github.com/bentwnghk/lobe-chat/issues/4639) ([145bbb4](https://github.com/bentwnghk/lobe-chat/commit/145bbb4))
+
+#### What's fixed
+
+- **misc**: Fix env typo of MS Entra ID, closes [#4651](https://github.com/bentwnghk/lobe-chat/issues/4651) ([f145252](https://github.com/bentwnghk/lobe-chat/commit/f145252))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.71.3](https://github.com/bentwnghk/lobe-chat/compare/v1.71.2...v1.71.3)
 
 <sup>Released on **2024-11-08**</sup>
