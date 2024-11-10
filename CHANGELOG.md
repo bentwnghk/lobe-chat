@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.72.4](https://github.com/bentwnghk/lobe-chat/compare/v1.72.3...v1.72.4)
+
+<sup>Released on **2024-11-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix summary range.
+
+#### 💄 Styles
+
+- **misc**: Add Sonnet 3.5 v2 inference model to BedRock.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix summary range, closes [#4664](https://github.com/bentwnghk/lobe-chat/issues/4664) ([140c301](https://github.com/bentwnghk/lobe-chat/commit/140c301))
+
+#### Styles
+
+- **misc**: Add Sonnet 3.5 v2 inference model to BedRock, closes [#4652](https://github.com/bentwnghk/lobe-chat/issues/4652) ([1a8584d](https://github.com/bentwnghk/lobe-chat/commit/1a8584d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.72.3](https://github.com/bentwnghk/lobe-chat/compare/v1.72.2...v1.72.3)
 
 <sup>Released on **2024-11-09**</sup>
