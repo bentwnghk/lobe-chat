@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.73.4](https://github.com/bentwnghk/lobe-chat/compare/v1.73.3...v1.73.4)
+
+<sup>Released on **2024-11-12**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update some provider modellist & fix ai360 baseurl.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update some provider modellist & fix ai360 baseurl, closes [#4679](https://github.com/bentwnghk/lobe-chat/issues/4679) ([1b19fae](https://github.com/bentwnghk/lobe-chat/commit/1b19fae))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.73.3](https://github.com/bentwnghk/lobe-chat/compare/v1.73.2...v1.73.3)
 
 <sup>Released on **2024-11-12**</sup>
