@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.73.3](https://github.com/bentwnghk/lobe-chat/compare/v1.73.2...v1.73.3)
+
+<sup>Released on **2024-11-12**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix Cloudflare Workers AI Sort.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix Cloudflare Workers AI Sort, closes [#4672](https://github.com/bentwnghk/lobe-chat/issues/4672) ([353ba70](https://github.com/bentwnghk/lobe-chat/commit/353ba70))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.73.2](https://github.com/bentwnghk/lobe-chat/compare/v1.73.1...v1.73.2)
 
 <sup>Released on **2024-11-12**</sup>
