@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.73.0](https://github.com/bentwnghk/lobe-chat/compare/v1.72.4...v1.73.0)
+
+<sup>Released on **2024-11-12**</sup>
+
+#### ✨ Features
+
+- **misc**: Add support xAI provider, Support Cloudflare Workers AI.
+
+#### 💄 Styles
+
+- **misc**: Fix Windows always showing scrollbar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add support xAI provider, closes [#4627](https://github.com/bentwnghk/lobe-chat/issues/4627) ([49e1e08](https://github.com/bentwnghk/lobe-chat/commit/49e1e08))
+- **misc**: Support Cloudflare Workers AI, closes [#3402](https://github.com/bentwnghk/lobe-chat/issues/3402) [/github.com/vercel/next.js/issues/38736#issuecomment-1278917422](https://github.com//github.com/vercel/next.js/issues/38736/issues/issuecomment-1278917422) ([efb7adf](https://github.com/bentwnghk/lobe-chat/commit/efb7adf))
+
+#### Styles
+
+- **misc**: Fix Windows always showing scrollbar, closes [#4502](https://github.com/bentwnghk/lobe-chat/issues/4502) ([780a2a9](https://github.com/bentwnghk/lobe-chat/commit/780a2a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.72.4](https://github.com/bentwnghk/lobe-chat/compare/v1.72.3...v1.72.4)
 
 <sup>Released on **2024-11-10**</sup>
