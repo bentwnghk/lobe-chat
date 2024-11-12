@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.73.2](https://github.com/bentwnghk/lobe-chat/compare/v1.73.1...v1.73.2)
+
+<sup>Released on **2024-11-12**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor `languageModel` & `DEFAULT_LLM_CONFIG` generate.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor `languageModel` & `DEFAULT_LLM_CONFIG` generate, closes [#4649](https://github.com/bentwnghk/lobe-chat/issues/4649) ([2045131](https://github.com/bentwnghk/lobe-chat/commit/2045131))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.73.1](https://github.com/bentwnghk/lobe-chat/compare/v1.73.0...v1.73.1)
 
 <sup>Released on **2024-11-12**</sup>
