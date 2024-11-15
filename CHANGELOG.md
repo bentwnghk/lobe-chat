@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.73.6](https://github.com/bentwnghk/lobe-chat/compare/v1.73.5...v1.73.6)
+
+<sup>Released on **2024-11-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: `genServerLLMConfig` function, get \*\_MODEL_LIST from env, move ChatInput to features/ChatInput.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: `genServerLLMConfig` function, get \*\_MODEL_LIST from env, closes [#4694](https://github.com/bentwnghk/lobe-chat/issues/4694) ([d84f369](https://github.com/bentwnghk/lobe-chat/commit/d84f369))
+- **misc**: Move ChatInput to features/ChatInput, closes [#4699](https://github.com/bentwnghk/lobe-chat/issues/4699) ([5737d3f](https://github.com/bentwnghk/lobe-chat/commit/5737d3f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.73.5](https://github.com/bentwnghk/lobe-chat/compare/v1.73.4...v1.73.5)
 
 <sup>Released on **2024-11-13**</sup>
