@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.73.7](https://github.com/bentwnghk/lobe-chat/compare/v1.73.6...v1.73.7)
+
+<sup>Released on **2024-11-16**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add gemini-exp-1114 model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add gemini-exp-1114 model, closes [#4702](https://github.com/bentwnghk/lobe-chat/issues/4702) ([b3306f2](https://github.com/bentwnghk/lobe-chat/commit/b3306f2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.73.6](https://github.com/bentwnghk/lobe-chat/compare/v1.73.5...v1.73.6)
 
 <sup>Released on **2024-11-15**</sup>
