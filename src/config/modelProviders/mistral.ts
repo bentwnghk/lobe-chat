@@ -58,10 +58,23 @@ const Mistral: ModelProviderCard = {
         'Pixtral 模型在图表和图理解、文档问答、多模态推理和指令遵循等任务上表现出强大的能力，能够以自然分辨率和宽高比摄入图像，还能够在长达 128K 令牌的长上下文窗口中处理任意数量的图像。',
       displayName: 'Pixtral 12B',
       enabled: true,
-      id: 'pixtral-12b-2409',
+      id: 'pixtral-12b',
       pricing: {
         input: 0.15,
         output: 0.15,
+      },
+      tokens: 128_000,
+      vision: true,
+    },
+    {
+      description:
+        'Pixtral 模型在图表和图理解、文档问答、多模态推理和指令遵循等任务上表现出强大的能力，能够以自然分辨率和宽高比摄入图像，还能够在长达 128K 令牌的长上下文窗口中处理任意数量的图像。',
+      displayName: 'Pixtral Large',
+      enabled: true,
+      id: 'pixtral-large-latest',
+      pricing: {
+        input: 2,
+        output: 6,
       },
       tokens: 128_000,
       vision: true,
