@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.74.0](https://github.com/bentwnghk/lobe-chat/compare/v1.73.8...v1.74.0)
+
+<sup>Released on **2024-11-19**</sup>
+
+#### ✨ Features
+
+- **misc**: Add support InternLM (书生浦语) provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Connection check logic, keyword search for chat history & sessions.
+
+#### 💄 Styles
+
+- **misc**: Support o1 models using streaming.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add support InternLM (书生浦语) provider, closes [#4711](https://github.com/bentwnghk/lobe-chat/issues/4711) ([aaae059](https://github.com/bentwnghk/lobe-chat/commit/aaae059))
+
+#### What's fixed
+
+- **misc**: Connection check logic, closes [#4722](https://github.com/bentwnghk/lobe-chat/issues/4722) ([b361840](https://github.com/bentwnghk/lobe-chat/commit/b361840))
+- **misc**: Keyword search for chat history & sessions, closes [#4725](https://github.com/bentwnghk/lobe-chat/issues/4725) ([415d772](https://github.com/bentwnghk/lobe-chat/commit/415d772))
+
+#### Styles
+
+- **misc**: Support o1 models using streaming, closes [#4732](https://github.com/bentwnghk/lobe-chat/issues/4732) ([7e9e71a](https://github.com/bentwnghk/lobe-chat/commit/7e9e71a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.73.8](https://github.com/bentwnghk/lobe-chat/compare/v1.73.7...v1.73.8)
 
 <sup>Released on **2024-11-16**</sup>
