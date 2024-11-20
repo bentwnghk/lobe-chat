@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.74.2](https://github.com/bentwnghk/lobe-chat/compare/v1.74.1...v1.74.2)
+
+<sup>Released on **2024-11-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the default locale.
+
+#### 💄 Styles
+
+- **misc**: Add grok-vision-beta model, update Mistral model list, add `pixtral-large-latest`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the default locale, closes [#4729](https://github.com/bentwnghk/lobe-chat/issues/4729) ([3f8d3db](https://github.com/bentwnghk/lobe-chat/commit/3f8d3db))
+
+#### Styles
+
+- **misc**: Add grok-vision-beta model, closes [#4734](https://github.com/bentwnghk/lobe-chat/issues/4734) ([744ea30](https://github.com/bentwnghk/lobe-chat/commit/744ea30))
+- **misc**: Update Mistral model list, add `pixtral-large-latest`, closes [#4744](https://github.com/bentwnghk/lobe-chat/issues/4744) ([7ee6fdd](https://github.com/bentwnghk/lobe-chat/commit/7ee6fdd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.74.1](https://github.com/bentwnghk/lobe-chat/compare/v1.74.0...v1.74.1)
 
 <sup>Released on **2024-11-19**</sup>
