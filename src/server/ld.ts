@@ -198,7 +198,7 @@ export class Ld {
       '@id': this.getId(fixedUrl, '#primaryimage'),
       '@type': 'ImageObject',
       'contentUrl': image,
-      'inLanguage': 'en-US',
+      'inLanguage': DEFAULT_LANG,
       'url': image,
     };
   }
@@ -208,7 +208,7 @@ export class Ld {
       '@id': this.getId(OFFICIAL_URL, '#website'),
       '@type': 'WebSite',
       'description': pkg.description,
-      'inLanguage': 'en-US',
+      'inLanguage': DEFAULT_LANG,
       'name': BRANDING_NAME,
       'publisher': {
         '@id': this.getId(OFFICIAL_URL, '#organization'),
