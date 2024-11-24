@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.74.3](https://github.com/bentwnghk/lobe-chat/compare/v1.74.2...v1.74.3)
+
+<sup>Released on **2024-11-24**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the main chat.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the main chat, closes [#4773](https://github.com/bentwnghk/lobe-chat/issues/4773) ([6973f4e](https://github.com/bentwnghk/lobe-chat/commit/6973f4e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.74.2](https://github.com/bentwnghk/lobe-chat/compare/v1.74.1...v1.74.2)
 
 <sup>Released on **2024-11-20**</sup>
