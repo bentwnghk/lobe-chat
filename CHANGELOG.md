@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.74.4](https://github.com/bentwnghk/lobe-chat/compare/v1.74.3...v1.74.4)
+
+<sup>Released on **2024-11-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix tool message display.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix tool message display, closes [#4776](https://github.com/bentwnghk/lobe-chat/issues/4776) ([9d9b2a2](https://github.com/bentwnghk/lobe-chat/commit/9d9b2a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.74.3](https://github.com/bentwnghk/lobe-chat/compare/v1.74.2...v1.74.3)
 
 <sup>Released on **2024-11-24**</sup>
