@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.74.5](https://github.com/bentwnghk/lobe-chat/compare/v1.74.4...v1.74.5)
+
+<sup>Released on **2024-11-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `XAI_PROXY_URL` env missing.
+
+#### 💄 Styles
+
+- **misc**: Support to reset fetched models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix `XAI_PROXY_URL` env missing, closes [#4747](https://github.com/bentwnghk/lobe-chat/issues/4747) ([7c9e88e](https://github.com/bentwnghk/lobe-chat/commit/7c9e88e))
+
+#### Styles
+
+- **misc**: Support to reset fetched models, closes [#4260](https://github.com/bentwnghk/lobe-chat/issues/4260) ([22480a9](https://github.com/bentwnghk/lobe-chat/commit/22480a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.74.4](https://github.com/bentwnghk/lobe-chat/compare/v1.74.3...v1.74.4)
 
 <sup>Released on **2024-11-24**</sup>
