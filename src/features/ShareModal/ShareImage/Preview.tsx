@@ -6,7 +6,6 @@ import { Flexbox } from 'react-layout-kit';
 
 import PluginTag from '@/app/(main)/chat/(workspace)/features/PluginTag';
 import { ProductLogo } from '@/components/Branding';
-import ChatList from '@/features/Conversation/components/ChatList';
 import { useAgentStore } from '@/store/agent';
 import { agentSelectors } from '@/store/agent/selectors';
 import { useSessionStore } from '@/store/session';
@@ -15,6 +14,7 @@ import { OFFICIAL_URL } from '@/const/url';
 
 // import pkg from '../../../../package.json';
 import { useContainerStyles } from '../style';
+import ChatList from './ChatList';
 import { useStyles } from './style';
 import { FieldType } from './type';
 
