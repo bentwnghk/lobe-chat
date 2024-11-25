@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.75.0](https://github.com/bentwnghk/lobe-chat/compare/v1.74.5...v1.75.0)
+
+<sup>Released on **2024-11-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Gitee AI model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Gitee AI model provider, closes [#4716](https://github.com/bentwnghk/lobe-chat/issues/4716) ([f1cb0af](https://github.com/bentwnghk/lobe-chat/commit/f1cb0af))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.74.5](https://github.com/bentwnghk/lobe-chat/compare/v1.74.4...v1.74.5)
 
 <sup>Released on **2024-11-24**</sup>
