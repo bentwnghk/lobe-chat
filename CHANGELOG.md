@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.75.4](https://github.com/bentwnghk/lobe-chat/compare/v1.75.3...v1.75.4)
+
+<sup>Released on **2024-11-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update the description translation of Gitee AI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update the description translation of Gitee AI, closes [#4793](https://github.com/bentwnghk/lobe-chat/issues/4793) ([6f8eddc](https://github.com/bentwnghk/lobe-chat/commit/6f8eddc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.75.3](https://github.com/bentwnghk/lobe-chat/compare/v1.75.2...v1.75.3)
 
 <sup>Released on **2024-11-26**</sup>
