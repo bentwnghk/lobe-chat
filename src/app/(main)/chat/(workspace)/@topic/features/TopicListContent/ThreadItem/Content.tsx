@@ -1,4 +1,4 @@
-import { ActionIcon, EditableText, Icon } from '@lobehub/ui';
+import { ActionIcon, EditableText, Icon } from '@bentwnghk/ui';
 import { App, Dropdown, type MenuProps, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { MoreVertical, PencilLine, Trash } from 'lucide-react';

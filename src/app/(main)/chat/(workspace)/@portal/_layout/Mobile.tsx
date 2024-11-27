@@ -1,6 +1,6 @@
 'use client';
 
-import { Modal } from '@lobehub/ui';
+import { Modal } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { PropsWithChildren } from 'react';
 import { useTranslation } from 'react-i18next';

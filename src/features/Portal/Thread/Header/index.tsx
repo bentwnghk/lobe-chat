@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { XIcon } from 'lucide-react';
 
 import SidebarHeader from '@/components/SidebarHeader';

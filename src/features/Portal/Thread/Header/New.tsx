@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Checkbox, Typography } from 'antd';
 import { GitBranch } from 'lucide-react';
 import { Flexbox } from 'react-layout-kit';

@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert } from '@lobehub/ui';
+import { Alert } from '@bentwnghk/ui';
 import Link from 'next/link';
 import { memo } from 'react';
 
