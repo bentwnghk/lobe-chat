@@ -18,7 +18,7 @@
   "batchDelete": "Batch Delete",
   "blog": "Mr.🆖 AI Creator",
   "branching": "Create Subtopic",
-  "branchingDisable": "The 'Subtopic' feature is only available in the server version. If you need this feature, please switch to server deployment mode or use LobeChat Cloud.",
+  "branchingDisable": "The 'Subtopic' feature is only available in the server version. If you need this feature, please switch to server deployment mode.",
   "cancel": "Cancel",
   "changelog": "Get Key",
   "close": "Close",
