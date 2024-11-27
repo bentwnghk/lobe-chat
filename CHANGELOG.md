@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.76.1](https://github.com/bentwnghk/lobe-chat/compare/v1.76.0...v1.76.1)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve thread i18n locale.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve thread i18n locale, closes [#4807](https://github.com/bentwnghk/lobe-chat/issues/4807) ([3da1704](https://github.com/bentwnghk/lobe-chat/commit/3da1704))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.76.0](https://github.com/bentwnghk/lobe-chat/compare/v1.75.4...v1.76.0)
 
 <sup>Released on **2024-11-27**</sup>
