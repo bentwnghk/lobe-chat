@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "features": ["Forkable Chat Mode."],
+      "fixes": ["Fix Qwen baseUrl calling."]
+    },
+    "date": "2024-11-27",
+    "version": "1.76.0"
+  },
+  {
+    "children": {
       "fixes": ["Fix Qwen baseUrl calling."]
     },
     "date": "2024-11-26",
