@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.76.2](https://github.com/bentwnghk/lobe-chat/compare/v1.76.1...v1.76.2)
+
+<sup>Released on **2024-11-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix fallback behavior of default mode in AgentRuntime.
+
+#### 💄 Styles
+
+- **misc**: Add switch portal thread.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix fallback behavior of default mode in AgentRuntime, closes [#4813](https://github.com/bentwnghk/lobe-chat/issues/4813) ([e7cb62e](https://github.com/bentwnghk/lobe-chat/commit/e7cb62e))
+
+#### Styles
+
+- **misc**: Add switch portal thread, closes [#4819](https://github.com/bentwnghk/lobe-chat/issues/4819) ([8dbf3ce](https://github.com/bentwnghk/lobe-chat/commit/8dbf3ce))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.76.1](https://github.com/bentwnghk/lobe-chat/compare/v1.76.0...v1.76.1)
 
 <sup>Released on **2024-11-27**</sup>
