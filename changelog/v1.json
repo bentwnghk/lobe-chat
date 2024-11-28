@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "fixes": ["Fix fallback behavior of default mode in AgentRuntime."],
+      "improvements": ["Add switch portal thread."]
+    },
+    "date": "2024-11-28",
+    "version": "1.76.2"
+  },
+  {
+    "children": {
       "improvements": ["Add switch portal thread."]
     },
     "date": "2024-11-27",
