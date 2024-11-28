@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.76.3](https://github.com/bentwnghk/lobe-chat/compare/v1.76.2...v1.76.3)
+
+<sup>Released on **2024-11-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Google LearnLM model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Google LearnLM model, closes [#4821](https://github.com/bentwnghk/lobe-chat/issues/4821) ([f900c0a](https://github.com/bentwnghk/lobe-chat/commit/f900c0a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.76.2](https://github.com/bentwnghk/lobe-chat/compare/v1.76.1...v1.76.2)
 
 <sup>Released on **2024-11-28**</sup>
