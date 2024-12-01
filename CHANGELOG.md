@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.77.0](https://github.com/bentwnghk/lobe-chat/compare/v1.76.3...v1.77.0)
+
+<sup>Released on **2024-12-01**</sup>
+
+#### ✨ Features
+
+- **misc**: Support ollama tools use.
+
+#### 💄 Styles
+
+- **misc**: Add `QWEN_PROXY_URL` support for Qwen, update model list, add `qwq-32b-preview`, update ollama models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support ollama tools use, closes [#3327](https://github.com/bentwnghk/lobe-chat/issues/3327) ([72d8835](https://github.com/bentwnghk/lobe-chat/commit/72d8835))
+
+#### Styles
+
+- **misc**: Add `QWEN_PROXY_URL` support for Qwen, closes [#4842](https://github.com/bentwnghk/lobe-chat/issues/4842) ([1b8dad6](https://github.com/bentwnghk/lobe-chat/commit/1b8dad6))
+- **misc**: Update model list, add `qwq-32b-preview`, closes [#4839](https://github.com/bentwnghk/lobe-chat/issues/4839) ([32b8596](https://github.com/bentwnghk/lobe-chat/commit/32b8596))
+- **misc**: Update ollama models, closes [#4853](https://github.com/bentwnghk/lobe-chat/issues/4853) ([18f0a3c](https://github.com/bentwnghk/lobe-chat/commit/18f0a3c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.76.3](https://github.com/bentwnghk/lobe-chat/compare/v1.76.2...v1.76.3)
 
 <sup>Released on **2024-11-28**</sup>
