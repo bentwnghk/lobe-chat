@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.77.1](https://github.com/bentwnghk/lobe-chat/compare/v1.77.0...v1.77.1)
+
+<sup>Released on **2024-12-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add gpt-4o-2024-11-20 model, improve i18n.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add gpt-4o-2024-11-20 model, closes [#4855](https://github.com/bentwnghk/lobe-chat/issues/4855) ([bc3b396](https://github.com/bentwnghk/lobe-chat/commit/bc3b396))
+- **misc**: Improve i18n, closes [#4857](https://github.com/bentwnghk/lobe-chat/issues/4857) ([4b7dbc0](https://github.com/bentwnghk/lobe-chat/commit/4b7dbc0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.77.0](https://github.com/bentwnghk/lobe-chat/compare/v1.76.3...v1.77.0)
 
 <sup>Released on **2024-12-01**</sup>
