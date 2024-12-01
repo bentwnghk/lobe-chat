@@ -1,6 +1,16 @@
 [
   {
     "children": {
+      "features": ["Support ollama tools use."],
+      "improvements": [
+        "Add QWEN_PROXY_URL support for Qwen, update model list, add qwq-32b-preview, update ollama models."
+      ]
+    },
+    "date": "2024-12-01",
+    "version": "1.77.0"
+  },
+  {
+    "children": {
       "improvements": ["Update ollama models."]
     },
     "date": "2024-12-01",
