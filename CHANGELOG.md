@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.77.2](https://github.com/bentwnghk/lobe-chat/compare/v1.77.1...v1.77.2)
+
+<sup>Released on **2024-12-02**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Deprecated the current client mode code.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Deprecated the current client mode code, closes [#4866](https://github.com/bentwnghk/lobe-chat/issues/4866) ([7dff458](https://github.com/bentwnghk/lobe-chat/commit/7dff458))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.77.1](https://github.com/bentwnghk/lobe-chat/compare/v1.77.0...v1.77.1)
 
 <sup>Released on **2024-12-01**</sup>
