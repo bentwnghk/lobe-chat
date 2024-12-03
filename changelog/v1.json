@@ -3,6 +3,13 @@
     "children": {
       "improvements": ["Add QwQ 32B Preview model."]
     },
+    "date": "2024-12-03",
+    "version": "1.77.3"
+  },
+  {
+    "children": {
+      "improvements": ["Add QwQ 32B Preview model."]
+    },
     "date": "2024-12-02",
     "version": "1.35.6"
   },
