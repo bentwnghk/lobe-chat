@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.77.3](https://github.com/bentwnghk/lobe-chat/compare/v1.77.2...v1.77.3)
+
+<sup>Released on **2024-12-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Add user server api key method in the server mode.
+
+#### 💄 Styles
+
+- **misc**: Add QwQ 32B Preview model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Add user server api key method in the server mode, closes [#4870](https://github.com/bentwnghk/lobe-chat/issues/4870) ([875463a](https://github.com/bentwnghk/lobe-chat/commit/875463a))
+
+#### Styles
+
+- **misc**: Add QwQ 32B Preview model, closes [#4867](https://github.com/bentwnghk/lobe-chat/issues/4867) ([edd93e0](https://github.com/bentwnghk/lobe-chat/commit/edd93e0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.77.2](https://github.com/bentwnghk/lobe-chat/compare/v1.77.1...v1.77.2)
 
 <sup>Released on **2024-12-02**</sup>
