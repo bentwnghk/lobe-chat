@@ -4,6 +4,13 @@
       "improvements": ["Move schema and migration folder."]
     },
     "date": "2024-12-03",
+    "version": "1.77.4"
+  },
+  {
+    "children": {
+      "improvements": ["Move schema and migration folder."]
+    },
+    "date": "2024-12-03",
     "version": "1.35.8"
   },
   {
