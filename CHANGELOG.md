@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.77.8](https://github.com/bentwnghk/lobe-chat/compare/v1.77.7...v1.77.8)
+
+<sup>Released on **2024-12-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix typo of prompts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix typo of prompts, closes [#4837](https://github.com/bentwnghk/lobe-chat/issues/4837) ([9350ef0](https://github.com/bentwnghk/lobe-chat/commit/9350ef0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.77.7](https://github.com/bentwnghk/lobe-chat/compare/v1.77.6...v1.77.7)
 
 <sup>Released on **2024-12-04**</sup>
