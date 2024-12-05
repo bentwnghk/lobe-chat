@@ -4,6 +4,13 @@
       "fixes": ["Fix typo of prompts."]
     },
     "date": "2024-12-05",
+    "version": "1.77.8"
+  },
+  {
+    "children": {
+      "fixes": ["Fix typo of prompts."]
+    },
+    "date": "2024-12-05",
     "version": "1.35.12"
   },
   {
