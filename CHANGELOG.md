@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.78.1](https://github.com/bentwnghk/lobe-chat/compare/v1.78.0...v1.78.1)
+
+<sup>Released on **2024-12-07**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor async params route to adapt next15 breaking change, Remove proxy url settings for NextAuth.
+
+#### 💄 Styles
+
+- **misc**: Add gemini-exp-1206 model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor async params route to adapt next15 breaking change, closes [#4905](https://github.com/bentwnghk/lobe-chat/issues/4905) ([5d61950](https://github.com/bentwnghk/lobe-chat/commit/5d61950))
+- **misc**: Remove proxy url settings for NextAuth, closes [#4826](https://github.com/bentwnghk/lobe-chat/issues/4826) ([a502c17](https://github.com/bentwnghk/lobe-chat/commit/a502c17))
+
+#### Styles
+
+- **misc**: Add gemini-exp-1206 model, closes [#4909](https://github.com/bentwnghk/lobe-chat/issues/4909) ([9ff2c03](https://github.com/bentwnghk/lobe-chat/commit/9ff2c03))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.78.0](https://github.com/bentwnghk/lobe-chat/compare/v1.77.9...v1.78.0)
 
 <sup>Released on **2024-12-06**</sup>
