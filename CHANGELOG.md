@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.78.2](https://github.com/bentwnghk/lobe-chat/compare/v1.78.1...v1.78.2)
+
+<sup>Released on **2024-12-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Support request headers for chat.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Support request headers for chat, closes [#4934](https://github.com/bentwnghk/lobe-chat/issues/4934) ([8cdc062](https://github.com/bentwnghk/lobe-chat/commit/8cdc062))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.1](https://github.com/bentwnghk/lobe-chat/compare/v1.78.0...v1.78.1)
 
 <sup>Released on **2024-12-07**</sup>
