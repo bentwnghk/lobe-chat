@@ -4,6 +4,13 @@
       "fixes": ["Fix wrong email linking in next-auth db adapter."]
     },
     "date": "2024-12-09",
+    "version": "1.78.3"
+  },
+  {
+    "children": {
+      "fixes": ["Fix wrong email linking in next-auth db adapter."]
+    },
+    "date": "2024-12-09",
     "version": "1.36.5"
   },
   {
