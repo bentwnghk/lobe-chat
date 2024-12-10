@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Add GLM-4V-Flash from Zhipu."],
+      "fixes": ["Fix pricing with 0 digit, nullptr errors in NextAuth adapter."]
+    },
+    "date": "2024-12-10",
+    "version": "1.78.5"
+  },
+  {
+    "children": {
       "improvements": ["Clean the gpt-4-vision-preview models."]
     },
     "date": "2024-12-10",
