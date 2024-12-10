@@ -1,5 +1,5 @@
 import { ActionIconGroup } from '@bentwnghk/ui';
-import { ActionsBarProps } from '@bentwnghk/ui/es/ChatList/ActionsBar';
+import { ActionsBarProps } from '@bentwnghk/ui/es/chat/ChatList/ActionsBar';
 import { memo } from 'react';
 
 import { useChatListActionsBar } from '../hooks/useChatListActionsBar';
