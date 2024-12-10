@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.78.4](https://github.com/bentwnghk/lobe-chat/compare/v1.78.3...v1.78.4)
+
+<sup>Released on **2024-12-10**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update groq, add llama3.3, Upgrade lobe-ui.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update groq, add llama3.3, closes [#4942](https://github.com/bentwnghk/lobe-chat/issues/4942) ([68e4379](https://github.com/bentwnghk/lobe-chat/commit/68e4379))
+- **misc**: Upgrade lobe-ui, closes [#4950](https://github.com/bentwnghk/lobe-chat/issues/4950) ([54ce087](https://github.com/bentwnghk/lobe-chat/commit/54ce087))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.3](https://github.com/bentwnghk/lobe-chat/compare/v1.78.2...v1.78.3)
 
 <sup>Released on **2024-12-09**</sup>
