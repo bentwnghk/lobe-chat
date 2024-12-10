@@ -2,6 +2,49 @@
 
 # Changelog
 
+### [Version 1.78.5](https://github.com/bentwnghk/lobe-chat/compare/v1.78.4...v1.78.5)
+
+<sup>Released on **2024-12-10**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Clean the `gpt-4-vision-preview` models, refactor the clerk user service implement.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix pricing with 0 digit, nullptr errors in NextAuth adapter.
+
+#### 💄 Styles
+
+- **misc**: Add `GLM-4V-Flash` from Zhipu.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Clean the `gpt-4-vision-preview` models, closes [#4967](https://github.com/bentwnghk/lobe-chat/issues/4967) ([7094ea6](https://github.com/bentwnghk/lobe-chat/commit/7094ea6))
+- **misc**: Refactor the clerk user service implement, closes [#4965](https://github.com/bentwnghk/lobe-chat/issues/4965) ([059810b](https://github.com/bentwnghk/lobe-chat/commit/059810b))
+
+#### What's fixed
+
+- **misc**: Fix pricing with 0 digit, closes [#4964](https://github.com/bentwnghk/lobe-chat/issues/4964) ([c1061b4](https://github.com/bentwnghk/lobe-chat/commit/c1061b4))
+- **misc**: Nullptr errors in NextAuth adapter, closes [#4960](https://github.com/bentwnghk/lobe-chat/issues/4960) ([d242ee0](https://github.com/bentwnghk/lobe-chat/commit/d242ee0))
+
+#### Styles
+
+- **misc**: Add `GLM-4V-Flash` from Zhipu, closes [#4958](https://github.com/bentwnghk/lobe-chat/issues/4958) ([17ea86c](https://github.com/bentwnghk/lobe-chat/commit/17ea86c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.4](https://github.com/bentwnghk/lobe-chat/compare/v1.78.3...v1.78.4)
 
 <sup>Released on **2024-12-10**</sup>
