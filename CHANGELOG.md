@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.78.6](https://github.com/bentwnghk/lobe-chat/compare/v1.78.5...v1.78.6)
+
+<sup>Released on **2024-12-11**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor data importer to repos.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor data importer to repos, closes [#4974](https://github.com/bentwnghk/lobe-chat/issues/4974) ([0259fec](https://github.com/bentwnghk/lobe-chat/commit/0259fec))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.5](https://github.com/bentwnghk/lobe-chat/compare/v1.78.4...v1.78.5)
 
 <sup>Released on **2024-12-10**</sup>
