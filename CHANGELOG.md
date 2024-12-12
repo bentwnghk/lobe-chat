@@ -2,6 +2,47 @@
 
 # Changelog
 
+### [Version 1.78.9](https://github.com/bentwnghk/lobe-chat/compare/v1.78.8...v1.78.9)
+
+<sup>Released on **2024-12-12**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the file model method.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix claude first message can not be `assistant`.
+
+#### 💄 Styles
+
+- **misc**: Enable googleSearch Tool for gemini-2.0-flash-exp.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the file model method, closes [#4998](https://github.com/bentwnghk/lobe-chat/issues/4998) ([00af34e](https://github.com/bentwnghk/lobe-chat/commit/00af34e))
+
+#### What's fixed
+
+- **misc**: Fix claude first message can not be `assistant`, closes [#5001](https://github.com/bentwnghk/lobe-chat/issues/5001) ([063cd61](https://github.com/bentwnghk/lobe-chat/commit/063cd61))
+
+#### Styles
+
+- **misc**: Enable googleSearch Tool for gemini-2.0-flash-exp, closes [#4997](https://github.com/bentwnghk/lobe-chat/issues/4997) ([cde0d1a](https://github.com/bentwnghk/lobe-chat/commit/cde0d1a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.8](https://github.com/bentwnghk/lobe-chat/compare/v1.78.7...v1.78.8)
 
 <sup>Released on **2024-12-12**</sup>
