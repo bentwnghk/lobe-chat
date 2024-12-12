@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Enable googleSearch Tool for gemini-2.0-flash-exp."],
+      "fixes": ["Fix claude first message can not be assistant."]
+    },
+    "date": "2024-12-12",
+    "version": "1.78.9"
+  },
+  {
+    "children": {
       "fixes": ["Fix claude first message can not be assistant."]
     },
     "date": "2024-12-12",
