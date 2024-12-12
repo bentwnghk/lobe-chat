@@ -3,6 +3,13 @@
     "children": {
       "improvements": ["Add Gemini 2.0 Flash Exp model."]
     },
+    "date": "2024-12-12",
+    "version": "1.78.7"
+  },
+  {
+    "children": {
+      "improvements": ["Add Gemini 2.0 Flash Exp model."]
+    },
     "date": "2024-12-11",
     "version": "1.36.13"
   },
