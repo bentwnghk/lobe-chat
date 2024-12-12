@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.78.7](https://github.com/bentwnghk/lobe-chat/compare/v1.78.6...v1.78.7)
+
+<sup>Released on **2024-12-12**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update sql and types.
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 2.0 Flash Exp model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update sql and types, closes [#4979](https://github.com/bentwnghk/lobe-chat/issues/4979) ([8243f01](https://github.com/bentwnghk/lobe-chat/commit/8243f01))
+
+#### Styles
+
+- **misc**: Add Gemini 2.0 Flash Exp model, closes [#4981](https://github.com/bentwnghk/lobe-chat/issues/4981) ([aab0c53](https://github.com/bentwnghk/lobe-chat/commit/aab0c53))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.6](https://github.com/bentwnghk/lobe-chat/compare/v1.78.5...v1.78.6)
 
 <sup>Released on **2024-12-11**</sup>
