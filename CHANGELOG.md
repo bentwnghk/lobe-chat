@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.78.8](https://github.com/bentwnghk/lobe-chat/compare/v1.78.7...v1.78.8)
+
+<sup>Released on **2024-12-12**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor database file model to remove server env.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor database file model to remove server env, closes [#4990](https://github.com/bentwnghk/lobe-chat/issues/4990) ([284f790](https://github.com/bentwnghk/lobe-chat/commit/284f790))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.7](https://github.com/bentwnghk/lobe-chat/compare/v1.78.6...v1.78.7)
 
 <sup>Released on **2024-12-12**</sup>
