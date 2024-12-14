@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.78.10](https://github.com/bentwnghk/lobe-chat/compare/v1.78.9...v1.78.10)
+
+<sup>Released on **2024-12-14**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: One of Gemini functionCall error.
+
+#### 💄 Styles
+
+- **misc**: Support csv chunking, update locale.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: One of Gemini functionCall error, closes [#5002](https://github.com/bentwnghk/lobe-chat/issues/5002) ([3c7f5ff](https://github.com/bentwnghk/lobe-chat/commit/3c7f5ff))
+
+#### Styles
+
+- **misc**: Support csv chunking, closes [#4123](https://github.com/bentwnghk/lobe-chat/issues/4123) ([1b993a8](https://github.com/bentwnghk/lobe-chat/commit/1b993a8))
+- **misc**: Update locale, closes [#5008](https://github.com/bentwnghk/lobe-chat/issues/5008) ([6d42d30](https://github.com/bentwnghk/lobe-chat/commit/6d42d30))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.9](https://github.com/bentwnghk/lobe-chat/compare/v1.78.8...v1.78.9)
 
 <sup>Released on **2024-12-12**</sup>
