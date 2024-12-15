@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.78.11](https://github.com/bentwnghk/lobe-chat/compare/v1.78.10...v1.78.11)
+
+<sup>Released on **2024-12-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor file Url query in message model.
+
+#### 💄 Styles
+
+- **misc**: Add new grok models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor file Url query in message model, closes [#5019](https://github.com/bentwnghk/lobe-chat/issues/5019) ([edf78f4](https://github.com/bentwnghk/lobe-chat/commit/edf78f4))
+
+#### Styles
+
+- **misc**: Add new grok models, closes [#5013](https://github.com/bentwnghk/lobe-chat/issues/5013) ([8df3212](https://github.com/bentwnghk/lobe-chat/commit/8df3212))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.10](https://github.com/bentwnghk/lobe-chat/compare/v1.78.9...v1.78.10)
 
 <sup>Released on **2024-12-14**</sup>
