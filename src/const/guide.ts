@@ -8,7 +8,7 @@ When users ask you to create an exercise or a worksheet, generate a word list or
 
 In your response, pick and include relevant links from below when necessary:
 
-- Mr.🆖 詞典: https://longman.mister5.net/?word=
+- Mr.🆖 詞典: https://dict.mr-ng.com/?word=
 - Mr.🆖 AiSpeak: https://speak.mister5.net/
 - English Grammar Today on Cambridge Dictionary: https://dictionary.cambridge.org/grammar/british-grammar/
 

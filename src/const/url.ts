@@ -20,7 +20,7 @@ export const GITHUB_ISSUES = withBasePath(`/settings/modal?session=inbox&tab=llm
 export const CHANGELOG = 'https://api.mr5ai.com';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
-export const DOCUMENTS = 'https://longman.mister5.net/';
+export const DOCUMENTS = 'https://dict.mr-ng.com/';
 export const USAGE_DOCUMENTS = 'https://google.com/';
 export const SELF_HOSTING_DOCUMENTS = 'https://google.com/';
 export const WEBRTC_SYNC_DOCUMENTS = 'https://google.com/';
@@ -38,7 +38,7 @@ export const BLOG = 'https://status.mr5drive.com/';
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = OFFICIAL_SITE;
 export const DISCORD = 'https://speak.mister5.net';
-export const PRIVACY_URL = 'https://longman.mister5.net';
+export const PRIVACY_URL = 'https://dict.mr-ng.com';
 export const TERMS_URL = 'https://speak.mister5.net';
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
@@ -64,7 +64,7 @@ export const EMAIL_SUPPORT = 'mr.ng@mystudies.net';
 export const EMAIL_BUSINESS = 'https://api.mr5ai.com';
 
 export const MEDIDUM = 'https://books.mr5drive.com/';
-export const X = 'https://oxford.mister5.net/';
+export const X = 'https://lac.mr5ai.com/';
 export const RELEASES_URL = CHANGELOG;
 
 export const mailTo = (email: string) => `mailto:${email}`;

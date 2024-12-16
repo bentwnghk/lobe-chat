@@ -101,9 +101,9 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 value: 'blog',
               },              
               {
-                href: 'https://llm.mister5.net',
+                href: 'https://lac.mr5ai.com',
                 icon: SiRss,
-                label: 'Mr.🆖 DocChat',
+                label: 'Mr.🆖 Grammar AI',
                 value: 'discord',
               },
             ]}

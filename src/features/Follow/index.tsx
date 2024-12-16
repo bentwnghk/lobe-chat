@@ -42,7 +42,7 @@ const Follow = memo(() => {
         <ActionIcon
           className={styles.icon}
           icon={SiX as any}
-          title={t('follow', { name: 'Mr.🆖 牛津詞典' })}
+          title={t('follow', { name: 'Mr.🆖 Grammar AI' })}
         />
       </Link>
       <Link href={DISCORD} rel="noreferrer" target={'_blank'}>
