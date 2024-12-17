@@ -2,6 +2,49 @@
 
 # Changelog
 
+### [Version 1.78.12](https://github.com/bentwnghk/lobe-chat/compare/v1.78.11...v1.78.12)
+
+<sup>Released on **2024-12-17**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the data fetch with clientDB init check.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add unique keys to `<ModelList>` children, fix discover locale with different default lang.
+
+#### 💄 Styles
+
+- **misc**: Improve page loading state, update models of Gitee AI provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the data fetch with clientDB init check, closes [#5049](https://github.com/bentwnghk/lobe-chat/issues/5049) ([e6d2e09](https://github.com/bentwnghk/lobe-chat/commit/e6d2e09))
+
+#### What's fixed
+
+- **misc**: Add unique keys to `<ModelList>` children, closes [#5042](https://github.com/bentwnghk/lobe-chat/issues/5042) ([c097d4a](https://github.com/bentwnghk/lobe-chat/commit/c097d4a))
+- **misc**: Fix discover locale with different default lang, closes [#5045](https://github.com/bentwnghk/lobe-chat/issues/5045) ([915827e](https://github.com/bentwnghk/lobe-chat/commit/915827e))
+
+#### Styles
+
+- **misc**: Improve page loading state, closes [#5048](https://github.com/bentwnghk/lobe-chat/issues/5048) ([e63249b](https://github.com/bentwnghk/lobe-chat/commit/e63249b))
+- **misc**: Update models of Gitee AI provider, closes [#5041](https://github.com/bentwnghk/lobe-chat/issues/5041) ([654c320](https://github.com/bentwnghk/lobe-chat/commit/654c320))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.11](https://github.com/bentwnghk/lobe-chat/compare/v1.78.10...v1.78.11)
 
 <sup>Released on **2024-12-15**</sup>
