@@ -1,6 +1,16 @@
 [
   {
     "children": {
+      "improvements": ["Improve page loading state, update models of Gitee AI provider."],
+      "fixes": [
+        "Add unique keys to <ModelList> children, fix discover locale with different default lang."
+      ]
+    },
+    "date": "2024-12-17",
+    "version": "1.78.12"
+  },
+  {
+    "children": {
       "improvements": ["Refactor the data fetch with clientDB init check."]
     },
     "date": "2024-12-17",
