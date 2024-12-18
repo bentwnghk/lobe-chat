@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Progress, Typography } from 'antd';
 import { useTheme } from 'antd-style';
 import { Loader2 } from 'lucide-react';

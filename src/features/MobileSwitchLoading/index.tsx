@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Loader2 } from 'lucide-react';
 import { DynamicOptions } from 'next/dist/shared/lib/dynamic';
 import { memo } from 'react';
