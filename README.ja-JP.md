@@ -124,7 +124,7 @@ LobeChat の継続的な開発において、AI 会話サービスを提供す�
 
 <!-- PROVIDER LIST -->
 
-- **[OpenAI](https://lobechat.com/discover/provider/openai)**: OpenAI は、世界をリードする人工知能研究機関であり、GPT シリーズなどのモデルを開発し、自然言語処理の最前線を推進しています。OpenAI は、革新と効率的な AI ソリューションを通じて、さまざまな業界を変革することに取り組んでいます。彼らの製品は、顕著な性能と経済性を持ち、研究、ビジネス、革新アプリケーションで広く使用されています。
+- **[Mr.🆖 AI Hub](https://lobechat.com/discover/provider/openai)**: OpenAI は、世界をリードする人工知能研究機関であり、GPT シリーズなどのモデルを開発し、自然言語処理の最前線を推進しています。OpenAI は、革新と効率的な AI ソリューションを通じて、さまざまな業界を変革することに取り組んでいます。彼らの製品は、顕著な性能と経済性を持ち、研究、ビジネス、革新アプリケーションで広く使用されています。
 - **[Ollama](https://lobechat.com/discover/provider/ollama)**: Ollama が提供するモデルは、コード生成、数学演算、多言語処理、対話インタラクションなどの分野を広くカバーし、企業向けおよびローカライズされた展開の多様なニーズに対応しています。
 - **[Anthropic](https://lobechat.com/discover/provider/anthropic)**: Anthropic は、人工知能の研究と開発に特化した企業であり、Claude 3.5 Sonnet、Claude 3 Sonnet、Claude 3 Opus、Claude 3 Haiku などの先進的な言語モデルを提供しています。これらのモデルは、知性、速度、コストの理想的なバランスを実現しており、企業向けのワークロードから迅速な応答が求められるさまざまなアプリケーションシーンに適しています。Claude 3.5 Sonnet は最新のモデルであり、複数の評価で優れたパフォーマンスを示し、高いコストパフォーマンスを維持しています。
 - **[Bedrock](https://lobechat.com/discover/provider/bedrock)**: Bedrock は、Amazon AWS が提供するサービスで、企業に先進的な AI 言語モデルと視覚モデルを提供することに特化しています。そのモデルファミリーには、Anthropic の Claude シリーズや Meta の Llama 3.1 シリーズなどが含まれ、軽量から高性能までのさまざまな選択肢を提供し、テキスト生成、対話、画像処理などの多様なタスクをサポートし、異なる規模とニーズの企業アプリケーションに適しています。
