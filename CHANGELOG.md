@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.78.13](https://github.com/bentwnghk/lobe-chat/compare/v1.78.12...v1.78.13)
+
+<sup>Released on **2024-12-19**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the drizzle code style.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix GitHub model fetch, fix pdf preview with capital ext.
+
+#### 💄 Styles
+
+- **misc**: Improve home page loading for better UX.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the drizzle code style, closes [#5058](https://github.com/bentwnghk/lobe-chat/issues/5058) ([4057ad3](https://github.com/bentwnghk/lobe-chat/commit/4057ad3))
+
+#### What's fixed
+
+- **misc**: Fix GitHub model fetch, closes [#4645](https://github.com/bentwnghk/lobe-chat/issues/4645) ([b69dce3](https://github.com/bentwnghk/lobe-chat/commit/b69dce3))
+- **misc**: Fix pdf preview with capital ext, closes [#5074](https://github.com/bentwnghk/lobe-chat/issues/5074) ([3f9470f](https://github.com/bentwnghk/lobe-chat/commit/3f9470f))
+
+#### Styles
+
+- **misc**: Improve home page loading for better UX, closes [#5075](https://github.com/bentwnghk/lobe-chat/issues/5075) ([99026bb](https://github.com/bentwnghk/lobe-chat/commit/99026bb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.12](https://github.com/bentwnghk/lobe-chat/compare/v1.78.11...v1.78.12)
 
 <sup>Released on **2024-12-17**</sup>
