@@ -1,6 +1,15 @@
 [
   {
     "children": {
+      "improvements": [
+        "Refactor layout props, refactor to use async headers(), seperate user keyVaults encrpyto from user model."
+      ]
+    },
+    "date": "2024-12-20",
+    "version": "1.78.15"
+  },
+  {
+    "children": {
       "improvements": ["Seperate user keyVaults encrpyto from user model."]
     },
     "date": "2024-12-20",
