@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.78.15](https://github.com/bentwnghk/lobe-chat/compare/v1.78.14...v1.78.15)
+
+<sup>Released on **2024-12-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor layout props, refactor to use async `headers()`, seperate user keyVaults encrpyto from user model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor layout props, closes [#5093](https://github.com/bentwnghk/lobe-chat/issues/5093) ([2990b5a](https://github.com/bentwnghk/lobe-chat/commit/2990b5a))
+- **misc**: Refactor to use async `headers()`, closes [#5097](https://github.com/bentwnghk/lobe-chat/issues/5097) ([e368f38](https://github.com/bentwnghk/lobe-chat/commit/e368f38))
+- **misc**: Seperate user keyVaults encrpyto from user model, closes [#5102](https://github.com/bentwnghk/lobe-chat/issues/5102) ([09b63cf](https://github.com/bentwnghk/lobe-chat/commit/09b63cf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.14](https://github.com/bentwnghk/lobe-chat/compare/v1.78.13...v1.78.14)
 
 <sup>Released on **2024-12-19**</sup>
