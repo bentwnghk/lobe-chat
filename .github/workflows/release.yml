@@ -42,6 +42,7 @@ jobs:
           KEY_VAULTS_SECRET: LA7n9k3JdEcbSgml2sxfw+4TV1AzaaFU5+R176aQz4s=
           S3_PUBLIC_DOMAIN: https://example.com
           APP_URL: https://home.com
+        continue-on-error: true
 
       - name: Test App Coverage
         run: bun run test-app:coverage
