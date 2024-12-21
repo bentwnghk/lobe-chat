@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.78.16](https://github.com/bentwnghk/lobe-chat/compare/v1.78.15...v1.78.16)
+
+<sup>Released on **2024-12-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Upgrade react scan.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix HUGGINGFACE endpoint url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Upgrade react scan, closes [#5104](https://github.com/bentwnghk/lobe-chat/issues/5104) ([eed69dd](https://github.com/bentwnghk/lobe-chat/commit/eed69dd))
+
+#### What's fixed
+
+- **misc**: Fix HUGGINGFACE endpoint url, closes [#5099](https://github.com/bentwnghk/lobe-chat/issues/5099) ([abc80dc](https://github.com/bentwnghk/lobe-chat/commit/abc80dc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.15](https://github.com/bentwnghk/lobe-chat/compare/v1.78.14...v1.78.15)
 
 <sup>Released on **2024-12-20**</sup>
