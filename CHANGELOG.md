@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.78.18](https://github.com/bentwnghk/lobe-chat/compare/v1.78.17...v1.78.18)
+
+<sup>Released on **2024-12-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor client mode upload to match server mode.
+
+#### 💄 Styles
+
+- **misc**: Add o1 model in GitHub models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor client mode upload to match server mode, closes [#5111](https://github.com/bentwnghk/lobe-chat/issues/5111) ([0361ced](https://github.com/bentwnghk/lobe-chat/commit/0361ced))
+
+#### Styles
+
+- **misc**: Add o1 model in GitHub models, closes [#5110](https://github.com/bentwnghk/lobe-chat/issues/5110) ([91dc5d7](https://github.com/bentwnghk/lobe-chat/commit/91dc5d7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.17](https://github.com/bentwnghk/lobe-chat/compare/v1.78.16...v1.78.17)
 
 <sup>Released on **2024-12-21**</sup>
