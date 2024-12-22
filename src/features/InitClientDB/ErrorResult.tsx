@@ -1,4 +1,4 @@
-import { Highlighter, Icon, Modal } from '@lobehub/ui';
+import { Highlighter, Icon, Modal } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';
