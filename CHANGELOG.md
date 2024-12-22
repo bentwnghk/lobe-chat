@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.79.0](https://github.com/bentwnghk/lobe-chat/compare/v1.78.18...v1.79.0)
+
+<sup>Released on **2024-12-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move pglite to client service, refactor the client service to deprecated.
+
+#### ✨ Features
+
+- **misc**: Support to use pglite as client db.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move pglite to client service, closes [#5133](https://github.com/bentwnghk/lobe-chat/issues/5133) ([c2ded24](https://github.com/bentwnghk/lobe-chat/commit/c2ded24))
+- **misc**: Refactor the client service to deprecated, closes [#5132](https://github.com/bentwnghk/lobe-chat/issues/5132) ([e603234](https://github.com/bentwnghk/lobe-chat/commit/e603234))
+
+#### What's improved
+
+- **misc**: Support to use pglite as client db, closes [#4873](https://github.com/bentwnghk/lobe-chat/issues/4873) ([4131f20](https://github.com/bentwnghk/lobe-chat/commit/4131f20))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.78.18](https://github.com/bentwnghk/lobe-chat/compare/v1.78.17...v1.78.18)
 
 <sup>Released on **2024-12-21**</sup>
