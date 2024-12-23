@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.80.0](https://github.com/bentwnghk/lobe-chat/compare/v1.79.0...v1.80.0)
+
+<sup>Released on **2024-12-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Support thread in client pglite.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support thread in client pglite, closes [#5150](https://github.com/bentwnghk/lobe-chat/issues/5150) ([848b29f](https://github.com/bentwnghk/lobe-chat/commit/848b29f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.79.0](https://github.com/bentwnghk/lobe-chat/compare/v1.78.18...v1.79.0)
 
 <sup>Released on **2024-12-22**</sup>
