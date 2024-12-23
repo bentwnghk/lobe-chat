@@ -4,6 +4,13 @@
       "features": ["Upgrade to next15 and react19."]
     },
     "date": "2024-12-23",
+    "version": "1.81.0"
+  },
+  {
+    "children": {
+      "features": ["Upgrade to next15 and react19."]
+    },
+    "date": "2024-12-23",
     "version": "1.39.0"
   },
   {
