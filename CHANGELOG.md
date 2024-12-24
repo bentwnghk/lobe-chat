@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.81.1](https://github.com/bentwnghk/lobe-chat/compare/v1.81.0...v1.81.1)
+
+<sup>Released on **2024-12-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix image input on pglite.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix image input on pglite, closes [#5167](https://github.com/bentwnghk/lobe-chat/issues/5167) ([5c5b37d](https://github.com/bentwnghk/lobe-chat/commit/5c5b37d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.81.0](https://github.com/bentwnghk/lobe-chat/compare/v1.80.0...v1.81.0)
 
 <sup>Released on **2024-12-23**</sup>
