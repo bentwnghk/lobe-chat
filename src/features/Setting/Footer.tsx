@@ -33,7 +33,7 @@ const Footer = memo<PropsWithChildren>(() => {
 
   return hideGitHub ? null : (
     <>
-      <Flexbox flex={1} justify={'flex-end'}>
+      <Flexbox justify={'flex-end'}>
         <Center
           as={'footer'}
           className={styles}
@@ -98,5 +98,7 @@ const Footer = memo<PropsWithChildren>(() => {
     </>
   );
 });
+
+Footer.displayName = 'SettingFooter';
 
 export default Footer;
