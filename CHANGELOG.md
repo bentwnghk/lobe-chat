@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.81.2](https://github.com/bentwnghk/lobe-chat/compare/v1.81.1...v1.81.2)
+
+<sup>Released on **2024-12-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor sensenova provider with LobeOpenAICompatibleFactory.
+
+#### 💄 Styles
+
+- **misc**: Improve loading brand.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor sensenova provider with LobeOpenAICompatibleFactory, closes [#5116](https://github.com/bentwnghk/lobe-chat/issues/5116) ([5656f39](https://github.com/bentwnghk/lobe-chat/commit/5656f39))
+
+#### Styles
+
+- **misc**: Improve loading brand, closes [#5165](https://github.com/bentwnghk/lobe-chat/issues/5165) ([9684c98](https://github.com/bentwnghk/lobe-chat/commit/9684c98))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.81.1](https://github.com/bentwnghk/lobe-chat/compare/v1.81.0...v1.81.1)
 
 <sup>Released on **2024-12-24**</sup>
