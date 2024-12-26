@@ -23,6 +23,10 @@ const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
     sentryCaptureException(error);
   }, [error]);
 
+    const handleReset = () => {
+        window.location.reload();
+    };
+
   return (
     <Flexbox align={'center'} justify={'center'} style={{ minHeight: '100%', width: '100%' }}>
       <h1
@@ -44,7 +48,7 @@ const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
       </h2>
       <p style={{ marginBottom: '2em' }}>{t('error.desc')}</p>
       <Flexbox gap={12} horizontal style={{ marginBottom: '1em' }}>
-        <Button onClick={() => reset()}>{t('error.retry')}</Button>
+        <Button onClick={handleReset}>{t('error.retry')}</Button>
         <Link href="/">
           <Button type={'primary'}>{t('error.backHome')}</Button>
         </Link>
