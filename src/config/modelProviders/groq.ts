@@ -75,12 +75,12 @@ const Groq: ModelProviderCard = {
       },
     },
     {
+      contextWindowTokens: 8192,
       description: 'Llama 3.1 405B 指令模型，具备超大规模参数，适合复杂任务和高负载场景下的指令跟随。',
       displayName: 'Llama 3.1 405B',
       enabled: true,
       functionCall: true,
       id: 'llama-3.1-405b-reasoning',
-      tokens: 8192,
     },
     {
       contextWindowTokens: 8192,
