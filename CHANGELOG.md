@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.82.1](https://github.com/bentwnghk/lobe-chat/compare/v1.82.0...v1.82.1)
+
+<sup>Released on **2024-12-26**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor `tokens` to `contextWindowTokens`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor `tokens` to `contextWindowTokens`, closes [#5185](https://github.com/bentwnghk/lobe-chat/issues/5185) ([a2aa99a](https://github.com/bentwnghk/lobe-chat/commit/a2aa99a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.82.0](https://github.com/bentwnghk/lobe-chat/compare/v1.81.2...v1.82.0)
 
 <sup>Released on **2024-12-26**</sup>
