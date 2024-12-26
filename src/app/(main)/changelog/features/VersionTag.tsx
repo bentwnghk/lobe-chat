@@ -1,6 +1,6 @@
 'use client';
 
-import { Tag } from '@lobehub/ui';
+import { Tag } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 

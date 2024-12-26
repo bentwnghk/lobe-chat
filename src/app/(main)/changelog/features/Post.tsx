@@ -1,4 +1,4 @@
-import { Typography } from '@lobehub/ui';
+import { Typography } from '@bentwnghk/ui';
 import { Divider } from 'antd';
 import Link from 'next/link';
 import urlJoin from 'url-join';

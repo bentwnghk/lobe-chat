@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { ChevronRightIcon } from 'lucide-react';
 import Link from 'next/link';

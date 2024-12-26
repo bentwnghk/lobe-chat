@@ -1,6 +1,6 @@
 'use server';
 
-import { Image } from '@lobehub/ui/mdx';
+import { Image } from '@bentwnghk/ui/mdx';
 import Img from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
 import { FC } from 'react';

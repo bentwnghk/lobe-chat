@@ -1,6 +1,6 @@
 'use client';
 
-import { Modal, type ModalProps } from '@lobehub/ui';
+import { Modal, type ModalProps } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { useRouter } from 'next/navigation';
 import { memo, useState } from 'react';

@@ -1,4 +1,4 @@
-import { Typography } from '@lobehub/ui';
+import { Typography } from '@bentwnghk/ui';
 import Link from 'next/link';
 import { Flexbox } from 'react-layout-kit';
 import urlJoin from 'url-join';
