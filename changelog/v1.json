@@ -1,6 +1,15 @@
 [
   {
     "children": {
+      "improvements": ["Refactor services code style."],
+      "features": ["Add changelog modal."],
+      "fixes": ["Fix o1Models list."]
+    },
+    "date": "2024-12-26",
+    "version": "1.82.0"
+  },
+  {
+    "children": {
       "fixes": ["Fix o1Models list."]
     },
     "date": "2024-12-26",
