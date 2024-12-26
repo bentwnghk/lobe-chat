@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.82.0](https://github.com/bentwnghk/lobe-chat/compare/v1.81.2...v1.82.0)
+
+<sup>Released on **2024-12-26**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor services code style.
+
+#### ✨ Features
+
+- **misc**: Add changelog modal.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix o1Models list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor services code style, closes [#5180](https://github.com/bentwnghk/lobe-chat/issues/5180) ([e98ece8](https://github.com/bentwnghk/lobe-chat/commit/e98ece8))
+
+#### What's improved
+
+- **misc**: Add changelog modal, closes [#4800](https://github.com/bentwnghk/lobe-chat/issues/4800) ([df3ac87](https://github.com/bentwnghk/lobe-chat/commit/df3ac87))
+
+#### What's fixed
+
+- **misc**: Fix o1Models list, closes [#5183](https://github.com/bentwnghk/lobe-chat/issues/5183) ([10d9904](https://github.com/bentwnghk/lobe-chat/commit/10d9904))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.81.2](https://github.com/bentwnghk/lobe-chat/compare/v1.81.1...v1.81.2)
 
 <sup>Released on **2024-12-25**</sup>
