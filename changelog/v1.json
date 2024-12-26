@@ -4,6 +4,43 @@
       "improvements": ["Refactor tokens to contextWindowTokens."]
     },
     "date": "2024-12-26",
+    "version": "1.82.1"
+  },
+  {
+    "children": {
+      "improvements": ["Refactor services code style."],
+      "features": ["Add changelog modal."],
+      "fixes": ["Fix o1Models list."]
+    },
+    "date": "2024-12-26",
+    "version": "1.82.0"
+  },
+  {
+    "children": {
+      "improvements": ["Improve loading brand."]
+    },
+    "date": "2024-12-25",
+    "version": "1.81.2"
+  },
+  {
+    "children": {
+      "fixes": ["Fix image input on pglite."]
+    },
+    "date": "2024-12-24",
+    "version": "1.81.1"
+  },
+  {
+    "children": {
+      "features": ["Upgrade to next15 and react19."]
+    },
+    "date": "2024-12-23",
+    "version": "1.81.0"
+  },
+  {
+    "children": {
+      "improvements": ["Refactor tokens to contextWindowTokens."]
+    },
+    "date": "2024-12-26",
     "version": "1.40.2"
   },
   {
