@@ -4,6 +4,13 @@
       "fixes": ["Fix fetch error in changelog modal."]
     },
     "date": "2024-12-26",
+    "version": "1.82.2"
+  },
+  {
+    "children": {
+      "fixes": ["Fix fetch error in changelog modal."]
+    },
+    "date": "2024-12-26",
     "version": "1.40.3"
   },
   {
