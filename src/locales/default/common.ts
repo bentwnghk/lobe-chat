@@ -222,6 +222,7 @@ export default {
   pinOff: '取消置顶',
   privacy: 'Mr.🆖 詞典',
   regenerate: '重新生成',
+  releaseNotes: '版本详情',
   rename: '重命名',
   reset: '重置',
   retry: '重试',

@@ -1,13 +1,14 @@
 import { act, renderHook } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 
-import { useUserStore } from '@/store/user';
 import { ServerConfigStoreProvider } from '@/store/serverConfig';
+import { useUserStore } from '@/store/user';
 
 import { useMenu } from '../UserPanel/useMenu';
 
-const wrapper: React.JSXElementConstructor<{ children: React.ReactNode }> = ({ children }) =>
+const wrapper: React.JSXElementConstructor<{ children: React.ReactNode }> = ({ children }) => (
   <ServerConfigStoreProvider>{children}</ServerConfigStoreProvider>
+);
 
 // Mock dependencies
 vi.mock('next/link', () => ({
