@@ -19,18 +19,22 @@ interface ErrorCaptureProps {
 const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
   const { t } = useTranslation('error');
 
-    useLayoutEffect(() => {
+  useLayoutEffect(() => {
     sentryCaptureException(error);
   }, [error]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.reload();
-    }, 1000);
+    }, 100);
 
     return () => clearTimeout(timer); // Cleanup the timeout on unmount
   }, []); // Empty dependency array to run only once on mount
 
+  const handleReset = () => {
+    reset(); // Call the provided reset function
+    window.location.reload(); // Reload the page
+  };
 
   return (
     <Flexbox align={'center'} justify={'center'} style={{ minHeight: '100%', width: '100%' }}>
@@ -53,7 +57,7 @@ const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
       </h2>
       <p style={{ marginBottom: '2em' }}>{t('error.desc')}</p>
       <Flexbox gap={12} horizontal style={{ marginBottom: '1em' }}>
-        <Button onClick={() => reset()}>{t('error.retry')}</Button>
+        <Button onClick={handleReset}>{t('error.retry')}</Button>
         <Link href="/">
           <Button type={'primary'}>{t('error.backHome')}</Button>
         </Link>
