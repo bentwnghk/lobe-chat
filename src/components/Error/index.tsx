@@ -3,7 +3,7 @@
 import { FluentEmoji } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import Link from 'next/link';
-import { memo, useLayoutEffect } from 'react';
+import { memo, useLayoutEffect, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
@@ -19,14 +19,18 @@ interface ErrorCaptureProps {
 const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
   const { t } = useTranslation('error');
 
-  useLayoutEffect(() => {
+    useLayoutEffect(() => {
     sentryCaptureException(error);
   }, [error]);
 
-  const handleReset = () => {
-    reset(); // Call the provided reset function
-    window.location.reload(); // Reload the page
-  };
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      window.location.reload();
+    }, 1000);
+
+    return () => clearTimeout(timer); // Cleanup the timeout on unmount
+  }, []); // Empty dependency array to run only once on mount
+
 
   return (
     <Flexbox align={'center'} justify={'center'} style={{ minHeight: '100%', width: '100%' }}>
@@ -49,7 +53,7 @@ const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
       </h2>
       <p style={{ marginBottom: '2em' }}>{t('error.desc')}</p>
       <Flexbox gap={12} horizontal style={{ marginBottom: '1em' }}>
-        <Button onClick={handleReset}>{t('error.retry')}</Button>
+        <Button onClick={() => reset()}>{t('error.retry')}</Button>
         <Link href="/">
           <Button type={'primary'}>{t('error.backHome')}</Button>
         </Link>
