@@ -23,9 +23,10 @@ const ErrorCapture = memo<ErrorCaptureProps>(({ reset, error }) => {
     sentryCaptureException(error);
   }, [error]);
 
-    const handleReset = () => {
-        window.location.reload();
-    };
+  const handleReset = () => {
+    reset(); // Call the provided reset function
+    window.location.reload(); // Reload the page
+  };
 
   return (
     <Flexbox align={'center'} justify={'center'} style={{ minHeight: '100%', width: '100%' }}>
