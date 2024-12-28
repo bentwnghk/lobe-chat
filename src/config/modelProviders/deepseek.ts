@@ -12,10 +12,10 @@ const DeepSeek: ModelProviderCard = {
       functionCall: true,
       id: 'deepseek-chat',
       pricing: {
-        cachedInput: 0.5,
+        cachedInput: 0.1,
         currency: 'CNY',
-        input: 2,
-        output: 8,
+        input: 1,
+        output: 2,
       },
       releasedAt: '2024-12-26',
     },
