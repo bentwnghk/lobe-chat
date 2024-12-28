@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.82.3](https://github.com/bentwnghk/lobe-chat/compare/v1.82.2...v1.82.3)
+
+<sup>Released on **2024-12-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update deepseek V3 model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update deepseek V3 model, closes [#5199](https://github.com/bentwnghk/lobe-chat/issues/5199) ([868f556](https://github.com/bentwnghk/lobe-chat/commit/868f556))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.82.2](https://github.com/bentwnghk/lobe-chat/compare/v1.82.1...v1.82.2)
 
 <sup>Released on **2024-12-26**</sup>
