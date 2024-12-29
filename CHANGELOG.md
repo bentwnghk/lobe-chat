@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.83.0](https://github.com/bentwnghk/lobe-chat/compare/v1.82.3...v1.83.0)
+
+<sup>Released on **2024-12-29**</sup>
+
+#### ✨ Features
+
+- **auth**: Add WeChat authentication support.
+- **misc**: Support white list for discover assistant.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auth**: Add WeChat authentication support, closes [#5195](https://github.com/bentwnghk/lobe-chat/issues/5195) ([95153a4](https://github.com/bentwnghk/lobe-chat/commit/95153a4))
+- **misc**: Support white list for discover assistant, closes [#5216](https://github.com/bentwnghk/lobe-chat/issues/5216) ([90bb20d](https://github.com/bentwnghk/lobe-chat/commit/90bb20d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.82.3](https://github.com/bentwnghk/lobe-chat/compare/v1.82.2...v1.82.3)
 
 <sup>Released on **2024-12-28**</sup>
