@@ -4,6 +4,13 @@
       "features": ["Add custom stream handle support for LobeOpenAICompatibleFactory."]
     },
     "date": "2024-12-29",
+    "version": "1.84.0"
+  },
+  {
+    "children": {
+      "features": ["Add custom stream handle support for LobeOpenAICompatibleFactory."]
+    },
+    "date": "2024-12-29",
     "version": "1.42.0"
   },
   {
