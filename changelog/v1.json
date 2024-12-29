@@ -4,6 +4,13 @@
       "fixes": ["Fix custom max_token not saved from customModelCards."]
     },
     "date": "2024-12-29",
+    "version": "1.84.1"
+  },
+  {
+    "children": {
+      "fixes": ["Fix custom max_token not saved from customModelCards."]
+    },
+    "date": "2024-12-29",
     "version": "1.42.1"
   },
   {
