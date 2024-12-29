@@ -1,4 +1,4 @@
-import { ActionIcon, DiscordIcon, Icon } from '@bentwnghk/ui';
+import { DiscordIcon, Icon } from '@bentwnghk/ui';
 import { Badge } from 'antd';
 import { ItemType } from 'antd/es/menu/interface';
 import {
@@ -12,14 +12,12 @@ import {
   LifeBuoy,
   LogOut,
   // Mail,
-  Maximize,
   Settings2,
 } from 'lucide-react';
 import Link from 'next/link';
 import { PropsWithChildren, memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
-import urlJoin from 'url-join';
 
 import type { MenuProps } from '@/components/Menu';
 import { LOBE_CHAT_CLOUD } from '@/const/branding';
@@ -32,11 +30,8 @@ import {
 } from '@/const/url';
 import { isServerMode } from '@/const/version';
 import DataImporter from '@/features/DataImporter';
-import { useOpenSettings } from '@/hooks/useInterceptingRoutes';
 import { usePWAInstall } from '@/hooks/usePWAInstall';
-import { useQueryRoute } from '@/hooks/useQueryRoute';
 import { configService } from '@/services/config';
-import { SettingsTabs } from '@/store/global/initialState';
 import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 import { useUserStore } from '@/store/user';
 import { authSelectors } from '@/store/user/selectors';
@@ -48,7 +43,7 @@ const NewVersionBadge = memo(
     children,
     showBadge,
     onClick,
-  }: PropsWithChildren & { onClick: () => void; showBadge?: boolean }) => {
+  }: PropsWithChildren & { onClick?: () => void; showBadge?: boolean }) => {
     const { t } = useTranslation('common');
     if (!showBadge)
       return (
@@ -66,10 +61,8 @@ const NewVersionBadge = memo(
 );
 
 export const useMenu = () => {
-  const router = useQueryRoute();
   const { canInstall, install } = usePWAInstall();
   const hasNewVersion = useNewVersion();
-  const openSettings = useOpenSettings();
   const { t } = useTranslation(['common', 'setting', 'auth']);
   const { showCloudPromotion, hideDocs } = useServerConfigStore(featureFlagsSelectors);
   const [isLogin, isLoginWithAuth, isLoginWithClerk, openUserProfile] = useUserStore((s) => [
@@ -90,20 +83,12 @@ export const useMenu = () => {
 
   const settings: MenuProps['items'] = [
     {
-      extra: (
-        <ActionIcon
-          icon={Maximize}
-          onClick={() => router.push(urlJoin('/settings', SettingsTabs.Common))}
-          size={'small'}
-          title={t('fullscreen')}
-        />
-      ),
       icon: <Icon icon={Settings2} />,
       key: 'setting',
       label: (
-        <NewVersionBadge onClick={openSettings} showBadge={hasNewVersion}>
-          {t('userPanel.setting')}
-        </NewVersionBadge>
+        <Link href={'/settings/common'}>
+          <NewVersionBadge showBadge={hasNewVersion}>{t('userPanel.setting')}</NewVersionBadge>
+        </Link>
       ),
     },
     {
