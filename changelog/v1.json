@@ -3,6 +3,13 @@
     "children": {
       "improvements": ["Add o1 model in openai and openrouter models."]
     },
+    "date": "2025-01-01",
+    "version": "1.84.2"
+  },
+  {
+    "children": {
+      "improvements": ["Add o1 model in openai and openrouter models."]
+    },
     "date": "2024-12-31",
     "version": "1.42.2"
   },
