@@ -4,6 +4,13 @@
       "improvements": ["Refactor provider info and improve settings side bar loading."]
     },
     "date": "2025-01-02",
+    "version": "1.84.4"
+  },
+  {
+    "children": {
+      "improvements": ["Refactor provider info and improve settings side bar loading."]
+    },
+    "date": "2025-01-02",
     "version": "1.42.4"
   },
   {
