@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.84.4](https://github.com/bentwnghk/lobe-chat/compare/v1.84.3...v1.84.4)
+
+<sup>Released on **2025-01-02**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor provider info and improve settings side bar loading.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor provider info and improve settings side bar loading, closes [#5268](https://github.com/bentwnghk/lobe-chat/issues/5268) ([b82a41e](https://github.com/bentwnghk/lobe-chat/commit/b82a41e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.84.3](https://github.com/bentwnghk/lobe-chat/compare/v1.84.2...v1.84.3)
 
 <sup>Released on **2025-01-01**</sup>
