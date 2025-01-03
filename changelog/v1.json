@@ -3,6 +3,13 @@
     "children": {
       "fixes": ["Fix topic mobile view ui error."]
     },
+    "date": "2025-01-03",
+    "version": "1.84.5"
+  },
+  {
+    "children": {
+      "fixes": ["Fix topic mobile view ui error."]
+    },
     "date": "2025-01-02",
     "version": "1.42.5"
   },
