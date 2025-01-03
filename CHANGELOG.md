@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.84.6](https://github.com/bentwnghk/lobe-chat/compare/v1.84.5...v1.84.6)
+
+<sup>Released on **2025-01-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Fix zero-sized element in topic list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Fix zero-sized element in topic list, closes [#5272](https://github.com/bentwnghk/lobe-chat/issues/5272) ([3e300c4](https://github.com/bentwnghk/lobe-chat/commit/3e300c4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.84.5](https://github.com/bentwnghk/lobe-chat/compare/v1.84.4...v1.84.5)
 
 <sup>Released on **2025-01-03**</sup>
