@@ -4,6 +4,13 @@
       "improvements": ["Fix zero-sized element in topic list."]
     },
     "date": "2025-01-03",
+    "version": "1.84.6"
+  },
+  {
+    "children": {
+      "improvements": ["Fix zero-sized element in topic list."]
+    },
+    "date": "2025-01-03",
     "version": "1.42.6"
   },
   {
