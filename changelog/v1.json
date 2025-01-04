@@ -4,6 +4,13 @@
       "improvements": ["Upgrade @clerk/nextjs to v6."]
     },
     "date": "2025-01-04",
+    "version": "1.85.2"
+  },
+  {
+    "children": {
+      "improvements": ["Upgrade @clerk/nextjs to v6."]
+    },
+    "date": "2025-01-04",
     "version": "1.43.3"
   },
   {
