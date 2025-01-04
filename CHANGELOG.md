@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.85.0](https://github.com/bentwnghk/lobe-chat/compare/v1.84.6...v1.85.0)
+
+<sup>Released on **2025-01-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Add User Stats and Refactor Profile.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix chat page error, fix stats data query issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add User Stats and Refactor Profile, closes [#5149](https://github.com/bentwnghk/lobe-chat/issues/5149) ([cbc219c](https://github.com/bentwnghk/lobe-chat/commit/cbc219c))
+
+#### What's fixed
+
+- **misc**: Fix chat page error, closes [#5280](https://github.com/bentwnghk/lobe-chat/issues/5280) ([315e626](https://github.com/bentwnghk/lobe-chat/commit/315e626))
+- **misc**: Fix stats data query issue, closes [#5283](https://github.com/bentwnghk/lobe-chat/issues/5283) ([f3fdee7](https://github.com/bentwnghk/lobe-chat/commit/f3fdee7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.84.6](https://github.com/bentwnghk/lobe-chat/compare/v1.84.5...v1.84.6)
 
 <sup>Released on **2025-01-03**</sup>
