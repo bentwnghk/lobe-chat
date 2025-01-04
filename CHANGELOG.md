@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.85.1](https://github.com/bentwnghk/lobe-chat/compare/v1.85.0...v1.85.1)
+
+<sup>Released on **2025-01-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix heatmap and manifest.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix heatmap and manifest, closes [#5289](https://github.com/bentwnghk/lobe-chat/issues/5289) ([3973249](https://github.com/bentwnghk/lobe-chat/commit/3973249))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.85.0](https://github.com/bentwnghk/lobe-chat/compare/v1.84.6...v1.85.0)
 
 <sup>Released on **2025-01-04**</sup>
