@@ -1,6 +1,6 @@
 import { BarList } from '@lobehub/charts';
 import { ModelIcon } from '@lobehub/icons';
-import { ActionIcon, FormGroup, Modal } from '@lobehub/ui';
+import { ActionIcon, FormGroup, Modal } from '@bentwnghk/ui';
 import { MaximizeIcon } from 'lucide-react';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

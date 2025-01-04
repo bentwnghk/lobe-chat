@@ -1,4 +1,4 @@
-import { BrandLoading, LobeChatText } from '@lobehub/ui/brand';
+import { BrandLoading, LobeChatText } from '@bentwnghk/ui/brand';
 import { Center } from 'react-layout-kit';
 
 import { isCustomBranding } from '@/const/version';

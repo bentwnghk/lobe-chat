@@ -1,5 +1,5 @@
 import { Heatmaps, HeatmapsProps } from '@lobehub/charts';
-import { FormGroup, Icon } from '@lobehub/ui';
+import { FormGroup, Icon } from '@bentwnghk/ui';
 import { Tag } from 'antd';
 import { useTheme } from 'antd-style';
 import { FlameIcon } from 'lucide-react';

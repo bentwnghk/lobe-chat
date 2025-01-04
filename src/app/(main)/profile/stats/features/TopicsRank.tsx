@@ -1,5 +1,5 @@
 import { BarList } from '@lobehub/charts';
-import { ActionIcon, FormGroup, Icon, Modal } from '@lobehub/ui';
+import { ActionIcon, FormGroup, Icon, Modal } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { MaximizeIcon, MessageSquareIcon } from 'lucide-react';
 import Link from 'next/link';

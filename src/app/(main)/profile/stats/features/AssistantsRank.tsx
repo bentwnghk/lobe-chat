@@ -1,5 +1,5 @@
 import { BarList } from '@lobehub/charts';
-import { ActionIcon, Avatar, FormGroup, Modal } from '@lobehub/ui';
+import { ActionIcon, Avatar, FormGroup, Modal } from '@bentwnghk/ui';
 import { MaximizeIcon } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';

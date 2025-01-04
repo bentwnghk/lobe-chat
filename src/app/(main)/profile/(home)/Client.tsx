@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type ItemGroup } from '@lobehub/ui';
+import { Form, type ItemGroup } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 
