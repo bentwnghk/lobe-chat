@@ -113,119 +113,119 @@ export const useMenu = () => {
   const data = !isLogin
     ? []
     : ([
-        {
-          icon: <Icon icon={HardDriveDownload} />,
-          key: 'import',
-          label: <DataImporter>{t('import')}</DataImporter>,
-        },
-        isServerMode
-          ? null
-          : {
-              children: [
-                {
-                  key: 'allAgent',
-                  label: t('exportType.allAgent'),
-                  onClick: configService.exportAgents,
-                },
-                {
-                  key: 'allAgentWithMessage',
-                  label: t('exportType.allAgentWithMessage'),
-                  onClick: configService.exportSessions,
-                },
-                {
-                  key: 'globalSetting',
-                  label: t('exportType.globalSetting'),
-                  onClick: configService.exportSettings,
-                },
-                {
-                  type: 'divider',
-                },
-                {
-                  key: 'all',
-                  label: t('exportType.all'),
-                  onClick: configService.exportAll,
-                },
-              ],
-              icon: <Icon icon={HardDriveUpload} />,
-              key: 'export',
-              label: t('export'),
+      {
+        icon: <Icon icon={HardDriveDownload} />,
+        key: 'import',
+        label: <DataImporter>{t('import')}</DataImporter>,
+      },
+      isServerMode
+        ? null
+        : {
+          children: [
+            {
+              key: 'allAgent',
+              label: t('exportType.allAgent'),
+              onClick: configService.exportAgents,
             },
-        {
-          type: 'divider',
+            {
+              key: 'allAgentWithMessage',
+              label: t('exportType.allAgentWithMessage'),
+              onClick: configService.exportSessions,
+            },
+            {
+              key: 'globalSetting',
+              label: t('exportType.globalSetting'),
+              onClick: configService.exportSettings,
+            },
+            {
+              type: 'divider',
+            },
+            {
+              key: 'all',
+              label: t('exportType.all'),
+              onClick: configService.exportAll,
+            },
+          ],
+          icon: <Icon icon={HardDriveUpload} />,
+          key: 'export',
+          label: t('export'),
         },
-      ].filter(Boolean) as ItemType[]);
+      {
+        type: 'divider',
+      },
+    ].filter(Boolean) as ItemType[]);
 
   const helps: MenuProps['items'] = hideDocs
     ? []
     : ([
-        showCloudPromotion && {
-          icon: <Icon icon={Cloudy} />,
-          key: 'cloud',
-          label: (
-            <Link href={OFFICIAL_URL} target={'_blank'}>
-              {t('userPanel.cloud', { name: LOBE_CHAT_CLOUD })}
-            </Link>
-          ),
-        },
-        {
-          icon: <Icon icon={Feather} />,
-          key: 'email',
-          label: (
-            <Link href={EMAIL_BUSINESS} target={'_blank'}>
-              {t('userPanel.email')}
-            </Link>
-          ),
-        },
-        {
-          children: [
-            {
-              icon: <Icon icon={Book} />,
-              key: 'docs',
-              label: (
-                <Link href={DOCUMENTS_REFER_URL} target={'_blank'}>
-                  {t('userPanel.docs')}
-                </Link>
-              ),
-            },
-            {
-              icon: <Icon icon={Book} />,
-              key: 'feedback',
-              label: (
-                <Link href={X} target={'_blank'}>
-                  {t('userPanel.feedback')}
-                </Link>
-              ),
-            },
-            {
-              icon: <Icon icon={DiscordIcon} />,
-              key: 'discord',
-              label: (
-                <Link href={DISCORD} target={'_blank'}>
-                  {t('userPanel.discord')}
-                </Link>
-              ),
-            },
-          ],
-          icon: <Icon icon={LifeBuoy} />,
-          key: 'help',
-          label: t('userPanel.help'),
-        },
-        {
-          type: 'divider',
-        },
-        {
-          icon: <Icon icon={LifeBuoy} />,
-          key: 'privacy',
-          label: (
-            <Link href='https://privacy.mr5ai.com/' target={'_blank'}>
-              {t('userPanel.privacy')}
-            </Link>
-          ),
-        },
-        {
-          type: 'divider',
-        },
-      ].filter(Boolean) as ItemType[]);
+      showCloudPromotion && {
+        icon: <Icon icon={Cloudy} />,
+        key: 'cloud',
+        label: (
+          <Link href={OFFICIAL_URL} target={'_blank'}>
+            {t('userPanel.cloud', { name: LOBE_CHAT_CLOUD })}
+          </Link>
+        ),
+      },
+      {
+        icon: <Icon icon={Feather} />,
+        key: 'email',
+        label: (
+          <Link href={EMAIL_BUSINESS} target={'_blank'}>
+            {t('userPanel.email')}
+          </Link>
+        ),
+      },
+      {
+        children: [
+          {
+            icon: <Icon icon={Book} />,
+            key: 'docs',
+            label: (
+              <Link href={DOCUMENTS_REFER_URL} target={'_blank'}>
+                {t('userPanel.docs')}
+              </Link>
+            ),
+          },
+          {
+            icon: <Icon icon={Book} />,
+            key: 'feedback',
+            label: (
+              <Link href={X} target={'_blank'}>
+                {t('userPanel.feedback')}
+              </Link>
+            ),
+          },
+          {
+            icon: <Icon icon={DiscordIcon} />,
+            key: 'discord',
+            label: (
+              <Link href={DISCORD} target={'_blank'}>
+                {t('userPanel.discord')}
+              </Link>
+            ),
+          },
+        ],
+        icon: <Icon icon={LifeBuoy} />,
+        key: 'help',
+        label: t('userPanel.help'),
+      },
+      {
+        type: 'divider',
+      },
+      {
+        icon: <Icon icon={LifeBuoy} />,
+        key: 'privacy',
+        label: (
+          <Link href='https://privacy.mr5ai.com/' target={'_blank'}>
+            {t('userPanel.privacy')}
+          </Link>
+        ),
+      },
+      {
+        type: 'divider',
+      },
+    ].filter(Boolean) as ItemType[]);
 
   const mainItems = [
     {
@@ -233,7 +233,6 @@ export const useMenu = () => {
     },
     ...(!enableAuth || (enableAuth && isLoginWithAuth) ? profile : []),
     ...(isLogin ? settings : []),
-    ...(isLoginWithClerk ? profile : []),
     /* ↓ cloud slot ↓ */
 
     /* ↑ cloud slot ↑ */
@@ -244,12 +243,12 @@ export const useMenu = () => {
 
   const logoutItems: MenuProps['items'] = isLoginWithAuth
     ? [
-        {
-          icon: <Icon icon={LogOut} />,
-          key: 'logout',
-          label: <span>{t('signout', { ns: 'auth' })}</span>,
-        },
-      ]
+      {
+        icon: <Icon icon={LogOut} />,
+        key: 'logout',
+        label: <span>{t('signout', { ns: 'auth' })}</span>,
+      },
+    ]
     : [];
 
   return { logoutItems, mainItems };
