@@ -1,4 +1,4 @@
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { ActionIcon, Grid } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { createStyles, useResponsive } from 'antd-style';

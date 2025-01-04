@@ -1,6 +1,6 @@
 'use client';
 
-import { ProviderCombine } from '@lobehub/icons';
+import { ProviderCombine } from '@bentwnghk/icons';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

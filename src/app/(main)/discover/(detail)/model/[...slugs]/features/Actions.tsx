@@ -1,6 +1,6 @@
 'use client';
 
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';

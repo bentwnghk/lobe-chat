@@ -1,4 +1,4 @@
-import { Azure, OpenAI } from '@lobehub/icons';
+import { Azure, OpenAI } from '@bentwnghk/icons';
 import { SelectProps } from 'antd';
 
 import { LabelRenderer } from '@/components/ModelSelect';

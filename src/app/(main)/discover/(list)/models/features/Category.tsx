@@ -1,6 +1,6 @@
 'use client';
 
-import { ProviderIcon } from '@lobehub/icons';
+import { ProviderIcon } from '@bentwnghk/icons';
 import { Icon } from '@bentwnghk/ui';
 import { MenuProps } from 'antd';
 import { useTheme } from 'antd-style';

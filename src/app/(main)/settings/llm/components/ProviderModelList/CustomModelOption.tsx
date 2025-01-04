@@ -1,4 +1,4 @@
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { App, Typography } from 'antd';
 import isEqual from 'fast-deep-equal';

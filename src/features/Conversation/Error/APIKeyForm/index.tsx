@@ -1,4 +1,4 @@
-import { ProviderIcon } from '@lobehub/icons';
+import { ProviderIcon } from '@bentwnghk/icons';
 import { Button } from 'antd';
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

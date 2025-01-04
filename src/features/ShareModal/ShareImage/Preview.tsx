@@ -1,4 +1,4 @@
-import { ModelTag } from '@lobehub/icons';
+import { ModelTag } from '@bentwnghk/icons';
 import { Avatar, ChatHeaderTitle, Markdown } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

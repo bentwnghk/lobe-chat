@@ -1,4 +1,4 @@
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { ActionIcon, Tooltip } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { useTheme } from 'antd-style';

@@ -1,4 +1,4 @@
-import { OpenAI } from '@lobehub/icons';
+import { OpenAI } from '@bentwnghk/icons';
 import { SelectProps } from 'antd';
 
 import { LabelRenderer } from '@/components/ModelSelect';

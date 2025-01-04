@@ -1,6 +1,6 @@
 'use client';
 
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

@@ -1,4 +1,4 @@
-import { Aws } from '@lobehub/icons';
+import { Aws } from '@bentwnghk/icons';
 import { Icon } from '@bentwnghk/ui';
 import { Button, Input, Select } from 'antd';
 import { useTheme } from 'antd-style';

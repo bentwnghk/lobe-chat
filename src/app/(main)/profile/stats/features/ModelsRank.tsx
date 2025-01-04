@@ -1,5 +1,5 @@
 import { BarList } from '@lobehub/charts';
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { ActionIcon, FormGroup, Modal } from '@bentwnghk/ui';
 import { MaximizeIcon } from 'lucide-react';
 import { memo, useState } from 'react';

@@ -1,4 +1,4 @@
-import { ModelTag, ProviderCombine } from '@lobehub/icons';
+import { ModelTag, ProviderCombine } from '@bentwnghk/icons';
 import { Tag } from '@bentwnghk/ui';
 import { Skeleton, Typography } from 'antd';
 import { createStyles } from 'antd-style';

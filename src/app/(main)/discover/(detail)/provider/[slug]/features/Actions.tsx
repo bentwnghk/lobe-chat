@@ -1,6 +1,6 @@
 'use client';
 
-import { ModelTag, ProviderIcon } from '@lobehub/icons';
+import { ModelTag, ProviderIcon } from '@bentwnghk/icons';
 import { Tag } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

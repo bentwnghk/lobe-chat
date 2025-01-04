@@ -1,4 +1,4 @@
-import { Ollama } from '@lobehub/icons';
+import { Ollama } from '@bentwnghk/icons';
 import { Button, Input, Progress } from 'antd';
 import { useTheme } from 'antd-style';
 import { memo, useMemo, useState } from 'react';

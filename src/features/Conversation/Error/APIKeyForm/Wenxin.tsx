@@ -1,4 +1,4 @@
-import { Wenxin } from '@lobehub/icons';
+import { Wenxin } from '@bentwnghk/icons';
 import { Input } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

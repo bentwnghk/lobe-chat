@@ -1,4 +1,4 @@
-import { ModelTag } from '@lobehub/icons';
+import { ModelTag } from '@bentwnghk/icons';
 import { memo, useMemo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 import { shallow } from 'zustand/shallow';

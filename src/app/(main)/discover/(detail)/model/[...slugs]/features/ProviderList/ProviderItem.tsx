@@ -1,4 +1,4 @@
-import { ModelTag, ProviderCombine } from '@lobehub/icons';
+import { ModelTag, ProviderCombine } from '@bentwnghk/icons';
 import { ActionIcon, Grid, Icon, Tooltip } from '@bentwnghk/ui';
 import { Tag } from 'antd';
 import { createStyles, useResponsive } from 'antd-style';

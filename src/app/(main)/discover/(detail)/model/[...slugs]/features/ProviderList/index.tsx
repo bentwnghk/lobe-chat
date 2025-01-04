@@ -1,6 +1,6 @@
 'use client';
 
-import { ModelIcon } from '@lobehub/icons';
+import { ModelIcon } from '@bentwnghk/icons';
 import { Divider } from 'antd';
 import { useTheme } from 'antd-style';
 import { BrainCircuit } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { ModelTag } from '@lobehub/icons';
+import { ModelTag } from '@bentwnghk/icons';
 import { Icon, Markdown } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
