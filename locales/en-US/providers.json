@@ -66,7 +66,7 @@
     "description": "Ollama provides models that cover a wide range of fields, including code generation, mathematical operations, multilingual processing, and conversational interaction, catering to diverse enterprise-level and localized deployment needs."
   },
   "openai": {
-    "description": "OpenAI is a global leader in artificial intelligence research, with models like the GPT series pushing the frontiers of natural language processing. OpenAI is committed to transforming multiple industries through innovative and efficient AI solutions. Their products demonstrate significant performance and cost-effectiveness, widely used in research, business, and innovative applications."
+    "description": "Mr.🆖 AI Hub provides global mainstream AI model API interface services that are cheaper than the official ones, including OpenAI GPT, Anthropic Claude, Google Gemini, Meta Llama, xAI Grok, Mistral, Perplexity, DeepSeek and other large language models (LLM), with high speed and high performance. It is stable, has high concurrency, and will never be blocked. No need for VPN magic to access the Internet. The billing adopts a quota consumption system. You can recharge at any time and there is no usage time limit."
   },
   "openrouter": {
     "description": "OpenRouter is a service platform providing access to various cutting-edge large model interfaces, supporting OpenAI, Anthropic, LLaMA, and more, suitable for diverse development and application needs. Users can flexibly choose the optimal model and pricing based on their requirements, enhancing the AI experience."
