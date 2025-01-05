@@ -70,6 +70,6 @@ export const RELEASES_URL = CHANGELOG;
 export const mailTo = (email: string) => `mailto:${email}`;
 
 export const AES_GCM_URL = 'https://datatracker.ietf.org/doc/html/draft-ietf-avt-srtp-aes-gcm-01';
-export const BASE_PROVIDER_DOC_URL = 'https://google.com/search?q=';
+export const BASE_PROVIDER_DOC_URL = 'https://mr5ai.com/discover/provider/';
 export const SITEMAP_BASE_URL = isDev ? '/sitemap.xml/' : 'sitemap';
 export const CHANGELOG_URL = CHANGELOG;
