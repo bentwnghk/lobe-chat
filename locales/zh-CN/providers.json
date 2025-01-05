@@ -66,7 +66,7 @@
     "description": "Ollama 提供的模型广泛涵盖代码生成、数学运算、多语种处理和对话互动等领域，支持企业级和本地化部署的多样化需求。"
   },
   "openai": {
-    "description": "OpenAI 是全球领先的人工智能研究机构，其开发的模型如GPT系列推动了自然语言处理的前沿。OpenAI 致力于通过创新和高效的AI解决方案改变多个行业。他们的产品具有显著的性能和经济性，广泛用于研究、商业和创新应用。"
+    "description": "Mr.🆖 AI Hub 提供比官方便宜的全球主流 AI 模型 API 接口服务，包括 OpenAI GPT、Anthropic Claude、Google Gemini、Meta Llama、xAI Grok、Mistral、Perplexity、DeepSeek 等大型语言模型 (LLM)，高速、高稳定、高并发，且绝不封号、无需 VPN 魔法上网，计费采用额度消耗制，随时充值，且无使用时限。"
   },
   "openrouter": {
     "description": "OpenRouter 是一个提供多种前沿大模型接口的服务平台，支持 OpenAI、Anthropic、LLaMA 及更多，适合多样化的开发和应用需求。用户可根据自身需求灵活选择最优的模型和价格，助力AI体验的提升。"
