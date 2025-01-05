@@ -143,7 +143,7 @@ Mr.🆖 AI 支持文件上传与知识库功能，你可以上传文件、图片
 
 <!-- PROVIDER LIST -->
 
-- **[Mr.🆖 AI Hub](https://lobechat.com/discover/provider/openai)**: OpenAI 是全球领先的人工智能研究机构，其开发的模型如 GPT 系列推动了自然语言处理的前沿。OpenAI 致力于通过创新和高效的 AI 解决方案改变多个行业。他们的产品具有显著的性能和经济性，广泛用于研究、商业和创新应用。
+- **[Mr.🆖 AI Hub](https://lobechat.com/discover/provider/openai)**: Mr.🆖 AI Hub 提供比官方便宜的全球主流 AI 模型 API 接口服务，包括 OpenAI GPT、Anthropic Claude、Google Gemini、Meta Llama、xAI Grok、Mistral、Perplexity、DeepSeek 等大型语言模型 (LLM)，高速、高稳定、高并发，且绝不封号、无需 VPN 魔法上网，计费采用额度消耗制，随时充值，且无使用时限。
 - **[Ollama](https://lobechat.com/discover/provider/ollama)**: Ollama 提供的模型广泛涵盖代码生成、数学运算、多语种处理和对话互动等领域，支持企业级和本地化部署的多样化需求。
 - **[Anthropic](https://lobechat.com/discover/provider/anthropic)**: Anthropic 是一家专注于人工智能研究和开发的公司，提供了一系列先进的语言模型，如 Claude 3.5 Sonnet、Claude 3 Sonnet、Claude 3 Opus 和 Claude 3 Haiku。这些模型在智能、速度和成本之间取得了理想的平衡，适用于从企业级工作负载到快速响应的各种应用场景。Claude 3.5 Sonnet 作为其最新模型，在多项评估中表现优异，同时保持了较高的性价比。
 - **[Bedrock](https://lobechat.com/discover/provider/bedrock)**: Bedrock 是亚马逊 AWS 提供的一项服务，专注于为企业提供先进的 AI 语言模型和视觉模型。其模型家族包括 Anthropic 的 Claude 系列、Meta 的 Llama 3.1 系列等，涵盖从轻量级到高性能的多种选择，支持文本生成、对话、图像处理等多种任务，适用于不同规模和需求的企业应用。
