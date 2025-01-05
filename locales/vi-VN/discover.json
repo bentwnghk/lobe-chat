@@ -56,7 +56,7 @@
       "desc1": "Vào trang cài đặt của trợ lý bạn muốn gửi thông qua biểu tượng cài đặt ở góc trên bên phải trong cửa sổ trò chuyện;",
       "desc2": "Nhấn nút gửi đến thị trường trợ lý ở góc trên bên phải.",
       "tag": "Phương pháp một",
-      "title": "Gửi qua LobeChat"
+      "title": "Gửi qua Mr.🆖 AI"
     },
     "func2": {
       "button": "Đi đến kho trợ lý trên Github",
@@ -138,7 +138,7 @@
       "type": "Loại"
     },
     "providerInfo": {
-      "apiTooltip": "LobeChat hỗ trợ sử dụng khóa API tùy chỉnh cho nhà cung cấp này.",
+      "apiTooltip": "Mr.🆖 AI hỗ trợ sử dụng khóa API tùy chỉnh cho nhà cung cấp này.",
       "input": "Giá đầu vào",
       "inputTooltip": "Chi phí cho mỗi triệu Token",
       "latency": "Độ trễ",

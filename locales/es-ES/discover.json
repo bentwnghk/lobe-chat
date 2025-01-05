@@ -56,7 +56,7 @@
       "desc1": "En la ventana de conversación, accede a la página de configuración del asistente que deseas enviar a través de la esquina superior derecha;",
       "desc2": "Haz clic en el botón de enviar al mercado de asistentes en la esquina superior derecha.",
       "tag": "Método uno",
-      "title": "Enviar a través de LobeChat"
+      "title": "Enviar a través de Mr.🆖 AI"
     },
     "func2": {
       "button": "Ir al repositorio de asistentes de Github",
@@ -138,7 +138,7 @@
       "type": "Tipo"
     },
     "providerInfo": {
-      "apiTooltip": "LobeChat admite el uso de claves API personalizadas para este proveedor.",
+      "apiTooltip": "Mr.🆖 AI admite el uso de claves API personalizadas para este proveedor.",
       "input": "Precio de entrada",
       "inputTooltip": "Costo por millón de Tokens",
       "latency": "Latencia",

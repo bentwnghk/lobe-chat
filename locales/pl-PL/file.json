@@ -40,7 +40,7 @@
   },
   "networkError": "Nie udało się uzyskać dostępu do bazy wiedzy, proszę sprawdzić połączenie sieciowe i spróbować ponownie",
   "notSupportGuide": {
-    "desc": "Obecna instancja wdrożeniowa jest w trybie bazy danych klienta, co uniemożliwia korzystanie z funkcji zarządzania plikami. Proszę przełączyć się na <1>tryb wdrożenia bazy danych serwera</1> lub bezpośrednio korzystać z <3>LobeChat Cloud</3>",
+    "desc": "Obecna instancja wdrożeniowa jest w trybie bazy danych klienta, co uniemożliwia korzystanie z funkcji zarządzania plikami. Proszę przełączyć się na <1>tryb wdrożenia bazy danych serwera</1> lub bezpośrednio korzystać z <3>Mr.🆖 AI Cloud</3>",
     "features": {
       "allKind": {
         "desc": "Obsługuje popularne typy plików, w tym formaty dokumentów takie jak Word, PPT, Excel, PDF, TXT oraz popularne pliki kodu, takie jak JS, Python",

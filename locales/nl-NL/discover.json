@@ -56,7 +56,7 @@
       "desc1": "Ga naar de instellingenpagina van de assistent die je wilt indienen via de instellingen in de rechterbovenhoek van het gespreksscherm;",
       "desc2": "Klik op de knop 'Indienen naar assistentmarkt' in de rechterbovenhoek.",
       "tag": "Methode één",
-      "title": "Indienen via LobeChat"
+      "title": "Indienen via Mr.🆖 AI"
     },
     "func2": {
       "button": "Ga naar de Github assistent repository",
@@ -138,7 +138,7 @@
       "type": "Type"
     },
     "providerInfo": {
-      "apiTooltip": "LobeChat ondersteunt het gebruik van een aangepaste API-sleutel voor deze provider.",
+      "apiTooltip": "Mr.🆖 AI ondersteunt het gebruik van een aangepaste API-sleutel voor deze provider.",
       "input": "Invoerkosten",
       "inputTooltip": "Kosten per miljoen tokens",
       "latency": "Latentie",

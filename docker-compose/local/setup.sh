@@ -163,10 +163,10 @@ show_message() {
     tips_run_command)
       case $LANGUAGE in
         zh_CN)
-          echo "您已经完成了所有配置。请运行以下命令启动LobeChat："
+          echo "您已经完成了所有配置。请运行以下命令启动Mr.🆖 AI："
           ;;
         *)
-          echo "You have completed all configurations. Please run this command to start LobeChat:"
+          echo "You have completed all configurations. Please run this command to start Mr.🆖 AI:"
           ;;
       esac
       ;;

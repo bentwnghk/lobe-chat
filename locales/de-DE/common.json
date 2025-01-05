@@ -31,7 +31,7 @@
   "batchDelete": "Massenlöschung",
   "blog": "Produkt-Blog",
   "branching": "Unterthema erstellen",
-  "branchingDisable": "Die Funktion „Unterthema“ ist nur in der Serverversion verfügbar. Wenn Sie diese Funktion benötigen, wechseln Sie bitte in den Serverbereitstellungsmodus oder verwenden Sie LobeChat Cloud.",
+  "branchingDisable": "Die Funktion „Unterthema“ ist nur in der Serverversion verfügbar. Wenn Sie diese Funktion benötigen, wechseln Sie bitte in den Serverbereitstellungsmodus oder verwenden Sie Mr.🆖 AI Cloud.",
   "cancel": "Abbrechen",
   "changelog": "Änderungsprotokoll",
   "clientDB": {
@@ -119,7 +119,7 @@
     "and": "und",
     "feedback": {
       "action": "Feedback teilen",
-      "desc": "Jede Ihrer Ideen und Vorschläge sind für uns von unschätzbarem Wert. Wir sind gespannt auf Ihre Meinung! Kontaktieren Sie uns gerne, um Feedback zu Produktfunktionen und Benutzererfahrungen zu geben und helfen Sie uns, LobeChat weiter zu verbessern.",
+      "desc": "Jede Ihrer Ideen und Vorschläge sind für uns von unschätzbarem Wert. Wir sind gespannt auf Ihre Meinung! Kontaktieren Sie uns gerne, um Feedback zu Produktfunktionen und Benutzererfahrungen zu geben und helfen Sie uns, Mr.🆖 AI weiter zu verbessern.",
       "title": "Teilen Sie uns Ihr wertvolles Feedback auf GitHub mit"
     },
     "later": "Später",
@@ -269,9 +269,9 @@
   "telemetry": {
     "allow": "Erlauben",
     "deny": "Verweigern",
-    "desc": "Wir möchten anonyme Nutzungsdaten sammeln, um uns bei der Verbesserung von LobeChat zu helfen und dir ein besseres Produkterlebnis zu bieten. Du kannst dies jederzeit in den „Einstellungen“ - „Über“ deaktivieren.",
+    "desc": "Wir möchten anonyme Nutzungsdaten sammeln, um uns bei der Verbesserung von Mr.🆖 AI zu helfen und dir ein besseres Produkterlebnis zu bieten. Du kannst dies jederzeit in den „Einstellungen“ - „Über“ deaktivieren.",
     "learnMore": "Mehr erfahren",
-    "title": "Hilf LobeChat, besser zu werden"
+    "title": "Hilf Mr.🆖 AI, besser zu werden"
   },
   "temp": "Temporär",
   "terms": "Nutzungsbedingungen",

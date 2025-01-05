@@ -56,7 +56,7 @@
       "desc1": "Gehe im Chatfenster über die Einstellungen in der oberen rechten Ecke zur Seite, auf der du deinen Assistenten einreichen möchtest;",
       "desc2": "Klicke auf die Schaltfläche 'In den Assistentenmarkt einreichen' in der oberen rechten Ecke.",
       "tag": "Methode Eins",
-      "title": "Einreichung über LobeChat"
+      "title": "Einreichung über Mr.🆖 AI"
     },
     "func2": {
       "button": "Gehe zum Github-Assistenten-Repository",
@@ -138,7 +138,7 @@
       "type": "Typ"
     },
     "providerInfo": {
-      "apiTooltip": "LobeChat unterstützt die Verwendung eines benutzerdefinierten API-Schlüssels für diesen Anbieter.",
+      "apiTooltip": "Mr.🆖 AI unterstützt die Verwendung eines benutzerdefinierten API-Schlüssels für diesen Anbieter.",
       "input": "Eingabepreis",
       "inputTooltip": "Kosten pro Million Token",
       "latency": "Latenz",

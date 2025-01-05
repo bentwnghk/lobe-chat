@@ -1,6 +1,6 @@
-# Complete Guide to LobeChat Feature Development
+# Complete Guide to Mr.🆖 AI Feature Development
 
-This document aims to guide developers on how to develop a complete feature requirement in LobeChat.
+This document aims to guide developers on how to develop a complete feature requirement in Mr.🆖 AI.
 
 We will use the implementation of sessionGroup as an example: [✨ feat: add session group manager](https://github.com/lobehub/lobe-chat/pull/1055), and explain the complete implementation process through the following six main sections:
 
@@ -123,7 +123,7 @@ As a result, you can now view the `sessionGroups` table in the `LOBE_CHAT_DB` in
 
 ### Define Model
 
-When building the LobeChat application, the Model is responsible for interacting with the database. It defines how to read, insert, update, and delete data from the database, as well as defining specific business logic.
+When building the Mr.🆖 AI application, the Model is responsible for interacting with the database. It defines how to read, insert, update, and delete data from the database, as well as defining specific business logic.
 
 In `src/database/model/sessionGroup.ts`, the `SessionGroupModel` is defined as follows:
 
@@ -149,7 +149,7 @@ export const SessionGroupModel = new _SessionGroupModel();
 
 ### Service Implementation
 
-In LobeChat, the Service layer is mainly responsible for communicating with the backend service, encapsulating business logic, and providing data to other layers in the frontend. `SessionService` is a service class specifically handling business logic related to sessions. It encapsulates operations such as creating sessions, querying sessions, and updating sessions.
+In Mr.🆖 AI, the Service layer is mainly responsible for communicating with the backend service, encapsulating business logic, and providing data to other layers in the frontend. `SessionService` is a service class specifically handling business logic related to sessions. It encapsulates operations such as creating sessions, querying sessions, and updating sessions.
 
 To maintain code maintainability and extensibility, we place the logic related to session grouping in the `SessionService`. This helps to keep the business logic of the session domain cohesive. When business requirements increase or change, it becomes easier to modify and extend within this domain.
 
@@ -178,7 +178,7 @@ class SessionService {
 
 ## 3. Frontend Data Flow Store Implementation
 
-In the LobeChat application, the Store module is used to manage the frontend state of the application. The Actions within it are functions that trigger state updates, usually by calling methods in the service layer to perform actual data processing operations and then updating the state in the Store. We use `zustand` as the underlying dependency for the Store module. For a detailed practical introduction to state management, you can refer to [📘 Best Practices for State Management](../State-Management/State-Management-Intro.zh-CN.md).
+In the Mr.🆖 AI application, the Store module is used to manage the frontend state of the application. The Actions within it are functions that trigger state updates, usually by calling methods in the service layer to perform actual data processing operations and then updating the state in the Store. We use `zustand` as the underlying dependency for the Store module. For a detailed practical introduction to state management, you can refer to [📘 Best Practices for State Management](../State-Management/State-Management-Intro.zh-CN.md).
 
 ### sessionGroup CRUD
 
@@ -402,11 +402,11 @@ The core logic of this migration is as follows:
 
 - When the user's `group` field is `pinned`, set their `pinned` field to `true`, and set the group to `default`.
 
-However, data migration in LobeChat typically involves two parts: **configuration file migration** and **database migration**. Therefore, the above logic will need to be implemented separately in these two areas.
+However, data migration in Mr.🆖 AI typically involves two parts: **configuration file migration** and **database migration**. Therefore, the above logic will need to be implemented separately in these two areas.
 
 #### Configuration File Migration
 
-For configuration file migration, we recommend performing it before database migration, as configuration file migration is usually easier to test and validate. LobeChat's file migration configuration is located in the `src/migrations/index.ts` file, which defines the various versions of configuration file migration and their corresponding migration scripts.
+For configuration file migration, we recommend performing it before database migration, as configuration file migration is usually easier to test and validate. Mr.🆖 AI's file migration configuration is located in the `src/migrations/index.ts` file, which defines the various versions of configuration file migration and their corresponding migration scripts.
 
 ```diff
 // Current latest version number
@@ -572,7 +572,7 @@ This is our data migration strategy. When performing the migration, it is essent
 
 ## 6. Data Import and Export
 
-In LobeChat, the data import and export feature is designed to ensure that users can migrate their data between different devices. This includes session, topic, message, and settings data. In the implementation of the Session Group feature, we also need to handle data import and export to ensure that the complete exported data can be restored exactly the same on other devices.
+In Mr.🆖 AI, the data import and export feature is designed to ensure that users can migrate their data between different devices. This includes session, topic, message, and settings data. In the implementation of the Session Group feature, we also need to handle data import and export to ensure that the complete exported data can be restored exactly the same on other devices.
 
 The core implementation of data import and export is in the `ConfigService` in `src/service/config.ts`, with key methods as follows:
 
@@ -588,7 +588,7 @@ The core implementation of data import and export is in the `ConfigService` in `
 
 ### Data Export
 
-In LobeChat, when a user chooses to export data, the current session, topic, message, and settings data are packaged into a JSON file and provided for download. The standard structure of this JSON file is as follows:
+In Mr.🆖 AI, when a user chooses to export data, the current session, topic, message, and settings data are packaged into a JSON file and provided for download. The standard structure of this JSON file is as follows:
 
 ```json
 {
@@ -706,8 +706,8 @@ class ConfigService {
 
 One key point of the above modification is to import sessionGroup first, because if sessions are imported first and the corresponding SessionGroup Id is not found in the current database, the group of this session will default to be modified to the default value. This will prevent the correct association of the sessionGroup's ID with the session.
 
-This is the implementation of the LobeChat Session Group feature in the data import and export process. This approach ensures that users' Session Group data is correctly handled during the import and export process.
+This is the implementation of the Mr.🆖 AI Session Group feature in the data import and export process. This approach ensures that users' Session Group data is correctly handled during the import and export process.
 
 ## Summary
 
-The above is the complete implementation process of the LobeChat Session Group feature. Developers can refer to this document for the development and testing of related functionalities.
+The above is the complete implementation process of the Mr.🆖 AI Session Group feature. Developers can refer to this document for the development and testing of related functionalities.

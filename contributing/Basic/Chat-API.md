@@ -1,6 +1,6 @@
 # Conversation API Implementation Logic
 
-The implementation of LobeChat's large model AI mainly relies on OpenAI's API, including the core conversation API on the backend and the integrated API on the frontend. Next, we will introduce the implementation approach and code for the backend and frontend separately.
+The implementation of Mr.🆖 AI's large model AI mainly relies on OpenAI's API, including the core conversation API on the backend and the integrated API on the frontend. Next, we will introduce the implementation approach and code for the backend and frontend separately.
 
 #### TOC
 
@@ -133,4 +133,4 @@ export const fetchSSE = async (fetchFn: () => Promise<Response>, options: FetchS
 };
 ```
 
-The above is the core implementation of the LobeChat session API. With an understanding of these core codes, further expansion and optimization of LobeChat's AI functionality can be achieved.
+The above is the core implementation of the Mr.🆖 AI session API. With an understanding of these core codes, further expansion and optimization of Mr.🆖 AI's AI functionality can be achieved.

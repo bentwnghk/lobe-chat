@@ -56,7 +56,7 @@
       "desc1": "Accédez à la page de paramètres de l'assistant que vous souhaitez soumettre via le coin supérieur droit de la fenêtre de conversation ;",
       "desc2": "Cliquez sur le bouton de soumission au marché des assistants dans le coin supérieur droit.",
       "tag": "Méthode un",
-      "title": "Soumettre via LobeChat"
+      "title": "Soumettre via Mr.🆖 AI"
     },
     "func2": {
       "button": "Aller au dépôt d'assistants Github",
@@ -138,7 +138,7 @@
       "type": "Type"
     },
     "providerInfo": {
-      "apiTooltip": "LobeChat prend en charge l'utilisation de clés API personnalisées pour ce fournisseur.",
+      "apiTooltip": "Mr.🆖 AI prend en charge l'utilisation de clés API personnalisées pour ce fournisseur.",
       "input": "Prix d'entrée",
       "inputTooltip": "Coût par million de tokens",
       "latency": "Latence",

@@ -40,7 +40,7 @@
   },
   "networkError": "Error al obtener la base de conocimientos, por favor verifica la conexión a internet y vuelve a intentarlo",
   "notSupportGuide": {
-    "desc": "La instancia de despliegue actual está en modo de base de datos cliente, no se puede utilizar la función de gestión de archivos. Por favor, cambia a <1>modo de despliegue de base de datos en servidor</1>, o utiliza directamente <3>LobeChat Cloud</3>",
+    "desc": "La instancia de despliegue actual está en modo de base de datos cliente, no se puede utilizar la función de gestión de archivos. Por favor, cambia a <1>modo de despliegue de base de datos en servidor</1>, o utiliza directamente <3>Mr.🆖 AI Cloud</3>",
     "features": {
       "allKind": {
         "desc": "Soporta los tipos de archivos más comunes, incluyendo formatos de documentos como Word, PPT, Excel, PDF, TXT, así como archivos de código como JS, Python, etc.",

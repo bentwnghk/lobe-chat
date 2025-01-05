@@ -56,7 +56,7 @@
       "desc1": "Access the settings page for the assistant you want to submit through the settings in the upper right corner of the conversation window;",
       "desc2": "Click the 'Submit to Assistant Marketplace' button in the upper right corner.",
       "tag": "Method One",
-      "title": "Submit via LobeChat"
+      "title": "Submit via Mr.🆖 AI"
     },
     "func2": {
       "button": "Go to GitHub Assistant Repository",
@@ -138,7 +138,7 @@
       "type": "Type"
     },
     "providerInfo": {
-      "apiTooltip": "LobeChat supports using a custom API key for this provider.",
+      "apiTooltip": "Mr.🆖 AI supports using a custom API key for this provider.",
       "input": "Input Price",
       "inputTooltip": "Cost per million tokens",
       "latency": "Latency",

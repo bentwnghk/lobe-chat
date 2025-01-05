@@ -31,7 +31,7 @@
   "batchDelete": "Excluir em massa",
   "blog": "Blog de Produtos",
   "branching": "Criar subtópico",
-  "branchingDisable": "A funcionalidade de \"subtópico\" está disponível apenas na versão do servidor. Se precisar dessa funcionalidade, mude para o modo de implantação no servidor ou use o LobeChat Cloud.",
+  "branchingDisable": "A funcionalidade de \"subtópico\" está disponível apenas na versão do servidor. Se precisar dessa funcionalidade, mude para o modo de implantação no servidor ou use o Mr.🆖 AI Cloud.",
   "cancel": "Cancelar",
   "changelog": "Registro de alterações",
   "clientDB": {
@@ -119,7 +119,7 @@
     "and": "e",
     "feedback": {
       "action": "Compartilhar feedback",
-      "desc": "Cada uma de suas ideias e sugestões é extremamente valiosa para nós. Mal podemos esperar para saber o que você pensa! Sinta-se à vontade para entrar em contato conosco para fornecer feedback sobre os recursos do produto e a experiência de uso, ajudando-nos a tornar o LobeChat ainda melhor.",
+      "desc": "Cada uma de suas ideias e sugestões é extremamente valiosa para nós. Mal podemos esperar para saber o que você pensa! Sinta-se à vontade para entrar em contato conosco para fornecer feedback sobre os recursos do produto e a experiência de uso, ajudando-nos a tornar o Mr.🆖 AI ainda melhor.",
       "title": "Compartilhe seu valioso feedback no GitHub"
     },
     "later": "Mais tarde",
@@ -269,9 +269,9 @@
   "telemetry": {
     "allow": "Permitir",
     "deny": "Negar",
-    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o LobeChat e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
+    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o Mr.🆖 AI e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
     "learnMore": "Saiba mais",
-    "title": "Ajude o LobeChat a melhorar"
+    "title": "Ajude o Mr.🆖 AI a melhorar"
   },
   "temp": "Temporário",
   "terms": "Termos de Serviço",

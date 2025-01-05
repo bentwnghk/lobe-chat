@@ -1,14 +1,14 @@
 ---
-title: 在 LobeChat 中配置 Cloudflare Zero Trust 身份验证服务
+title: 在 Mr.🆖 AI 中配置 Cloudflare Zero Trust 身份验证服务
 description: >-
-  学习如何在 LobeChat 中配置 Cloudflare Zero Trust 身份验证服务，包括创建提供程序、配置环境变量和部署
-  LobeChat。详细步骤和必要环境变量设置。
+  学习如何在 Mr.🆖 AI 中配置 Cloudflare Zero Trust 身份验证服务，包括创建提供程序、配置环境变量和部署
+  Mr.🆖 AI。详细步骤和必要环境变量设置。
 tags:
   - Cloudflare Zero Trust
   - 身份验证
   - 单点登录
   - 环境变量
-  - LobeChat
+  - Mr.🆖 AI
 ---
 
 # 配置 Cloudflare Zero Trust 身份验证服务
@@ -18,7 +18,7 @@ tags:
 <Steps>
 ### 在 Cloudflare Zero Trust 中创建应用
 
-我们现在默认您已经了解了如何使用 Cloudflare Zero Trust 平台且假设您的 LobeChat 实例部署在 `https://chat.example.com` 中。
+我们现在默认您已经了解了如何使用 Cloudflare Zero Trust 平台且假设您的 Mr.🆖 AI 实例部署在 `https://chat.example.com` 中。
 
 首先我们需要访问 `https://one.dash.cloudflare.com/` 并前往 `Access - Applications` 中。
 
@@ -28,21 +28,21 @@ tags:
 
 ![image](https://github.com/user-attachments/assets/3da4c8c4-88c6-40a9-8005-6a0a44aa3b1f)
 
-在 `Application` 文本框内填入应用名称，如：`LobeChat SSO`，然后点击 `Select OIDC` 后点击 `Add applicaiton`
+在 `Application` 文本框内填入应用名称，如：`Mr.🆖 AI SSO`，然后点击 `Select OIDC` 后点击 `Add applicaiton`
 
 ![image](https://github.com/user-attachments/assets/16cd9aef-c87b-48a4-95c0-b666082e7515)
 
-至此您已成功在 Clouflare Zero Trust 中创建了一个名为 `LobeChat SSO` 的 SaaS 应用。
+至此您已成功在 Clouflare Zero Trust 中创建了一个名为 `Mr.🆖 AI SSO` 的 SaaS 应用。
 
 接下来我们需要在 `Redirect URLs` 中填入 `https://chat.example.com/api/auth/callback/cloudflare-zero-trust`（注意此处的 `chat.example.com` 需要替换为您的实例地址） ![image](https://github.com/user-attachments/assets/433fdce4-0af5-417f-b80d-163c2d4f02f6)
 
-最后我们将页面往下滚动，您将需要记录以下三个值 `Client secret`, `Client ID` 及 `Issuer` 以备后续部署 LobeChat 环境变量使用。
+最后我们将页面往下滚动，您将需要记录以下三个值 `Client secret`, `Client ID` 及 `Issuer` 以备后续部署 Mr.🆖 AI 环境变量使用。
 
 ![image](https://github.com/user-attachments/assets/2dd3cde5-fa0d-4f52-b82b-28d9e89379a0)
 
 ### 配置环境变量
 
-在部署 LobeChat 时，你需要配置以下环境变量：
+在部署 Mr.🆖 AI 时，你需要配置以下环境变量：
 
 | 环境变量 | 类型 | 描述 |
 | --- | --- | --- |
@@ -60,5 +60,5 @@ tags:
 </Steps>
 
 <Callout type={'info'}>
-  部署成功后，用户将可以使用 Cloudflare Zero Trust 中配置的用户通过身份认证并使用 LobeChat。
+  部署成功后，用户将可以使用 Cloudflare Zero Trust 中配置的用户通过身份认证并使用 Mr.🆖 AI。
 </Callout>

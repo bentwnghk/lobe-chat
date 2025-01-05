@@ -1,7 +1,7 @@
 ---
-title: LobeChat Upstream Sync and Docker Deployment Guide
+title: Mr.🆖 AI Upstream Sync and Docker Deployment Guide
 description: >-
-  Learn how to enable automatic updates for LobeChat Vercel deployments and
+  Learn how to enable automatic updates for Mr.🆖 AI Vercel deployments and
   upgrade Docker deployment versions easily. Follow step-by-step instructions
   for a seamless deployment process.
 tags:
@@ -54,21 +54,21 @@ If you encounter a sync failure, you need to manually click "Update Branch" once
 
 ## `B` Docker Deployment
 
-Upgrading the Docker deployment version is very simple, you just need to redeploy the latest LobeChat image. Here are the commands required to perform these steps:
+Upgrading the Docker deployment version is very simple, you just need to redeploy the latest Mr.🆖 AI image. Here are the commands required to perform these steps:
 
 <Steps>
-  ### Stop and Remove the Current Running LobeChat Container
+  ### Stop and Remove the Current Running Mr.🆖 AI Container
 
-Assuming the LobeChat container is named `lobe-chat`, use the following commands to stop and remove the currently running LobeChat container:
+Assuming the Mr.🆖 AI container is named `lobe-chat`, use the following commands to stop and remove the currently running Mr.🆖 AI container:
 
 ```fish
 docker stop lobe-chat
 docker rm lobe-chat
 ```
 
-### Pull the Latest LobeChat Image
+### Pull the Latest Mr.🆖 AI Image
 
-Use the following command to pull the latest Docker image for LobeChat:
+Use the following command to pull the latest Docker image for Mr.🆖 AI:
 
 ```fish
 docker pull lobehub/lobe-chat
@@ -76,7 +76,7 @@ docker pull lobehub/lobe-chat
 
 ### Restart the Docker Container
 
-Redeploy the LobeChat container using the newly pulled image:
+Redeploy the Mr.🆖 AI container using the newly pulled image:
 
 ```fish
 docker run -d -p 3210:3210 \
@@ -94,7 +94,7 @@ Ensure that you have sufficient permissions to stop and remove the container bef
 <Callout type={'tip'}>
   **If I redeploy, will I lose my local chat records?**
 
-No need to worry, you won't. All of LobeChat's chat records are stored in your local browser. Therefore, when redeploying LobeChat using Docker, your chat records will not be lost.
+No need to worry, you won't. All of Mr.🆖 AI's chat records are stored in your local browser. Therefore, when redeploying Mr.🆖 AI using Docker, your chat records will not be lost.
 
 </Callout>
 

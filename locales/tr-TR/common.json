@@ -31,7 +31,7 @@
   "batchDelete": "Toplu Sil",
   "blog": "Ürün Blogu",
   "branching": "Alt konu oluştur",
-  "branchingDisable": "«Alt konu» özelliği yalnızca sunucu sürümünde mevcuttur. Bu özelliği kullanmak için lütfen sunucu dağıtım moduna geçin veya LobeChat Cloud'u kullanın.",
+  "branchingDisable": "«Alt konu» özelliği yalnızca sunucu sürümünde mevcuttur. Bu özelliği kullanmak için lütfen sunucu dağıtım moduna geçin veya Mr.🆖 AI Cloud'u kullanın.",
   "cancel": "İptal",
   "changelog": "Changelog",
   "clientDB": {
@@ -119,7 +119,7 @@
     "and": "ve",
     "feedback": {
       "action": "Geri Bildirim Paylaş",
-      "desc": "Her fikir ve öneriniz bizim için değerlidir, görüşlerinizi duymak için sabırsızlanıyoruz! LobeChat'in ürün özellikleri ve kullanıcı deneyimi hakkında geri bildirim sağlayarak bize yardımcı olun ve platformumuzu daha da geliştirmemize katkıda bulunun.",
+      "desc": "Her fikir ve öneriniz bizim için değerlidir, görüşlerinizi duymak için sabırsızlanıyoruz! Mr.🆖 AI'in ürün özellikleri ve kullanıcı deneyimi hakkında geri bildirim sağlayarak bize yardımcı olun ve platformumuzu daha da geliştirmemize katkıda bulunun.",
       "title": "GitHub'da Değerli Geri Bildiriminizi Paylaşın"
     },
     "later": "Daha Sonra",
@@ -269,9 +269,9 @@
   "telemetry": {
     "allow": "İzin ver",
     "deny": "Reddet",
-    "desc": "Anonim kullanım bilgilerinizi toplamamıza izin vererek LobeChat'i geliştirmemize ve size daha iyi bir ürün deneyimi sunmamıza yardımcı olabilirsiniz. Dilediğiniz zaman 'Ayarlar' - 'Hakkında' bölümünden devre dışı bırakabilirsiniz.",
+    "desc": "Anonim kullanım bilgilerinizi toplamamıza izin vererek Mr.🆖 AI'i geliştirmemize ve size daha iyi bir ürün deneyimi sunmamıza yardımcı olabilirsiniz. Dilediğiniz zaman 'Ayarlar' - 'Hakkında' bölümünden devre dışı bırakabilirsiniz.",
     "learnMore": "Daha Fazla Bilgi",
-    "title": "LobeChat'i Geliştirmemize Yardımcı Olun"
+    "title": "Mr.🆖 AI'i Geliştirmemize Yardımcı Olun"
   },
   "temp": "Geçici",
   "terms": "Hizmet Koşulları",

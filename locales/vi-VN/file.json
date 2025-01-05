@@ -40,7 +40,7 @@
   },
   "networkError": "Không thể lấy kho tri thức, vui lòng kiểm tra kết nối mạng và thử lại",
   "notSupportGuide": {
-    "desc": "Phiên bản triển khai hiện tại là chế độ cơ sở dữ liệu khách hàng, không thể sử dụng chức năng quản lý tệp. Vui lòng chuyển sang <1>chế độ triển khai cơ sở dữ liệu máy chủ</1>, hoặc sử dụng trực tiếp <3>LobeChat Cloud</3>",
+    "desc": "Phiên bản triển khai hiện tại là chế độ cơ sở dữ liệu khách hàng, không thể sử dụng chức năng quản lý tệp. Vui lòng chuyển sang <1>chế độ triển khai cơ sở dữ liệu máy chủ</1>, hoặc sử dụng trực tiếp <3>Mr.🆖 AI Cloud</3>",
     "features": {
       "allKind": {
         "desc": "Hỗ trợ các loại tệp phổ biến, bao gồm các định dạng tài liệu như Word, PPT, Excel, PDF, TXT, cũng như các tệp mã nguồn phổ biến như JS, Python",

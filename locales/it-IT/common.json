@@ -31,7 +31,7 @@
   "batchDelete": "Elimina in batch",
   "blog": "Blog sui prodotti",
   "branching": "Crea un sottotema",
-  "branchingDisable": "La funzione «sottotema» è disponibile solo nella versione server. Se desideri utilizzare questa funzione, passa alla modalità di distribuzione server o utilizza LobeChat Cloud.",
+  "branchingDisable": "La funzione «sottotema» è disponibile solo nella versione server. Se desideri utilizzare questa funzione, passa alla modalità di distribuzione server o utilizza Mr.🆖 AI Cloud.",
   "cancel": "Annulla",
   "changelog": "Registro modifiche",
   "clientDB": {
@@ -119,7 +119,7 @@
     "and": "e",
     "feedback": {
       "action": "Condividi feedback",
-      "desc": "Ogni tua idea e suggerimento è prezioso per noi, non vediamo l'ora di conoscere la tua opinione! Contattaci per fornire feedback sulle funzionalità del prodotto e sull'esperienza utente, aiutandoci a migliorare LobeChat.",
+      "desc": "Ogni tua idea e suggerimento è prezioso per noi, non vediamo l'ora di conoscere la tua opinione! Contattaci per fornire feedback sulle funzionalità del prodotto e sull'esperienza utente, aiutandoci a migliorare Mr.🆖 AI.",
       "title": "Condividi il tuo prezioso feedback su GitHub"
     },
     "later": "Più tardi",
@@ -269,9 +269,9 @@
   "telemetry": {
     "allow": "Consenti",
     "deny": "Rifiuta",
-    "desc": "Speriamo di acquisire in modo anonimo le tue informazioni sull'uso per aiutarci a migliorare LobeChat e offrirti un'esperienza prodotto migliore. Puoi disattivarlo in qualsiasi momento in Impostazioni - Informazioni su.",
+    "desc": "Speriamo di acquisire in modo anonimo le tue informazioni sull'uso per aiutarci a migliorare Mr.🆖 AI e offrirti un'esperienza prodotto migliore. Puoi disattivarlo in qualsiasi momento in Impostazioni - Informazioni su.",
     "learnMore": "Ulteriori informazioni",
-    "title": "Aiuta LobeChat a migliorare"
+    "title": "Aiuta Mr.🆖 AI a migliorare"
   },
   "temp": "Temporaneo",
   "terms": "Termini di servizio",
