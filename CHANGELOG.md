@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.85.3](https://github.com/bentwnghk/lobe-chat/compare/v1.85.2...v1.85.3)
+
+<sup>Released on **2025-01-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix format short number.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix format short number, closes [#5294](https://github.com/bentwnghk/lobe-chat/issues/5294) ([d8a29ec](https://github.com/bentwnghk/lobe-chat/commit/d8a29ec))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.85.2](https://github.com/bentwnghk/lobe-chat/compare/v1.85.1...v1.85.2)
 
 <sup>Released on **2025-01-04**</sup>
