@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.86.0](https://github.com/bentwnghk/lobe-chat/compare/v1.85.4...v1.86.0)
+
+<sup>Released on **2025-01-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Brand new AI provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix portal suspense error when first open.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Brand new AI provider, closes [#5158](https://github.com/bentwnghk/lobe-chat/issues/5158) ([bde6d64](https://github.com/bentwnghk/lobe-chat/commit/bde6d64))
+
+#### What's fixed
+
+- **misc**: Fix portal suspense error when first open, closes [#5322](https://github.com/bentwnghk/lobe-chat/issues/5322) ([0d4c487](https://github.com/bentwnghk/lobe-chat/commit/0d4c487))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.85.4](https://github.com/bentwnghk/lobe-chat/compare/v1.85.3...v1.85.4)
 
 <sup>Released on **2025-01-07**</sup>
