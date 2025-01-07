@@ -271,6 +271,7 @@ export default {
   },
   temp: '临时',
   terms: 'Mr.🆖 AiSpeak',
+  update: '更新',
   updateAgent: '更新助理信息',
   upgradeVersion: {
     action: '升级',
