@@ -1,5 +1,5 @@
-import { ModelIcon } from '@lobehub/icons';
-import { SortableList } from '@lobehub/ui';
+import { ModelIcon } from '@bentwnghk/icons';
+import { SortableList } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

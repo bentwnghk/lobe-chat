@@ -1,5 +1,5 @@
-import { ProviderCombine, ProviderIcon } from '@lobehub/icons';
-import { Avatar } from '@lobehub/ui';
+import { ProviderCombine, ProviderIcon } from '@bentwnghk/icons';
+import { Avatar } from '@bentwnghk/ui';
 import { Divider, Skeleton, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

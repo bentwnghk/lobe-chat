@@ -1,6 +1,6 @@
 'use client';
 
-import { SearchBar } from '@lobehub/ui';
+import { SearchBar } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { ReactNode, memo } from 'react';
 import { useTranslation } from 'react-i18next';

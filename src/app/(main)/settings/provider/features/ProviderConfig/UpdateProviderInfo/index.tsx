@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { SettingsIcon } from 'lucide-react';

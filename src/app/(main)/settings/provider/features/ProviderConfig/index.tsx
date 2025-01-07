@@ -1,7 +1,7 @@
 'use client';
 
-import { ProviderCombine } from '@lobehub/icons';
-import { Avatar, Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@lobehub/ui';
+import { ProviderCombine } from '@bentwnghk/icons';
+import { Avatar, Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@bentwnghk/ui';
 import { useDebounceFn } from 'ahooks';
 import { Input, Skeleton, Switch } from 'antd';
 import { createStyles } from 'antd-style';

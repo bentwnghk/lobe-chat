@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid } from '@lobehub/ui';
+import { Grid } from '@bentwnghk/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';

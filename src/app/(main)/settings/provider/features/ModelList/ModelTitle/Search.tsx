@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Input, InputProps } from 'antd';
 import { SearchIcon } from 'lucide-react';
 import { memo, useState } from 'react';

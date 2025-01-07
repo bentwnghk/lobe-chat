@@ -1,5 +1,5 @@
-import { ProviderIcon } from '@lobehub/icons';
-import { Avatar, SortableList } from '@lobehub/ui';
+import { ProviderIcon } from '@bentwnghk/icons';
+import { Avatar, SortableList } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

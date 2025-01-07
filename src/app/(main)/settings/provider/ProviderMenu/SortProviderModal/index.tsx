@@ -1,4 +1,4 @@
-import { Modal, SortableList } from '@lobehub/ui';
+import { Modal, SortableList } from '@bentwnghk/ui';
 import { App, Button } from 'antd';
 import { createStyles } from 'antd-style';
 import { memo, useState } from 'react';

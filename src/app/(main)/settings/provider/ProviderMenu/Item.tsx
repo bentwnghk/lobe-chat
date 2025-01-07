@@ -1,5 +1,5 @@
-import { ProviderIcon } from '@lobehub/icons';
-import { Avatar } from '@lobehub/ui';
+import { ProviderIcon } from '@bentwnghk/icons';
+import { Avatar } from '@bentwnghk/ui';
 import { Badge } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

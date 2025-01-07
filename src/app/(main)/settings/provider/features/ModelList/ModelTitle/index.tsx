@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { Button, Skeleton, Space, Typography } from 'antd';
 import { useTheme } from 'antd-style';
 import { CircleX, LucideRefreshCcwDot, PlusIcon } from 'lucide-react';

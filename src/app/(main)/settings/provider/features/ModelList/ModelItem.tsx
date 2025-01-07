@@ -1,5 +1,5 @@
-import { ModelIcon } from '@lobehub/icons';
-import { ActionIcon, Tag, copyToClipboard } from '@lobehub/ui';
+import { ModelIcon } from '@bentwnghk/icons';
+import { ActionIcon, Tag, copyToClipboard } from '@bentwnghk/ui';
 import { App, Switch, Typography } from 'antd';
 import { createStyles, useTheme } from 'antd-style';
 import { LucidePencil, TrashIcon } from 'lucide-react';

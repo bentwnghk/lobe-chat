@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { PlusIcon } from 'lucide-react';
 import { useState } from 'react';

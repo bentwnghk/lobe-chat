@@ -1,5 +1,5 @@
-import { FormModal, Icon } from '@lobehub/ui';
-import type { FormItemProps } from '@lobehub/ui/es/Form/components/FormItem';
+import { FormModal, Icon } from '@bentwnghk/ui';
+import type { FormItemProps } from '@bentwnghk/ui/es/Form/components/FormItem';
 import { App, Input, Radio } from 'antd';
 import { BrainIcon } from 'lucide-react';
 import { useRouter } from 'next/navigation';
