@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "features": ["Brand new AI provider."],
+      "fixes": ["Fix portal suspense error when first open."]
+    },
+    "date": "2025-01-07",
+    "version": "1.86.0"
+  },
+  {
+    "children": {
       "features": ["Brand new AI provider."]
     },
     "date": "2025-01-07",
