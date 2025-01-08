@@ -4,6 +4,13 @@
       "fixes": ["Fix provider enabled issue."]
     },
     "date": "2025-01-08",
+    "version": "1.86.3"
+  },
+  {
+    "children": {
+      "fixes": ["Fix provider enabled issue."]
+    },
+    "date": "2025-01-08",
     "version": "1.44.3"
   },
   {
