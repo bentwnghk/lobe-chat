@@ -1,6 +1,13 @@
 [
   {
     "children": {
+      "fixes": ["Fix model select not auto update and sort issue."]
+    },
+    "date": "2025-01-08",
+    "version": "1.86.1"
+  },
+  {
+    "children": {
       "features": ["Brand new AI provider."],
       "fixes": ["Fix portal suspense error when first open."]
     },
