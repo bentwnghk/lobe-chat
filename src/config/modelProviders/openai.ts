@@ -35,20 +35,6 @@ const OpenAI: ModelProviderCard = {
     {
       contextWindowTokens: 128_000,
       description:
-        'o1是OpenAI新的推理模型，适用于需要广泛通用知识的复杂任务。该模型具有128K上下文和2023年10月的知识截止日期。',
-      displayName: 'OpenAI o1-preview',
-      enabled: true,
-      id: 'o1-preview',
-      maxOutput: 32_768,
-      pricing: {
-        input: 15,
-        output: 60,
-      },
-      releasedAt: '2024-09-12',
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
         'GPT-4o mini是OpenAI在GPT-4 Omni之后推出的最新模型，支持图文输入并输出文本。作为他们最先进的小型模型，它比其他近期的前沿模型便宜很多，并且比GPT-3.5 Turbo便宜超过60%。它保持了最先进的智能，同时具有显著的性价比。GPT-4o mini在MMLU测试中获得了 82% 的得分，目前在聊天偏好上排名高于 GPT-4。',
       displayName: 'GPT-4o mini',
       enabled: true,
@@ -59,21 +45,6 @@ const OpenAI: ModelProviderCard = {
         input: 0.15,
         output: 0.6,
       },
-      vision: true,
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
-        'ChatGPT-4o 是一款动态模型，实时更新以保持当前最新版本。它结合了强大的语言理解与生成能力，适合于大规模应用场景，包括客户服务、教育和技术支持。',
-      displayName: 'GPT-4o 1120',
-      enabled: true,
-      functionCall: true,
-      id: 'gpt-4o-2024-11-20',
-      pricing: {
-        input: 2.5,
-        output: 10,
-      },
-      releasedAt: '2024-11-20',
       vision: true,
     },
     {
@@ -174,22 +145,6 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
     {
-      contextWindowTokens: 1_000_000 + 8192,
-      description: 'Gemini 1.5 Flash 002 是一款高效的多模态模型，支持广泛应用的扩展。',
-      displayName: 'Gemini 1.5 Flash 002',
-      enabled: true,
-      functionCall: true,
-      id: 'gemini-1.5-flash-002',
-      maxOutput: 8192,
-      pricing: {
-        cachedInput: 0.018_75,
-        input: 0.075,
-        output: 0.3,
-      },
-      releasedAt: '2024-09-25',
-      vision: true,
-    },
-    {
       contextWindowTokens: 2_000_000 + 8192,
       description:
         'Gemini 1.5 Pro 支持高达200万个tokens，是中型多模态模型的理想选择，适用于复杂任务的多方面支持。',
@@ -204,23 +159,6 @@ const OpenAI: ModelProviderCard = {
         output: 10.5,
       },
       releasedAt: '2024-02-15',
-      vision: true,
-    },
-    {
-      contextWindowTokens: 2_000_000 + 8192,
-      description:
-        'Gemini 1.5 Pro 002 是最新的生产就绪模型，提供更高质量的输出，特别在数学、长上下文和视觉任务方面有显著提升。',
-      displayName: 'Gemini 1.5 Pro 002',
-      enabled: true,
-      functionCall: true,
-      id: 'gemini-1.5-pro-002',
-      maxOutput: 8192,
-      pricing: {
-        cachedInput: 0.315,
-        input: 1.25,
-        output: 2.5,
-      },
-      releasedAt: '2024-09-24',
       vision: true,
     },
     {
@@ -274,15 +212,6 @@ const OpenAI: ModelProviderCard = {
       enabled: true,
       id: 'accounts/fireworks/models/llama-v3p2-90b-vision-instruct',
       vision: true,
-    },
-    {
-      contextWindowTokens: 131_072,
-      description:
-        'Llama 3.1 8B 指令模型，专为多语言对话优化，能够在常见行业基准上超越多数开源及闭源模型。',
-      displayName: 'Llama 3.1 8B Instruct',
-      enabled: true,
-      functionCall: true,
-      id: 'accounts/fireworks/models/llama-v3p1-8b-instruct',
     },
     {
       contextWindowTokens: 131_072,
@@ -500,19 +429,6 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
     {
-      contextWindowTokens: 8192,
-      description: 'GLM-4V-Plus 具备对视频内容及多图片的理解能力，适合多模态任务。',
-      displayName: 'GLM-4V-Plus',
-      enabled: true,
-      id: 'glm-4v-plus',
-      pricing: {
-        currency: 'CNY',
-        input: 10,
-        output: 10,
-      },
-      vision: true,
-    },
-    {
       contextWindowTokens: 128_000,
       description:
         'GLM-4-Plus 作为高智能旗舰，具备强大的处理长文本和复杂任务的能力，性能全面提升。',
@@ -548,18 +464,6 @@ const OpenAI: ModelProviderCard = {
         currency: 'CNY',
         input: 2.5,
         output: 2.5,
-      },
-    },
-    {
-      contextWindowTokens: 200_000,
-      description: '200K 超长上下文窗口，提供长文本深度理解和生成能力。',
-      displayName: 'Yi Medium 200K',
-      enabled: true,
-      id: 'yi-medium-200k',
-      pricing: {
-        currency: 'CNY',
-        input: 12,
-        output: 12,
       },
     },
     {
@@ -623,6 +527,30 @@ const OpenAI: ModelProviderCard = {
         currency: 'CNY',
         input: 20,
         output: 60,
+      },
+    },
+    {
+      contextWindowTokens: 131_072,
+      description: '通义千问2.5对外开源的14B规模的模型。',
+      displayName: 'Qwen2.5 14B',
+      functionCall: true,
+      id: 'qwen2.5-14b-instruct',
+      pricing: {
+        currency: 'CNY',
+        input: 2,
+        output: 6,
+      },
+    },
+    {
+      contextWindowTokens: 131_072,
+      description: '通义千问2.5对外开源的32B规模的模型。',
+      displayName: 'Qwen2.5 32B',
+      functionCall: true,
+      id: 'qwen2.5-32b-instruct',
+      pricing: {
+        currency: 'CNY',
+        input: 3.5,
+        output: 7,
       },
     },
     {
