@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.87.0](https://github.com/bentwnghk/lobe-chat/compare/v1.86.3...v1.87.0)
+
+<sup>Released on **2025-01-08**</sup>
+
+#### ✨ Features
+
+- **misc**: Update Remark.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update Remark, closes [#5340](https://github.com/bentwnghk/lobe-chat/issues/5340) ([2c3331a](https://github.com/bentwnghk/lobe-chat/commit/2c3331a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.86.3](https://github.com/bentwnghk/lobe-chat/compare/v1.86.2...v1.86.3)
 
 <sup>Released on **2025-01-08**</sup>
