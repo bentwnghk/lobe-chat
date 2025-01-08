@@ -1,4 +1,4 @@
-import type { IconType } from '@lobehub/icons';
+import type { IconType } from '@bentwnghk/icons';
 import { css, cx, useTheme } from 'antd-style';
 import { forwardRef, memo } from 'react';
 import { Center } from 'react-layout-kit';

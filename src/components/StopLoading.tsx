@@ -1,4 +1,4 @@
-import type { IconType } from '@lobehub/icons';
+import type { IconType } from '@bentwnghk/icons';
 import { cx, useTheme } from 'antd-style';
 import { forwardRef } from 'react';
 

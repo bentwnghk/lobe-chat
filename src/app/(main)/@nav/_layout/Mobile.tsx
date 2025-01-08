@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { MobileTabBar, type MobileTabBarProps } from '@bentwnghk/ui/mobile';
 import { createStyles } from 'antd-style';
 import { Compass, MessageSquare, User } from 'lucide-react';
