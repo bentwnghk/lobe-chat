@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.86.2](https://github.com/bentwnghk/lobe-chat/compare/v1.86.1...v1.86.2)
+
+<sup>Released on **2025-01-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add provider id validate.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add provider id validate, closes [#5336](https://github.com/bentwnghk/lobe-chat/issues/5336) ([7f8a1b6](https://github.com/bentwnghk/lobe-chat/commit/7f8a1b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.86.1](https://github.com/bentwnghk/lobe-chat/compare/v1.86.0...v1.86.1)
 
 <sup>Released on **2025-01-08**</sup>
