@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar } from '@bentwnghk/ui';
+import { MobileNavBar } from '@bentwnghk/ui/mobile';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
 import urlJoin from 'url-join';

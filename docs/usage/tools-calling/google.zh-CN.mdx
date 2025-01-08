@@ -15,13 +15,13 @@ tags:
 
 Google Gemini 系列模型 Tools Calling 能力一览：
 
-| 模型 | 支持 Tools Calling | 流式 （Stream） | 并发（Parallel） | 简单指令得分 | 复杂指令 |
-| --- | --- | --- | --- | --- | --- |
-| Gemini 1.5 Pro | ✅ | ❌ | ✅ | ⛔ | ⛔ |
-| Gemini 1.5 Flash | ❌ | ❌ | ❌ | ⛔ | ⛔ |
+| 模型               | 支持 Tools Calling | 流式 （Stream） | 并发（Parallel） | 简单指令得分 | 复杂指令 |
+| ---------------- | ---------------- | ----------- | ------------ | ------ | ---- |
+| Gemini 1.5 Pro   | ✅                | ❌           | ✅            | ⛔      | ⛔    |
+| Gemini 1.5 Flash | ❌                | ❌           | ❌            | ⛔      | ⛔    |
 
 <Callout type={'important'}>
-  根据我们的的实际测试，强烈建议不要给 Gemini 开启插件，因为目前（截止2024.07.07）它的 Tools Calling
+  根据我们的的实际测试，强烈建议不要给 Gemini 开启插件，因为目前（截止 2024.07.07）它的 Tools Calling
   能力实在太烂了。
 </Callout>
 
@@ -35,38 +35,31 @@ Google Gemini 系列模型 Tools Calling 能力一览：
 
 Gemini 输出的 json 中，name 是错误的，因此 Mr.🆖 AI 无法识别到它调用了什么插件。（入参中，天气插件的 name 为 `realtime-weather____fetchCurrentWeather`，而 Gemini 返回的是 `weather____fetchCurrentWeather`）。
 
-<Image
-  alt="Gemini 1.5 Pro 简单指令的 Tools Calling"
-  src="https://github.com/lobehub/lobe-chat/assets/28616219/1e077799-c25e-43c7-8492-c5c0bb9aed9b"
-/>
+<Image alt="Gemini 1.5 Pro 简单指令的 Tools Calling" src="https://github.com/lobehub/lobe-chat/assets/28616219/1e077799-c25e-43c7-8492-c5c0bb9aed9b" />
 
 <details>
   <summary>Tools Calling 原始输出：</summary>
 
-```yml
-[stream start] 2024-7-7 17:53:25.647
-[chunk 0] 2024-7-7 17:53:25.654
-{"candidates":[{"content":{"parts":[{"text":"好的"}],"role":"model"},"finishReason":"STOP","index":0}],"usageMetadata":{"promptTokenCount":95,"candidatesTokenCount":1,"totalTokenCount":96}}
+  ```yml
+  [stream start] 2024-7-7 17:53:25.647
+  [chunk 0] 2024-7-7 17:53:25.654
+  {"candidates":[{"content":{"parts":[{"text":"好的"}],"role":"model"},"finishReason":"STOP","index":0}],"usageMetadata":{"promptTokenCount":95,"candidatesTokenCount":1,"totalTokenCount":96}}
 
-[chunk 1] 2024-7-7 17:53:26.288
-{"candidates":[{"content":{"parts":[{"text":"\n\n"}],"role":"model"},"finishReason":"STOP","index":0,"safetyRatings":[{"category":"HARM_CATEGORY_SEXUALLY_EXPLICIT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HATE_SPEECH","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HARASSMENT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_DANGEROUS_CONTENT","probability":"NEGLIGIBLE"}]}],"usageMetadata":{"promptTokenCount":95,"candidatesTokenCount":1,"totalTokenCount":96}}
+  [chunk 1] 2024-7-7 17:53:26.288
+  {"candidates":[{"content":{"parts":[{"text":"\n\n"}],"role":"model"},"finishReason":"STOP","index":0,"safetyRatings":[{"category":"HARM_CATEGORY_SEXUALLY_EXPLICIT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HATE_SPEECH","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HARASSMENT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_DANGEROUS_CONTENT","probability":"NEGLIGIBLE"}]}],"usageMetadata":{"promptTokenCount":95,"candidatesTokenCount":1,"totalTokenCount":96}}
 
-[chunk 2] 2024-7-7 17:53:26.336
-{"candidates":[{"content":{"parts":[{"functionCall":{"name":"weather____fetchCurrentWeather","args":{"city":"杭州"}}},{"functionCall":{"name":"weather____fetchCurrentWeather","args":{"city":"北京"}}}],"role":"model"},"finishReasoSTOP","index":0,"safetyRatings":[{"category":"HARM_CATEGORY_SEXUALLY_EXPLICIT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HATE_SPEECH","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HARASSMENT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_DANGEROUS_CONTENT","probability":"NEGLIGIBLE"}]}],"usageMetadata":{"promptTokenCount":95,"candidatesTokenCount":79,"totalTokenCount":174}}
+  [chunk 2] 2024-7-7 17:53:26.336
+  {"candidates":[{"content":{"parts":[{"functionCall":{"name":"weather____fetchCurrentWeather","args":{"city":"杭州"}}},{"functionCall":{"name":"weather____fetchCurrentWeather","args":{"city":"北京"}}}],"role":"model"},"finishReasoSTOP","index":0,"safetyRatings":[{"category":"HARM_CATEGORY_SEXUALLY_EXPLICIT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HATE_SPEECH","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_HARASSMENT","probability":"NEGLIGIBLE"},{"category":"HARM_CATEGORY_DANGEROUS_CONTENT","probability":"NEGLIGIBLE"}]}],"usageMetadata":{"promptTokenCount":95,"candidatesTokenCount":79,"totalTokenCount":174}}
 
-[stream finished] total chunks: 3
-```
-
+  [stream finished] total chunks: 3
+  ```
 </details>
 
 ### 复杂调用指令：文生图
 
 测试指令：指令 ②
 
-<Image
-  alt="Gemini 1.5 Pro 复杂指令的 Tools Calling"
-  src="https://github.com/lobehub/lobe-chat/assets/28616219/a2454a60-3271-4786-861f-d49ceac1316e"
-/>
+<Image alt="Gemini 1.5 Pro 复杂指令的 Tools Calling" src="https://github.com/lobehub/lobe-chat/assets/28616219/a2454a60-3271-4786-861f-d49ceac1316e" />
 
 在测试复杂指令集时，Google 直接抛错：
 

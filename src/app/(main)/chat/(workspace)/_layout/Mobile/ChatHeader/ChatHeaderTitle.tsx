@@ -1,4 +1,5 @@
-import { ActionIcon, MobileNavBarTitle } from '@bentwnghk/ui';
+import { ActionIcon } from '@bentwnghk/ui';
+import { MobileNavBarTitle } from '@bentwnghk/ui/mobile';
 import { useTheme } from 'antd-style';
 import { ChevronDown } from 'lucide-react';
 import { memo } from 'react';

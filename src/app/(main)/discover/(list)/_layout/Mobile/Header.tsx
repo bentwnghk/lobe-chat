@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, MobileNavBar } from '@bentwnghk/ui';
+import { ActionIcon } from '@bentwnghk/ui';
+import { MobileNavBar } from '@bentwnghk/ui/mobile';
 import { createStyles } from 'antd-style';
 import { SearchIcon } from 'lucide-react';
 import { memo, useState } from 'react';

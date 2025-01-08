@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, MobileNavBar } from '@bentwnghk/ui';
+import { ActionIcon } from '@bentwnghk/ui';
+import { MobileNavBar } from '@bentwnghk/ui/mobile';
 import { MessageSquarePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';

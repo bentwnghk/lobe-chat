@@ -1,6 +1,6 @@
 'use client';
 
-import { ChatHeader } from '@bentwnghk/ui';
+import { ChatHeader } from '@bentwnghk/ui/chat';
 
 import { useGlobalStore } from '@/store/global';
 import { systemStatusSelectors } from '@/store/global/selectors';

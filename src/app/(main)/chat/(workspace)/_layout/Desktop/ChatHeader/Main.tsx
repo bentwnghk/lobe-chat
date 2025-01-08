@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, Avatar, ChatHeaderTitle } from '@bentwnghk/ui';
+import { ActionIcon, Avatar } from '@bentwnghk/ui';
+import { ChatHeaderTitle } from '@bentwnghk/ui/chat';
 import { Skeleton } from 'antd';
 import { PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 import { parseAsBoolean, useQueryState } from 'nuqs';

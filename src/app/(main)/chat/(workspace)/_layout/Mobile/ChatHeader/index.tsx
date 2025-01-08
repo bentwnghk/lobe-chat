@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar } from '@bentwnghk/ui';
+import { MobileNavBar } from '@bentwnghk/ui/mobile';
 import { memo, useState } from 'react';
 
 import { useInitAgentConfig } from '@/app/(main)/chat/(workspace)/_layout/useInitAgentConfig';

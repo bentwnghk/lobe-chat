@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, MobileNavBar } from '@bentwnghk/ui';
+import { ActionIcon } from '@bentwnghk/ui';
+import { MobileNavBar } from '@bentwnghk/ui/mobile';
 import { useTheme } from 'antd-style';
 import { Moon, Sun } from 'lucide-react';
 import { memo } from 'react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar, MobileNavBarTitle } from '@bentwnghk/ui';
+import { MobileNavBar, MobileNavBarTitle } from '@bentwnghk/ui/mobile';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 

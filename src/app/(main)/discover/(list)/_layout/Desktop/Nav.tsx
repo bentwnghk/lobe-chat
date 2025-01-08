@@ -1,6 +1,6 @@
 'use client';
 
-import { ChatHeader } from '@bentwnghk/ui';
+import { ChatHeader } from '@bentwnghk/ui/chat';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

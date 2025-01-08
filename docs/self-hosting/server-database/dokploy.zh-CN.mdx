@@ -1,6 +1,6 @@
 ---
-title: 在 Dokploy 上部署 Mr.🆖 AI 的服务端数据库版本
-description: 本文详细介绍如何在 Dokploy 中部署服务端数据库版 Mr.🆖 AI，包括数据库配置、身份验证服务配置的设置步骤。
+title: 在 Dokploy 上部署 LobeChat 的服务端数据库版本
+description: 本文详细介绍如何在 Dokploy 中部署服务端数据库版 LobeChat，包括数据库配置、身份验证服务配置的设置步骤。
 tags:
   - 服务端数据库
   - Postgres
@@ -12,14 +12,19 @@ tags:
 ---
 
 # 在 Dokploy 上部署服务端数据库版
-本文将详细介绍如何在 Dokploy 中部署服务端数据库版 Mr.🆖 AI。
+
+本文将详细介绍如何在 Dokploy 中部署服务端数据库版 LobeChat。
+
 ## 一、准备工作
+
 ### 部署 Dokploy 并进行相关设置
+
 ```shell
 curl -sSL https://dokploy.com/install.sh | sh
 ```
+
 1. 在 Dokploy 的 Settings / Git 处根据提示将 Github 绑定到 Dokploy
-   
+
 ![](https://github.com/user-attachments/assets/c75eb19e-e0f5-4135-91e4-55be8be8a996)
 
 2. 进入 Projects 界面创建一个 Project
@@ -27,7 +32,9 @@ curl -sSL https://dokploy.com/install.sh | sh
 ![](https://github.com/user-attachments/assets/4e04928d-0171-48d1-afff-e22fc2faaf4e)
 
 ### 配置 S3 存储服务
-在服务端数据库中我们需要配置 S3 存储服务来存储文件，详细配置教程请参考 使用 Vercel 部署中 [配置S3储存服务](https://lobehub.com/zh/docs/self-hosting/server-database/vercel#%E4%B8%89%E3%80%81-%E9%85%8D%E7%BD%AE-s-3-%E5%AD%98%E5%82%A8%E6%9C%8D%E5%8A%A1)。配置完成后你将获得以下环境变量：
+
+在服务端数据库中我们需要配置 S3 存储服务来存储文件，详细配置教程请参考 使用 Vercel 部署中 [配置 S3 储存服务](https://lobehub.com/zh/docs/self-hosting/server-database/vercel#%E4%B8%89%E3%80%81-%E9%85%8D%E7%BD%AE-s-3-%E5%AD%98%E5%82%A8%E6%9C%8D%E5%8A%A1)。配置完成后你将获得以下环境变量：
+
 ```shell
 S3_ACCESS_KEY_ID=
 S3_SECRET_ACCESS_KEY=
@@ -36,33 +43,41 @@ S3_BUCKET=
 S3_PUBLIC_DOMAIN=
 S3_ENABLE_PATH_STYLE=
 ```
+
 ### 配置 Clerk 身份验证服务
-获取 `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` 、`CLERK_SECRET_KEY` 、`CLERK_WEBHOOK_SECRET` 这三个环境变量，Clerk的详细配置流程请参考 使用 Vercel 部署中 [配置身份验证服务](https://lobehub.com/zh/docs/self-hosting/server-database/vercel#二、-配置身份验证服务) 
+
+获取 `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` 、`CLERK_SECRET_KEY` 、`CLERK_WEBHOOK_SECRET` 这三个环境变量，Clerk 的详细配置流程请参考 使用 Vercel 部署中 [配置身份验证服务](https://lobehub.com/zh/docs/self-hosting/server-database/vercel#二、-配置身份验证服务)
+
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_live_xxxxxxxxxxx
 CLERK_SECRET_KEY=sk_live_xxxxxxxxxxxxxxxxxxxxxx
 CLERK_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxxxxxxxxxxx
 ```
+
 ## 二、在 Dokploy 上部署数据库
-进入前面创建的Project，点击 Create Service 选择 Database，在 Database 界面选择 PostgreSQL ，然后设置数据库名、用户、密码，在 Docker image 中填入 `pgvector/pgvector:pg17` 最后点击 Create 创建数据库。
+
+进入前面创建的 Project，点击 Create Service 选择 Database，在 Database 界面选择 PostgreSQL ，然后设置数据库名、用户、密码，在 Docker image 中填入 `pgvector/pgvector:pg17` 最后点击 Create 创建数据库。
 
 ![](https://github.com/user-attachments/assets/97899819-278f-42fd-804a-144d521d4b4f)
 
-进入创建的数据库，在 External Credentials 设置一个未被占用的端口，使其能能通过外部访问，否则 Mr.🆖 AI 将无法连接到该数据库。
+进入创建的数据库，在 External Credentials 设置一个未被占用的端口，使其能能通过外部访问，否则 LobeChat 将无法连接到该数据库。
 你可以在 External Host 查看 Postgres 数据库连接 URL ，如下：
+
 ```shell
 postgresql://postgres:wAbLxfXSwkxxxxxx@45.577.281.48:5432/postgres
 ```
+
 最后点击 Deploy 部署数据库
 
 ![](https://github.com/user-attachments/assets/b4e89dd4-877b-43fe-aa42-4680de17ba8e)
 
-## 在 Dokploy 上部署 Mr.🆖 AI
-点击 Create Service 选择 Application，创建 Mr.🆖 AI 应用
+## 在 Dokploy 上部署 LobeChat
+
+点击 Create Service 选择 Application，创建 LobeChat 应用
 
 ![](https://github.com/user-attachments/assets/4cbbbcce-36be-48ff-bb0b-31607a0bba5c)
 
-进入创建的 Mr.🆖 AI 应用，选择你 fork 的 lobe-chat 项目及分支，点击 Save 保存
+进入创建的 LobeChat 应用，选择你 fork 的 lobe-chat 项目及分支，点击 Save 保存
 
 ![](https://github.com/user-attachments/assets/2bb4c09d-75bb-4c46-bb2f-faf538308305)
 
@@ -107,16 +122,17 @@ OPENAI_API_KEY=
 OPENAI_MODEL_LIST=
 OPENAI_PROXY_URL=
 ```
+
 添加完环境变量并保存后，点击 Deploy 进行部署，你可以在 Deployments 处查看部署进程及日志信息
 
 ![](https://github.com/user-attachments/assets/411e2002-61f0-4010-9841-18e88ca895ec)
 
-部署成功后在 Domains 页面，为你的 Mr.🆖 AI 应用绑定自己的域名并申请证书。
+部署成功后在 Domains 页面，为你的 LobeChat 应用绑定自己的域名并申请证书。
 
 ![](https://github.com/user-attachments/assets/dd6bc4a4-3c20-4162-87fd-5cac57e5d7e7)
 
-## 验证 Mr.🆖 AI 是否正常工作
-进入你的 Mr.🆖 AI 网址，如果你点击左上角登录，可以正常显示登录弹窗，那么说明你已经配置成功了，尽情享用吧～
+## 验证 LobeChat 是否正常工作
+
+进入你的 LobeChat 网址，如果你点击左上角登录，可以正常显示登录弹窗，那么说明你已经配置成功了，尽情享用吧～
 
 ![](https://github.com/user-attachments/assets/798ddb18-50c7-462a-a083-0c6841351d26)
-

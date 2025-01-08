@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, EditableMessage } from '@bentwnghk/ui';
+import { ActionIcon } from '@bentwnghk/ui';
+import { EditableMessage } from '@bentwnghk/ui/chat';
 import { Skeleton } from 'antd';
 import { Edit } from 'lucide-react';
 import { memo, useState } from 'react';

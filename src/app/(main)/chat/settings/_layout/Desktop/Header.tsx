@@ -1,6 +1,6 @@
 'use client';
 
-import { ChatHeader, ChatHeaderTitle } from '@bentwnghk/ui';
+import { ChatHeader, ChatHeaderTitle } from '@bentwnghk/ui/chat';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
