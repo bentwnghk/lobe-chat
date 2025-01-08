@@ -4,6 +4,13 @@
       "fixes": ["Add provider id validate."]
     },
     "date": "2025-01-08",
+    "version": "1.86.2"
+  },
+  {
+    "children": {
+      "fixes": ["Add provider id validate."]
+    },
+    "date": "2025-01-08",
     "version": "1.44.2"
   },
   {
