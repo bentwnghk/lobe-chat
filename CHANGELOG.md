@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.87.1](https://github.com/bentwnghk/lobe-chat/compare/v1.87.0...v1.87.1)
+
+<sup>Released on **2025-01-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix remark gfm regex breaks in Safari versions < 16.4, fix some ai provider known issues.
+
+#### 💄 Styles
+
+- **misc**: Update siliconcloud model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix remark gfm regex breaks in Safari versions < 16.4, closes [#5357](https://github.com/bentwnghk/lobe-chat/issues/5357) ([9086570](https://github.com/bentwnghk/lobe-chat/commit/9086570))
+- **misc**: Fix some ai provider known issues, closes [#5361](https://github.com/bentwnghk/lobe-chat/issues/5361) ([b2775b5](https://github.com/bentwnghk/lobe-chat/commit/b2775b5))
+
+#### Styles
+
+- **misc**: Update siliconcloud model list, closes [#5360](https://github.com/bentwnghk/lobe-chat/issues/5360) ([69085ac](https://github.com/bentwnghk/lobe-chat/commit/69085ac))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.87.0](https://github.com/bentwnghk/lobe-chat/compare/v1.86.3...v1.87.0)
 
 <sup>Released on **2025-01-08**</sup>
