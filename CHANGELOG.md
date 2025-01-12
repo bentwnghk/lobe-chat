@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.87.5](https://github.com/bentwnghk/lobe-chat/compare/v1.87.4...v1.87.5)
+
+<sup>Released on **2025-01-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix released at for undefined condition.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix released at for undefined condition, closes [#5391](https://github.com/bentwnghk/lobe-chat/issues/5391) ([9c5822a](https://github.com/bentwnghk/lobe-chat/commit/9c5822a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.87.4](https://github.com/bentwnghk/lobe-chat/compare/v1.87.3...v1.87.4)
 
 <sup>Released on **2025-01-10**</sup>
