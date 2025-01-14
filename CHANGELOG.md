@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.87.6](https://github.com/bentwnghk/lobe-chat/compare/v1.87.5...v1.87.6)
+
+<sup>Released on **2025-01-14**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix pin package manager to pnpm\@9 for docker, refactor dynamic import in RSC.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix pin package manager to pnpm\@9 for docker, closes [#5436](https://github.com/bentwnghk/lobe-chat/issues/5436) ([00dc29b](https://github.com/bentwnghk/lobe-chat/commit/00dc29b))
+- **misc**: Refactor dynamic import in RSC, closes [#5434](https://github.com/bentwnghk/lobe-chat/issues/5434) ([6a663a7](https://github.com/bentwnghk/lobe-chat/commit/6a663a7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.87.5](https://github.com/bentwnghk/lobe-chat/compare/v1.87.4...v1.87.5)
 
 <sup>Released on **2025-01-12**</sup>
