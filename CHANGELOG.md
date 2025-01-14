@@ -2,6 +2,52 @@
 
 # Changelog
 
+### [Version 1.87.7](https://github.com/bentwnghk/lobe-chat/compare/v1.87.6...v1.87.7)
+
+<sup>Released on **2025-01-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **plugin**: Update plugin prompt.
+- **misc**: Improve ai provider code.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `enable_search` parameter intro condition in Qwen, fix pull models error in new ai provider, fix some providers issues, support Gemini 2.0 HarmBlockThreshold.
+
+#### 💄 Styles
+
+- **misc**: Improve model config form modal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **plugin**: Update plugin prompt, closes [#5083](https://github.com/bentwnghk/lobe-chat/issues/5083) ([ddd3b53](https://github.com/bentwnghk/lobe-chat/commit/ddd3b53))
+- **misc**: Improve ai provider code, closes [#5442](https://github.com/bentwnghk/lobe-chat/issues/5442) ([32013b4](https://github.com/bentwnghk/lobe-chat/commit/32013b4))
+
+#### What's fixed
+
+- **misc**: Fix `enable_search` parameter intro condition in Qwen, closes [#5297](https://github.com/bentwnghk/lobe-chat/issues/5297) ([0b19c20](https://github.com/bentwnghk/lobe-chat/commit/0b19c20))
+- **misc**: Fix pull models error in new ai provider, closes [#5441](https://github.com/bentwnghk/lobe-chat/issues/5441) ([1726d85](https://github.com/bentwnghk/lobe-chat/commit/1726d85))
+- **misc**: Fix some providers issues, closes [#5429](https://github.com/bentwnghk/lobe-chat/issues/5429) ([b7edbd3](https://github.com/bentwnghk/lobe-chat/commit/b7edbd3))
+- **misc**: Support Gemini 2.0 HarmBlockThreshold, closes [#5422](https://github.com/bentwnghk/lobe-chat/issues/5422) ([4d1a4cd](https://github.com/bentwnghk/lobe-chat/commit/4d1a4cd))
+
+#### Styles
+
+- **misc**: Improve model config form modal, closes [#5438](https://github.com/bentwnghk/lobe-chat/issues/5438) ([9b303e0](https://github.com/bentwnghk/lobe-chat/commit/9b303e0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.87.6](https://github.com/bentwnghk/lobe-chat/compare/v1.87.5...v1.87.6)
 
 <sup>Released on **2025-01-14**</sup>
