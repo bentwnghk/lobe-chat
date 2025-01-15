@@ -16,7 +16,7 @@ export const OFFICIAL_SITE = withBasePath(`/`);
 export const OG_URL = '/og/cover.png?v=1';
 
 export const GITHUB = pkg.homepage;
-export const GITHUB_ISSUES = withBasePath(`/settings/modal?session=inbox&tab=llm`);
+export const GITHUB_ISSUES = withBasePath(`/settings/provider/openai`);
 export const CHANGELOG = 'https://api.mr5ai.com';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
