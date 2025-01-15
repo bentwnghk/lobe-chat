@@ -4,6 +4,13 @@
       "features": ["Add lm studio provider, support to customize Embedding model with env."]
     },
     "date": "2025-01-15",
+    "version": "1.88.0"
+  },
+  {
+    "children": {
+      "features": ["Add lm studio provider, support to customize Embedding model with env."]
+    },
+    "date": "2025-01-15",
     "version": "1.46.0"
   },
   {
