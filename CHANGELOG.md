@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.88.1](https://github.com/bentwnghk/lobe-chat/compare/v1.88.0...v1.88.1)
+
+<sup>Released on **2025-01-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix azure in new ai provider.
+
+#### 💄 Styles
+
+- **misc**: Add auth support for `PROXY_URL`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix azure in new ai provider, closes [#5448](https://github.com/bentwnghk/lobe-chat/issues/5448) ([b5042c3](https://github.com/bentwnghk/lobe-chat/commit/b5042c3))
+
+#### Styles
+
+- **misc**: Add auth support for `PROXY_URL`, closes [#5304](https://github.com/bentwnghk/lobe-chat/issues/5304) ([eb26c79](https://github.com/bentwnghk/lobe-chat/commit/eb26c79))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.88.0](https://github.com/bentwnghk/lobe-chat/compare/v1.87.8...v1.88.0)
 
 <sup>Released on **2025-01-15**</sup>
