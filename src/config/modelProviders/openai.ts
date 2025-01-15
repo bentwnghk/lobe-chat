@@ -6,34 +6,6 @@ const OpenAI: ModelProviderCard = {
     {
       contextWindowTokens: 128_000,
       description:
-        'o1-mini是一款针对编程、数学和科学应用场景而设计的快速、经济高效的推理模型。该模型具有128K上下文和2023年10月的知识截止日期。',
-      displayName: 'OpenAI o1-mini',
-      enabled: true,
-      id: 'o1-mini',
-      maxOutput: 65_536,
-      pricing: {
-        input: 3,
-        output: 12,
-      },
-      releasedAt: '2024-09-12',
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
-        'o1是OpenAI新的推理模型，适用于需要广泛通用知识的复杂任务。该模型具有128K上下文和2023年10月的知识截止日期。',
-      displayName: 'OpenAI o1-preview',
-      enabled: true,
-      id: 'o1-preview',
-      maxOutput: 32_768,
-      pricing: {
-        input: 15,
-        output: 60,
-      },
-      releasedAt: '2024-09-12',
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
         'GPT-4o mini是OpenAI在GPT-4 Omni之后推出的最新模型，支持图文输入并输出文本。作为他们最先进的小型模型，它比其他近期的前沿模型便宜很多，并且比GPT-3.5 Turbo便宜超过60%。它保持了最先进的智能，同时具有显著的性价比。GPT-4o mini在MMLU测试中获得了 82% 的得分，目前在聊天偏好上排名高于 GPT-4。',
       displayName: 'GPT-4o mini',
       enabled: true,
@@ -59,6 +31,34 @@ const OpenAI: ModelProviderCard = {
         output: 10,
       },
       vision: true,
+    },
+    {
+      contextWindowTokens: 128_000,
+      description:
+        'o1-mini是一款针对编程、数学和科学应用场景而设计的快速、经济高效的推理模型。该模型具有128K上下文和2023年10月的知识截止日期。',
+      displayName: 'OpenAI o1-mini',
+      enabled: true,
+      id: 'o1-mini',
+      maxOutput: 65_536,
+      pricing: {
+        input: 3,
+        output: 12,
+      },
+      releasedAt: '2024-09-12',
+    },
+    {
+      contextWindowTokens: 128_000,
+      description:
+        'o1是OpenAI新的推理模型，适用于需要广泛通用知识的复杂任务。该模型具有128K上下文和2023年10月的知识截止日期。',
+      displayName: 'OpenAI o1-preview',
+      enabled: true,
+      id: 'o1-preview',
+      maxOutput: 32_768,
+      pricing: {
+        input: 15,
+        output: 60,
+      },
+      releasedAt: '2024-09-12',
     },
     {
       contextWindowTokens: 200_000,
@@ -196,46 +196,6 @@ const OpenAI: ModelProviderCard = {
     },
     {
       contextWindowTokens: 131_072,
-      description:
-        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
-      displayName: 'Llama 3.2 11B Vision',
-      enabled: true,
-      id: 'meta-llama/llama-3.2-11b-vision-instruct',
-      pricing: {
-        input: 0.162,
-        output: 0.162,
-      },
-      vision: true,
-    },
-    {
-      contextWindowTokens: 131_072,
-      description:
-        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
-      displayName: 'Llama 3.2 90B Vision',
-      enabled: true,
-      id: 'meta-llama/llama-3.2-90b-vision-instruct',
-      pricing: {
-        input: 0.4,
-        output: 0.4,
-      },
-      vision: true,
-    },
-    {
-      contextWindowTokens: 131_072,
-      description:
-        'Meta Llama 3.3 多语言大语言模型 ( LLM ) 是 70B（文本输入/文本输出）中的预训练和指令调整生成模型。 Llama 3.3 指令调整的纯文本模型针对多语言对话用例进行了优化，并且在常见行业基准上优于许多可用的开源和封闭式聊天模型。',
-      displayName: 'Llama 3.3 70B',
-      enabled: true,
-      functionCall: true,
-      id: 'llama-3.3-70b-versatile',
-      maxOutput: 8192,
-      pricing: {
-        input: 0.05,
-        output: 0.08,
-      },
-    },
-    {
-      contextWindowTokens: 131_072,
       description: '该模型在准确性、指令遵循和多语言能力方面有所改进。',
       displayName: 'Grok 2 1212',
       enabled: true,
@@ -262,6 +222,62 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
     {
+      contextWindowTokens: 65_536,
+      description:
+        '最新模型 DeepSeek-V3 多项评测成绩超越 Qwen2.5-72B 和 Llama-3.1-405B 等开源模型，性能对齐领军闭源模型 GPT-4o 与 Claude-3.5-Sonnet。',
+      displayName: 'DeepSeek V3',
+      enabled: true,
+      functionCall: true,
+      id: 'deepseek-chat',
+      pricing: {
+        cachedInput: 0.1,
+        currency: 'CNY',
+        input: 1,
+        output: 2,
+      },
+      releasedAt: '2024-12-26',
+    },
+    {
+      contextWindowTokens: 131_072,
+      description:
+        'Meta Llama 3.3 多语言大语言模型 ( LLM ) 是 70B（文本输入/文本输出）中的预训练和指令调整生成模型。 Llama 3.3 指令调整的纯文本模型针对多语言对话用例进行了优化，并且在常见行业基准上优于许多可用的开源和封闭式聊天模型。',
+      displayName: 'Llama 3.3 70B',
+      enabled: true,
+      functionCall: true,
+      id: 'llama-3.3-70b-versatile',
+      maxOutput: 8192,
+      pricing: {
+        input: 0.05,
+        output: 0.08,
+      },
+    },
+    {
+      contextWindowTokens: 131_072,
+      description:
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      displayName: 'Llama 3.2 11B Vision',
+      enabled: true,
+      id: 'meta-llama/llama-3.2-11b-vision-instruct',
+      pricing: {
+        input: 0.162,
+        output: 0.162,
+      },
+      vision: true,
+    },
+    {
+      contextWindowTokens: 131_072,
+      description:
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      displayName: 'Llama 3.2 90B Vision',
+      enabled: true,
+      id: 'meta-llama/llama-3.2-90b-vision-instruct',
+      pricing: {
+        input: 0.4,
+        output: 0.4,
+      },
+      vision: true,
+    },
+    {
       contextWindowTokens: 128_000,
       description:
         'Llama 3.1 Sonar Small Online 模型，具备8B参数，支持约127,000个标记的上下文长度，专为在线聊天设计，能高效处理各种文本交互。',
@@ -276,6 +292,19 @@ const OpenAI: ModelProviderCard = {
       displayName: 'Llama 3.1 Sonar Large Online',
       enabled: true,
       id: 'llama-3.1-sonar-large-128k-online',
+    },
+    {
+      contextWindowTokens: 128_000,
+      description:
+        'Pixtral 模型在图表和图理解、文档问答、多模态推理和指令遵循等任务上表现出强大的能力，能够以自然分辨率和宽高比摄入图像，还能够在长达 128K 令牌的长上下文窗口中处理任意数量的图像。',
+      displayName: 'Pixtral 12B',
+      enabled: true,
+      id: 'pixtral-12b',
+      pricing: {
+        input: 0.15,
+        output: 0.15,
+      },
+      vision: true,
     },
     {
       contextWindowTokens: 128_000,
@@ -332,62 +361,6 @@ const OpenAI: ModelProviderCard = {
     },
     {
       contextWindowTokens: 128_000,
-      description:
-        'Pixtral 模型在图表和图理解、文档问答、多模态推理和指令遵循等任务上表现出强大的能力，能够以自然分辨率和宽高比摄入图像，还能够在长达 128K 令牌的长上下文窗口中处理任意数量的图像。',
-      displayName: 'Pixtral 12B',
-      enabled: true,
-      id: 'pixtral-12b',
-      pricing: {
-        input: 0.15,
-        output: 0.15,
-      },
-      vision: true,
-    },
-    {
-      contextWindowTokens: 65_536,
-      description:
-        '最新模型 DeepSeek-V3 多项评测成绩超越 Qwen2.5-72B 和 Llama-3.1-405B 等开源模型，性能对齐领军闭源模型 GPT-4o 与 Claude-3.5-Sonnet。',
-      displayName: 'DeepSeek V3',
-      enabled: true,
-      functionCall: true,
-      id: 'deepseek-chat',
-      pricing: {
-        cachedInput: 0.1,
-        currency: 'CNY',
-        input: 1,
-        output: 2,
-      },
-      releasedAt: '2024-12-26',
-    },
-    {
-      contextWindowTokens: 8192,
-      description:
-        'Moonshot V1 8K 专为生成短文本任务设计，具有高效的处理性能，能够处理8,192个tokens，非常适合简短对话、速记和快速内容生成。',
-      displayName: 'Moonshot V1 8K',
-      enabled: true,
-      functionCall: true,
-      id: 'moonshot-v1-8k',
-    },
-    {
-      contextWindowTokens: 32_768,
-      description:
-        'Moonshot V1 32K 提供中等长度的上下文处理能力，能够处理32,768个tokens，特别适合生成各种长文档和复杂对话，应用于内容创作、报告生成和对话系统等领域。',
-      displayName: 'Moonshot V1 32K',
-      enabled: true,
-      functionCall: true,
-      id: 'moonshot-v1-32k',
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
-        'Moonshot V1 128K 是一款拥有超长上下文处理能力的模型，适用于生成超长文本，满足复杂的生成任务需求，能够处理多达128,000个tokens的内容，非常适合科研、学术和大型文档生成等应用场景。',
-      displayName: 'Moonshot V1 128K',
-      enabled: true,
-      functionCall: true,
-      id: 'moonshot-v1-128k',
-    },
-    {
-      contextWindowTokens: 128_000,
       description: 'GLM-4-FlashX 是Flash的增强版本，超快推理速度。',
       displayName: 'GLM-4-FlashX',
       enabled: true,
@@ -398,6 +371,21 @@ const OpenAI: ModelProviderCard = {
         input: 0.1,
         output: 0.1,
       },
+    },
+    {
+      contextWindowTokens: 8192,
+      description:
+        'GLM-4V-Flash 专注于高效的单一图像理解，适用于快速图像解析的场景，例如实时图像分析或批量图像处理。',
+      displayName: 'GLM-4V-Flash',
+      enabled: true,
+      id: 'glm-4v-flash',
+      pricing: {
+        currency: 'CNY',
+        input: 0,
+        output: 0,
+      },
+      releasedAt: '2024-12-09',
+      vision: true,
     },
     {
       contextWindowTokens: 128_000,
@@ -424,21 +412,6 @@ const OpenAI: ModelProviderCard = {
         input: 10,
         output: 10,
       },
-    },
-    {
-      contextWindowTokens: 8192,
-      description:
-        'GLM-4V-Flash 专注于高效的单一图像理解，适用于快速图像解析的场景，例如实时图像分析或批量图像处理。',
-      displayName: 'GLM-4V-Flash',
-      enabled: true,
-      id: 'glm-4v-flash',
-      pricing: {
-        currency: 'CNY',
-        input: 0,
-        output: 0,
-      },
-      releasedAt: '2024-12-09',
-      vision: true,
     },
     {
       contextWindowTokens: 128_000,
@@ -502,6 +475,33 @@ const OpenAI: ModelProviderCard = {
       },
     },
     {
+      contextWindowTokens: 8192,
+      description:
+        'Moonshot V1 8K 专为生成短文本任务设计，具有高效的处理性能，能够处理8,192个tokens，非常适合简短对话、速记和快速内容生成。',
+      displayName: 'Moonshot V1 8K',
+      enabled: true,
+      functionCall: true,
+      id: 'moonshot-v1-8k',
+    },
+    {
+      contextWindowTokens: 32_768,
+      description:
+        'Moonshot V1 32K 提供中等长度的上下文处理能力，能够处理32,768个tokens，特别适合生成各种长文档和复杂对话，应用于内容创作、报告生成和对话系统等领域。',
+      displayName: 'Moonshot V1 32K',
+      enabled: true,
+      functionCall: true,
+      id: 'moonshot-v1-32k',
+    },
+    {
+      contextWindowTokens: 128_000,
+      description:
+        'Moonshot V1 128K 是一款拥有超长上下文处理能力的模型，适用于生成超长文本，满足复杂的生成任务需求，能够处理多达128,000个tokens的内容，非常适合科研、学术和大型文档生成等应用场景。',
+      displayName: 'Moonshot V1 128K',
+      enabled: true,
+      functionCall: true,
+      id: 'moonshot-v1-128k',
+    },
+    {
       contextWindowTokens: 131_072,
       description: '通义千问超大规模语言模型，支持中文、英文等不同语言输入。',
       displayName: 'Qwen Turbo',
@@ -525,20 +525,6 @@ const OpenAI: ModelProviderCard = {
         currency: 'CNY',
         input: 0.8,
         output: 2,
-      },
-    },
-    {
-      contextWindowTokens: 32_768,
-      description:
-        '通义千问千亿级别超大规模语言模型，支持中文、英文等不同语言输入，当前通义千问2.5产品版本背后的API模型。',
-      displayName: 'Qwen Max',
-      enabled: true,
-      functionCall: true,
-      id: 'qwen-max-latest',
-      pricing: {
-        currency: 'CNY',
-        input: 20,
-        output: 60,
       },
     },
     {
