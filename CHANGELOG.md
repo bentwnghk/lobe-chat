@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.87.8](https://github.com/bentwnghk/lobe-chat/compare/v1.87.7...v1.87.8)
+
+<sup>Released on **2025-01-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor Minimax with LobeOpenAICompatibleFactory.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor Minimax with LobeOpenAICompatibleFactory, closes [#5325](https://github.com/bentwnghk/lobe-chat/issues/5325) ([da11b55](https://github.com/bentwnghk/lobe-chat/commit/da11b55))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.87.7](https://github.com/bentwnghk/lobe-chat/compare/v1.87.6...v1.87.7)
 
 <sup>Released on **2025-01-14**</sup>
