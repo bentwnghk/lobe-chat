@@ -32,21 +32,6 @@ const OpenAI: ModelProviderCard = {
       releasedAt: '2024-09-12',
     },
     {
-      contextWindowTokens: 200_000,
-      description:
-        'o1是OpenAI新的推理模型，支持图文输入并输出文本，适用于需要广泛通用知识的复杂任务。该模型具有200K上下文和2023年10月的知识截止日期。',
-      displayName: 'OpenAI o1',
-      enabled: true,
-      id: 'o1-2024-12-17',
-      maxOutput: 100_000,
-      pricing: {
-        input: 15,
-        output: 60,
-      },
-      releasedAt: '2024-12-17',
-      vision: true,
-    },
-    {
       contextWindowTokens: 128_000,
       description:
         'GPT-4o mini是OpenAI在GPT-4 Omni之后推出的最新模型，支持图文输入并输出文本。作为他们最先进的小型模型，它比其他近期的前沿模型便宜很多，并且比GPT-3.5 Turbo便宜超过60%。它保持了最先进的智能，同时具有显著的性价比。GPT-4o mini在MMLU测试中获得了 82% 的得分，目前在聊天偏好上排名高于 GPT-4。',
@@ -212,29 +197,42 @@ const OpenAI: ModelProviderCard = {
     {
       contextWindowTokens: 131_072,
       description:
-        'Meta的11B参数指令调整图像推理模型。该模型针对视觉识别、图像推理、图像描述和回答关于图像的一般性问题进行了优化。该模型能够理解视觉数据，如图表和图形，并通过生成文本描述图像细节来弥合视觉与语言之间的差距。',
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
       displayName: 'Llama 3.2 11B Vision',
       enabled: true,
-      id: 'accounts/fireworks/models/llama-v3p2-11b-vision-instruct',
+      id: 'meta-llama/llama-3.2-11b-vision-instruct',
+      pricing: {
+        input: 0.162,
+        output: 0.162,
+      },
       vision: true,
     },
     {
       contextWindowTokens: 131_072,
       description:
-        'Meta的90B参数指令调整图像推理模型。该模型针对视觉识别、图像推理、图像描述和回答关于图像的一般性问题进行了优化。该模型能够理解视觉数据，如图表和图形，并通过生成文本描述图像细节来弥合视觉与语言之间的差距。',
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
       displayName: 'Llama 3.2 90B Vision',
       enabled: true,
-      id: 'accounts/fireworks/models/llama-v3p2-90b-vision-instruct',
+      id: 'meta-llama/llama-3.2-90b-vision-instruct',
+      pricing: {
+        input: 0.4,
+        output: 0.4,
+      },
       vision: true,
     },
     {
       contextWindowTokens: 131_072,
       description:
-        'Llama 3.3 70B 指令模型，提供卓越的自然语言理解和生成能力，是对话及分析任务的理想选择。',
-      displayName: 'Llama 3.3 70B Instruct',
+        'Meta Llama 3.3 多语言大语言模型 ( LLM ) 是 70B（文本输入/文本输出）中的预训练和指令调整生成模型。 Llama 3.3 指令调整的纯文本模型针对多语言对话用例进行了优化，并且在常见行业基准上优于许多可用的开源和封闭式聊天模型。',
+      displayName: 'Llama 3.3 70B',
       enabled: true,
       functionCall: true,
-      id: 'accounts/fireworks/models/llama-v3p3-70b-instruct',
+      id: 'llama-3.3-70b-versatile',
+      maxOutput: 8192,
+      pricing: {
+        input: 0.05,
+        output: 0.08,
+      },
     },
     {
       contextWindowTokens: 131_072,
