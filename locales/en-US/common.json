@@ -115,14 +115,14 @@
   "follow": "Visit {{name}}",
   "footer": {
     "action": {
-      "feedback": "enter your key in [App Settings > Language Model]",
+      "feedback": "enter your key in [Settings > AI Service Provider]",
       "star": "Get one from Mr.🆖 AI Hub"
     },
     "and": "and",
     "feedback": {
       "action": "Enter Key",
-      "desc": "After getting an API Key from Mr.🆖 AI Hub, enter it in [App Settings > Language Model].",
-      "title": "Enter your key in [App Settings]"
+      "desc": "After getting an API Key from Mr.🆖 AI Hub, enter it in [Settings > AI Service Provider > Mr.🆖 AI Hub].",
+      "title": "Enter your key in [Settings]"
     },
     "later": "Later",
     "star": {

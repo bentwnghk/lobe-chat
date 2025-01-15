@@ -115,13 +115,13 @@
   "follow": "瀏覽 {{name}}",
   "footer": {
     "action": {
-      "feedback": "到【應用設定 > 語言模型】輸入您的金鑰",
+      "feedback": "到【應用設定 > AI 服務商】輸入您的金鑰",
       "star": "在 Mr.🆖 AI Hub 取得"
     },
     "and": "然後",
     "feedback": {
       "action": "輸入金鑰",
-      "desc": "從 Mr.🆖 AI Hub 取得 API 金鑰後，在【應用設定 > 語言模型】中輸入您的金鑰。",
+      "desc": "從 Mr.🆖 AI Hub 取得 API 金鑰後，在【應用設定 > AI 服務商 > Mr.🆖 AI Hub】中輸入您的金鑰。",
       "title": "到【應用設定】輸入您的金鑰"
     },
     "later": "稍後",
