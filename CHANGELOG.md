@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.88.2](https://github.com/bentwnghk/lobe-chat/compare/v1.88.1...v1.88.2)
+
+<sup>Released on **2025-01-16**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor some implement for the next performance improvement.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor some implement for the next performance improvement, closes [#5462](https://github.com/bentwnghk/lobe-chat/issues/5462) ([b5e1146](https://github.com/bentwnghk/lobe-chat/commit/b5e1146))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.88.1](https://github.com/bentwnghk/lobe-chat/compare/v1.88.0...v1.88.1)
 
 <sup>Released on **2025-01-15**</sup>
