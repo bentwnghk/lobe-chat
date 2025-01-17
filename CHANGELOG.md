@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.89.1](https://github.com/bentwnghk/lobe-chat/compare/v1.89.0...v1.89.1)
+
+<sup>Released on **2025-01-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix api key in api key form.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix api key in api key form, closes [#5498](https://github.com/bentwnghk/lobe-chat/issues/5498) ([b4a160b](https://github.com/bentwnghk/lobe-chat/commit/b4a160b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.89.0](https://github.com/bentwnghk/lobe-chat/compare/v1.88.5...v1.89.0)
 
 <sup>Released on **2025-01-17**</sup>
