@@ -1,5 +1,12 @@
 [
   {
+    "children": {
+      "features": ["Support new ai provider in client pglite."]
+    },
+    "date": "2025-01-17",
+    "version": "1.89.0"
+  },
+  {
     "children": {},
     "date": "2025-01-17",
     "version": "1.47.1"
