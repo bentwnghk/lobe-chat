@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@bentwnghk/ui';
 import { FloatButton } from 'antd';
 import { createStyles } from 'antd-style';
 import { BugIcon, BugOff, XIcon } from 'lucide-react';

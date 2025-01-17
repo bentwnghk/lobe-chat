@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { ChevronDown, ChevronRight, Database, Table as TableIcon } from 'lucide-react';
 import React, { useState } from 'react';
