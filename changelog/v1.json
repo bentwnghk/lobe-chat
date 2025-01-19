@@ -1,5 +1,12 @@
 [
   {
+    "children": {
+      "fixes": ["Fix hydration error."]
+    },
+    "date": "2025-01-19",
+    "version": "1.89.2"
+  },
+  {
     "children": {},
     "date": "2025-01-18",
     "version": "1.47.4"
