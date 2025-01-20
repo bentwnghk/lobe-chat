@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.89.3](https://github.com/bentwnghk/lobe-chat/compare/v1.89.2...v1.89.3)
+
+<sup>Released on **2025-01-20**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve ai provider code, refactor provider code, Remove redundant payload remapping in client-fetch.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve ai provider code, closes [#5514](https://github.com/bentwnghk/lobe-chat/issues/5514) ([92789cd](https://github.com/bentwnghk/lobe-chat/commit/92789cd))
+- **misc**: Refactor provider code, closes [#5516](https://github.com/bentwnghk/lobe-chat/issues/5516) ([fa1a07f](https://github.com/bentwnghk/lobe-chat/commit/fa1a07f))
+- **misc**: Remove redundant payload remapping in client-fetch, closes [#5267](https://github.com/bentwnghk/lobe-chat/issues/5267) ([0c7dd82](https://github.com/bentwnghk/lobe-chat/commit/0c7dd82))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.2](https://github.com/bentwnghk/lobe-chat/compare/v1.89.1...v1.89.2)
 
 <sup>Released on **2025-01-19**</sup>
