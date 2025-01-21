@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.89.4](https://github.com/bentwnghk/lobe-chat/compare/v1.89.3...v1.89.4)
+
+<sup>Released on **2025-01-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve error code.
+
+#### 💄 Styles
+
+- **misc**: Add deepseek r1 model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve error code, closes [#5525](https://github.com/bentwnghk/lobe-chat/issues/5525) ([4fc4fa6](https://github.com/bentwnghk/lobe-chat/commit/4fc4fa6))
+
+#### Styles
+
+- **misc**: Add deepseek r1 model, closes [#5520](https://github.com/bentwnghk/lobe-chat/issues/5520) ([414477f](https://github.com/bentwnghk/lobe-chat/commit/414477f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.3](https://github.com/bentwnghk/lobe-chat/compare/v1.89.2...v1.89.3)
 
 <sup>Released on **2025-01-20**</sup>
