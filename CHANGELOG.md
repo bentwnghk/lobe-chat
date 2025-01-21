@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.89.6](https://github.com/bentwnghk/lobe-chat/compare/v1.89.5...v1.89.6)
+
+<sup>Released on **2025-01-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve code for ai provider.
+
+#### 💄 Styles
+
+- **misc**: Refactor `[@nav](https://github.com/nav)` layout and improve pin list style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve code for ai provider, closes [#5532](https://github.com/bentwnghk/lobe-chat/issues/5532) ([ea59e24](https://github.com/bentwnghk/lobe-chat/commit/ea59e24))
+
+#### Styles
+
+- **misc**: Refactor `[@nav](https://github.com/nav)` layout and improve pin list style, closes [#5533](https://github.com/bentwnghk/lobe-chat/issues/5533) ([cc8a7f4](https://github.com/bentwnghk/lobe-chat/commit/cc8a7f4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.5](https://github.com/bentwnghk/lobe-chat/compare/v1.89.4...v1.89.5)
 
 <sup>Released on **2025-01-21**</sup>
