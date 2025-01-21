@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.89.7](https://github.com/bentwnghk/lobe-chat/compare/v1.89.6...v1.89.7)
+
+<sup>Released on **2025-01-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add `ModelFetcher` for supported providers.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add `ModelFetcher` for supported providers, closes [#5316](https://github.com/bentwnghk/lobe-chat/issues/5316) [#252](https://github.com/bentwnghk/lobe-chat/issues/252) ([a189c81](https://github.com/bentwnghk/lobe-chat/commit/a189c81))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.6](https://github.com/bentwnghk/lobe-chat/compare/v1.89.5...v1.89.6)
 
 <sup>Released on **2025-01-21**</sup>
