@@ -4,6 +4,13 @@
       "improvements": ["Add ModelFetcher for supported providers."]
     },
     "date": "2025-01-21",
+    "version": "1.89.7"
+  },
+  {
+    "children": {
+      "improvements": ["Add ModelFetcher for supported providers."]
+    },
+    "date": "2025-01-21",
     "version": "1.47.13"
   },
   {
