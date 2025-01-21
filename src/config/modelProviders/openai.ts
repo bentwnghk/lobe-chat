@@ -221,6 +221,21 @@ const OpenAI: ModelProviderCard = {
       releasedAt: '2024-12-26',
     },
     {
+      contextWindowTokens: 65_536,
+      description:
+        'DeepSeek 推出的推理模型。在输出最终回答之前，模型会先输出一段思维链内容，以提升最终答案的准确性。',
+      displayName: 'DeepSeek R1',
+      enabled: true,
+      id: 'deepseek-reasoner',
+      pricing: {
+        cachedInput: 1,
+        currency: 'CNY',
+        input: 4,
+        output: 16,
+      },
+      releasedAt: '2025-01-20',
+    },
+    {
       contextWindowTokens: 131_072,
       description:
         'Meta Llama 3.3 多语言大语言模型 ( LLM ) 是 70B（文本输入/文本输出）中的预训练和指令调整生成模型。 Llama 3.3 指令调整的纯文本模型针对多语言对话用例进行了优化，并且在常见行业基准上优于许多可用的开源和封闭式聊天模型。',
