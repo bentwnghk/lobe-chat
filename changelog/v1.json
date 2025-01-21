@@ -4,6 +4,13 @@
       "improvements": ["Refactor [@nav](https://github.com/nav) layout and improve pin list style."]
     },
     "date": "2025-01-21",
+    "version": "1.89.6"
+  },
+  {
+    "children": {
+      "improvements": ["Refactor [@nav](https://github.com/nav) layout and improve pin list style."]
+    },
+    "date": "2025-01-21",
     "version": "1.47.12"
   },
   {
