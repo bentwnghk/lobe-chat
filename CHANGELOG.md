@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.89.5](https://github.com/bentwnghk/lobe-chat/compare/v1.89.4...v1.89.5)
+
+<sup>Released on **2025-01-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support assistant blacklist.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support assistant blacklist, closes [#5527](https://github.com/bentwnghk/lobe-chat/issues/5527) ([3534c0d](https://github.com/bentwnghk/lobe-chat/commit/3534c0d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.4](https://github.com/bentwnghk/lobe-chat/compare/v1.89.3...v1.89.4)
 
 <sup>Released on **2025-01-21**</sup>
