@@ -284,7 +284,6 @@ const OpenAI: ModelProviderCard = {
       id: 'sonar',
       maxOutput: 8192,
       pricing: {
-        cachedInput: 0,
         input: 1,
         output: 1,
       },
@@ -299,7 +298,6 @@ const OpenAI: ModelProviderCard = {
       id: 'sonar-pro',
       maxOutput: 8192,
       pricing: {
-        cachedInput: 0,
         input: 3,
         output: 15,
       },
