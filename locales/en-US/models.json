@@ -1227,16 +1227,16 @@
     "description": "Qwen2.5 is Alibaba's next-generation large-scale language model, supporting diverse application needs with outstanding performance."
   },
   "qwen2.5-14b-instruct": {
-    "description": "The 14B model of Tongyi Qianwen 2.5 is open-sourced."
+    "description": "Qwen2.5-14B-Instruct is an advanced instruction-tuned language model developed by Alibaba Cloud, featuring 14.7 billion parameters and optimized for tasks like coding, mathematics, and long-text generation, with support for up to 128K input tokens and multilingual capabilities across 29 languages."
   },
   "qwen2.5-32b-instruct": {
-    "description": "The 32B model of Tongyi Qianwen 2.5 is open-sourced."
+    "description": "The Qwen2.5-32B-Instruct model is a state-of-the-art large language model designed for instruction-following tasks, featuring 32.5 billion parameters and enhanced capabilities in coding, mathematics, and multilingual support, making it suitable for various applications such as content generation and data processing."
   },
   "qwen2.5-72b-instruct": {
-    "description": "The 72B model of Tongyi Qianwen 2.5 is open-sourced."
+    "description": "Qwen2.5-72B-Instruct is a state-of-the-art language model developed by Alibaba Cloud, featuring 72.7 billion parameters and designed to excel in generating human-like text, coding, and instruction-following across various languages, while supporting long-context inputs of up to 128K tokens."
   },
   "qwen2.5-7b-instruct": {
-    "description": "The 7B model of Tongyi Qianwen 2.5 is open-sourced."
+    "description": "Qwen2.5-7B-Instruct is a state-of-the-art instruction-tuned language model from the Qwen series, featuring 7.61 billion parameters and enhanced capabilities in coding, mathematics, and long-text generation, with support for context lengths up to 131,072 tokens and multilingual functionality across over 29 languages."
   },
   "qwen2.5-coder-1.5b-instruct": {
     "description": "Open-source version of the Qwen coding model."
