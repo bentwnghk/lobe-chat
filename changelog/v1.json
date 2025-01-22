@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Add gemini new model."],
+      "fixes": ["Upgrade react-i18next to ^15."]
+    },
+    "date": "2025-01-22",
+    "version": "1.89.10"
+  },
+  {
+    "children": {
       "fixes": ["Upgrade react-i18next to ^15."]
     },
     "date": "2025-01-22",
