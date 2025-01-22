@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.89.8](https://github.com/bentwnghk/lobe-chat/compare/v1.89.7...v1.89.8)
+
+<sup>Released on **2025-01-22**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support model list with model fetcher settings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support model list with model fetcher settings, closes [#5540](https://github.com/bentwnghk/lobe-chat/issues/5540) ([637fbf4](https://github.com/bentwnghk/lobe-chat/commit/637fbf4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.7](https://github.com/bentwnghk/lobe-chat/compare/v1.89.6...v1.89.7)
 
 <sup>Released on **2025-01-21**</sup>
