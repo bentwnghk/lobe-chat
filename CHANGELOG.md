@@ -2,6 +2,47 @@
 
 # Changelog
 
+### [Version 1.89.10](https://github.com/bentwnghk/lobe-chat/compare/v1.89.9...v1.89.10)
+
+<sup>Released on **2025-01-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move hooks and component.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Upgrade `react-i18next` to ^15.
+
+#### 💄 Styles
+
+- **misc**: Add gemini new model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move hooks and component, closes [#5551](https://github.com/bentwnghk/lobe-chat/issues/5551) ([c5db091](https://github.com/bentwnghk/lobe-chat/commit/c5db091))
+
+#### What's fixed
+
+- **misc**: Upgrade `react-i18next` to ^15, closes [#5553](https://github.com/bentwnghk/lobe-chat/issues/5553) ([d0275fd](https://github.com/bentwnghk/lobe-chat/commit/d0275fd))
+
+#### Styles
+
+- **misc**: Add gemini new model, closes [#5546](https://github.com/bentwnghk/lobe-chat/issues/5546) ([ebdd626](https://github.com/bentwnghk/lobe-chat/commit/ebdd626))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.9](https://github.com/bentwnghk/lobe-chat/compare/v1.89.8...v1.89.9)
 
 <sup>Released on **2025-01-22**</sup>
