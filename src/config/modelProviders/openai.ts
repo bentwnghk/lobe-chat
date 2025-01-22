@@ -308,22 +308,6 @@ const OpenAI: ModelProviderCard = {
     {
       contextWindowTokens: 128_000,
       description:
-        'Llama 3.1 Sonar Small Online 模型，具备8B参数，支持约127,000个标记的上下文长度，专为在线聊天设计，能高效处理各种文本交互。',
-      displayName: 'Llama 3.1 Sonar Small Online',
-      enabled: true,
-      id: 'llama-3.1-sonar-small-128k-online',
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
-        'Llama 3.1 Sonar Large Online 模型，具备70B参数，支持约127,000个标记的上下文长度，适用于高容量和多样化聊天任务。',
-      displayName: 'Llama 3.1 Sonar Large Online',
-      enabled: true,
-      id: 'llama-3.1-sonar-large-128k-online',
-    },
-    {
-      contextWindowTokens: 128_000,
-      description:
         'Pixtral 模型在图表和图理解、文档问答、多模态推理和指令遵循等任务上表现出强大的能力，能够以自然分辨率和宽高比摄入图像，还能够在长达 128K 令牌的长上下文窗口中处理任意数量的图像。',
       displayName: 'Pixtral 12B',
       enabled: true,

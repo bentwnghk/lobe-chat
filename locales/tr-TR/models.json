@@ -1286,6 +1286,12 @@
   "solar-pro": {
     "description": "Solar Pro, Upstage tarafından sunulan yüksek akıllı LLM'dir, tek GPU talimat takibi yeteneğine odaklanır, IFEval puanı 80'in üzerindedir. Şu anda İngilizceyi desteklemekte olup, resmi versiyonu 2024 Kasım'da piyasaya sürülmesi planlanmaktadır ve dil desteği ile bağlam uzunluğunu genişletecektir."
   },
+  "sonar": {
+    "description": "Perplexity Sonar is the most efficient and cost-effective search solutions available. It gives you fast, straightforward answers."
+  },
+  "sonar-pro": {
+    "description": "Perplexity Sonar Pro is the most efficient and cost-effective search solutions available. It tackles complex questions that need deeper research and provides more sources."
+  },
   "step-1-128k": {
     "description": "Performans ve maliyet arasında denge sağlar, genel senaryolar için uygundur."
   },

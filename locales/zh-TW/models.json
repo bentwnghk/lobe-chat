@@ -1286,6 +1286,12 @@
   "solar-pro": {
     "description": "Solar Pro 是 Upstage 推出的一款高智能LLM，專注於單GPU的指令跟隨能力，IFEval得分80以上。目前支持英語，正式版本計劃於2024年11月推出，將擴展語言支持和上下文長度。"
   },
+  "sonar": {
+    "description": "Perplexity Sonar 是最有效且最具成本效益的搜尋解決方案，可為您提供快速且直接的答案。"
+  },
+  "sonar-pro": {
+    "description": "Perplexity Sonar Pro 是最有效且最具成本效益的搜尋解決方案，可解決需要更深入研究的複雜問題並提供更多來源。"
+  },
   "step-1-128k": {
     "description": "平衡性能與成本，適合一般場景。"
   },

@@ -1286,6 +1286,12 @@
   "solar-pro": {
     "description": "Solar Pro یک مدل هوش مصنوعی پیشرفته از Upstage است که بر توانایی پیروی از دستورات با استفاده از یک GPU تمرکز دارد و امتیاز IFEval بالای 80 را کسب کرده است. در حال حاضر از زبان انگلیسی پشتیبانی می‌کند و نسخه رسمی آن برای نوامبر 2024 برنامه‌ریزی شده است که پشتیبانی از زبان‌های بیشتر و طول زمینه را گسترش خواهد داد."
   },
+  "sonar": {
+    "description": "Perplexity Sonar is the most efficient and cost-effective search solutions available. It gives you fast, straightforward answers."
+  },
+  "sonar-pro": {
+    "description": "Perplexity Sonar Pro is the most efficient and cost-effective search solutions available. It tackles complex questions that need deeper research and provides more sources."
+  },
   "step-1-128k": {
     "description": "تعادل بین عملکرد و هزینه، مناسب برای سناریوهای عمومی."
   },
