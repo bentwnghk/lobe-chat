@@ -278,6 +278,36 @@ const OpenAI: ModelProviderCard = {
     {
       contextWindowTokens: 128_000,
       description:
+        'Perplexity Sonar 是最有效且最具成本效益的搜索解决方案，可为您提供快速而直接的答案。',
+      displayName: 'Perplexity Sonar',
+      enabled: true,
+      id: 'sonar',
+      maxOutput: 8192,
+      pricing: {
+        cachedInput: 0,
+        input: 1,
+        output: 1,
+      },
+      releasedAt: '2025-01-22',
+    },
+    {
+      contextWindowTokens: 200_000,
+      description:
+        'Perplexity Sonar Pro 是最有效且最具成本效益的搜索解决方案，可解决需要更深入研究的复杂问题并提供更多来源。',
+      displayName: 'Perplexity Sonar Pro',
+      enabled: true,
+      id: 'sonar-pro',
+      maxOutput: 8192,
+      pricing: {
+        cachedInput: 0,
+        input: 3,
+        output: 15,
+      },
+      releasedAt: '2025-01-22',
+    },
+    {
+      contextWindowTokens: 128_000,
+      description:
         'Llama 3.1 Sonar Small Online 模型，具备8B参数，支持约127,000个标记的上下文长度，专为在线聊天设计，能高效处理各种文本交互。',
       displayName: 'Llama 3.1 Sonar Small Online',
       enabled: true,
