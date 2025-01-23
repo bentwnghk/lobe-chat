@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.89.12](https://github.com/bentwnghk/lobe-chat/compare/v1.89.11...v1.89.12)
+
+<sup>Released on **2025-01-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix tts in new provider model.
+
+#### 💄 Styles
+
+- **misc**: Add HuggingFace Model: DeepSeek R1, Add new stepfun model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix tts in new provider model, closes [#5569](https://github.com/bentwnghk/lobe-chat/issues/5569) ([3fef83e](https://github.com/bentwnghk/lobe-chat/commit/3fef83e))
+
+#### Styles
+
+- **misc**: Add HuggingFace Model: DeepSeek R1, closes [#5564](https://github.com/bentwnghk/lobe-chat/issues/5564) ([66d4edd](https://github.com/bentwnghk/lobe-chat/commit/66d4edd))
+- **misc**: Add new stepfun model, closes [#5560](https://github.com/bentwnghk/lobe-chat/issues/5560) ([6e027e8](https://github.com/bentwnghk/lobe-chat/commit/6e027e8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.11](https://github.com/bentwnghk/lobe-chat/compare/v1.89.10...v1.89.11)
 
 <sup>Released on **2025-01-23**</sup>
