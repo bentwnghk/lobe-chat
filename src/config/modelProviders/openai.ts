@@ -161,14 +161,14 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
     {
-      contextWindowTokens: 32_767 + 8192,
+      contextWindowTokens: 1_048_576 + 65_536,
       description:
         'Gemini 2.0 Flash Thinking 是一个实验模型，经过训练后可以生成模型在响应过程中经历的思考过程。因此，思维模式的响应推理能力比基础 Gemini 2.0 Flash 模型更强。',
       displayName: 'Gemini 2.0 Flash Thinking Experimental',
       enabled: true,
-      functionCall: false,
+      functionCall: true,
       id: 'gemini-2.0-flash-thinking-exp-01-21',
-      maxOutput: 8192,
+      maxOutput: 65_536,
       pricing: {
         cachedInput: 0,
         input: 0,
