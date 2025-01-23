@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.89.11](https://github.com/bentwnghk/lobe-chat/compare/v1.89.10...v1.89.11)
+
+<sup>Released on **2025-01-23**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix debounce issue of provider config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix debounce issue of provider config, closes [#5557](https://github.com/bentwnghk/lobe-chat/issues/5557) ([c971530](https://github.com/bentwnghk/lobe-chat/commit/c971530))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.10](https://github.com/bentwnghk/lobe-chat/compare/v1.89.9...v1.89.10)
 
 <sup>Released on **2025-01-22**</sup>
