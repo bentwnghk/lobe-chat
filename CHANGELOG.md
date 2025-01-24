@@ -2,6 +2,47 @@
 
 # Changelog
 
+## [Version 1.90.0](https://github.com/bentwnghk/lobe-chat/compare/v1.89.12...v1.90.0)
+
+<sup>Released on **2025-01-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Support display thinking for DeepSeek R1.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix form input in provider.
+
+#### 💄 Styles
+
+- **misc**: Fix model fetch match tag error & add Hunyuan model fetch support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support display thinking for DeepSeek R1, closes [#5558](https://github.com/bentwnghk/lobe-chat/issues/5558) ([f98bb5a](https://github.com/bentwnghk/lobe-chat/commit/f98bb5a))
+
+#### What's fixed
+
+- **misc**: Fix form input in provider, closes [#5571](https://github.com/bentwnghk/lobe-chat/issues/5571) ([07e2396](https://github.com/bentwnghk/lobe-chat/commit/07e2396))
+
+#### Styles
+
+- **misc**: Fix model fetch match tag error & add Hunyuan model fetch support, closes [#5566](https://github.com/bentwnghk/lobe-chat/issues/5566) ([7b075ef](https://github.com/bentwnghk/lobe-chat/commit/7b075ef))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.89.12](https://github.com/bentwnghk/lobe-chat/compare/v1.89.11...v1.89.12)
 
 <sup>Released on **2025-01-23**</sup>
