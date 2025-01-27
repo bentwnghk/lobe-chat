@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.91.1](https://github.com/bentwnghk/lobe-chat/compare/v1.91.0...v1.91.1)
+
+<sup>Released on **2025-01-27**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Remove use query, useMobileWorkspace use nqus to replace useQuery.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix discover ssr hydration error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Remove use query, closes [#5604](https://github.com/bentwnghk/lobe-chat/issues/5604) ([58c60de](https://github.com/bentwnghk/lobe-chat/commit/58c60de))
+- **misc**: UseMobileWorkspace use nqus to replace useQuery, closes [#5603](https://github.com/bentwnghk/lobe-chat/issues/5603) ([70e5272](https://github.com/bentwnghk/lobe-chat/commit/70e5272))
+
+#### What's fixed
+
+- **misc**: Fix discover ssr hydration error, closes [#5605](https://github.com/bentwnghk/lobe-chat/issues/5605) ([e3702a6](https://github.com/bentwnghk/lobe-chat/commit/e3702a6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.91.0](https://github.com/bentwnghk/lobe-chat/compare/v1.90.2...v1.91.0)
 
 <sup>Released on **2025-01-27**</sup>
