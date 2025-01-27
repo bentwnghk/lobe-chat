@@ -1,4 +1,4 @@
-import { Icon, Markdown } from '@lobehub/ui';
+import { Icon, Markdown } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { AnimatePresence, motion } from 'framer-motion';
 import { AtomIcon, ChevronDown, ChevronRight } from 'lucide-react';
