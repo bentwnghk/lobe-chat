@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "features": ["Support Doubao Models."],
+      "improvements": ["Improve thinking style."]
+    },
+    "date": "2025-01-27",
+    "version": "1.91.0"
+  },
+  {
+    "children": {
       "features": ["Support Doubao Models."]
     },
     "date": "2025-01-27",
