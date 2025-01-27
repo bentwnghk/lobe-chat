@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.91.0](https://github.com/bentwnghk/lobe-chat/compare/v1.90.2...v1.91.0)
+
+<sup>Released on **2025-01-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Support Doubao Models.
+
+#### 💄 Styles
+
+- **misc**: Improve thinking style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support Doubao Models, closes [#5481](https://github.com/bentwnghk/lobe-chat/issues/5481) ([d8afe47](https://github.com/bentwnghk/lobe-chat/commit/d8afe47))
+
+#### Styles
+
+- **misc**: Improve thinking style, closes [#5602](https://github.com/bentwnghk/lobe-chat/issues/5602) ([d4dc3f2](https://github.com/bentwnghk/lobe-chat/commit/d4dc3f2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.90.2](https://github.com/bentwnghk/lobe-chat/compare/v1.90.1...v1.90.2)
 
 <sup>Released on **2025-01-27**</sup>
