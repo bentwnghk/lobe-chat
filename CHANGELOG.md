@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.91.2](https://github.com/bentwnghk/lobe-chat/compare/v1.91.1...v1.91.2)
+
+<sup>Released on **2025-01-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix changelog locale not showing English, pin `@clerk/nextjs@6.10.2` to avoid build error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix changelog locale not showing English, closes [#5607](https://github.com/bentwnghk/lobe-chat/issues/5607) ([9104242](https://github.com/bentwnghk/lobe-chat/commit/9104242))
+- **misc**: Pin `@clerk/nextjs@6.10.2` to avoid build error, closes [#5611](https://github.com/bentwnghk/lobe-chat/issues/5611) ([deb03ad](https://github.com/bentwnghk/lobe-chat/commit/deb03ad))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.91.1](https://github.com/bentwnghk/lobe-chat/compare/v1.91.0...v1.91.1)
 
 <sup>Released on **2025-01-27**</sup>
