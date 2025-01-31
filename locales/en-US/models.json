@@ -1244,6 +1244,9 @@
   "qwen-max-latest": {
     "description": "Tongyi Qianwen Max is a large-scale language model with hundreds of billions of parameters, supporting input in various languages, including Chinese and English. It is the API model behind the current Tongyi Qianwen 2.5 product version."
   },
+  "qwen-max-2025-01-25": {
+    "description": "Tongyi Qianwen Max is a large-scale language model with hundreds of billions of parameters, supporting input in various languages, including Chinese and English. It is the API model behind the current Tongyi Qianwen 2.5 product version."
+  },
   "qwen-plus": {
     "description": "Qwen Plus is an enhanced large-scale language model supporting input in various languages including Chinese and English."
   },
@@ -1345,6 +1348,9 @@
   },
   "sonar-pro": {
     "description": "Perplexity Sonar Pro is the most efficient and cost-effective search solutions available. It tackles complex questions that need deeper research and provides more sources."
+  },
+  "sonar-reasoning": {
+    "description": "Perplexity Sonar Reasoning is the latest API solution powered by DeepSeek R1."
   },
   "step-1-128k": {
     "description": "Balances performance and cost, suitable for general scenarios."

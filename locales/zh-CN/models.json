@@ -1244,6 +1244,9 @@
   "qwen-max-latest": {
     "description": "通义千问千亿级别超大规模语言模型，支持中文、英文等不同语言输入，当前通义千问2.5产品版本背后的API模型。"
   },
+  "qwen-max-2025-01-25": {
+    "description": "通义千问千亿级别超大规模语言模型，支持中文、英文等不同语言输入，当前通义千问2.5产品版本背後的API模型。"
+  },
   "qwen-plus": {
     "description": "通义千问超大规模语言模型增强版，支持中文、英文等不同语言输入。"
   },
@@ -1345,6 +1348,9 @@
   },
   "sonar-pro": {
     "description": "Perplexity Sonar Pro 是最有效且最具成本效益的搜索解决方案，可解决需要更深入研究的复杂问题并提供更多来源。"
+  },
+  "sonar-reasoning": {
+    "description": "Perplexity Sonar Reasoning 是由 DeepSeek 推理模型提供支持的新 API 产品。"
   },
   "step-1-128k": {
     "description": "平衡性能与成本，适合一般场景。"
