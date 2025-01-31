@@ -65,6 +65,7 @@ const OpenAI: ModelProviderCard = {
       description:
         'Claude 3 Haiku 是 Anthropic 的最快且最紧凑的模型，旨在实现近乎即时的响应。它具有快速且准确的定向性能。',
       displayName: 'Claude 3 Haiku',
+      enabled: true,
       functionCall: true,
       id: 'claude-3-haiku-20240307',
       maxOutput: 4096,
@@ -276,30 +277,47 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
     {
-      contextWindowTokens: 128_000,
+      contextWindowTokens: 127_072,
       description:
-        'Perplexity Sonar 是最有效且最具成本效益的搜索解决方案，可为您提供快速而直接的答案。',
-      displayName: 'Perplexity Sonar',
+        '由 DeepSeek 推理模型提供支持的新 API 产品。',
+      displayName: 'Perplexity Sonar Reasoning',
       enabled: true,
-      id: 'sonar',
+      id: 'sonar-reasoning',
       maxOutput: 8192,
       pricing: {
+        cachedInput: 0,
         input: 1,
-        output: 1,
+        output: 5,
       },
-      releasedAt: '2025-01-22',
+      releasedAt: '2025-01-30',
     },
     {
       contextWindowTokens: 200_000,
       description:
-        'Perplexity Sonar Pro 是最有效且最具成本效益的搜索解决方案，可解决需要更深入研究的复杂问题并提供更多来源。',
+        '支持搜索上下文的高级搜索产品，支持高级查询和跟进。',
       displayName: 'Perplexity Sonar Pro',
       enabled: true,
       id: 'sonar-pro',
       maxOutput: 8192,
       pricing: {
+        cachedInput: 0,
         input: 3,
         output: 15,
+      },
+      releasedAt: '2025-01-22',
+    },
+    {
+      contextWindowTokens: 127_072,
+      description:
+        '基于搜索上下文的轻量级搜索产品，比 Sonar Pro 更快、更便宜。',
+      displayName: 'Perplexity Sonar',
+      enabled: true,
+      id: 'sonar',
+      maxOutput: 8192,
+      pricing: {
+        cachedInput: 0,
+        input: 1,
+        output: 1,
       },
       releasedAt: '2025-01-22',
     },
@@ -450,6 +468,7 @@ const OpenAI: ModelProviderCard = {
       contextWindowTokens: 32_768,
       description: '全新千亿参数模型，提供超强问答及文本生成能力。',
       displayName: 'Yi Large',
+      enabled: true,
       id: 'yi-large',
       pricing: {
         currency: 'CNY',
@@ -465,6 +484,11 @@ const OpenAI: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'moonshot-v1-8k',
+      pricing: {
+        currency: 'CNY',
+        input: 12,
+        output: 12,
+      },
     },
     {
       contextWindowTokens: 32_768,
@@ -474,6 +498,11 @@ const OpenAI: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'moonshot-v1-32k',
+      pricing: {
+        currency: 'CNY',
+        input: 24,
+        output: 24,
+      },
     },
     {
       contextWindowTokens: 128_000,
@@ -483,6 +512,11 @@ const OpenAI: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'moonshot-v1-128k',
+      pricing: {
+        currency: 'CNY',
+        input: 60,
+        output: 60,
+      },
     },
     {
       contextWindowTokens: 131_072,
@@ -514,6 +548,7 @@ const OpenAI: ModelProviderCard = {
       contextWindowTokens: 131_072,
       description: '通义千问2.5对外开源的14B规模的模型。',
       displayName: 'Qwen2.5 14B',
+      enabled: true,
       functionCall: true,
       id: 'qwen2.5-14b-instruct',
       pricing: {
@@ -526,6 +561,7 @@ const OpenAI: ModelProviderCard = {
       contextWindowTokens: 131_072,
       description: '通义千问2.5对外开源的32B规模的模型。',
       displayName: 'Qwen2.5 32B',
+      enabled: true,
       functionCall: true,
       id: 'qwen2.5-32b-instruct',
       pricing: {
@@ -538,12 +574,27 @@ const OpenAI: ModelProviderCard = {
       contextWindowTokens: 131_072,
       description: '通义千问2.5对外开源的72B规模的模型。',
       displayName: 'Qwen2.5 72B',
+      enabled: true,
       functionCall: true,
       id: 'qwen2.5-72b-instruct',
       pricing: {
         currency: 'CNY',
         input: 4,
         output: 12,
+      },
+    },
+    {
+      contextWindowTokens: 32_768,
+      description:
+        '通义千问千亿级别超大规模语言模型，支持中文、英文等不同语言输入，当前通义千问2.5产品版本背后的API模型。',
+      displayName: 'Qwen2.5-Max',
+      enabled: true,
+      functionCall: true,
+      id: 'qwen-max-2025-01-25',
+      pricing: {
+        currency: 'CNY',
+        input: 11.2,
+        output: 44.8,
       },
     },
   ],

@@ -11,6 +11,11 @@ const Moonshot: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'moonshot-v1-8k',
+      pricing: {
+        currency: 'CNY',
+        input: 12,
+        output: 12,
+      },
     },
     {
       contextWindowTokens: 32_768,
@@ -20,6 +25,11 @@ const Moonshot: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'moonshot-v1-32k',
+      pricing: {
+        currency: 'CNY',
+        input: 24,
+        output: 24,
+      },
     },
     {
       contextWindowTokens: 128_000,
@@ -29,6 +39,11 @@ const Moonshot: ModelProviderCard = {
       enabled: true,
       functionCall: true,
       id: 'moonshot-v1-128k',
+      pricing: {
+        currency: 'CNY',
+        input: 60,
+        output: 60,
+      },
     },
   ],
   checkModel: 'moonshot-v1-8k',
