@@ -21,7 +21,7 @@ export const CHANGELOG = 'https://api.mr5ai.com';
 export const DOCKER_IMAGE = 'https://hub.docker.com/r/bentwng/lobe-chat';
 
 export const DOCUMENTS = 'https://dict.mr-ng.com/';
-export const USAGE_DOCUMENTS = 'https://google.com/';
+export const USAGE_DOCUMENTS = 'https://lac.mr5ai.com/';
 export const SELF_HOSTING_DOCUMENTS = 'https://google.com/';
 export const WEBRTC_SYNC_DOCUMENTS = 'https://google.com/';
 export const DATABASE_SELF_HOSTING_URL = 'https://google.com/';
@@ -46,7 +46,7 @@ export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 export const MORE_MODEL_PROVIDER_REQUEST_URL = 'https://api.mr5ai.com';
 
 export const MORE_FILE_PREVIEW_REQUEST_URL =
-  'mailto:mr.ng@mystudies.net';
+  'mailto:mr.ng@mister5.net';
 
 export const AGENTS_INDEX_GITHUB = 'https://github.com/lobehub/lobe-chat-agents';
 export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');
@@ -60,7 +60,7 @@ export const SESSION_CHAT_URL = (id: string = INBOX_SESSION_ID, mobile?: boolean
 export const imageUrl = (filename: string) => withBasePath(`/images/${filename}`);
 
 export const LOBE_URL_IMPORT_NAME = 'settings';
-export const EMAIL_SUPPORT = 'mr.ng@mystudies.net';
+export const EMAIL_SUPPORT = 'mr.ng@mister5.net';
 export const EMAIL_BUSINESS = 'https://api.mr5ai.com';
 
 export const MEDIDUM = 'https://books.mr5drive.com/';
