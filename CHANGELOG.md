@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.91.4](https://github.com/bentwnghk/lobe-chat/compare/v1.91.3...v1.91.4)
+
+<sup>Released on **2025-02-01**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Multiple deepseek-reasoner request errors.
+
+#### 💄 Styles
+
+- **misc**: Support thinking for all non DeepSeek official api R1 models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Multiple deepseek-reasoner request errors, closes [#5601](https://github.com/bentwnghk/lobe-chat/issues/5601) ([71cc32b](https://github.com/bentwnghk/lobe-chat/commit/71cc32b))
+
+#### Styles
+
+- **misc**: Support thinking for all non DeepSeek official api R1 models, closes [#5654](https://github.com/bentwnghk/lobe-chat/issues/5654) ([9b32137](https://github.com/bentwnghk/lobe-chat/commit/9b32137))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.91.3](https://github.com/bentwnghk/lobe-chat/compare/v1.91.2...v1.91.3)
 
 <sup>Released on **2025-01-30**</sup>
