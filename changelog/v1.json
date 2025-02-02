@@ -1,6 +1,15 @@
 [
   {
     "children": {
+      "fixes": [
+        "Fix <think> tag crash with special markdown content, fix can not stop generating, fix ollama intergration checker and client fetch issue."
+      ]
+    },
+    "date": "2025-02-02",
+    "version": "1.91.6"
+  },
+  {
+    "children": {
       "fixes": ["Fix can not stop generating."]
     },
     "date": "2025-02-02",
