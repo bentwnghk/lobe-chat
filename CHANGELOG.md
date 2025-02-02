@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.91.6](https://github.com/bentwnghk/lobe-chat/compare/v1.91.5...v1.91.6)
+
+<sup>Released on **2025-02-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `<think>` tag crash with special markdown content, fix can not stop generating, fix ollama intergration checker and client fetch issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix `<think>` tag crash with special markdown content, closes [#5670](https://github.com/bentwnghk/lobe-chat/issues/5670) ([b719522](https://github.com/bentwnghk/lobe-chat/commit/b719522))
+- **misc**: Fix can not stop generating, closes [#5671](https://github.com/bentwnghk/lobe-chat/issues/5671) ([ae39c35](https://github.com/bentwnghk/lobe-chat/commit/ae39c35))
+- **misc**: Fix ollama intergration checker and client fetch issue, closes [#5665](https://github.com/bentwnghk/lobe-chat/issues/5665) ([cd09a07](https://github.com/bentwnghk/lobe-chat/commit/cd09a07))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.91.5](https://github.com/bentwnghk/lobe-chat/compare/v1.91.4...v1.91.5)
 
 <sup>Released on **2025-02-02**</sup>
