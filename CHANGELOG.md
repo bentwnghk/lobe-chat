@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.91.5](https://github.com/bentwnghk/lobe-chat/compare/v1.91.4...v1.91.5)
+
+<sup>Released on **2025-02-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update siliconcloud models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update siliconcloud models, closes [#5647](https://github.com/bentwnghk/lobe-chat/issues/5647) ([4b41ad4](https://github.com/bentwnghk/lobe-chat/commit/4b41ad4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.91.4](https://github.com/bentwnghk/lobe-chat/compare/v1.91.3...v1.91.4)
 
 <sup>Released on **2025-02-01**</sup>
