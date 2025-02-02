@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { XIcon } from 'lucide-react';
 import { ReactNode, useState } from 'react';
