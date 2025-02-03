@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.92.1](https://github.com/bentwnghk/lobe-chat/compare/v1.92.0...v1.92.1)
+
+<sup>Released on **2025-02-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Bind the selected group name in the rename modal..
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Bind the selected group name in the rename modal., closes [#5159](https://github.com/bentwnghk/lobe-chat/issues/5159) ([7da05ce](https://github.com/bentwnghk/lobe-chat/commit/7da05ce))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.92.0](https://github.com/bentwnghk/lobe-chat/compare/v1.91.6...v1.92.0)
 
 <sup>Released on **2025-02-03**</sup>
