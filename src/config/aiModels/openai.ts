@@ -51,8 +51,8 @@ export const openaiChatModels: AIChatModelCard[] = [
     id: 'o1-mini',
     maxOutput: 65_536,
     pricing: {
-      input: 3,
-      output: 12,
+      input: 1.1,
+      output: 4.4,
     },
     releasedAt: '2024-09-12',
     type: 'chat',
