@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.92.0](https://github.com/bentwnghk/lobe-chat/compare/v1.91.6...v1.92.0)
+
+<sup>Released on **2025-02-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Add `o3-mini` support for OpenAI & GitHub Models.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix parse of deepseek r1 in siliconflow provider, fix provider update issue, Optimize requests without historical messages.
+
+#### 💄 Styles
+
+- **misc**: Update Fireworks check model and fix check error, Update perplexity models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add `o3-mini` support for OpenAI & GitHub Models, closes [#5657](https://github.com/bentwnghk/lobe-chat/issues/5657) ([492cfd4](https://github.com/bentwnghk/lobe-chat/commit/492cfd4))
+
+#### What's fixed
+
+- **misc**: Fix parse of deepseek r1 in siliconflow provider, closes [#5687](https://github.com/bentwnghk/lobe-chat/issues/5687) ([44e81e2](https://github.com/bentwnghk/lobe-chat/commit/44e81e2))
+- **misc**: Fix provider update issue, closes [#5676](https://github.com/bentwnghk/lobe-chat/issues/5676) ([e5d81ea](https://github.com/bentwnghk/lobe-chat/commit/e5d81ea))
+- **misc**: Optimize requests without historical messages, closes [#5174](https://github.com/bentwnghk/lobe-chat/issues/5174) ([182f8d9](https://github.com/bentwnghk/lobe-chat/commit/182f8d9))
+
+#### Styles
+
+- **misc**: Update Fireworks check model and fix check error, closes [#5680](https://github.com/bentwnghk/lobe-chat/issues/5680) ([64ea539](https://github.com/bentwnghk/lobe-chat/commit/64ea539))
+- **misc**: Update perplexity models, closes [#5624](https://github.com/bentwnghk/lobe-chat/issues/5624) ([58a86fc](https://github.com/bentwnghk/lobe-chat/commit/58a86fc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.91.6](https://github.com/bentwnghk/lobe-chat/compare/v1.91.5...v1.91.6)
 
 <sup>Released on **2025-02-02**</sup>
