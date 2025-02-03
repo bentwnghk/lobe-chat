@@ -4,6 +4,13 @@
       "fixes": ["Bind the selected group name in the rename modal.."]
     },
     "date": "2025-02-03",
+    "version": "1.92.1"
+  },
+  {
+    "children": {
+      "fixes": ["Bind the selected group name in the rename modal.."]
+    },
+    "date": "2025-02-03",
     "version": "1.50.1"
   },
   {
