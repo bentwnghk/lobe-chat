@@ -328,7 +328,6 @@ const Qwen: ModelProviderCard = {
       description: 
         'DeepSeek-R1 在后训练阶段大规模使用了强化学习技术，在仅有极少标注数据的情况下，极大提升了模型推理能力，尤其在数学、代码、自然语言推理等任务上。',
       displayName: 'DeepSeek R1',
-      enabled: true,
       id: 'deepseek-r1',
       pricing: {
         currency: 'CNY',
@@ -342,7 +341,6 @@ const Qwen: ModelProviderCard = {
       description: 
         'DeepSeek-V3 为自研 MoE 模型，671B 参数，激活 37B，在 14.8T token 上进行了预训练，在长文本、代码、数学、百科、中文能力上表现优秀。',
       displayName: 'DeepSeek V3',
-      enabled: true,
       id: 'deepseek-v3',
       pricing: {
         currency: 'CNY',
