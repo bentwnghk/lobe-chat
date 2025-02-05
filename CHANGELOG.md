@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.93.0](https://github.com/bentwnghk/lobe-chat/compare/v1.92.3...v1.93.0)
+
+<sup>Released on **2025-02-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Add reasoning tag support for custom models via UI or ENV.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix deepseek-v3 & qvq model tag fetch error from SiliconCloud, fix model ability missing.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add reasoning tag support for custom models via UI or ENV, closes [#5684](https://github.com/bentwnghk/lobe-chat/issues/5684) ([3499403](https://github.com/bentwnghk/lobe-chat/commit/3499403))
+
+#### What's fixed
+
+- **misc**: Fix deepseek-v3 & qvq model tag fetch error from SiliconCloud, closes [#5741](https://github.com/bentwnghk/lobe-chat/issues/5741) ([ee61653](https://github.com/bentwnghk/lobe-chat/commit/ee61653))
+- **misc**: Fix model ability missing, closes [#5739](https://github.com/bentwnghk/lobe-chat/issues/5739) ([0e1a022](https://github.com/bentwnghk/lobe-chat/commit/0e1a022))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.92.3](https://github.com/bentwnghk/lobe-chat/compare/v1.92.2...v1.92.3)
 
 <sup>Released on **2025-02-05**</sup>
