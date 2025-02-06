@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import { Empty } from 'antd';
 import { memo } from 'react';
 import { Center } from 'react-layout-kit';

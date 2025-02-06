@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, Highlighter } from '@lobehub/ui';
+import { Form, Highlighter } from '@bentwnghk/ui';
 import { Switch } from 'antd';
 import { createStyles } from 'antd-style';
 import { snakeCase } from 'lodash-es';

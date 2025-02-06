@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, FluentEmoji, Icon, SideNav } from '@lobehub/ui';
+import { ActionIcon, FluentEmoji, Icon, SideNav } from '@bentwnghk/ui';
 import { Dropdown, FloatButton } from 'antd';
 import { createStyles } from 'antd-style';
 import { BugIcon, BugOff, XIcon } from 'lucide-react';

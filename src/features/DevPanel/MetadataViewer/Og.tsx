@@ -1,4 +1,4 @@
-import { Form } from '@lobehub/ui';
+import { Form } from '@bentwnghk/ui';
 import { Input } from 'antd';
 import Image from 'next/image';
 import { memo } from 'react';

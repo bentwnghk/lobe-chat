@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import Link from 'next/link';
 import { ReactNode, memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
