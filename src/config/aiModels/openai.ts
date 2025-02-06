@@ -43,6 +43,9 @@ export const openaiChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
+    abilities: {
+      reasoning: true,
+    },
     contextWindowTokens: 128_000,
     description:
       'o1-mini是一款针对编程、数学和科学应用场景而设计的快速、经济高效的推理模型。该模型具有128K上下文和2023年10月的知识截止日期。',
@@ -180,6 +183,7 @@ export const openaiChatModels: AIChatModelCard[] = [
     abilities: {
       functionCall: true,
       vision: true,
+      reasoning: true,
     },
     contextWindowTokens: 1_048_576 + 65_536,
     description:
@@ -249,6 +253,9 @@ export const openaiChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
+    abilities: {
+      reasoning: true,
+    },
     contextWindowTokens: 65_536,
     description:
       'DeepSeek 推出的推理模型。在输出最终回答之前，模型会先输出一段思维链内容，以提升最终答案的准确性。',
@@ -314,6 +321,9 @@ export const openaiChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
+    abilities: {
+      reasoning: true,
+    },
     contextWindowTokens: 127_072,
     description:
       '由 DeepSeek 推理模型提供支持的新 API 产品。',
@@ -444,13 +454,14 @@ export const openaiChatModels: AIChatModelCard[] = [
   {
     abilities: {
       functionCall: true,
+      reasoning: true,
     },
     contextWindowTokens: 32_768,
     description:
       '通义千问千亿级别超大规模语言模型，支持中文、英文等不同语言输入，当前通义千问2.5产品版本背后的API模型。',
     displayName: 'Qwen2.5-Max',
     enabled: true,
-    id: 'qwen-max-2025-01-25',
+    id: 'qwen-max-latest',
     pricing: {
       currency: 'CNY',
       input: 11.2,
@@ -517,6 +528,22 @@ export const openaiChatModels: AIChatModelCard[] = [
     displayName: 'GLM-4-AirX',
     enabled: true,
     id: 'glm-4-airx',
+    pricing: {
+      currency: 'CNY',
+      input: 10,
+      output: 10,
+    },
+    type: 'chat',
+  },
+  {
+    abilities: {
+      reasoning: true,
+    },
+    contextWindowTokens: 16_384,
+    description: 'GLM-Zero-Preview具备强大的复杂推理能力，在逻辑推理、数学、编程等领域表现优异。',
+    displayName: 'GLM-Zero-Preview',
+    enabled: true,
+    id: 'glm-zero-preview',
     pricing: {
       currency: 'CNY',
       input: 10,
