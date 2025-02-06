@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.93.4](https://github.com/bentwnghk/lobe-chat/compare/v1.93.3...v1.93.4)
+
+<sup>Released on **2025-02-06**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update edtion tag display and improve prerender.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update edtion tag display and improve prerender, closes [#5800](https://github.com/bentwnghk/lobe-chat/issues/5800) ([673109b](https://github.com/bentwnghk/lobe-chat/commit/673109b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.93.3](https://github.com/bentwnghk/lobe-chat/compare/v1.93.2...v1.93.3)
 
 <sup>Released on **2025-02-06**</sup>
