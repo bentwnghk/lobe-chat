@@ -30,7 +30,8 @@ export const openaiChatModels: AIChatModelCard[] = [
     abilities: {
       functionCall: true,
       vision: true,
-    },contextWindowTokens: 128_000,
+    },
+    contextWindowTokens: 128_000,
     description:
       'ChatGPT-4o 是一款动态模型，实时更新以保持当前最新版本。它结合了强大的语言理解与生成能力，适合于大规模应用场景，包括客户服务、教育和技术支持。',
     displayName: 'GPT-4o',
@@ -182,8 +183,8 @@ export const openaiChatModels: AIChatModelCard[] = [
   {
     abilities: {
       functionCall: true,
-      vision: true,
       reasoning: true,
+      vision: true,
     },
     contextWindowTokens: 1_048_576 + 65_536,
     description:
@@ -325,8 +326,7 @@ export const openaiChatModels: AIChatModelCard[] = [
       reasoning: true,
     },
     contextWindowTokens: 127_072,
-    description:
-      '由 DeepSeek 推理模型提供支持的新 API 产品。',
+    description: '由 DeepSeek 推理模型提供支持的新 API 产品。',
     displayName: 'Perplexity Sonar Reasoning',
     enabled: true,
     id: 'sonar-reasoning',
@@ -341,8 +341,7 @@ export const openaiChatModels: AIChatModelCard[] = [
   },
   {
     contextWindowTokens: 200_000,
-    description:
-      '支持搜索上下文的高级搜索产品，支持高级查询和跟进。',
+    description: '支持搜索上下文的高级搜索产品，支持高级查询和跟进。',
     displayName: 'Perplexity Sonar Pro',
     enabled: true,
     id: 'sonar-pro',
@@ -357,8 +356,7 @@ export const openaiChatModels: AIChatModelCard[] = [
   },
   {
     contextWindowTokens: 127_072,
-    description:
-      '基于搜索上下文的轻量级搜索产品，比 Sonar Pro 更快、更便宜。',
+    description: '基于搜索上下文的轻量级搜索产品，比 Sonar Pro 更快、更便宜。',
     displayName: 'Perplexity Sonar',
     enabled: true,
     id: 'sonar',
@@ -392,8 +390,7 @@ export const openaiChatModels: AIChatModelCard[] = [
       functionCall: true,
     },
     contextWindowTokens: 128_000,
-    description:
-      'Mistral Small是成本效益高、快速且可靠的选项，适用于翻译、摘要和情感分析等用例。',
+    description: 'Mistral Small是成本效益高、快速且可靠的选项，适用于翻译、摘要和情感分析等用例。',
     displayName: 'Mistral Small',
     enabled: true,
     id: 'mistral-small-latest',
@@ -556,8 +553,7 @@ export const openaiChatModels: AIChatModelCard[] = [
       functionCall: true,
     },
     contextWindowTokens: 128_000,
-    description:
-      'GLM-4-Plus 作为高智能旗舰，具备强大的处理长文本和复杂任务的能力，性能全面提升。',
+    description: 'GLM-4-Plus 作为高智能旗舰，具备强大的处理长文本和复杂任务的能力，性能全面提升。',
     displayName: 'GLM-4-Plus',
     enabled: true,
     id: 'glm-4-plus',

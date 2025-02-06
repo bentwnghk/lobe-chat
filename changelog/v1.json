@@ -1,6 +1,16 @@
 [
   {
     "children": {
+      "improvements": [
+        "Add Cache, Metadata, FeatureFlag Viewer to DevPanel, update model list, add reasoning tag."
+      ],
+      "fixes": ["Artifact Parsing and Rendering Bug Fix for Gemini 2.0 Flash."]
+    },
+    "date": "2025-02-06",
+    "version": "1.93.2"
+  },
+  {
+    "children": {
       "improvements": ["Add Cache, Metadata, FeatureFlag Viewer to DevPanel."],
       "fixes": ["Artifact Parsing and Rendering Bug Fix for Gemini 2.0 Flash."]
     },
