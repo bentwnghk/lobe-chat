@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.93.3](https://github.com/bentwnghk/lobe-chat/compare/v1.93.2...v1.93.3)
+
+<sup>Released on **2025-02-06**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor model fetch method.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Try to fix discover error.
+
+#### 💄 Styles
+
+- **misc**: Add Aliyun deepseek-r1 distill models, Add siliconcloud models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor model fetch method, closes [#5768](https://github.com/bentwnghk/lobe-chat/issues/5768) ([e406908](https://github.com/bentwnghk/lobe-chat/commit/e406908))
+
+#### What's fixed
+
+- **misc**: Try to fix discover error, closes [#5794](https://github.com/bentwnghk/lobe-chat/issues/5794) ([9b7bd99](https://github.com/bentwnghk/lobe-chat/commit/9b7bd99))
+
+#### Styles
+
+- **misc**: Add Aliyun deepseek-r1 distill models, closes [#5769](https://github.com/bentwnghk/lobe-chat/issues/5769) ([8b68190](https://github.com/bentwnghk/lobe-chat/commit/8b68190))
+- **misc**: Add siliconcloud models, closes [#5725](https://github.com/bentwnghk/lobe-chat/issues/5725) ([e84853c](https://github.com/bentwnghk/lobe-chat/commit/e84853c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.93.2](https://github.com/bentwnghk/lobe-chat/compare/v1.93.1...v1.93.2)
 
 <sup>Released on **2025-02-06**</sup>
