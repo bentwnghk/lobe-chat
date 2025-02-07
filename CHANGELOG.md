@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.93.7](https://github.com/bentwnghk/lobe-chat/compare/v1.93.6...v1.93.7)
+
+<sup>Released on **2025-02-07**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update changelog cache and upgrade anthropic sdk.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix home next auth error and update pnpm, Fix next auth error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update changelog cache and upgrade anthropic sdk, closes [#5829](https://github.com/bentwnghk/lobe-chat/issues/5829) ([620df2f](https://github.com/bentwnghk/lobe-chat/commit/620df2f))
+
+#### What's fixed
+
+- **misc**: Fix home next auth error and update pnpm, closes [#5833](https://github.com/bentwnghk/lobe-chat/issues/5833) ([aa74d20](https://github.com/bentwnghk/lobe-chat/commit/aa74d20))
+- **misc**: Fix next auth error, closes [#5825](https://github.com/bentwnghk/lobe-chat/issues/5825) ([4509b7a](https://github.com/bentwnghk/lobe-chat/commit/4509b7a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.93.6](https://github.com/bentwnghk/lobe-chat/compare/v1.93.5...v1.93.6)
 
 <sup>Released on **2025-02-07**</sup>
