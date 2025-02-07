@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Update changelog cache and upgrade anthropic sdk."],
+      "fixes": ["Fix home next auth error and update pnpm, Fix next auth error."]
+    },
+    "date": "2025-02-07",
+    "version": "1.93.7"
+  },
+  {
+    "children": {
       "fixes": ["Fix home next auth error and update pnpm."]
     },
     "date": "2025-02-07",
