@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.93.5](https://github.com/bentwnghk/lobe-chat/compare/v1.93.4...v1.93.5)
+
+<sup>Released on **2025-02-07**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix `/file/[id]` 500 issue, fix provider 500 issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix `/file/[id]` 500 issue, closes [#5812](https://github.com/bentwnghk/lobe-chat/issues/5812) ([9bb387e](https://github.com/bentwnghk/lobe-chat/commit/9bb387e))
+- **misc**: Fix provider 500 issue, closes [#5807](https://github.com/bentwnghk/lobe-chat/issues/5807) ([db860b5](https://github.com/bentwnghk/lobe-chat/commit/db860b5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.93.4](https://github.com/bentwnghk/lobe-chat/compare/v1.93.3...v1.93.4)
 
 <sup>Released on **2025-02-06**</sup>
