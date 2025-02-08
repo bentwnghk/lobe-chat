@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "fixes": ["Fix static relative issues."],
+      "improvements": ["Add siliconcloud pro models."]
+    },
+    "date": "2025-02-08",
+    "version": "1.94.1"
+  },
+  {
+    "children": {
       "improvements": ["Add siliconcloud pro models."]
     },
     "date": "2025-02-08",
