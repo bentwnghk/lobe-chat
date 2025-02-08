@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.94.0](https://github.com/bentwnghk/lobe-chat/compare/v1.93.8...v1.94.0)
+
+<sup>Released on **2025-02-08**</sup>
+
+#### ✨ Features
+
+- **misc**: Refactor the auth condition in Next Auth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Refactor the auth condition in Next Auth, closes [#5866](https://github.com/bentwnghk/lobe-chat/issues/5866) ([e529108](https://github.com/bentwnghk/lobe-chat/commit/e529108))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.93.8](https://github.com/bentwnghk/lobe-chat/compare/v1.93.7...v1.93.8)
 
 <sup>Released on **2025-02-08**</sup>
