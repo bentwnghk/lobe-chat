@@ -4,6 +4,13 @@
       "features": ["Refactor the auth condition in Next Auth."]
     },
     "date": "2025-02-08",
+    "version": "1.94.0"
+  },
+  {
+    "children": {
+      "features": ["Refactor the auth condition in Next Auth."]
+    },
+    "date": "2025-02-08",
     "version": "1.52.0"
   },
   {
