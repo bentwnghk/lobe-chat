@@ -1,5 +1,10 @@
 [
   {
+    "children": {},
+    "date": "2025-02-07",
+    "version": "1.51.16"
+  },
+  {
     "children": {
       "improvements": ["Update changelog cache and upgrade anthropic sdk."],
       "fixes": ["Fix home next auth error and update pnpm, Fix next auth error."]
