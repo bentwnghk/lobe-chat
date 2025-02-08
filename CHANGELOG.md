@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.94.1](https://github.com/bentwnghk/lobe-chat/compare/v1.94.0...v1.94.1)
+
+<sup>Released on **2025-02-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix static relative issues.
+
+#### 💄 Styles
+
+- **misc**: Add siliconcloud pro models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix static relative issues, closes [#5874](https://github.com/bentwnghk/lobe-chat/issues/5874) ([419977b](https://github.com/bentwnghk/lobe-chat/commit/419977b))
+
+#### Styles
+
+- **misc**: Add siliconcloud pro models, closes [#5851](https://github.com/bentwnghk/lobe-chat/issues/5851) ([9b321e6](https://github.com/bentwnghk/lobe-chat/commit/9b321e6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.94.0](https://github.com/bentwnghk/lobe-chat/compare/v1.93.8...v1.94.0)
 
 <sup>Released on **2025-02-08**</sup>
