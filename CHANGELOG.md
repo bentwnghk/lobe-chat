@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.94.3](https://github.com/bentwnghk/lobe-chat/compare/v1.94.2...v1.94.3)
+
+<sup>Released on **2025-02-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix changelog modal.
+
+#### 💄 Styles
+
+- **misc**: Update ZeroOne models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix changelog modal, closes [#5906](https://github.com/bentwnghk/lobe-chat/issues/5906) ([cbc5967](https://github.com/bentwnghk/lobe-chat/commit/cbc5967))
+
+#### Styles
+
+- **misc**: Update ZeroOne models, closes [#5904](https://github.com/bentwnghk/lobe-chat/issues/5904) ([6e8d1a7](https://github.com/bentwnghk/lobe-chat/commit/6e8d1a7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.2](https://github.com/bentwnghk/lobe-chat/compare/v1.94.1...v1.94.2)
 
 <sup>Released on **2025-02-08**</sup>
