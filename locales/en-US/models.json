@@ -1450,5 +1450,8 @@
   },
   "yi-vision": {
     "description": "Model for complex visual tasks, providing high-performance image understanding and analysis capabilities."
+  },
+  "yi-vision-v2": {
+    "description": "Model for complex visual tasks, providing high-performance image understanding and analysis capabilities."
   }
 }
