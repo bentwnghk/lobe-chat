@@ -98,39 +98,6 @@ const OpenAI: ModelProviderCard = {
       vision: true,
     },
     {
-      contextWindowTokens: 1_000_000 + 8192,
-      description:
-        'Gemini 1.5 Flash 是 Google 最新的多模态AI模型，具备快速处理能力，支持文本、图像和视频输入，适用于多种任务的高效扩展。',
-      displayName: 'Gemini 1.5 Flash',
-      enabled: true,
-      functionCall: true,
-      id: 'gemini-1.5-flash-latest',
-      maxOutput: 8192,
-      pricing: {
-        cachedInput: 0.018_75,
-        input: 0.075,
-        output: 0.3,
-      },
-      vision: true,
-    },
-    {
-      contextWindowTokens: 2_000_000 + 8192,
-      description:
-        'Gemini 1.5 Pro 支持高达200万个tokens，是中型多模态模型的理想选择，适用于复杂任务的多方面支持。',
-      displayName: 'Gemini 1.5 Pro',
-      enabled: true,
-      functionCall: true,
-      id: 'gemini-1.5-pro-latest',
-      maxOutput: 8192,
-      pricing: {
-        cachedInput: 0.875,
-        input: 3.5,
-        output: 10.5,
-      },
-      releasedAt: '2024-02-15',
-      vision: true,
-    },
-    {
       contextWindowTokens: 1_048_576 + 8192,
       description:
         'Gemini 2.0 Flash Exp 是 Google 最新的实验性多模态AI模型，拥有下一代特性，卓越的速度，原生工具调用以及多模态生成。',
@@ -162,6 +129,39 @@ const OpenAI: ModelProviderCard = {
         output: 0,
       },
       releasedAt: '2025-01-21',
+      vision: true,
+    },
+    {
+      contextWindowTokens: 1_000_000 + 8192,
+      description:
+        'Gemini 1.5 Flash 是 Google 最新的多模态AI模型，具备快速处理能力，支持文本、图像和视频输入，适用于多种任务的高效扩展。',
+      displayName: 'Gemini 1.5 Flash',
+      enabled: true,
+      functionCall: true,
+      id: 'gemini-1.5-flash-latest',
+      maxOutput: 8192,
+      pricing: {
+        cachedInput: 0.018_75,
+        input: 0.075,
+        output: 0.3,
+      },
+      vision: true,
+    },
+    {
+      contextWindowTokens: 2_000_000 + 8192,
+      description:
+        'Gemini 1.5 Pro 支持高达200万个tokens，是中型多模态模型的理想选择，适用于复杂任务的多方面支持。',
+      displayName: 'Gemini 1.5 Pro',
+      enabled: true,
+      functionCall: true,
+      id: 'gemini-1.5-pro-latest',
+      maxOutput: 8192,
+      pricing: {
+        cachedInput: 0.875,
+        input: 3.5,
+        output: 10.5,
+      },
+      releasedAt: '2024-02-15',
       vision: true,
     },
     {
@@ -265,6 +265,21 @@ const OpenAI: ModelProviderCard = {
     {
       contextWindowTokens: 127_072,
       description:
+        '基于搜索上下文的轻量级搜索产品，比 Sonar Pro 更快、更便宜。',
+      displayName: 'Perplexity Sonar',
+      enabled: true,
+      id: 'sonar',
+      maxOutput: 8192,
+      pricing: {
+        cachedInput: 0,
+        input: 1,
+        output: 1,
+      },
+      releasedAt: '2025-01-22',
+    },
+    {
+      contextWindowTokens: 127_072,
+      description:
         '由 DeepSeek 推理模型提供支持的新 API 产品。',
       displayName: 'Perplexity Sonar Reasoning',
       enabled: true,
@@ -289,21 +304,6 @@ const OpenAI: ModelProviderCard = {
         cachedInput: 0,
         input: 3,
         output: 15,
-      },
-      releasedAt: '2025-01-22',
-    },
-    {
-      contextWindowTokens: 127_072,
-      description:
-        '基于搜索上下文的轻量级搜索产品，比 Sonar Pro 更快、更便宜。',
-      displayName: 'Perplexity Sonar',
-      enabled: true,
-      id: 'sonar',
-      maxOutput: 8192,
-      pricing: {
-        cachedInput: 0,
-        input: 1,
-        output: 1,
       },
       releasedAt: '2025-01-22',
     },
@@ -453,20 +453,6 @@ const OpenAI: ModelProviderCard = {
       },
     },
     {
-      contextWindowTokens: 128_000,
-      description:
-        'GLM-4-Plus 作为高智能旗舰，具备强大的处理长文本和复杂任务的能力，性能全面提升。',
-      displayName: 'GLM-4-Plus',
-      enabled: true,
-      functionCall: true,
-      id: 'glm-4-plus',
-      pricing: {
-        currency: 'CNY',
-        input: 50,
-        output: 50,
-      },
-    },
-    {
       contextWindowTokens: 8192,
       description:
         'Moonshot V1 8K 专为生成短文本任务设计，具有高效的处理性能，能够处理8,192个tokens，非常适合简短对话、速记和快速内容生成。',
@@ -510,39 +496,28 @@ const OpenAI: ModelProviderCard = {
     },
     {
       contextWindowTokens: 16_384,
-      description: '小而精悍，轻量极速模型。提供强化数学运算和代码编写能力。',
-      displayName: 'Yi Spark',
+      description: '最新高性能模型，保证高质量输出同时，推理速度大幅提升。',
+      displayName: 'Yi Lightning',
       enabled: true,
-      id: 'yi-spark',
+      id: 'yi-lightning',
       pricing: {
         currency: 'CNY',
-        input: 1,
-        output: 1,
+        input: 0.99,
+        output: 0.99,
       },
     },
     {
       contextWindowTokens: 16_384,
-      description: '中型尺寸模型升级微调，能力均衡，性价比高。深度优化指令遵循能力。',
-      displayName: 'Yi Medium',
+      description: '复杂视觉任务模型，提供基于多张图片的高性能理解、分析能力。',
+      displayName: 'Yi Vision V2',
       enabled: true,
-      id: 'yi-medium',
+      id: 'yi-vision-v2',
       pricing: {
         currency: 'CNY',
-        input: 2.5,
-        output: 2.5,
+        input: 6,
+        output: 6,
       },
-    },
-    {
-      contextWindowTokens: 16_384,
-      description: '超高性价比、卓越性能。根据性能和推理速度、成本，进行平衡性高精度调优。',
-      displayName: 'Yi Large Turbo',
-      enabled: true,
-      id: 'yi-large-turbo',
-      pricing: {
-        currency: 'CNY',
-        input: 12,
-        output: 12,
-      },
+      vision: true,
     },
     {
       contextWindowTokens: 32_768,
