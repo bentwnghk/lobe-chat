@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.94.6](https://github.com/bentwnghk/lobe-chat/compare/v1.94.5...v1.94.6)
+
+<sup>Released on **2025-02-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix language incorrect on page hydration.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix language incorrect on page hydration, closes [#5970](https://github.com/bentwnghk/lobe-chat/issues/5970) ([91912cf](https://github.com/bentwnghk/lobe-chat/commit/91912cf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.5](https://github.com/bentwnghk/lobe-chat/compare/v1.94.4...v1.94.5)
 
 <sup>Released on **2025-02-10**</sup>
