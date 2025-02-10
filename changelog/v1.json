@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "fixes": ["Fix changelog issue."],
+      "improvements": ["Support Mermaid in Artifacts."]
+    },
+    "date": "2025-02-10",
+    "version": "1.94.5"
+  },
+  {
+    "children": {
       "improvements": ["Support Mermaid in Artifacts."]
     },
     "date": "2025-02-10",
