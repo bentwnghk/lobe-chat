@@ -6,6 +6,15 @@
       ]
     },
     "date": "2025-02-10",
+    "version": "1.94.7"
+  },
+  {
+    "children": {
+      "fixes": [
+        "Fix Aliyun deepseek-r1 reasoning parsing with oneapi, Support Aliyun deepseek-r1 reasoning."
+      ]
+    },
+    "date": "2025-02-10",
     "version": "1.52.13"
   },
   {
