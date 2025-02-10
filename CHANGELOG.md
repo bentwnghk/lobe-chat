@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.94.5](https://github.com/bentwnghk/lobe-chat/compare/v1.94.4...v1.94.5)
+
+<sup>Released on **2025-02-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix changelog issue.
+
+#### 💄 Styles
+
+- **misc**: Support Mermaid in Artifacts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix changelog issue, closes [#5941](https://github.com/bentwnghk/lobe-chat/issues/5941) ([9df47a3](https://github.com/bentwnghk/lobe-chat/commit/9df47a3))
+
+#### Styles
+
+- **misc**: Support Mermaid in Artifacts, closes [#5947](https://github.com/bentwnghk/lobe-chat/issues/5947) ([892f961](https://github.com/bentwnghk/lobe-chat/commit/892f961))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.4](https://github.com/bentwnghk/lobe-chat/compare/v1.94.3...v1.94.4)
 
 <sup>Released on **2025-02-09**</sup>
