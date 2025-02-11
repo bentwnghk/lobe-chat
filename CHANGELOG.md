@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.94.8](https://github.com/bentwnghk/lobe-chat/compare/v1.94.7...v1.94.8)
+
+<sup>Released on **2025-02-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix lmstudio baseURL.
+
+#### 💄 Styles
+
+- **misc**: Optimized MaxToken Slider, refactor agent settings modal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix lmstudio baseURL, closes [#5988](https://github.com/bentwnghk/lobe-chat/issues/5988) ([1d19aa6](https://github.com/bentwnghk/lobe-chat/commit/1d19aa6))
+
+#### Styles
+
+- **misc**: Optimized MaxToken Slider, closes [#5952](https://github.com/bentwnghk/lobe-chat/issues/5952) ([3cdcb95](https://github.com/bentwnghk/lobe-chat/commit/3cdcb95))
+- **misc**: Refactor agent settings modal, closes [#5987](https://github.com/bentwnghk/lobe-chat/issues/5987) ([6482f8a](https://github.com/bentwnghk/lobe-chat/commit/6482f8a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.7](https://github.com/bentwnghk/lobe-chat/compare/v1.94.6...v1.94.7)
 
 <sup>Released on **2025-02-10**</sup>
