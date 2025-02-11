@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.95.0](https://github.com/bentwnghk/lobe-chat/compare/v1.94.9...v1.95.0)
+
+<sup>Released on **2025-02-11**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the agent runtime test case.
+
+#### ✨ Features
+
+- **misc**: Support tencent cloud provider.
+
+#### 💄 Styles
+
+- **misc**: Update i18n, update provider i18n.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the agent runtime test case, closes [#6025](https://github.com/bentwnghk/lobe-chat/issues/6025) ([3414fdd](https://github.com/bentwnghk/lobe-chat/commit/3414fdd))
+
+#### What's improved
+
+- **misc**: Support tencent cloud provider, closes [#6029](https://github.com/bentwnghk/lobe-chat/issues/6029) ([6ec6b08](https://github.com/bentwnghk/lobe-chat/commit/6ec6b08))
+
+#### Styles
+
+- **misc**: Update i18n, closes [#6030](https://github.com/bentwnghk/lobe-chat/issues/6030) ([ee48e30](https://github.com/bentwnghk/lobe-chat/commit/ee48e30))
+- **misc**: Update provider i18n, closes [#6031](https://github.com/bentwnghk/lobe-chat/issues/6031) ([e0e231c](https://github.com/bentwnghk/lobe-chat/commit/e0e231c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.9](https://github.com/bentwnghk/lobe-chat/compare/v1.94.8...v1.94.9)
 
 <sup>Released on **2025-02-11**</sup>
