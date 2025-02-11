@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Update i18n, update provider i18n."],
+      "features": ["Support tencent cloud provider."]
+    },
+    "date": "2025-02-11",
+    "version": "1.95.0"
+  },
+  {
+    "children": {
       "features": ["Support tencent cloud provider."],
       "improvements": ["Update i18n, update provider i18n."]
     },
