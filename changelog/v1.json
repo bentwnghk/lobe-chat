@@ -2,6 +2,14 @@
   {
     "children": {
       "fixes": ["Fix lmstudio baseURL."],
+      "improvements": ["Optimized MaxToken Slider, refactor agent settings modal."]
+    },
+    "date": "2025-02-11",
+    "version": "1.94.8"
+  },
+  {
+    "children": {
+      "fixes": ["Fix lmstudio baseURL."],
       "improvements": ["Optimized MaxToken Slider."]
     },
     "date": "2025-02-10",
