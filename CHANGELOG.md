@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.94.9](https://github.com/bentwnghk/lobe-chat/compare/v1.94.8...v1.94.9)
+
+<sup>Released on **2025-02-11**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support mistral proxy url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support mistral proxy url, closes [#6002](https://github.com/bentwnghk/lobe-chat/issues/6002) ([dcb465e](https://github.com/bentwnghk/lobe-chat/commit/dcb465e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.8](https://github.com/bentwnghk/lobe-chat/compare/v1.94.7...v1.94.8)
 
 <sup>Released on **2025-02-11**</sup>
