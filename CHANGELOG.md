@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.95.3](https://github.com/bentwnghk/lobe-chat/compare/v1.95.2...v1.95.3)
+
+<sup>Released on **2025-02-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix model fetch for spark and fix the support of model reset.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix model fetch for spark and fix the support of model reset, closes [#6080](https://github.com/bentwnghk/lobe-chat/issues/6080) ([257fda1](https://github.com/bentwnghk/lobe-chat/commit/257fda1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.95.2](https://github.com/bentwnghk/lobe-chat/compare/v1.95.1...v1.95.2)
 
 <sup>Released on **2025-02-13**</sup>
