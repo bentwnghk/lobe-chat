@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "fixes": ["Fix api key input issue, fix provider form api key."],
+      "improvements": ["Support select check models."]
+    },
+    "date": "2025-02-13",
+    "version": "1.95.4"
+  },
+  {
+    "children": {
       "fixes": ["Fix provider form api key."]
     },
     "date": "2025-02-13",
