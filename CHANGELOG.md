@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.95.4](https://github.com/bentwnghk/lobe-chat/compare/v1.95.3...v1.95.4)
+
+<sup>Released on **2025-02-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix api key input issue, fix provider form api key.
+
+#### 💄 Styles
+
+- **misc**: Support select check models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix api key input issue, closes [#6112](https://github.com/bentwnghk/lobe-chat/issues/6112) ([48e3b85](https://github.com/bentwnghk/lobe-chat/commit/48e3b85))
+- **misc**: Fix provider form api key, closes [#6115](https://github.com/bentwnghk/lobe-chat/issues/6115) ([d074238](https://github.com/bentwnghk/lobe-chat/commit/d074238))
+
+#### Styles
+
+- **misc**: Support select check models, closes [#6106](https://github.com/bentwnghk/lobe-chat/issues/6106) ([2243bbb](https://github.com/bentwnghk/lobe-chat/commit/2243bbb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.95.3](https://github.com/bentwnghk/lobe-chat/compare/v1.95.2...v1.95.3)
 
 <sup>Released on **2025-02-13**</sup>
