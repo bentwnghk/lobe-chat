@@ -2,6 +2,42 @@
 
 # Changelog
 
+### [Version 1.95.2](https://github.com/bentwnghk/lobe-chat/compare/v1.95.1...v1.95.2)
+
+<sup>Released on **2025-02-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ai model abilities issue, fix latex in thinking tag render, fix not enable models correctly, fix tencent cloud api issue.
+
+#### 💄 Styles
+
+- **misc**: Update model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ai model abilities issue, closes [#6060](https://github.com/bentwnghk/lobe-chat/issues/6060) ([718f477](https://github.com/bentwnghk/lobe-chat/commit/718f477))
+- **misc**: Fix latex in thinking tag render, closes [#6063](https://github.com/bentwnghk/lobe-chat/issues/6063) ([7e89b2d](https://github.com/bentwnghk/lobe-chat/commit/7e89b2d))
+- **misc**: Fix not enable models correctly, closes [#6071](https://github.com/bentwnghk/lobe-chat/issues/6071) ([b78328e](https://github.com/bentwnghk/lobe-chat/commit/b78328e))
+- **misc**: Fix tencent cloud api issue, closes [#6058](https://github.com/bentwnghk/lobe-chat/issues/6058) ([025d0bc](https://github.com/bentwnghk/lobe-chat/commit/025d0bc))
+
+#### Styles
+
+- **misc**: Update model list, closes [#6056](https://github.com/bentwnghk/lobe-chat/issues/6056) ([be0d7f6](https://github.com/bentwnghk/lobe-chat/commit/be0d7f6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.95.1](https://github.com/bentwnghk/lobe-chat/compare/v1.95.0...v1.95.1)
 
 <sup>Released on **2025-02-12**</sup>
