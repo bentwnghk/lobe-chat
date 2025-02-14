@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.97.0](https://github.com/bentwnghk/lobe-chat/compare/v1.96.0...v1.97.0)
+
+<sup>Released on **2025-02-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add vLLM provider support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add vLLM provider support, closes [#6154](https://github.com/bentwnghk/lobe-chat/issues/6154) ([1708e32](https://github.com/bentwnghk/lobe-chat/commit/1708e32))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.96.0](https://github.com/bentwnghk/lobe-chat/compare/v1.95.5...v1.96.0)
 
 <sup>Released on **2025-02-14**</sup>
