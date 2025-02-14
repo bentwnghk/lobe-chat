@@ -5,6 +5,14 @@
       "improvements": ["Improve advanced params settings."]
     },
     "date": "2025-02-14",
+    "version": "1.96.0"
+  },
+  {
+    "children": {
+      "features": ["Add Nvidia NIM provider support."],
+      "improvements": ["Improve advanced params settings."]
+    },
+    "date": "2025-02-14",
     "version": "1.54.0"
   },
   {
