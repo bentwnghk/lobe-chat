@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.95.5](https://github.com/bentwnghk/lobe-chat/compare/v1.95.4...v1.95.5)
+
+<sup>Released on **2025-02-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Improve model fetch behavior.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Improve model fetch behavior, closes [#6055](https://github.com/bentwnghk/lobe-chat/issues/6055) ([4c2aaf6](https://github.com/bentwnghk/lobe-chat/commit/4c2aaf6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.95.4](https://github.com/bentwnghk/lobe-chat/compare/v1.95.3...v1.95.4)
 
 <sup>Released on **2025-02-13**</sup>
