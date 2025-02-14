@@ -4,7 +4,8 @@ import { ModelProvider } from '../types';
 import { LobeOpenAICompatibleFactory } from '../utils/openaiCompatibleFactory';
 import { TogetherAIModel } from './type';
 
-const baseURL = 'https://api.together.xyz';
+import type { ChatModelCard } from '@/types/llm';
+
 export const LobeTogetherAI = LobeOpenAICompatibleFactory({
   baseURL: `${baseURL}/v1`,
   constructorOptions: {
@@ -17,30 +18,41 @@ export const LobeTogetherAI = LobeOpenAICompatibleFactory({
     chatCompletion: () => process.env.DEBUG_TOGETHERAI_CHAT_COMPLETION === '1',
   },
   models: async ({ client }) => {
-    const apiKey = client.apiKey;
-    const data = await fetch(`${baseURL}/api/models`, {
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-      },
-    });
-    if (!data.ok) {
-      throw new Error(`Together Fetch Error: ${data.statusText || data.status}`);
-    }
+    const { LOBE_DEFAULT_MODEL_LIST } = await import('@/config/aiModels');
+
+    const visionKeywords = [
+      'qvq',
+      'vision',
+    ];
 
     const models: TogetherAIModel[] = await data.json();
 
     return models
       .filter((m) => m.display_type === 'chat')
       .map((model) => {
+        const knownModel = LOBE_DEFAULT_MODEL_LIST.find((m) => model.name.toLowerCase() === m.id.toLowerCase());
+
         return {
+          contextWindowTokens: knownModel?.contextWindowTokens ?? undefined,
           description: model.description,
           displayName: model.display_name,
-          enabled: LOBE_DEFAULT_MODEL_LIST.find((m) => model.name.endsWith(m.id))?.enabled || false,
-          functionCall: model.description?.includes('function calling'),
+          enabled: knownModel?.enabled || false,
+          functionCall:
+            model.description?.toLowerCase().includes('function calling')
+            || knownModel?.abilities?.functionCall
+            || false,
           id: model.name,
           maxOutput: model.context_length,
+          reasoning:
+            reasoningKeywords.some(keyword => model.name.toLowerCase().includes(keyword))
+            || knownModel?.abilities?.functionCall
+            || false,
           tokens: model.context_length,
-          vision: model.description?.includes('vision') || model.name?.includes('vision'),
+          vision:
+            model.description?.toLowerCase().includes('vision')
+            || visionKeywords.some(keyword => model.name?.toLowerCase().includes(keyword))
+            || knownModel?.abilities?.functionCall
+            || false,
         };
       });
   },
