@@ -1,4 +1,4 @@
-import { Alert, Icon, SliderWithInput } from '@lobehub/ui';
+import { Alert, Icon, SliderWithInput } from '@bentwnghk/ui';
 import { css, cx, useTheme } from 'antd-style';
 import { Sparkle, Sparkles } from 'lucide-react';
 import { memo } from 'react';

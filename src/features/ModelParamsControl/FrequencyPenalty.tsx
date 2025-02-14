@@ -1,4 +1,4 @@
-import { Icon, SliderWithInput } from '@lobehub/ui';
+import { Icon, SliderWithInput } from '@bentwnghk/ui';
 import { useTheme } from 'antd-style';
 import { BookOpenText, FileIcon } from 'lucide-react';
 import { memo } from 'react';
