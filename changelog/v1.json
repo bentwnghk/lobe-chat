@@ -1,6 +1,18 @@
 [
   {
     "children": {
+      "fixes": [
+        "Avoid blank reasoning with OpenRouter, fix Azure OpenAI O1 models and refactor the Azure OpenAI implement."
+      ],
+      "improvements": [
+        "Add deepseek r1 distill models for qwen series, update openrouter model list and descriptions."
+      ]
+    },
+    "date": "2025-02-15",
+    "version": "1.97.1"
+  },
+  {
+    "children": {
       "improvements": ["Add deepseek r1 distill models for qwen series."]
     },
     "date": "2025-02-15",
