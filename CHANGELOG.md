@@ -2,6 +2,41 @@
 
 # Changelog
 
+### [Version 1.97.1](https://github.com/bentwnghk/lobe-chat/compare/v1.97.0...v1.97.1)
+
+<sup>Released on **2025-02-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Avoid blank reasoning with OpenRouter, fix Azure OpenAI O1 models and refactor the Azure OpenAI implement.
+
+#### 💄 Styles
+
+- **misc**: Add deepseek r1 distill models for qwen series, update openrouter model list and descriptions.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Avoid blank reasoning with OpenRouter, closes [#6153](https://github.com/bentwnghk/lobe-chat/issues/6153) ([c2278d1](https://github.com/bentwnghk/lobe-chat/commit/c2278d1))
+- **misc**: Fix Azure OpenAI O1 models and refactor the Azure OpenAI implement, closes [#6079](https://github.com/bentwnghk/lobe-chat/issues/6079) ([6a89a8c](https://github.com/bentwnghk/lobe-chat/commit/6a89a8c))
+
+#### Styles
+
+- **misc**: Add deepseek r1 distill models for qwen series, closes [#5850](https://github.com/bentwnghk/lobe-chat/issues/5850) ([4a96a05](https://github.com/bentwnghk/lobe-chat/commit/4a96a05))
+- **misc**: Update openrouter model list and descriptions, closes [#6160](https://github.com/bentwnghk/lobe-chat/issues/6160) ([3ce0485](https://github.com/bentwnghk/lobe-chat/commit/3ce0485))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.97.0](https://github.com/bentwnghk/lobe-chat/compare/v1.96.0...v1.97.0)
 
 <sup>Released on **2025-02-14**</sup>
