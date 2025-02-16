@@ -110,6 +110,12 @@
   "upstage": {
     "description": "Upstage tập trung vào việc phát triển các mô hình AI cho nhiều nhu cầu thương mại khác nhau, bao gồm Solar LLM và AI tài liệu, nhằm đạt được trí thông minh nhân tạo tổng quát (AGI) cho công việc. Tạo ra các đại lý đối thoại đơn giản thông qua Chat API, và hỗ trợ gọi chức năng, dịch thuật, nhúng và ứng dụng trong các lĩnh vực cụ thể."
   },
+  "vllm": {
+    "description": "vLLM là một thư viện nhanh chóng và dễ sử dụng cho suy diễn và dịch vụ LLM."
+  },
+  "volcengine": {
+    "description": "Nền tảng phát triển dịch vụ mô hình lớn do ByteDance phát triển, cung cấp dịch vụ gọi mô hình phong phú, an toàn và có giá cả cạnh tranh, đồng thời cung cấp dữ liệu mô hình, tinh chỉnh, suy diễn, đánh giá và các chức năng đầu cuối khác, đảm bảo toàn diện cho việc phát triển ứng dụng AI của bạn."
+  },
   "wenxin": {
     "description": "Nền tảng phát triển và dịch vụ ứng dụng AI gốc với mô hình lớn một cửa dành cho doanh nghiệp, cung cấp chuỗi công cụ toàn diện và dễ sử dụng cho phát triển mô hình trí tuệ nhân tạo sinh sinh và phát triển ứng dụng."
   },

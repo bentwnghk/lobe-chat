@@ -18,11 +18,15 @@ export const AiProviderSDKEnum = {
   Azure: 'azure',
   Bedrock: 'bedrock',
   Cloudflare: 'cloudflare',
+  /**
+   * @deprecated
+   */
   Doubao: 'doubao',
   Google: 'google',
   Huggingface: 'huggingface',
   Ollama: 'ollama',
   Openai: 'openai',
+  Volcengine: 'volcengine',
 } as const;
 
 export type AiProviderSDKType = (typeof AiProviderSDKEnum)[keyof typeof AiProviderSDKEnum];

@@ -170,12 +170,11 @@ const nextConfig: NextConfig = {
       permanent: true,
       source: '/welcome',
     },
-    // TODO: 等 V2 做强制跳转吧
-    // {
-    //   destination: '/settings/provider/volcengine',
-    //   permanent: true,
-    //   source: '/settings/provider/doubao',
-    // },
+    {
+      destination: '/settings/provider/volcengine',
+      permanent: true,
+      source: '/settings/provider/doubao',
+    },
     // we need back /repos url in the further
     {
       destination: '/files',

@@ -110,6 +110,12 @@
   "upstage": {
     "description": "Upstage konzentriert sich auf die Entwicklung von KI-Modellen für verschiedene geschäftliche Anforderungen, einschließlich Solar LLM und Dokumenten-KI, mit dem Ziel, künstliche allgemeine Intelligenz (AGI) zu erreichen. Es ermöglicht die Erstellung einfacher Dialogagenten über die Chat-API und unterstützt Funktionsaufrufe, Übersetzungen, Einbettungen und spezifische Anwendungsbereiche."
   },
+  "vllm": {
+    "description": "vLLM ist eine schnelle und benutzerfreundliche Bibliothek für LLM-Inferenz und -Dienste."
+  },
+  "volcengine": {
+    "description": "Die von ByteDance eingeführte Entwicklungsplattform für große Modellservices bietet funktionsreiche, sichere und preislich wettbewerbsfähige Modellaufrufdienste. Sie bietet zudem End-to-End-Funktionen wie Moduldaten, Feinabstimmung, Inferenz und Bewertung, um die Entwicklung Ihrer KI-Anwendungen umfassend zu unterstützen."
+  },
   "wenxin": {
     "description": "Eine unternehmensweite, umfassende Plattform für die Entwicklung und den Service von großen Modellen und KI-nativen Anwendungen, die die vollständigsten und benutzerfreundlichsten Werkzeuge für die Entwicklung generativer KI-Modelle und den gesamten Anwendungsentwicklungsprozess bietet."
   },

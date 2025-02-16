@@ -211,6 +211,11 @@
           "placeholder": "Lütfen Azure'daki model dağıtım adını girin",
           "title": "Model Dağıtım Adı"
         },
+        "deployName": {
+          "extra": "Bu alan, isteği gönderirken model kimliği olarak kullanılacaktır",
+          "placeholder": "Modelin gerçek dağıtım adını veya kimliğini girin",
+          "title": "Model Dağıtım Adı"
+        },
         "displayName": {
           "placeholder": "Lütfen modelin gösterim adını girin, örneğin ChatGPT, GPT-4 vb.",
           "title": "Model Gösterim Adı"
