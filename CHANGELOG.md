@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.99.0](https://github.com/bentwnghk/lobe-chat/compare/v1.98.0...v1.99.0)
+
+<sup>Released on **2025-02-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Jina AI model provider support.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ai provider description not show correctly, match o1 series models more robust in Azure OpenAI provider, set max_completion_tokens to null for Azure OpenAI.
+
+#### 💄 Styles
+
+- **misc**: Fix mobile agent settings not show correctly, improve inbox agent settings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Jina AI model provider support, closes [#6140](https://github.com/bentwnghk/lobe-chat/issues/6140) ([6b4c15b](https://github.com/bentwnghk/lobe-chat/commit/6b4c15b))
+
+#### What's fixed
+
+- **misc**: Fix ai provider description not show correctly, closes [#6199](https://github.com/bentwnghk/lobe-chat/issues/6199) ([3e8d9c5](https://github.com/bentwnghk/lobe-chat/commit/3e8d9c5))
+- **misc**: Match o1 series models more robust in Azure OpenAI provider, closes [#6193](https://github.com/bentwnghk/lobe-chat/issues/6193) ([f444e66](https://github.com/bentwnghk/lobe-chat/commit/f444e66))
+- **misc**: Set max_completion_tokens to null for Azure OpenAI, closes [#6198](https://github.com/bentwnghk/lobe-chat/issues/6198) ([e9e8da4](https://github.com/bentwnghk/lobe-chat/commit/e9e8da4))
+
+#### Styles
+
+- **misc**: Fix mobile agent settings not show correctly, closes [#6203](https://github.com/bentwnghk/lobe-chat/issues/6203) ([0285d95](https://github.com/bentwnghk/lobe-chat/commit/0285d95))
+- **misc**: Improve inbox agent settings, closes [#6197](https://github.com/bentwnghk/lobe-chat/issues/6197) ([37b70f0](https://github.com/bentwnghk/lobe-chat/commit/37b70f0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.98.0](https://github.com/bentwnghk/lobe-chat/compare/v1.97.1...v1.98.0)
 
 <sup>Released on **2025-02-16**</sup>
