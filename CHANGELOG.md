@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.98.0](https://github.com/bentwnghk/lobe-chat/compare/v1.97.1...v1.98.0)
+
+<sup>Released on **2025-02-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Add configurable PDF processing method with Unstructured.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix inbox agent can not save config, fix inbox agent edit way in the new mode.
+
+#### 💄 Styles
+
+- **misc**: Improve mobile params style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add configurable PDF processing method with Unstructured, closes [#5927](https://github.com/bentwnghk/lobe-chat/issues/5927) ([35fa3ee](https://github.com/bentwnghk/lobe-chat/commit/35fa3ee))
+
+#### What's fixed
+
+- **misc**: Fix inbox agent can not save config, closes [#6186](https://github.com/bentwnghk/lobe-chat/issues/6186) ([588cba7](https://github.com/bentwnghk/lobe-chat/commit/588cba7))
+- **misc**: Fix inbox agent edit way in the new mode, closes [#6190](https://github.com/bentwnghk/lobe-chat/issues/6190) ([6398362](https://github.com/bentwnghk/lobe-chat/commit/6398362))
+
+#### Styles
+
+- **misc**: Improve mobile params style, closes [#6176](https://github.com/bentwnghk/lobe-chat/issues/6176) ([b5276de](https://github.com/bentwnghk/lobe-chat/commit/b5276de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.97.1](https://github.com/bentwnghk/lobe-chat/compare/v1.97.0...v1.97.1)
 
 <sup>Released on **2025-02-15**</sup>
