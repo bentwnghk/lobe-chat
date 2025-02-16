@@ -1,6 +1,6 @@
 'use client';
 
-import { TabsNav } from '@lobehub/ui';
+import { TabsNav } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
