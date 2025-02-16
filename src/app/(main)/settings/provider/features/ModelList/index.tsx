@@ -10,6 +10,7 @@ import DisabledModels from './DisabledModels';
 import EmptyModels from './EmptyModels';
 import EnabledModelList from './EnabledModelList';
 import ModelTitle from './ModelTitle';
+import { ProviderSettingsContext, ProviderSettingsContextValue } from './ProviderSettingsContext';
 import SearchResult from './SearchResult';
 import SkeletonList from './SkeletonList';
 
@@ -36,27 +37,31 @@ const Content = memo<{ id: string }>(({ id }) => {
   );
 });
 
-interface ModelListProps {
+interface ModelListProps extends ProviderSettingsContextValue {
   id: string;
-  showAddNewModel?: boolean;
-  showModelFetcher?: boolean;
 }
 
-const ModelList = memo<ModelListProps>(({ id, showModelFetcher, showAddNewModel }) => {
-  const mobile = useIsMobile();
+const ModelList = memo<ModelListProps>(
+  ({ id, showModelFetcher, sdkType, showAddNewModel, showDeployName, modelEditable = true }) => {
+    const mobile = useIsMobile();
 
-  return (
-    <Flexbox gap={16} paddingInline={mobile ? 12 : 0}>
-      <ModelTitle
-        provider={id}
-        showAddNewModel={showAddNewModel}
-        showModelFetcher={showModelFetcher}
-      />
-      <Suspense fallback={<SkeletonList />}>
-        <Content id={id} />
-      </Suspense>
-    </Flexbox>
-  );
-});
+    return (
+      <ProviderSettingsContext
+        value={{ modelEditable, sdkType, showAddNewModel, showDeployName, showModelFetcher }}
+      >
+        <Flexbox gap={16} paddingInline={mobile ? 12 : 0}>
+          <ModelTitle
+            provider={id}
+            showAddNewModel={showAddNewModel}
+            showModelFetcher={showModelFetcher}
+          />
+          <Suspense fallback={<SkeletonList />}>
+            <Content id={id} />
+          </Suspense>
+        </Flexbox>
+      </ProviderSettingsContext>
+    );
+  },
+);
 
 export default ModelList;
