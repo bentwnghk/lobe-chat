@@ -1,6 +1,6 @@
 {
   "name": "@bentwnghk/chat",
-  "version": "1.99.0",
+  "version": "1.100.0",
   "description": "Mr.🆖 AI - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system.",
   "keywords": [
     "framework",
@@ -109,10 +109,10 @@
     "@aws-sdk/client-bedrock-runtime": "^3.723.0",
     "@aws-sdk/client-s3": "^3.723.0",
     "@aws-sdk/s3-request-presigner": "^3.723.0",
-    "@bentwnghk/icons": "latest",
-    "@bentwnghk/ui": "latest",
     "@azure-rest/ai-inference": "1.0.0-beta.5",
     "@azure/core-auth": "^1.9.0",
+    "@bentwnghk/icons": "latest",
+    "@bentwnghk/ui": "latest",
     "@cfworker/json-schema": "^4.1.0",
     "@clerk/localizations": "^3.9.6",
     "@clerk/nextjs": "^6.10.6",
