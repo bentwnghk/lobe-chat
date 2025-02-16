@@ -111,6 +111,8 @@
     "@aws-sdk/s3-request-presigner": "^3.723.0",
     "@bentwnghk/icons": "latest",
     "@bentwnghk/ui": "latest",
+    "@azure-rest/ai-inference": "1.0.0-beta.5",
+    "@azure/core-auth": "^1.9.0",
     "@cfworker/json-schema": "^4.1.0",
     "@clerk/localizations": "^3.9.6",
     "@clerk/nextjs": "^6.10.6",
