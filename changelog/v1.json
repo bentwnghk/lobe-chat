@@ -1,6 +1,17 @@
 [
   {
     "children": {
+      "features": ["Add SambaNova provider support, add volcengine as a new provider."],
+      "fixes": [
+        "Fix agent config not load correctly, fix loading on not login for db, fix model list issue in client mode, user feedback for empty/long group names in create/edit group modals."
+      ],
+      "improvements": ["Add o1 vision metadata, update Jina AI Provider name & model info."]
+    },
+    "date": "2025-02-17",
+    "version": "1.101.0"
+  },
+  {
+    "children": {
       "improvements": ["Add o1 vision metadata."]
     },
     "date": "2025-02-17",
