@@ -92,6 +92,9 @@
   "qwen": {
     "description": "Tongyi Qianwen es un modelo de lenguaje de gran escala desarrollado de forma independiente por Alibaba Cloud, con potentes capacidades de comprensión y generación de lenguaje natural. Puede responder a diversas preguntas, crear contenido escrito, expresar opiniones y redactar código, desempeñando un papel en múltiples campos."
   },
+  "sambanova": {
+    "description": "SambaNova Cloud permite a los desarrolladores utilizar fácilmente los mejores modelos de código abierto y disfrutar de la velocidad de inferencia más rápida."
+  },
   "sensenova": {
     "description": "SenseTime ofrece servicios de modelos grandes de pila completa, aprovechando el sólido soporte de la gran infraestructura de SenseTime."
   },
@@ -118,6 +121,9 @@
   },
   "vllm": {
     "description": "vLLM es una biblioteca rápida y fácil de usar para la inferencia y el servicio de LLM."
+  },
+  "volcengine": {
+    "description": "Plataforma de desarrollo de servicios de modelos grandes lanzada por ByteDance, que ofrece servicios de invocación de modelos ricos en funciones, seguros y competitivos en precio, al tiempo que proporciona datos de modelos, ajuste fino, inferencia, evaluación y otras funciones de extremo a extremo, garantizando de manera integral el desarrollo y la implementación de sus aplicaciones de IA."
   },
   "wenxin": {
     "description": "Plataforma de desarrollo y servicios de modelos grandes y aplicaciones nativas de IA de nivel empresarial, que ofrece la cadena de herramientas más completa y fácil de usar para el desarrollo de modelos de inteligencia artificial generativa y el desarrollo de aplicaciones en todo el proceso."

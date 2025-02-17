@@ -59,6 +59,7 @@ export interface UserKeyVaults {
   password?: string;
   perplexity?: OpenAICompatibleKeyVault;
   qwen?: OpenAICompatibleKeyVault;
+  sambanova?: OpenAICompatibleKeyVault;
   sensenova?: OpenAICompatibleKeyVault;
   siliconcloud?: OpenAICompatibleKeyVault;
   spark?: OpenAICompatibleKeyVault;
@@ -68,6 +69,7 @@ export interface UserKeyVaults {
   togetherai?: OpenAICompatibleKeyVault;
   upstage?: OpenAICompatibleKeyVault;
   vllm?: OpenAICompatibleKeyVault;
+  volcengine?: OpenAICompatibleKeyVault;
   wenxin?: OpenAICompatibleKeyVault;
   xai?: OpenAICompatibleKeyVault;
   zeroone?: OpenAICompatibleKeyVault;
