@@ -2,6 +2,52 @@
 
 # Changelog
 
+## [Version 1.101.0](https://github.com/bentwnghk/lobe-chat/compare/v1.100.0...v1.101.0)
+
+<sup>Released on **2025-02-17**</sup>
+
+#### ✨ Features
+
+- **misc**: Add SambaNova provider support, add volcengine as a new provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix agent config not load correctly, fix loading on not login for db, fix model list issue in client mode, user feedback for empty/long group names in create/edit group modals.
+
+#### 💄 Styles
+
+- **misc**: Add o1 vision metadata, update Jina AI Provider name & model info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add SambaNova provider support, closes [#6218](https://github.com/bentwnghk/lobe-chat/issues/6218) ([a46eadf](https://github.com/bentwnghk/lobe-chat/commit/a46eadf))
+- **misc**: Add volcengine as a new provider, closes [#6221](https://github.com/bentwnghk/lobe-chat/issues/6221) ([09bf8f0](https://github.com/bentwnghk/lobe-chat/commit/09bf8f0))
+
+#### What's fixed
+
+- **misc**: Fix agent config not load correctly, closes [#6252](https://github.com/bentwnghk/lobe-chat/issues/6252) ([fe9bc16](https://github.com/bentwnghk/lobe-chat/commit/fe9bc16))
+- **misc**: Fix loading on not login for db, closes [#6258](https://github.com/bentwnghk/lobe-chat/issues/6258) ([61692b9](https://github.com/bentwnghk/lobe-chat/commit/61692b9))
+- **misc**: Fix model list issue in client mode, closes [#6240](https://github.com/bentwnghk/lobe-chat/issues/6240) ([d6c6cda](https://github.com/bentwnghk/lobe-chat/commit/d6c6cda))
+- **misc**: User feedback for empty/long group names in create/edit group modals, closes [#6247](https://github.com/bentwnghk/lobe-chat/issues/6247) ([25c80d1](https://github.com/bentwnghk/lobe-chat/commit/25c80d1))
+
+#### Styles
+
+- **misc**: Add o1 vision metadata, closes [#6263](https://github.com/bentwnghk/lobe-chat/issues/6263) ([261d068](https://github.com/bentwnghk/lobe-chat/commit/261d068))
+- **misc**: Update Jina AI Provider name & model info, closes [#6243](https://github.com/bentwnghk/lobe-chat/issues/6243) ([ddbe482](https://github.com/bentwnghk/lobe-chat/commit/ddbe482))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.100.0](https://github.com/bentwnghk/lobe-chat/compare/v1.99.0...v1.100.0)
 
 <sup>Released on **2025-02-16**</sup>
