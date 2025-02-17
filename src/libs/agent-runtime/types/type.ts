@@ -55,6 +55,7 @@ export enum ModelProvider {
   OpenRouter = 'openrouter',
   Perplexity = 'perplexity',
   Qwen = 'qwen',
+  SambaNova = 'sambanova',
   SenseNova = 'sensenova',
   SiliconCloud = 'siliconcloud',
   Spark = 'spark',
