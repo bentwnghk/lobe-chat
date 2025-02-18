@@ -318,24 +318,11 @@
     "tooltip": "Обновить базовую конфигурацию провайдера",
     "updateSuccess": "Обновление успешно"
   },
-  "wenxin": {
-    "accessKey": {
-      "desc": "Введите Access Key платформы Baidu Qianfan",
-      "placeholder": "Access Key Qianfan",
-      "title": "Access Key"
-    },
-    "checker": {
-      "desc": "Проверьте, правильно ли заполнены AccessKey / SecretAccess"
-    },
-    "secretKey": {
-      "desc": "Введите Secret Key платформы Baidu Qianfan",
-      "placeholder": "Secret Key Qianfan",
-      "title": "Secret Key"
-    },
-    "unlock": {
-      "customRegion": "Пользовательский регион сервиса",
-      "description": "Введите ваш AccessKey / SecretKey, чтобы начать сессию. Приложение не будет сохранять ваши данные аутентификации",
-      "title": "Использовать пользовательскую информацию аутентификации Wenxin Yiyan"
+  "vertexai": {
+    "apiKey": {
+      "desc": "Введите ваши ключи Vertex AI",
+      "placeholder": "{ \"type\": \"service_account\", \"project_id\": \"xxx\", \"private_key_id\": ... }",
+      "title": "Ключи Vertex AI"
     }
   },
   "zeroone": {

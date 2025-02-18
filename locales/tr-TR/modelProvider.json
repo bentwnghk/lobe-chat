@@ -329,24 +329,11 @@
     "tooltip": "Hizmet sağlayıcının temel yapılandırmasını güncelle",
     "updateSuccess": "Güncelleme başarılı"
   },
-  "wenxin": {
-    "accessKey": {
-      "desc": "Baidu Qianfan platform için Access Key girin",
-      "placeholder": "Qianfan Access Key",
-      "title": "Access Key"
-    },
-    "checker": {
-      "desc": "AccessKey / SecretAccess'ın doğru girilip girilmediğini test et"
-    },
-    "secretKey": {
-      "desc": "Baidu Qianfan platform için Secret Key girin",
-      "placeholder": "Qianfan Secret Key",
-      "title": "Secret Key"
-    },
-    "unlock": {
-      "customRegion": "Özel hizmet bölgesi",
-      "description": "Oturuma başlamak için AccessKey / SecretKey'nizi girin. Uygulama kimlik doğrulama yapılandırmanızı kaydetmeyecek",
-      "title": "Özel Wenxin Yiyan kimlik doğrulama bilgilerini kullan"
+  "vertexai": {
+    "apiKey": {
+      "desc": "Vertex AI Anahtarlarınızı buraya girin",
+      "placeholder": "{ \"type\": \"service_account\", \"project_id\": \"xxx\", \"private_key_id\": ... }",
+      "title": "Vertex AI Anahtarları"
     }
   },
   "zeroone": {

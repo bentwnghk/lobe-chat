@@ -318,24 +318,11 @@
     "tooltip": "Aktualisieren Sie die grundlegenden Anbieterinformationen",
     "updateSuccess": "Aktualisierung erfolgreich"
   },
-  "wenxin": {
-    "accessKey": {
-      "desc": "Geben Sie den Access Key der Baidu Qianfan-Plattform ein",
-      "placeholder": "Qianfan Access Key",
-      "title": "Access Key"
-    },
-    "checker": {
-      "desc": "Überprüfen Sie, ob der AccessKey / SecretAccess korrekt eingegeben wurde"
-    },
-    "secretKey": {
-      "desc": "Geben Sie den Secret Key der Baidu Qianfan-Plattform ein",
-      "placeholder": "Qianfan Secret Key",
-      "title": "Secret Key"
-    },
-    "unlock": {
-      "customRegion": "Benutzerdefinierte Service-Region",
-      "description": "Geben Sie Ihren AccessKey / SecretKey ein, um die Sitzung zu starten. Die Anwendung speichert Ihre Authentifizierungseinstellungen nicht.",
-      "title": "Verwendung benutzerdefinierter Wenxin-Yiyan-Authentifizierungsinformationen"
+  "vertexai": {
+    "apiKey": {
+      "desc": "Geben Sie Ihre Vertex AI-Schlüssel ein",
+      "placeholder": "{ \"type\": \"service_account\", \"project_id\": \"xxx\", \"private_key_id\": ... }",
+      "title": "Vertex AI-Schlüssel"
     }
   },
   "zeroone": {
