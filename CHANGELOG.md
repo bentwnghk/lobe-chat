@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.102.0](https://github.com/bentwnghk/lobe-chat/compare/v1.101.1...v1.102.0)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### ✨ Features
+
+- **misc**: Support google vertex ai as a new provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Try to fix pglite worker.
+
+#### 💄 Styles
+
+- **misc**: Add `kimi-latest` for Moonshot, improve error content and console error, improve perplexity models, improve serveral error code.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support google vertex ai as a new provider, closes [#4487](https://github.com/bentwnghk/lobe-chat/issues/4487) ([a0a9592](https://github.com/bentwnghk/lobe-chat/commit/a0a9592))
+
+#### What's fixed
+
+- **misc**: Try to fix pglite worker, closes [#6169](https://github.com/bentwnghk/lobe-chat/issues/6169) ([b3f4f13](https://github.com/bentwnghk/lobe-chat/commit/b3f4f13))
+
+#### Styles
+
+- **misc**: Add `kimi-latest` for Moonshot, closes [#6295](https://github.com/bentwnghk/lobe-chat/issues/6295) ([4fb98da](https://github.com/bentwnghk/lobe-chat/commit/4fb98da))
+- **misc**: Improve error content and console error, closes [#6305](https://github.com/bentwnghk/lobe-chat/issues/6305) ([6a35f55](https://github.com/bentwnghk/lobe-chat/commit/6a35f55))
+- **misc**: Improve perplexity models, closes [#6307](https://github.com/bentwnghk/lobe-chat/issues/6307) ([c99908d](https://github.com/bentwnghk/lobe-chat/commit/c99908d))
+- **misc**: Improve serveral error code, closes [#6299](https://github.com/bentwnghk/lobe-chat/issues/6299) ([352cb90](https://github.com/bentwnghk/lobe-chat/commit/352cb90))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.101.1](https://github.com/bentwnghk/lobe-chat/compare/v1.101.0...v1.101.1)
 
 <sup>Released on **2025-02-18**</sup>
