@@ -12,11 +12,11 @@ tags:
 # Docker Compose 部署指引
 
 <div style={{display:"flex", gap: 4}}>
-  [![](https://img.shields.io/docker/v/lobehub/lobe-chat?color=369eff\&label=docker\&labelColor=black\&logo=docker\&logoColor=white\&style=flat-square)](https://hub.docker.com/r/lobehub/lobe-chat)
+  [![][docker-release-shield]][docker-release-link]
 
-  [![](https://img.shields.io/docker/image-size/lobehub/lobe-chat?color=369eff\&labelColor=black\&style=flat-square)](https://img.shields.io/docker/image-size/lobehub/lobe-chat?color=369eff\&labelColor=black\&style=flat-square)
+  [![][docker-size-shield]][docker-size-link]
 
-  [![](https://img.shields.io/docker/pulls/lobehub/lobe-chat?color=45cc11\&labelColor=black\&style=flat-square)](https://img.shields.io/docker/pulls/lobehub/lobe-chat?color=45cc11\&labelColor=black\&style=flat-square)
+  [![][docker-pulls-shield]][docker-pulls-link]
 </div>
 
 我们提供了 [Docker 镜像](https://hub.docker.com/r/lobehub/lobe-chat) ，供你在自己的私有设备上部署 Mr.🆖 AI 服务。
@@ -121,3 +121,12 @@ tags:
   */5 * * * * /path/to/auto-update-lobe-chat.sh >> /path/to/auto-update-lobe-chat.log 2>&1
   ```
 </Steps>
+
+
+
+[docker-pulls-link]: https://hub.docker.com/r/lobehub/lobe-chat
+[docker-pulls-shield]: https://img.shields.io/docker/pulls/lobehub/lobe-chat?color=45cc11&labelColor=black&style=flat-square
+[docker-release-link]: https://hub.docker.com/r/lobehub/lobe-chat
+[docker-release-shield]: https://img.shields.io/docker/v/lobehub/lobe-chat?color=369eff&label=docker&labelColor=black&logo=docker&logoColor=white&style=flat-square&sort=semver
+[docker-size-link]: https://hub.docker.com/r/lobehub/lobe-chat
+[docker-size-shield]: https://img.shields.io/docker/image-size/lobehub/lobe-chat?color=369eff&labelColor=black&style=flat-square&sort=semver
