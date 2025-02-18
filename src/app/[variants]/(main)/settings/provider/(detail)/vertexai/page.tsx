@@ -1,6 +1,6 @@
 'use client';
 
-import { Markdown } from '@lobehub/ui';
+import { Markdown } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { useTranslation } from 'react-i18next';
 
