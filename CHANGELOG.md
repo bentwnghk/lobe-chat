@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.101.1](https://github.com/bentwnghk/lobe-chat/compare/v1.101.0...v1.101.1)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Remove deprecated gemini models, sync chat limit, update MiniMax models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Remove deprecated gemini models, closes [#6269](https://github.com/bentwnghk/lobe-chat/issues/6269) ([45977c3](https://github.com/bentwnghk/lobe-chat/commit/45977c3))
+- **misc**: Sync chat limit, closes [#6207](https://github.com/bentwnghk/lobe-chat/issues/6207) ([cc2f536](https://github.com/bentwnghk/lobe-chat/commit/cc2f536))
+- **misc**: Update MiniMax models, closes [#6270](https://github.com/bentwnghk/lobe-chat/issues/6270) ([2d7803a](https://github.com/bentwnghk/lobe-chat/commit/2d7803a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.101.0](https://github.com/bentwnghk/lobe-chat/compare/v1.100.0...v1.101.0)
 
 <sup>Released on **2025-02-17**</sup>
