@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.102.1](https://github.com/bentwnghk/lobe-chat/compare/v1.102.0...v1.102.1)
+
+<sup>Released on **2025-02-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Show sso providers for next-auth in profile page.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Show sso providers for next-auth in profile page, closes [#5303](https://github.com/bentwnghk/lobe-chat/issues/5303) ([dd61bce](https://github.com/bentwnghk/lobe-chat/commit/dd61bce))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.102.0](https://github.com/bentwnghk/lobe-chat/compare/v1.101.1...v1.102.0)
 
 <sup>Released on **2025-02-18**</sup>
