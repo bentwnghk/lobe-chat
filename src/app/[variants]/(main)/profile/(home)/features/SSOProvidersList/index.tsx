@@ -1,4 +1,4 @@
-import { ActionIcon, CopyButton, List } from '@lobehub/ui';
+import { ActionIcon, CopyButton, List } from '@bentwnghk/ui';
 import { RotateCw, Unlink } from 'lucide-react';
 import { CSSProperties, memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

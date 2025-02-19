@@ -9,7 +9,7 @@ import {
   MicrosoftEntra,
   NextAuth,
   Zitadel,
-} from '@lobehub/ui/icons';
+} from '@bentwnghk/ui/icons';
 import React from 'react';
 
 const iconProps = {
