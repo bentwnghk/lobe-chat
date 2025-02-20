@@ -1,6 +1,6 @@
 'use client';
 
-import { TabsNav } from '@lobehub/ui';
+import { TabsNav } from '@bentwnghk/ui';
 import { useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
