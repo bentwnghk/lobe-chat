@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.103.2](https://github.com/bentwnghk/lobe-chat/compare/v1.103.1...v1.103.2)
+
+<sup>Released on **2025-02-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix a feature flag.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix a feature flag, closes [#6354](https://github.com/bentwnghk/lobe-chat/issues/6354) ([6667334](https://github.com/bentwnghk/lobe-chat/commit/6667334))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.103.1](https://github.com/bentwnghk/lobe-chat/compare/v1.103.0...v1.103.1)
 
 <sup>Released on **2025-02-20**</sup>
