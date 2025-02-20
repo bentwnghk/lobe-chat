@@ -6,7 +6,6 @@ import { ChatCompetitionOptions, ChatStreamPayload, ModelProvider } from '../typ
 import {
   CloudflareStreamTransformer,
   DEFAULT_BASE_URL_PREFIX,
-  convertModelManifest,
   desensitizeCloudflareUrl,
   fillUrl,
 } from '../utils/cloudflareHelpers';
@@ -113,6 +112,8 @@ export class LobeCloudflareAI implements LobeRuntimeAI {
   }
 
   async models(): Promise<ChatModelCard[]> {
+    const { LOBE_DEFAULT_MODEL_LIST } = await import('@/config/aiModels');
+
     const url = `${DEFAULT_BASE_URL_PREFIX}/client/v4/accounts/${this.accountID}/ai/models/search`;
     const response = await fetch(url, {
       headers: {
