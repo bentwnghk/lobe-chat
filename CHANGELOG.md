@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.103.0](https://github.com/bentwnghk/lobe-chat/compare/v1.102.1...v1.103.0)
+
+<sup>Released on **2025-02-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Support pplx search grounding.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Azure AI env var configuration issue., Casdoor webhooks error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support pplx search grounding, closes [#6331](https://github.com/bentwnghk/lobe-chat/issues/6331) ([ccb0003](https://github.com/bentwnghk/lobe-chat/commit/ccb0003))
+
+#### What's fixed
+
+- **misc**: Azure AI env var configuration issue., closes [#6346](https://github.com/bentwnghk/lobe-chat/issues/6346) ([3fc61bb](https://github.com/bentwnghk/lobe-chat/commit/3fc61bb))
+- **misc**: Casdoor webhooks error, closes [#6304](https://github.com/bentwnghk/lobe-chat/issues/6304) ([7a458b9](https://github.com/bentwnghk/lobe-chat/commit/7a458b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.102.1](https://github.com/bentwnghk/lobe-chat/compare/v1.102.0...v1.102.1)
 
 <sup>Released on **2025-02-19**</sup>
