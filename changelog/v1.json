@@ -5,6 +5,14 @@
       "improvements": ["Add some error types."]
     },
     "date": "2025-02-20",
+    "version": "1.103.3"
+  },
+  {
+    "children": {
+      "fixes": ["Fix hotkeys of open agent settings."],
+      "improvements": ["Add some error types."]
+    },
+    "date": "2025-02-20",
     "version": "1.62.4"
   },
   {
