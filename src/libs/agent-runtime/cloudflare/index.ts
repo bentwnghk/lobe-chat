@@ -15,18 +15,6 @@ import { debugStream } from '../utils/debugStream';
 import { StreamingResponse } from '../utils/response';
 import { createCallbacksTransformer } from '../utils/streams';
 
-import { ChatModelCard } from '@/types/llm';
-
-export interface CloudflareModelCard {
-  description: string;
-  name: string;
-  properties?: Record<string, string>;
-  task?: {
-    description?: string;
-    name: string;
-  };
-}
-
 export interface LobeCloudflareParams {
   apiKey?: string;
   baseURLOrAccountID?: string;
@@ -115,8 +103,6 @@ export class LobeCloudflareAI implements LobeRuntimeAI {
   }
 
   async models(): Promise<ChatModelCard[]> {
-    const { LOBE_DEFAULT_MODEL_LIST } = await import('@/config/aiModels');
-
     const url = `${DEFAULT_BASE_URL_PREFIX}/client/v4/accounts/${this.accountID}/ai/models/search`;
     const response = await fetch(url, {
       headers: {
@@ -125,38 +111,13 @@ export class LobeCloudflareAI implements LobeRuntimeAI {
       },
       method: 'GET',
     });
-    const json = await response.json();
-
-    const modelList: CloudflareModelCard[] = json.result;
-
-    return modelList
-      .map((model) => {
-        const knownModel = LOBE_DEFAULT_MODEL_LIST.find((m) => model.name.toLowerCase() === m.id.toLowerCase());
-
-        return {
-          contextWindowTokens: model.properties?.max_total_tokens
-            ? Number(model.properties.max_total_tokens)
-            : knownModel?.contextWindowTokens ?? undefined,
-          displayName: knownModel?.displayName ?? (model.properties?.["beta"] === "true" ? `${model.name} (Beta)` : undefined),
-          enabled: knownModel?.enabled || false,
-          functionCall:
-            model.description.toLowerCase().includes('function call')
-            || model.properties?.["function_calling"] === "true"
-            || knownModel?.abilities?.functionCall
-            || false,
-          id: model.name,
-          reasoning:
-            model.name.toLowerCase().includes('deepseek-r1')
-            || knownModel?.abilities?.reasoning
-            || false,
-          vision:
-            model.name.toLowerCase().includes('vision')
-            || model.task?.name.toLowerCase().includes('image-to-text')
-            || model.description.toLowerCase().includes('vision')
-            || knownModel?.abilities?.vision
-            || false,
-        };
-      })
-      .filter(Boolean) as ChatModelCard[];
+    const j = await response.json();
+    const models: any[] = j['result'].filter(
+      (model: any) => model['task']['name'] === 'Text Generation',
+    );
+    const chatModels: ChatModelCard[] = models
+      .map((model) => convertModelManifest(model))
+      .sort((a, b) => a.displayName.localeCompare(b.displayName));
+    return chatModels;
   }
 }

@@ -3,6 +3,7 @@ import OpenAI from 'openai';
 import { ChatStreamPayload, ModelProvider } from '../types';
 import { LobeOpenAICompatibleFactory } from '../utils/openaiCompatibleFactory';
 
+import { LOBE_DEFAULT_MODEL_LIST } from '@/config/aiModels';
 import type { ChatModelCard } from '@/types/llm';
 
 export interface ZhipuModelCard {
@@ -48,8 +49,6 @@ export const LobeZhipuAI = LobeOpenAICompatibleFactory({
     chatCompletion: () => process.env.DEBUG_ZHIPU_CHAT_COMPLETION === '1',
   },
   models: async ({ client }) => {
-    const { LOBE_DEFAULT_MODEL_LIST } = await import('@/config/aiModels');
-
     // ref: https://open.bigmodel.cn/console/modelcenter/square
     client.baseURL = 'https://open.bigmodel.cn/api/fine-tuning/model_center/list?pageSize=100&pageNum=1';
 
@@ -58,26 +57,13 @@ export const LobeZhipuAI = LobeOpenAICompatibleFactory({
 
     return modelList
       .map((model) => {
-        const knownModel = LOBE_DEFAULT_MODEL_LIST.find((m) => model.modelCode.toLowerCase() === m.id.toLowerCase());
-
         return {
-          contextWindowTokens: knownModel?.contextWindowTokens ?? undefined,
           description: model.description,
           displayName: model.modelName,
-          enabled: knownModel?.enabled || false,
-          functionCall:
-            model.modelCode.toLowerCase().includes('glm-4') && !model.modelCode.toLowerCase().includes('glm-4v')
-            || knownModel?.abilities?.functionCall
-            || false,
+          enabled: LOBE_DEFAULT_MODEL_LIST.find((m) => model.modelCode.endsWith(m.id))?.enabled || false,
+          functionCall: model.modelCode.toLowerCase().includes('glm-4') && !model.modelCode.toLowerCase().includes('glm-4v'),
           id: model.modelCode,
-          reasoning:
-            model.modelCode.toLowerCase().includes('glm-zero-preview')
-            || knownModel?.abilities?.reasoning
-            || false,
-          vision:
-            model.modelCode.toLowerCase().includes('glm-4v')
-            || knownModel?.abilities?.vision
-            || false,
+          vision: model.modelCode.toLowerCase().includes('glm-4v'),
         };
       })
       .filter(Boolean) as ChatModelCard[];
