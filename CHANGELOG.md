@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.103.1](https://github.com/bentwnghk/lobe-chat/compare/v1.103.0...v1.103.1)
+
+<sup>Released on **2025-02-20**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add sambanova proxy url, fix message roles for specific Azure OpenAI models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add sambanova proxy url, closes [#6348](https://github.com/bentwnghk/lobe-chat/issues/6348) ([c9cb7d9](https://github.com/bentwnghk/lobe-chat/commit/c9cb7d9))
+- **misc**: Fix message roles for specific Azure OpenAI models, closes [#6222](https://github.com/bentwnghk/lobe-chat/issues/6222) ([d49329a](https://github.com/bentwnghk/lobe-chat/commit/d49329a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.103.0](https://github.com/bentwnghk/lobe-chat/compare/v1.102.1...v1.103.0)
 
 <sup>Released on **2025-02-20**</sup>
