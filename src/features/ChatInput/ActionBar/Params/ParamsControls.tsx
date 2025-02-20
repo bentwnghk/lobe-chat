@@ -1,5 +1,5 @@
-import { Form, Tag } from '@lobehub/ui';
-import type { FormItemProps } from '@lobehub/ui/es/Form/components/FormItem';
+import { Form, Tag } from '@bentwnghk/ui';
+import type { FormItemProps } from '@bentwnghk/ui/es/Form/components/FormItem';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { debounce } from 'lodash-es';
