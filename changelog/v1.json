@@ -1,6 +1,13 @@
 [
   {
     "children": {
+      "fixes": ["Add sambanova proxy url, fix message roles for specific Azure OpenAI models."]
+    },
+    "date": "2025-02-20",
+    "version": "1.103.1"
+  },
+  {
+    "children": {
       "fixes": ["Fix message roles for specific Azure OpenAI models."]
     },
     "date": "2025-02-20",
