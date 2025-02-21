@@ -14,7 +14,7 @@ const leftActions = [
   'model',
   'fileUpload',
   'knowledgeBase',
-  'temperature',
+  'params',
   'history',
   'stt',
   'tools',
