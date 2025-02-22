@@ -1,4 +1,4 @@
-import { Highlighter, copyToClipboard } from '@lobehub/ui';
+import { Highlighter, copyToClipboard } from '@bentwnghk/ui';
 import { App } from 'antd';
 import { createStyles } from 'antd-style';
 import { parse } from 'partial-json';
