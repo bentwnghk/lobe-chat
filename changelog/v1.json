@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "fixes": ["Fix default agent loading."],
+      "improvements": ["Add Volcano Ark models, refactor the plugin render style."]
+    },
+    "date": "2025-02-22",
+    "version": "1.103.4"
+  },
+  {
+    "children": {
       "improvements": ["Add Volcano Ark models."]
     },
     "date": "2025-02-21",
