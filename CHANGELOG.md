@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.103.5](https://github.com/bentwnghk/lobe-chat/compare/v1.103.4...v1.103.5)
+
+<sup>Released on **2025-02-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix image prompts with some user cases, next-auth user id not found in create agent index.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix image prompts with some user cases, closes [#6406](https://github.com/bentwnghk/lobe-chat/issues/6406) ([e9df49d](https://github.com/bentwnghk/lobe-chat/commit/e9df49d))
+- **misc**: Next-auth user id not found in create agent index, closes [#6410](https://github.com/bentwnghk/lobe-chat/issues/6410) ([704c7c8](https://github.com/bentwnghk/lobe-chat/commit/704c7c8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.103.4](https://github.com/bentwnghk/lobe-chat/compare/v1.103.3...v1.103.4)
 
 <sup>Released on **2025-02-22**</sup>
