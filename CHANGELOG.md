@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.103.4](https://github.com/bentwnghk/lobe-chat/compare/v1.103.3...v1.103.4)
+
+<sup>Released on **2025-02-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix default agent loading.
+
+#### 💄 Styles
+
+- **misc**: Add Volcano Ark models, refactor the plugin render style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix default agent loading, closes [#6393](https://github.com/bentwnghk/lobe-chat/issues/6393) ([7841122](https://github.com/bentwnghk/lobe-chat/commit/7841122))
+
+#### Styles
+
+- **misc**: Add Volcano Ark models, closes [#6368](https://github.com/bentwnghk/lobe-chat/issues/6368) ([02136f5](https://github.com/bentwnghk/lobe-chat/commit/02136f5))
+- **misc**: Refactor the plugin render style, closes [#6390](https://github.com/bentwnghk/lobe-chat/issues/6390) ([3ecdba1](https://github.com/bentwnghk/lobe-chat/commit/3ecdba1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.103.3](https://github.com/bentwnghk/lobe-chat/compare/v1.103.2...v1.103.3)
 
 <sup>Released on **2025-02-20**</sup>
