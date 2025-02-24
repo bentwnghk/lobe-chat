@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.104.1](https://github.com/bentwnghk/lobe-chat/compare/v1.104.0...v1.104.1)
+
+<sup>Released on **2025-02-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix citation=null issue in stream, fix model settings config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix citation=null issue in stream, closes [#6461](https://github.com/bentwnghk/lobe-chat/issues/6461) ([3f9498e](https://github.com/bentwnghk/lobe-chat/commit/3f9498e))
+- **misc**: Fix model settings config, closes [#6459](https://github.com/bentwnghk/lobe-chat/issues/6459) ([469bd10](https://github.com/bentwnghk/lobe-chat/commit/469bd10))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.104.0](https://github.com/bentwnghk/lobe-chat/compare/v1.103.6...v1.104.0)
 
 <sup>Released on **2025-02-24**</sup>
