@@ -29,10 +29,10 @@ const CustomRender = memo<
 
   const theme = useTheme();
   useEffect(() => {
-    if (!plugin?.type || loading) return;
+    if (!plugin?.type) return;
 
     setShowPluginRender(plugin?.type !== 'default');
-  }, [plugin?.type, loading]);
+  }, [plugin?.type]);
 
   if (isMessageToolUIOpen)
     return (
@@ -52,8 +52,6 @@ const CustomRender = memo<
         />
       </Center>
     );
-
-  if (loading) return <Arguments arguments={requestArgs} shine />;
 
   return (
     <Flexbox gap={12} id={id} width={'100%'}>

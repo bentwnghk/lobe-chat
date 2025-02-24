@@ -1,23 +1,18 @@
 import { Highlighter } from '@bentwnghk/ui';
-import { memo, useMemo } from 'react';
-
-import { useChatStore } from '@/store/chat';
-import { chatSelectors } from '@/store/chat/selectors';
+import { memo } from 'react';
 
 export interface FunctionMessageProps {
-  toolCallId: string;
+  content: string;
 }
 
-const PluginResult = memo<FunctionMessageProps>(({ toolCallId }) => {
-  const toolMessage = useChatStore(chatSelectors.getMessageByToolCallId(toolCallId));
+const PluginResult = memo<FunctionMessageProps>(({ content }) => {
+  let data;
 
-  const data = useMemo(() => {
-    try {
-      return JSON.stringify(JSON.parse(toolMessage?.content || ''), null, 2);
-    } catch {
-      return toolMessage?.content || '';
-    }
-  }, [toolMessage?.content]);
+  try {
+    data = JSON.stringify(JSON.parse(content), null, 2);
+  } catch {
+    data = content;
+  }
 
   return (
     <Highlighter language={'json'} style={{ maxHeight: 200, maxWidth: 800, overflow: 'scroll' }}>

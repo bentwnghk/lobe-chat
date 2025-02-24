@@ -79,7 +79,6 @@ const Inspectors = memo<InspectorProps>(
     index,
     identifier,
     apiName,
-    id,
     arguments: requestArgs,
     showRender,
     payload,
@@ -143,7 +142,7 @@ const Inspectors = memo<InspectorProps>(
             <Settings id={identifier} />
           </Flexbox>
         </Flexbox>
-        {showDebug && <Debug payload={payload} requestArgs={requestArgs} toolCallId={id} />}
+        {showDebug && <Debug payload={payload} requestArgs={requestArgs} />}
       </Flexbox>
     );
   },
