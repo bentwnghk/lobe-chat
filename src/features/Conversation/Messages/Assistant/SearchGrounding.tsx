@@ -1,4 +1,4 @@
-import { Icon, SearchResultCards, Tag } from '@lobehub/ui';
+import { Icon, SearchResultCards, Tag } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronDown, ChevronRight, Globe } from 'lucide-react';

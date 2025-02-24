@@ -1,5 +1,5 @@
 import { DisconnectOutlined } from '@ant-design/icons';
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Divider, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { CheckIcon, SparklesIcon } from 'lucide-react';

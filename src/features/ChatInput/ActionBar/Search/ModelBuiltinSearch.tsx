@@ -1,5 +1,5 @@
-import { Google } from '@lobehub/icons';
-import { Icon } from '@lobehub/ui';
+import { Google } from '@bentwnghk/icons';
+import { Icon } from '@bentwnghk/ui';
 import { Switch } from 'antd';
 import { Search } from 'lucide-react';
 import { memo, useState } from 'react';

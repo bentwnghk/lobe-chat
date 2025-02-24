@@ -1,4 +1,4 @@
-import { Form } from '@lobehub/ui';
+import { Form } from '@bentwnghk/ui';
 import { Switch } from 'antd';
 import { memo } from 'react';
 

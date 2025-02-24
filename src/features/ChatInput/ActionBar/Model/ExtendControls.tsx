@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@bentwnghk/ui';
 import { Popover } from 'antd';
 import { Settings2Icon } from 'lucide-react';
 import { memo } from 'react';
