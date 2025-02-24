@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.104.0](https://github.com/bentwnghk/lobe-chat/compare/v1.103.6...v1.104.0)
+
+<sup>Released on **2025-02-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Support model-level search for Google/Qwen.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix groq location request.
+
+#### 💄 Styles
+
+- **misc**: Improve plugin calling style, Update many models info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support model-level search for Google/Qwen, closes [#6420](https://github.com/bentwnghk/lobe-chat/issues/6420) ([f1b97cd](https://github.com/bentwnghk/lobe-chat/commit/f1b97cd))
+
+#### What's fixed
+
+- **misc**: Fix groq location request, closes [#6449](https://github.com/bentwnghk/lobe-chat/issues/6449) ([8c8af6b](https://github.com/bentwnghk/lobe-chat/commit/8c8af6b))
+
+#### Styles
+
+- **misc**: Improve plugin calling style, closes [#6446](https://github.com/bentwnghk/lobe-chat/issues/6446) ([406cd46](https://github.com/bentwnghk/lobe-chat/commit/406cd46))
+- **misc**: Update many models info, closes [#6205](https://github.com/bentwnghk/lobe-chat/issues/6205) ([c477588](https://github.com/bentwnghk/lobe-chat/commit/c477588))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.103.6](https://github.com/bentwnghk/lobe-chat/compare/v1.103.5...v1.103.6)
 
 <sup>Released on **2025-02-23**</sup>
