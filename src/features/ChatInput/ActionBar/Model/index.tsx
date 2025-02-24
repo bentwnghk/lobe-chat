@@ -1,5 +1,5 @@
-import { ModelIcon } from '@lobehub/icons';
-import { ActionIcon, Tooltip } from '@lobehub/ui';
+import { ModelIcon } from '@bentwnghk/icons';
+import { ActionIcon, Tooltip } from '@bentwnghk/ui';
 import { Popover } from 'antd';
 import { createStyles } from 'antd-style';
 import { Settings2Icon } from 'lucide-react';

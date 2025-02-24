@@ -1,4 +1,4 @@
-import { Alert, Highlighter } from '@lobehub/ui';
+import { Alert, Highlighter } from '@bentwnghk/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
