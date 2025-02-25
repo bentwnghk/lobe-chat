@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@bentwnghk/ui';
 import { Button, Checkbox, Input, Select, Space, Typography } from 'antd';
 import { SearchIcon } from 'lucide-react';
 import { ReactNode, memo, useState } from 'react';

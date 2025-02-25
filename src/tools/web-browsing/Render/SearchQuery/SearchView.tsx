@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Divider, Skeleton } from 'antd';
 import { createStyles } from 'antd-style';
 import { SearchIcon } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { Tooltip } from '@lobehub/ui';
+import { Tooltip } from '@bentwnghk/ui';
 import { Tag, Typography } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

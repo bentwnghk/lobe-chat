@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { KeyRoundIcon, Loader2Icon } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';

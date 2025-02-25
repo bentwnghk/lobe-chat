@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button, Empty, Skeleton } from 'antd';
 import { uniq } from 'lodash-es';
 import { Edit2Icon } from 'lucide-react';
