@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.105.0](https://github.com/bentwnghk/lobe-chat/compare/v1.104.1...v1.105.0)
+
+<sup>Released on **2025-02-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Support application search with searchXNG.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Disable fc for ds-v3 series, fix 0 search results with specific search engine.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support application search with searchXNG, closes [#6452](https://github.com/bentwnghk/lobe-chat/issues/6452) ([b61b5fc](https://github.com/bentwnghk/lobe-chat/commit/b61b5fc))
+
+#### What's fixed
+
+- **misc**: Disable fc for ds-v3 series, closes [#6486](https://github.com/bentwnghk/lobe-chat/issues/6486) ([0092213](https://github.com/bentwnghk/lobe-chat/commit/0092213))
+- **misc**: Fix 0 search results with specific search engine, closes [#6487](https://github.com/bentwnghk/lobe-chat/issues/6487) ([74a09e2](https://github.com/bentwnghk/lobe-chat/commit/74a09e2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.104.1](https://github.com/bentwnghk/lobe-chat/compare/v1.104.0...v1.104.1)
 
 <sup>Released on **2025-02-24**</sup>
