@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.106.0](https://github.com/bentwnghk/lobe-chat/compare/v1.105.0...v1.106.0)
+
+<sup>Released on **2025-02-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Support claude sonnet 3.7 thinking.
+
+#### 💄 Styles
+
+- **misc**: Add Claude 3.7 Sonnet and Haiku 3.5, Update Gemini 2.0 search settings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support claude sonnet 3.7 thinking, closes [#6515](https://github.com/bentwnghk/lobe-chat/issues/6515) ([bc9829f](https://github.com/bentwnghk/lobe-chat/commit/bc9829f))
+
+#### Styles
+
+- **misc**: Add Claude 3.7 Sonnet and Haiku 3.5, closes [#6512](https://github.com/bentwnghk/lobe-chat/issues/6512) ([c8db2bb](https://github.com/bentwnghk/lobe-chat/commit/c8db2bb))
+- **misc**: Update Gemini 2.0 search settings, closes [#6516](https://github.com/bentwnghk/lobe-chat/issues/6516) ([250bbcb](https://github.com/bentwnghk/lobe-chat/commit/250bbcb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.105.0](https://github.com/bentwnghk/lobe-chat/compare/v1.104.1...v1.105.0)
 
 <sup>Released on **2025-02-25**</sup>
