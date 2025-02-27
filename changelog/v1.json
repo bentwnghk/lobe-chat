@@ -1,6 +1,17 @@
 [
   {
     "children": {
+      "features": ["Add online search support for available providers."],
+      "fixes": ["Fix claude 3.7 sonnet thinking with tool use."],
+      "improvements": [
+        "Added eu-central-1 region for bedrock, support parsing the search flag when parsing the model list, Update Gemini & Qwen models."
+      ]
+    },
+    "date": "2025-02-27",
+    "version": "1.107.0"
+  },
+  {
+    "children": {
       "improvements": ["Added eu-central-1 region for bedrock."]
     },
     "date": "2025-02-27",
