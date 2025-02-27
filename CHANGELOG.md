@@ -2,6 +2,49 @@
 
 # Changelog
 
+## [Version 1.107.0](https://github.com/bentwnghk/lobe-chat/compare/v1.106.0...v1.107.0)
+
+<sup>Released on **2025-02-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Add online search support for available providers.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix claude 3.7 sonnet thinking with tool use.
+
+#### 💄 Styles
+
+- **misc**: Added eu-central-1 region for bedrock, support parsing the search flag when parsing the model list, Update Gemini & Qwen models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add online search support for available providers, closes [#6475](https://github.com/bentwnghk/lobe-chat/issues/6475) ([cb0a3bc](https://github.com/bentwnghk/lobe-chat/commit/cb0a3bc))
+
+#### What's fixed
+
+- **misc**: Fix claude 3.7 sonnet thinking with tool use, closes [#6528](https://github.com/bentwnghk/lobe-chat/issues/6528) ([a76d2bf](https://github.com/bentwnghk/lobe-chat/commit/a76d2bf))
+
+#### Styles
+
+- **misc**: Added eu-central-1 region for bedrock, closes [#6555](https://github.com/bentwnghk/lobe-chat/issues/6555) ([6f1e599](https://github.com/bentwnghk/lobe-chat/commit/6f1e599))
+- **misc**: Support parsing the search flag when parsing the model list, closes [#6546](https://github.com/bentwnghk/lobe-chat/issues/6546) ([8c768ed](https://github.com/bentwnghk/lobe-chat/commit/8c768ed))
+- **misc**: Update Gemini & Qwen models, closes [#6531](https://github.com/bentwnghk/lobe-chat/issues/6531) ([efde928](https://github.com/bentwnghk/lobe-chat/commit/efde928))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.106.0](https://github.com/bentwnghk/lobe-chat/compare/v1.105.0...v1.106.0)
 
 <sup>Released on **2025-02-26**</sup>
