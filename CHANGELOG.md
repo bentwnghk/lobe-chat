@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.107.2](https://github.com/bentwnghk/lobe-chat/compare/v1.107.1...v1.107.2)
+
+<sup>Released on **2025-02-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve portal style, Optimize smooth output.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve portal style, closes [#6588](https://github.com/bentwnghk/lobe-chat/issues/6588) ([55b5416](https://github.com/bentwnghk/lobe-chat/commit/55b5416))
+- **misc**: Optimize smooth output, closes [#5824](https://github.com/bentwnghk/lobe-chat/issues/5824) ([7a84ad9](https://github.com/bentwnghk/lobe-chat/commit/7a84ad9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.107.1](https://github.com/bentwnghk/lobe-chat/compare/v1.107.0...v1.107.1)
 
 <sup>Released on **2025-02-28**</sup>
