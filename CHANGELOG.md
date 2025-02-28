@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.107.1](https://github.com/bentwnghk/lobe-chat/compare/v1.107.0...v1.107.1)
+
+<sup>Released on **2025-02-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix fetch assistants plugin error, Update Claude sonnet 3.7 model ID.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix fetch assistants plugin error, closes [#6576](https://github.com/bentwnghk/lobe-chat/issues/6576) ([9669a02](https://github.com/bentwnghk/lobe-chat/commit/9669a02))
+- **misc**: Update Claude sonnet 3.7 model ID, closes [#6567](https://github.com/bentwnghk/lobe-chat/issues/6567) ([d1039d6](https://github.com/bentwnghk/lobe-chat/commit/d1039d6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.107.0](https://github.com/bentwnghk/lobe-chat/compare/v1.106.0...v1.107.0)
 
 <sup>Released on **2025-02-27**</sup>
