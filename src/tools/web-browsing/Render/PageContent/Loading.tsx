@@ -1,6 +1,6 @@
 'use client';
 
-import { CopyButton } from '@lobehub/ui';
+import { CopyButton } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';

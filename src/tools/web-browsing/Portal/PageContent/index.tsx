@@ -1,4 +1,4 @@
-import { Alert, CopyButton, Icon, Markdown } from '@lobehub/ui';
+import { Alert, CopyButton, Icon, Markdown } from '@bentwnghk/ui';
 import { Descriptions, Segmented, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { ExternalLink } from 'lucide-react';
