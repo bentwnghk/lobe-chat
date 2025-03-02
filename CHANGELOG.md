@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.108.0](https://github.com/bentwnghk/lobe-chat/compare/v1.107.2...v1.108.0)
+
+<sup>Released on **2025-03-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Support web page crawl in the search.
+
+#### 💄 Styles
+
+- **misc**: Add `gpt-4.5-preview` for OpenAI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support web page crawl in the search, closes [#6582](https://github.com/bentwnghk/lobe-chat/issues/6582) ([5e02602](https://github.com/bentwnghk/lobe-chat/commit/5e02602))
+
+#### Styles
+
+- **misc**: Add `gpt-4.5-preview` for OpenAI, closes [#6618](https://github.com/bentwnghk/lobe-chat/issues/6618) ([3ec3af0](https://github.com/bentwnghk/lobe-chat/commit/3ec3af0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.107.2](https://github.com/bentwnghk/lobe-chat/compare/v1.107.1...v1.107.2)
 
 <sup>Released on **2025-02-28**</sup>
