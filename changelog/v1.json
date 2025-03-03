@@ -1,6 +1,15 @@
 [
   {
     "children": {
+      "features": ["Add new model provider PPIO."],
+      "fixes": ["Fix page crash with crawler error, fix search web-browsing display bug."],
+      "improvements": ["Add build-in web search support for Wenxin & Hunyuan."]
+    },
+    "date": "2025-03-03",
+    "version": "1.109.0"
+  },
+  {
+    "children": {
       "fixes": ["Fix page crash with crawler error."]
     },
     "date": "2025-03-03",
