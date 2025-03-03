@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 1.109.0](https://github.com/bentwnghk/lobe-chat/compare/v1.108.1...v1.109.0)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Add new model provider PPIO.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix page crash with crawler error, fix search web-browsing display bug.
+
+#### 💄 Styles
+
+- **misc**: Add build-in web search support for Wenxin & Hunyuan.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add new model provider PPIO, closes [#6133](https://github.com/bentwnghk/lobe-chat/issues/6133) ([23a3fda](https://github.com/bentwnghk/lobe-chat/commit/23a3fda))
+
+#### What's fixed
+
+- **misc**: Fix page crash with crawler error, closes [#6662](https://github.com/bentwnghk/lobe-chat/issues/6662) ([0c24251](https://github.com/bentwnghk/lobe-chat/commit/0c24251))
+- **misc**: Fix search web-browsing display bug, closes [#6653](https://github.com/bentwnghk/lobe-chat/issues/6653) ([f472643](https://github.com/bentwnghk/lobe-chat/commit/f472643))
+
+#### Styles
+
+- **misc**: Add build-in web search support for Wenxin & Hunyuan, closes [#6617](https://github.com/bentwnghk/lobe-chat/issues/6617) ([dfd1f09](https://github.com/bentwnghk/lobe-chat/commit/dfd1f09))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.108.1](https://github.com/bentwnghk/lobe-chat/compare/v1.108.0...v1.108.1)
 
 <sup>Released on **2025-03-02**</sup>
