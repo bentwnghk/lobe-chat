@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.109.1](https://github.com/bentwnghk/lobe-chat/compare/v1.109.0...v1.109.1)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Improve url rules.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Improve url rules, closes [#6669](https://github.com/bentwnghk/lobe-chat/issues/6669) ([5ee59e3](https://github.com/bentwnghk/lobe-chat/commit/5ee59e3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.109.0](https://github.com/bentwnghk/lobe-chat/compare/v1.108.1...v1.109.0)
 
 <sup>Released on **2025-03-03**</sup>
