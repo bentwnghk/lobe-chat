@@ -2,6 +2,48 @@
 
 # Changelog
 
+### [Version 1.109.2](https://github.com/bentwnghk/lobe-chat/compare/v1.109.1...v1.109.2)
+
+<sup>Released on **2025-03-05**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor agent runtime to better code format.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix custom ai provider sdk type.
+
+#### 💄 Styles
+
+- **misc**: Fix provider order, support to show token usages.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor agent runtime to better code format, closes [#6284](https://github.com/bentwnghk/lobe-chat/issues/6284) ([fc1ed4a](https://github.com/bentwnghk/lobe-chat/commit/fc1ed4a))
+
+#### What's fixed
+
+- **misc**: Fix custom ai provider sdk type, closes [#6712](https://github.com/bentwnghk/lobe-chat/issues/6712) ([7f8c379](https://github.com/bentwnghk/lobe-chat/commit/7f8c379))
+
+#### Styles
+
+- **misc**: Fix provider order, closes [#6702](https://github.com/bentwnghk/lobe-chat/issues/6702) ([27e4980](https://github.com/bentwnghk/lobe-chat/commit/27e4980))
+- **misc**: Support to show token usages, closes [#6693](https://github.com/bentwnghk/lobe-chat/issues/6693) ([71a638e](https://github.com/bentwnghk/lobe-chat/commit/71a638e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.109.1](https://github.com/bentwnghk/lobe-chat/compare/v1.109.0...v1.109.1)
 
 <sup>Released on **2025-03-03**</sup>
