@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Fix provider order, support to show token usages."],
+      "fixes": ["Fix custom ai provider sdk type."]
+    },
+    "date": "2025-03-05",
+    "version": "1.109.2"
+  },
+  {
+    "children": {
       "improvements": ["Refactor agent runtime to better code format."]
     },
     "date": "2025-03-05",
