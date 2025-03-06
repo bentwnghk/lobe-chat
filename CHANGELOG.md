@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.109.3](https://github.com/bentwnghk/lobe-chat/compare/v1.109.2...v1.109.3)
+
+<sup>Released on **2025-03-06**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add epub file chunk split support, improve openrouter models info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add epub file chunk split support, closes [#6317](https://github.com/bentwnghk/lobe-chat/issues/6317) ([a79ab7a](https://github.com/bentwnghk/lobe-chat/commit/a79ab7a))
+- **misc**: Improve openrouter models info, closes [#6708](https://github.com/bentwnghk/lobe-chat/issues/6708) ([5693e68](https://github.com/bentwnghk/lobe-chat/commit/5693e68))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.109.2](https://github.com/bentwnghk/lobe-chat/compare/v1.109.1...v1.109.2)
 
 <sup>Released on **2025-03-05**</sup>
