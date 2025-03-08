@@ -1,4 +1,4 @@
-import { Icon, Tag, Tooltip } from '@lobehub/ui';
+import { Icon, Tag, Tooltip } from '@bentwnghk/ui';
 import { HistoryIcon } from 'lucide-react';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
