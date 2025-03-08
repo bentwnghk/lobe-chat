@@ -2,6 +2,50 @@
 
 # Changelog
 
+## [Version 1.110.0](https://github.com/bentwnghk/lobe-chat/compare/v1.109.4...v1.110.0)
+
+<sup>Released on **2025-03-08**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the agent runtime implement.
+
+#### ✨ Features
+
+- **misc**: Support Anthropic Context Caching.
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 2.0 Flash model variations, Add login ui for next-auth, Add Qwen QwQ model, add QwQ models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the agent runtime implement, closes [#6784](https://github.com/bentwnghk/lobe-chat/issues/6784) ([14a9874](https://github.com/bentwnghk/lobe-chat/commit/14a9874))
+
+#### What's improved
+
+- **misc**: Support Anthropic Context Caching, closes [#6704](https://github.com/bentwnghk/lobe-chat/issues/6704) ([471e3ed](https://github.com/bentwnghk/lobe-chat/commit/471e3ed))
+
+#### Styles
+
+- **misc**: Add Gemini 2.0 Flash model variations, closes [#6679](https://github.com/bentwnghk/lobe-chat/issues/6679) ([d5a8fcb](https://github.com/bentwnghk/lobe-chat/commit/d5a8fcb))
+- **misc**: Add login ui for next-auth, closes [#6434](https://github.com/bentwnghk/lobe-chat/issues/6434) ([541f275](https://github.com/bentwnghk/lobe-chat/commit/541f275))
+- **misc**: Add Qwen QwQ model, closes [#6783](https://github.com/bentwnghk/lobe-chat/issues/6783) ([3d3c2ce](https://github.com/bentwnghk/lobe-chat/commit/3d3c2ce))
+- **misc**: Add QwQ models, closes [#6770](https://github.com/bentwnghk/lobe-chat/issues/6770) ([cd30fcc](https://github.com/bentwnghk/lobe-chat/commit/cd30fcc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.109.4](https://github.com/bentwnghk/lobe-chat/compare/v1.109.3...v1.109.4)
 
 <sup>Released on **2025-03-06**</sup>
