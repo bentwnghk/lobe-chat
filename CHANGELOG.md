@@ -2,6 +2,42 @@
 
 # Changelog
 
+### [Version 1.110.1](https://github.com/bentwnghk/lobe-chat/compare/v1.110.0...v1.110.1)
+
+<sup>Released on **2025-03-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix context cache control and model builtin search switch, fix mistral can not chat.
+
+#### 💄 Styles
+
+- **chat**: Auto send message from URL.
+- **misc**: Support openrouter claude 3.7 sonnet reasoning.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix context cache control and model builtin search switch, closes [#6831](https://github.com/bentwnghk/lobe-chat/issues/6831) ([5c6b8ea](https://github.com/bentwnghk/lobe-chat/commit/5c6b8ea))
+- **misc**: Fix mistral can not chat, closes [#6828](https://github.com/bentwnghk/lobe-chat/issues/6828) ([00cba71](https://github.com/bentwnghk/lobe-chat/commit/00cba71))
+
+#### Styles
+
+- **chat**: Auto send message from URL, closes [#6497](https://github.com/bentwnghk/lobe-chat/issues/6497) ([30b2639](https://github.com/bentwnghk/lobe-chat/commit/30b2639))
+- **misc**: Support openrouter claude 3.7 sonnet reasoning, closes [#6806](https://github.com/bentwnghk/lobe-chat/issues/6806) ([f1ffc2c](https://github.com/bentwnghk/lobe-chat/commit/f1ffc2c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.110.0](https://github.com/bentwnghk/lobe-chat/compare/v1.109.4...v1.110.0)
 
 <sup>Released on **2025-03-08**</sup>
