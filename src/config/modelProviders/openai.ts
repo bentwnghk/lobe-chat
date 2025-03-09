@@ -543,6 +543,9 @@ const OpenAI: ModelProviderCard = {
   name: 'Mr.🆖 AI Hub',
   settings: {
     showModelFetcher: true,
+    smoothing: {
+      text: true,
+    },
   },
   url: 'https://api.mr5ai.com',
 };
