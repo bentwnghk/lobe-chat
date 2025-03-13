@@ -2,6 +2,45 @@
 
 # Changelog
 
+### [Version 1.111.1](https://github.com/bentwnghk/lobe-chat/compare/v1.111.0...v1.111.1)
+
+<sup>Released on **2025-03-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix crawl result for short content, fix theme flicking, Link jump in mobile terminal data statistics, refactor the theme implement, the agent setting `-edit_agent` not work.
+
+#### 💄 Styles
+
+- **spelling**: Correct "broswer" to "browser" across codebase.
+- **misc**: Support OpenRouter custom BaseURL.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix crawl result for short content, closes [#6903](https://github.com/bentwnghk/lobe-chat/issues/6903) [#6904](https://github.com/bentwnghk/lobe-chat/issues/6904) ([d8fda65](https://github.com/bentwnghk/lobe-chat/commit/d8fda65))
+- **misc**: Fix theme flicking, closes [#6926](https://github.com/bentwnghk/lobe-chat/issues/6926) ([103c3e3](https://github.com/bentwnghk/lobe-chat/commit/103c3e3))
+- **misc**: Link jump in mobile terminal data statistics, closes [#6893](https://github.com/bentwnghk/lobe-chat/issues/6893) ([505d24d](https://github.com/bentwnghk/lobe-chat/commit/505d24d))
+- **misc**: Refactor the theme implement, closes [#6844](https://github.com/bentwnghk/lobe-chat/issues/6844) ([e5c2161](https://github.com/bentwnghk/lobe-chat/commit/e5c2161))
+- **misc**: The agent setting `-edit_agent` not work, closes [#4609](https://github.com/bentwnghk/lobe-chat/issues/4609) ([7af0ec6](https://github.com/bentwnghk/lobe-chat/commit/7af0ec6))
+
+#### Styles
+
+- **spelling**: Correct "broswer" to "browser" across codebase, closes [#6876](https://github.com/bentwnghk/lobe-chat/issues/6876) ([8d677a2](https://github.com/bentwnghk/lobe-chat/commit/8d677a2))
+- **misc**: Support OpenRouter custom BaseURL ([a8089ed](https://github.com/bentwnghk/lobe-chat/commit/a8089ed))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.111.0](https://github.com/bentwnghk/lobe-chat/compare/v1.110.1...v1.111.0)
 
 <sup>Released on **2025-03-11**</sup>
