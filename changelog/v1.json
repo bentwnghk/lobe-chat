@@ -1,6 +1,13 @@
 [
   {
     "children": {
+      "fixes": ["Fix claude 3.5+ models context max output, fix knowledge base issue."]
+    },
+    "date": "2025-03-16",
+    "version": "1.112.2"
+  },
+  {
+    "children": {
       "fixes": ["Fix claude 3.5+ models context max output."]
     },
     "date": "2025-03-15",
