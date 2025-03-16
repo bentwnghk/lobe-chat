@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.112.2](https://github.com/bentwnghk/lobe-chat/compare/v1.112.1...v1.112.2)
+
+<sup>Released on **2025-03-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix claude 3.5+ models context max output, fix knowledge base issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix claude 3.5+ models context max output, closes [#6984](https://github.com/bentwnghk/lobe-chat/issues/6984) ([da342dd](https://github.com/bentwnghk/lobe-chat/commit/da342dd))
+- **misc**: Fix knowledge base issue, closes [#6973](https://github.com/bentwnghk/lobe-chat/issues/6973) ([15f39ef](https://github.com/bentwnghk/lobe-chat/commit/15f39ef))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.112.1](https://github.com/bentwnghk/lobe-chat/compare/v1.112.0...v1.112.1)
 
 <sup>Released on **2025-03-15**</sup>
