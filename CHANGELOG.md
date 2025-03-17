@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.112.4](https://github.com/bentwnghk/lobe-chat/compare/v1.112.3...v1.112.4)
+
+<sup>Released on **2025-03-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support screenshot to clipboard when sharing.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support screenshot to clipboard when sharing, closes [#6275](https://github.com/bentwnghk/lobe-chat/issues/6275) ([45663c3](https://github.com/bentwnghk/lobe-chat/commit/45663c3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.112.3](https://github.com/bentwnghk/lobe-chat/compare/v1.112.2...v1.112.3)
 
 <sup>Released on **2025-03-17**</sup>
