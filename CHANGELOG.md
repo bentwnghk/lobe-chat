@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.112.3](https://github.com/bentwnghk/lobe-chat/compare/v1.112.2...v1.112.3)
+
+<sup>Released on **2025-03-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Wenxin & Hunyuan model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Wenxin & Hunyuan model list, closes [#6995](https://github.com/bentwnghk/lobe-chat/issues/6995) ([d017f35](https://github.com/bentwnghk/lobe-chat/commit/d017f35))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.112.2](https://github.com/bentwnghk/lobe-chat/compare/v1.112.1...v1.112.2)
 
 <sup>Released on **2025-03-16**</sup>
