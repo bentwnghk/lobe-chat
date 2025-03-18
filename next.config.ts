@@ -195,9 +195,9 @@ const nextConfig: NextConfig = {
     if (!isServer) {
       config.output.filename = 'static/chunks/[name].js';
       config.output.chunkFilename = 'static/chunks/[name].js';
-    }
+    },
     return config;
-  }
+  },
 
   //webpack(config) {
   //  config.experiments = {
