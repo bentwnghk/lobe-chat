@@ -191,11 +191,19 @@ const nextConfig: NextConfig = {
 
   transpilePackages: ['pdfjs-dist', 'mermaid'],
 
-  webpack(config) {
-    config.experiments = {
-      asyncWebAssembly: true,
-      layers: true,
-    };
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    if (!isServer) {
+      config.output.filename = 'static/chunks/[name].js';
+      config.output.chunkFilename = 'static/chunks/[name].js';
+    }
+    return config;
+  }
+
+  //webpack(config) {
+  //  config.experiments = {
+  //    asyncWebAssembly: true,
+  //    layers: true,
+  //  };
 
     // 开启该插件会导致 pglite 的 fs bundler 被改表
     if (enableReactScan && !isUsePglite) {
