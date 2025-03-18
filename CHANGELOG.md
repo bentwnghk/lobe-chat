@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.113.0](https://github.com/bentwnghk/lobe-chat/compare/v1.112.4...v1.113.0)
+
+<sup>Released on **2025-03-18**</sup>
+
+#### ✨ Features
+
+- **misc**: Update db schema to add `user_id` for data export.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update db schema to add `user_id` for data export, closes [#7022](https://github.com/bentwnghk/lobe-chat/issues/7022) ([c35471a](https://github.com/bentwnghk/lobe-chat/commit/c35471a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.112.4](https://github.com/bentwnghk/lobe-chat/compare/v1.112.3...v1.112.4)
 
 <sup>Released on **2025-03-17**</sup>
