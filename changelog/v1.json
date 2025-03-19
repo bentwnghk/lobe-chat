@@ -4,6 +4,13 @@
       "fixes": ["Allow historyCount to be set to 0."]
     },
     "date": "2025-03-19",
+    "version": "1.113.1"
+  },
+  {
+    "children": {
+      "fixes": ["Allow historyCount to be set to 0."]
+    },
+    "date": "2025-03-19",
     "version": "1.72.1"
   },
   {
