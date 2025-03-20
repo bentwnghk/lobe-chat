@@ -5,6 +5,15 @@
         "Add Cohere provider support, add search1api crawler implementation for WeChat Sogou links."
       ]
     },
+    "date": "2025-03-20",
+    "version": "1.114.0"
+  },
+  {
+    "children": {
+      "features": [
+        "Add Cohere provider support, add search1api crawler implementation for WeChat Sogou links."
+      ]
+    },
     "date": "2025-03-19",
     "version": "1.73.0"
   },
