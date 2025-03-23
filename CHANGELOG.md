@@ -2,6 +2,50 @@
 
 # Changelog
 
+### [Version 1.115.1](https://github.com/bentwnghk/lobe-chat/compare/v1.115.0...v1.115.1)
+
+<sup>Released on **2025-03-23**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Add client id for all core entities in database.
+
+#### 🐛 Bug Fixes
+
+- **misc**: CheckModel change clears other configs, fix wechat login error with next-auth, update input and output prices, upgrade next to 15.2.3 to fix CVE-2025-29927.
+
+#### 💄 Styles
+
+- **misc**: Clear previous model check result.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Add client id for all core entities in database, closes [#7089](https://github.com/bentwnghk/lobe-chat/issues/7089) ([6798f86](https://github.com/bentwnghk/lobe-chat/commit/6798f86))
+
+#### What's fixed
+
+- **misc**: CheckModel change clears other configs, closes [#7083](https://github.com/bentwnghk/lobe-chat/issues/7083) ([a416c64](https://github.com/bentwnghk/lobe-chat/commit/a416c64))
+- **misc**: Fix wechat login error with next-auth, closes [#6585](https://github.com/bentwnghk/lobe-chat/issues/6585) ([c58d77a](https://github.com/bentwnghk/lobe-chat/commit/c58d77a))
+- **misc**: Update input and output prices, closes [#7094](https://github.com/bentwnghk/lobe-chat/issues/7094) ([460c56f](https://github.com/bentwnghk/lobe-chat/commit/460c56f))
+- **misc**: Upgrade next to 15.2.3 to fix CVE-2025-29927, closes [#7105](https://github.com/bentwnghk/lobe-chat/issues/7105) ([187a655](https://github.com/bentwnghk/lobe-chat/commit/187a655))
+
+#### Styles
+
+- **misc**: Clear previous model check result, closes [#7087](https://github.com/bentwnghk/lobe-chat/issues/7087) ([e6c5d08](https://github.com/bentwnghk/lobe-chat/commit/e6c5d08))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.115.0](https://github.com/bentwnghk/lobe-chat/compare/v1.114.0...v1.115.0)
 
 <sup>Released on **2025-03-22**</sup>
