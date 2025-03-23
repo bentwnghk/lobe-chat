@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@bentwnghk/ui';
 import { Card, List, Popover, Tag } from 'antd';
 import { createStyles } from 'antd-style';
 import dayjs from 'dayjs';

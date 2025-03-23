@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert, CodeEditor, Icon } from '@lobehub/ui';
+import { Alert, CodeEditor, Icon } from '@bentwnghk/ui';
 import { Button, Card, List, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import dayjs from 'dayjs';

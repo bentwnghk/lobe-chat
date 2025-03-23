@@ -1,4 +1,4 @@
-import { Alert } from '@lobehub/ui';
+import { Alert } from '@bentwnghk/ui';
 import { App, Button, Card, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { AlertCircle } from 'lucide-react';
