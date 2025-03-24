@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.115.2](https://github.com/bentwnghk/lobe-chat/compare/v1.115.1...v1.115.2)
+
+<sup>Released on **2025-03-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove Tooltip component in Topic in mobile mode, set max_completion_tokens to undefined for Azure OpenAI, update create message loading issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Remove Tooltip component in Topic in mobile mode, closes [#7121](https://github.com/bentwnghk/lobe-chat/issues/7121) ([375f924](https://github.com/bentwnghk/lobe-chat/commit/375f924))
+- **misc**: Set max_completion_tokens to undefined for Azure OpenAI, closes [#7114](https://github.com/bentwnghk/lobe-chat/issues/7114) ([30b66b9](https://github.com/bentwnghk/lobe-chat/commit/30b66b9))
+- **misc**: Update create message loading issue, closes [#7116](https://github.com/bentwnghk/lobe-chat/issues/7116) ([a4558a4](https://github.com/bentwnghk/lobe-chat/commit/a4558a4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.115.1](https://github.com/bentwnghk/lobe-chat/compare/v1.115.0...v1.115.1)
 
 <sup>Released on **2025-03-23**</sup>
