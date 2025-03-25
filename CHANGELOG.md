@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.115.4](https://github.com/bentwnghk/lobe-chat/compare/v1.115.3...v1.115.4)
+
+<sup>Released on **2025-03-25**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Upgrade styles for Drawer.
+
+#### 💄 Styles
+
+- **misc**: Add `hunyuan-t1-latest` from Hunyuan.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Upgrade styles for Drawer, closes [#7141](https://github.com/bentwnghk/lobe-chat/issues/7141) ([bcbc8fc](https://github.com/bentwnghk/lobe-chat/commit/bcbc8fc))
+
+#### Styles
+
+- **misc**: Add `hunyuan-t1-latest` from Hunyuan, closes [#7123](https://github.com/bentwnghk/lobe-chat/issues/7123) ([8377c6b](https://github.com/bentwnghk/lobe-chat/commit/8377c6b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.115.3](https://github.com/bentwnghk/lobe-chat/compare/v1.115.2...v1.115.3)
 
 <sup>Released on **2025-03-25**</sup>
