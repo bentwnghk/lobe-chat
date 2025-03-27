@@ -2,6 +2,51 @@
 
 # Changelog
 
+## [Version 1.116.0](https://github.com/bentwnghk/lobe-chat/compare/v1.115.4...v1.116.0)
+
+<sup>Released on **2025-03-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Add reasoning content selector and update AutoScroll component, add Xinference provider support.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix anthropic import issue, Update 'gemini-2.5-pro-exp-03-25' maxOutput and contextWindowTokens.
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 2.5 Pro Experimental model, improve editing scroll experience, Update siliconcloud models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add reasoning content selector and update AutoScroll component, closes [#7056](https://github.com/bentwnghk/lobe-chat/issues/7056) ([800d675](https://github.com/bentwnghk/lobe-chat/commit/800d675))
+- **misc**: Add Xinference provider support, closes [#7081](https://github.com/bentwnghk/lobe-chat/issues/7081) ([e32c8e7](https://github.com/bentwnghk/lobe-chat/commit/e32c8e7))
+
+#### What's fixed
+
+- **misc**: Fix anthropic import issue, closes [#7155](https://github.com/bentwnghk/lobe-chat/issues/7155) ([a9725b2](https://github.com/bentwnghk/lobe-chat/commit/a9725b2))
+- **misc**: Update 'gemini-2.5-pro-exp-03-25' maxOutput and contextWindowTokens, closes [#7156](https://github.com/bentwnghk/lobe-chat/issues/7156) ([a28b98e](https://github.com/bentwnghk/lobe-chat/commit/a28b98e))
+
+#### Styles
+
+- **misc**: Add Gemini 2.5 Pro Experimental model, closes [#7153](https://github.com/bentwnghk/lobe-chat/issues/7153) ([4213d20](https://github.com/bentwnghk/lobe-chat/commit/4213d20))
+- **misc**: Improve editing scroll experience, closes [#7149](https://github.com/bentwnghk/lobe-chat/issues/7149) ([816331f](https://github.com/bentwnghk/lobe-chat/commit/816331f))
+- **misc**: Update siliconcloud models, closes [#7072](https://github.com/bentwnghk/lobe-chat/issues/7072) ([8a524d4](https://github.com/bentwnghk/lobe-chat/commit/8a524d4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.115.4](https://github.com/bentwnghk/lobe-chat/compare/v1.115.3...v1.115.4)
 
 <sup>Released on **2025-03-25**</sup>
