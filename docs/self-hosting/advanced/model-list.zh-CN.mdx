@@ -16,7 +16,7 @@ Mr.🆖 AI 支持在部署时自定义模型列表，详情请参考 [模型提�
 你可以使用 `+` 增加一个模型，使用 `-` 来隐藏一个模型，使用 `模型名->部署名=展示名<扩展配置>` 来自定义模型的展示名，用英文逗号隔开。通过 `<>` 来添加扩展配置。基本语法如下：
 
 ```text
-id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file>,model2,model3
+id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file:imageOutput>,model2,model3
 ```
 
 例如： `+qwen-7b-chat,+glm-6b,-gpt-3.5-turbo,gpt-4-0125-preview=gpt-4-turbo`
@@ -28,7 +28,7 @@ id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file>,model2,
 考虑到模型的能力多样性，我们在 `0.147.8` 版本开始增加扩展性配置，它的规则如下：
 
 ```shell
-id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file>
+id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file:imageOutput>
 ```
 
 尖括号第一个值约定为这个模型的 `maxToken` 。第二个及以后作为模型的扩展能力，能力与能力之间用冒号 `:` 作为分隔符，顺序不重要。
@@ -40,7 +40,8 @@ id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file>
 - `gemini-1.5-flash-latest=Gemini 1.5 Flash<16000:vision>`：Google 视觉模型，最大上下文 16k，支持图像识别；
 - `o3-mini=OpenAI o3-mini<200000:reasoning:fc>`：OpenAI o3-mini 模型，最大上下文 200k，支持推理及 Function Call；
 - `qwen-max-latest=Qwen Max<32768:search:fc>`：通义千问 2.5 Max 模型，最大上下文 32k，支持联网搜索及 Function Call；
-- `gpt-4-all=ChatGPT Plus<128000:fc:vision:file>`，hack 的 ChatGPT Plus 网页版，上下 128k ，支持图像识别、Function Call、文件上传
+- `gpt-4-all=ChatGPT Plus<128000:fc:vision:file>`，hack 的 ChatGPT Plus 网页版，上下 128k ，支持图像识别、Function Call、文件上传；
+- `gemini-2.0-flash-exp-image-generation=Gemini 2.0 Flash (Image Generation) Experimental<32768:imageOutput:vision>`，Gemini 2.0 Flash 实验模型，最大上下文 32k，支持图像生成和识别
 
 目前支持的扩展能力有：
 
@@ -48,6 +49,7 @@ id->deploymentName=displayName<maxToken:vision:reasoning:search:fc:file>
 | ----------- | ---------------------- |
 | `fc`        | 函数调用（function calling） |
 | `vision`    | 视觉识别                   |
+| `imageOutput`      | 图像生成  |
 | `reasoning` | 支持推理                   |
 | `search`    | 支持联网搜索                   |
 | `file`      | 文件上传（比较 hack，不建议日常使用）  |
