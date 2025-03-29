@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, HotkeyInput, type ItemGroup } from '@lobehub/ui';
+import { Form, HotkeyInput, type ItemGroup } from '@bentwnghk/ui';
 import isEqual from 'fast-deep-equal';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

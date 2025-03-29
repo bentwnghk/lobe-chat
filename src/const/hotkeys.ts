@@ -1,4 +1,4 @@
-import { combineKeys } from '@lobehub/ui/es/Hotkey';
+import { combineKeys } from '@bentwnghk/ui/es/Hotkey';
 
 import {
   HotkeyEnum,

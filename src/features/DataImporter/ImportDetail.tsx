@@ -1,6 +1,6 @@
 'use client';
 
-import { Modal } from '@lobehub/ui';
+import { Modal } from '@bentwnghk/ui';
 import { Button, Table, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { Info } from 'lucide-react';

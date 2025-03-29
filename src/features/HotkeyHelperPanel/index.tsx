@@ -1,6 +1,6 @@
 'use client';
 
-import { Drawer, Grid, TabsNav } from '@lobehub/ui';
+import { Drawer, Grid, TabsNav } from '@bentwnghk/ui';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 

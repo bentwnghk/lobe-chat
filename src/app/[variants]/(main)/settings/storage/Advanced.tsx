@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, Icon, type ItemGroup } from '@lobehub/ui';
+import { Form, Icon, type ItemGroup } from '@bentwnghk/ui';
 import { App, Button } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { HardDriveDownload, HardDriveUpload } from 'lucide-react';

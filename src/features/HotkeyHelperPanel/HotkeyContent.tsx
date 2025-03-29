@@ -1,4 +1,4 @@
-import { Hotkey } from '@lobehub/ui';
+import { Hotkey } from '@bentwnghk/ui';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { memo } from 'react';

@@ -1,4 +1,4 @@
-import { KeyMapEnum } from '@lobehub/ui/es/Hotkey';
+import { KeyMapEnum } from '@bentwnghk/ui/es/Hotkey';
 
 export const KeyEnum = {
   ...KeyMapEnum,
