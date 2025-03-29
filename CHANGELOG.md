@@ -2,6 +2,49 @@
 
 # Changelog
 
+## [Version 1.117.0](https://github.com/bentwnghk/lobe-chat/compare/v1.116.1...v1.117.0)
+
+<sup>Released on **2025-03-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Hotkey Settings, support pglite and postgres data export.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix decrypt error with imported pg data, fix export button and clean orphan agent.
+
+#### 💄 Styles
+
+- **misc**: Supports OpenAI's latest voice model gpt-4o-mini-tts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Hotkey Settings, closes [#7118](https://github.com/bentwnghk/lobe-chat/issues/7118) ([9773e74](https://github.com/bentwnghk/lobe-chat/commit/9773e74))
+- **misc**: Support pglite and postgres data export, closes [#5581](https://github.com/bentwnghk/lobe-chat/issues/5581) ([57f18ff](https://github.com/bentwnghk/lobe-chat/commit/57f18ff))
+
+#### What's fixed
+
+- **misc**: Fix decrypt error with imported pg data, closes [#7220](https://github.com/bentwnghk/lobe-chat/issues/7220) ([f8a0aa0](https://github.com/bentwnghk/lobe-chat/commit/f8a0aa0))
+- **misc**: Fix export button and clean orphan agent, closes [#7219](https://github.com/bentwnghk/lobe-chat/issues/7219) ([112282a](https://github.com/bentwnghk/lobe-chat/commit/112282a))
+
+#### Styles
+
+- **misc**: Supports OpenAI's latest voice model gpt-4o-mini-tts, closes [#7213](https://github.com/bentwnghk/lobe-chat/issues/7213) ([f291e6f](https://github.com/bentwnghk/lobe-chat/commit/f291e6f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.116.1](https://github.com/bentwnghk/lobe-chat/compare/v1.116.0...v1.116.1)
 
 <sup>Released on **2025-03-28**</sup>
