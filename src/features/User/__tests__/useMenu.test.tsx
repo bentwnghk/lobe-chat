@@ -83,6 +83,7 @@ describe('useMenu', () => {
       expect(mainItems?.some((item) => item?.key === 'import')).toBe(true);
       expect(mainItems?.some((item) => item?.key === 'export')).toBe(true);
       expect(mainItems?.some((item) => item?.key === 'discord')).toBe(false);
+      expect(mainItems?.some((item) => item?.key === 'changelog')).toBe(true);
       expect(logoutItems.some((item) => item?.key === 'logout')).toBe(true);
     });
   });
@@ -102,6 +103,7 @@ describe('useMenu', () => {
       expect(mainItems?.some((item) => item?.key === 'import')).toBe(true);
       expect(mainItems?.some((item) => item?.key === 'export')).toBe(true);
       expect(mainItems?.some((item) => item?.key === 'discord')).toBe(false);
+      expect(mainItems?.some((item) => item?.key === 'changelog')).toBe(true);
       expect(logoutItems.some((item) => item?.key === 'logout')).toBe(false);
     });
   });

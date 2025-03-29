@@ -185,7 +185,7 @@
   },
   "fullscreen": "Full Screen Mode",
   "historyRange": "History Range",
-  "import": "Import Configuration",
+  "importData": "Import Data",
   "importModal": {
     "error": {
       "desc": "Sorry, an error occurred during the data import process. Please try importing again, or <1>submit a request</1>, and we will help you troubleshoot the issue as soon as possible.",
@@ -207,7 +207,8 @@
       "sessions": "Assistants",
       "skips": "Duplicates skipped",
       "topics": "Topics",
-      "type": "Data Type"
+      "type": "Data Type",
+      "update": "Record Updated"
     },
     "title": "Import Data",
     "uploading": {
@@ -215,6 +216,16 @@
       "restTime": "Time remaining",
       "speed": "Upload speed"
     }
+  },
+  "importPreview": {
+    "confirmImport": "Confirm Import",
+    "tables": {
+      "count": "Record Count",
+      "name": "Table Name"
+    },
+    "title": "Data Import Preview",
+    "totalRecords": "A total of {{count}} records will be imported",
+    "totalTables": "{{count}} tables"
   },
   "information": "Mr.🆖 AI Apps",
   "installPWA": "Install browser app",

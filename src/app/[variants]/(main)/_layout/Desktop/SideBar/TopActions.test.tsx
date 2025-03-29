@@ -36,6 +36,8 @@ vi.mock('next/link', () => ({
 
 vi.mock('@bentwnghk/ui', () => ({
   ActionIcon: vi.fn(({ title }) => <div>{title}</div>),
+  combineKeys: vi.fn((keys) => keys.join('+')),
+  KeyMapEnum: { Alt: 'alt', Ctrl: 'ctrl', Shift: 'shift' },
 }));
 
 vi.mock('react-i18next', () => ({
