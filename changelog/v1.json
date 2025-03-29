@@ -1,6 +1,17 @@
 [
   {
     "children": {
+      "features": ["Add Hotkey Settings, support pglite and postgres data export."],
+      "fixes": [
+        "Fix decrypt error with imported pg data, fix export button and clean orphan agent."
+      ],
+      "improvements": ["Supports OpenAI's latest voice model gpt-4o-mini-tts."]
+    },
+    "date": "2025-03-29",
+    "version": "1.117.0"
+  },
+  {
+    "children": {
       "fixes": ["Fix decrypt error with imported pg data."]
     },
     "date": "2025-03-29",
