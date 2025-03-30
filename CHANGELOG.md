@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.117.1](https://github.com/bentwnghk/lobe-chat/compare/v1.117.0...v1.117.1)
+
+<sup>Released on **2025-03-30**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move general db models to database folder.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move general db models to database folder, closes [#7222](https://github.com/bentwnghk/lobe-chat/issues/7222) ([f831d86](https://github.com/bentwnghk/lobe-chat/commit/f831d86))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.117.0](https://github.com/bentwnghk/lobe-chat/compare/v1.116.1...v1.117.0)
 
 <sup>Released on **2025-03-29**</sup>
