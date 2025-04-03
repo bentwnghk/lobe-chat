@@ -2,6 +2,50 @@
 
 # Changelog
 
+### [Version 1.117.4](https://github.com/bentwnghk/lobe-chat/compare/v1.117.3...v1.117.4)
+
+<sup>Released on **2025-04-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Add desktop-release workflow and improve code.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add `SEARCH1API_CRAWL_API_KEY` env.
+
+#### 💄 Styles
+
+- **web-crawler**: Add special support for YouTube,Reddit and WeChat links.
+- **misc**: Add QVQ-Max model, auto refresh TokenTag count.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Add desktop-release workflow and improve code, closes [#7265](https://github.com/bentwnghk/lobe-chat/issues/7265) ([773d5dd](https://github.com/bentwnghk/lobe-chat/commit/773d5dd))
+
+#### What's fixed
+
+- **misc**: Add `SEARCH1API_CRAWL_API_KEY` env, closes [#7270](https://github.com/bentwnghk/lobe-chat/issues/7270) ([85e8ff1](https://github.com/bentwnghk/lobe-chat/commit/85e8ff1))
+
+#### Styles
+
+- **web-crawler**: Add special support for YouTube,Reddit and WeChat links, closes [#7251](https://github.com/bentwnghk/lobe-chat/issues/7251) ([8f0da93](https://github.com/bentwnghk/lobe-chat/commit/8f0da93))
+- **misc**: Add QVQ-Max model, closes [#7258](https://github.com/bentwnghk/lobe-chat/issues/7258) ([2be019c](https://github.com/bentwnghk/lobe-chat/commit/2be019c))
+- **misc**: Auto refresh TokenTag count, closes [#7011](https://github.com/bentwnghk/lobe-chat/issues/7011) ([9d62451](https://github.com/bentwnghk/lobe-chat/commit/9d62451))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.117.3](https://github.com/bentwnghk/lobe-chat/compare/v1.117.2...v1.117.3)
 
 <sup>Released on **2025-04-02**</sup>
