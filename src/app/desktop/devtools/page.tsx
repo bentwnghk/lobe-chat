@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, FluentEmoji, SideNav } from '@lobehub/ui';
+import { ActionIcon, FluentEmoji, SideNav } from '@bentwnghk/ui';
 import { Cog, DatabaseIcon } from 'lucide-react';
 import { memo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
