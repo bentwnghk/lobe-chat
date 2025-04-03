@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "improvements": ["Add QVQ-Max model, auto refresh TokenTag count."],
+      "fixes": ["Add SEARCH1API_CRAWL_API_KEY env."]
+    },
+    "date": "2025-04-03",
+    "version": "1.117.4"
+  },
+  {
+    "children": {
       "improvements": ["Add QVQ-Max model."]
     },
     "date": "2025-04-03",
