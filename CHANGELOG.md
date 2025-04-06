@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.117.5](https://github.com/bentwnghk/lobe-chat/compare/v1.117.4...v1.117.5)
+
+<sup>Released on **2025-04-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **web-crawler**: Remove unnecessary urlTransform for YouTube links.
+- **misc**: Fix fetch issue in offline mode and make jina crawler first.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **web-crawler**: Remove unnecessary urlTransform for YouTube links, closes [#7285](https://github.com/bentwnghk/lobe-chat/issues/7285) ([220bca0](https://github.com/bentwnghk/lobe-chat/commit/220bca0))
+- **misc**: Fix fetch issue in offline mode and make jina crawler first, closes [#7288](https://github.com/bentwnghk/lobe-chat/issues/7288) ([6bed7a3](https://github.com/bentwnghk/lobe-chat/commit/6bed7a3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.117.4](https://github.com/bentwnghk/lobe-chat/compare/v1.117.3...v1.117.4)
 
 <sup>Released on **2025-04-03**</sup>
