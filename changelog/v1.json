@@ -1,6 +1,16 @@
 [
   {
     "children": {
+      "improvements": [
+        "Add ernie-x1-32k-preview support for Wenxin, fix QVQ Max model, support default config for system agent and pre-merge some desktop code."
+      ],
+      "fixes": ["Fix data not show correctly in 1.77.11."]
+    },
+    "date": "2025-04-06",
+    "version": "1.117.6"
+  },
+  {
+    "children": {
       "improvements": ["Improve public procedure implement."]
     },
     "date": "2025-04-06",
