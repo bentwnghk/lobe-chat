@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.117.7](https://github.com/bentwnghk/lobe-chat/compare/v1.117.6...v1.117.7)
+
+<sup>Released on **2025-04-07**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the file service.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the file service, closes [#7323](https://github.com/bentwnghk/lobe-chat/issues/7323) ([3721b88](https://github.com/bentwnghk/lobe-chat/commit/3721b88))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.117.6](https://github.com/bentwnghk/lobe-chat/compare/v1.117.5...v1.117.6)
 
 <sup>Released on **2025-04-06**</sup>
