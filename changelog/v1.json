@@ -1,6 +1,14 @@
 [
   {
     "children": {
+      "fixes": ["Refactor ollama pull flow and model service."],
+      "improvements": ["Add time_range & categories support for SearXNG."]
+    },
+    "date": "2025-04-09",
+    "version": "1.117.8"
+  },
+  {
+    "children": {
       "fixes": ["Refactor ollama pull flow and model service."]
     },
     "date": "2025-04-08",
