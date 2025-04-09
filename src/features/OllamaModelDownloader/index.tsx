@@ -1,5 +1,5 @@
-import { Ollama } from '@lobehub/icons';
-import { Alert } from '@lobehub/ui';
+import { Ollama } from '@bentwnghk/icons';
+import { Alert } from '@bentwnghk/ui';
 import { Button, Input, Progress } from 'antd';
 import { useTheme } from 'antd-style';
 import { ReactNode, memo, useCallback, useMemo, useState } from 'react';

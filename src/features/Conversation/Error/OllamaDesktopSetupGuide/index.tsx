@@ -1,4 +1,4 @@
-import { Ollama } from '@lobehub/icons';
+import { Ollama } from '@bentwnghk/icons';
 import { Button } from 'antd';
 import { useTheme } from 'antd-style';
 import Link from 'next/link';
