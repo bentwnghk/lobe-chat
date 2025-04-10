@@ -1,0 +1,211 @@
+{/* eslint-disable no-irregular-whitespace */}
+
+# 状态管理最佳实践
+
+Mr.🆖 AI 不同于传统 CRUD 的网页，存在大量的富交互能力，如何设计一个易于开发与易于维护的数据流架构非常重要。本篇文档将介绍 Mr.🆖 AI 中的数据流管理最佳实践。
+
+## 概念要素
+
+| 概念名词     | 解释                                                                                                                                                   |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| store    | 状态库 (store)，包含存储应用的状态、动作。允许在应用渲染中访问和修改状态。                                                                                                            |
+| state    | 状态 (state) 是指应用程序的数据，存储了应用程序的当前状态，状态的变化**一定会触发应用的重新渲染**，以反映新的状态。                                                                                     |
+| action   | 动作 (action) 是一个操作函数，它描述了应用程序中发生的交互事件。动作通常是由用户交互、网络请求或定时器等触发。 action 可以是**同步**的，也可以是**异步**的。                                                          |
+| reducer  | 归约器 (reducer) 是一个纯函数，它接收当前状态和动作作为参数，并返回一个新的状态。它用于根据动作类型来更新应用程序的状态。Reducer 是一个纯函数，不存在副作用，因此一定是 **同步** 函数。                                             |
+| selector | 选择器 (selector) 是一个函数，用于从应用程序的状态中获取特定的数据。它接收应用程序的状态作为参数，并返回经过计算或转换后的数据。Selector 可以将状态的一部分或多个状态组合起来，以生成派生的数据。Selector 通常用于将应用程序的状态映射到组件的 props，以供组件使用。 |
+| slice    | 切片 (slice) 是一个概念，用于表达数据模型状态的一部分。它指定了一个状态切片（slice），以及与该切片相关的 state、action、reducer 和 selector。使用 Slice 可以将大型的 Store 拆分为更小的、可维护的子类型。                    |
+
+## 结构分层
+
+在不同的复杂度下，我们可以将 Store 的结构组织可以由很大的不同：
+
+- **较低复杂度**：一般包含 2\~5 个 state 、3 \~ 4 个 action。此时的结构一般直接一个 `store.ts` + 一个 `initialState.ts` 即可。
+
+```bash
+DataFill/store
+├── index.ts
+└── initialState.ts
+```
+
+- **一般复杂度** ：一般复杂度存在 5 \~ 15 个 state、 5 \~ 10 个 action，可能会存在 selector 实现派生状态，也有可能存在 reducer 简化部分数据变更的复杂度。此时的结构一般为一个 `store.ts` + 一个 `initialState.ts` + 一个 `selectors.ts`/`reducer.ts`。
+
+```bash
+IconPicker/store
+├── index.ts
+├── initialState.ts
+├── selectors.ts
+└── store.ts
+```
+
+```bash
+SortableList/store
+├── index.ts
+├── initialState.ts
+├── listDataReducer.ts
+└── store.ts
+```
+
+- **中等复杂度** ： 中等复杂度存在 15 \~ 30 个 state、 10 \~ 20 个 action，大概率会存在 selector 来聚合派生状态，大概率存在 reducer 简化部分数据变更的复杂度。
+
+此时结构，用单一的 action store 已经较难维护，往往会拆解出来多个 slice 用于管理不同的 action。 下方的代码代表了 `SortableTree` 组件的内部数据流：
+
+```bash
+SortableTree/store
+├── index.ts
+├── initialState.ts
+├── selectors.ts
+├── slices
+├── crudSlice.ts
+├── dndSlice.ts
+└── selectionSlice.ts
+├── store.ts
+└── treeDataReducer.ts
+```
+
+- 高等复杂度：高等复杂度存在 30 个以上的 state、 20 个以上的 action。必然需要 slice 做模块化内聚。在每个 slice 中都各自声明了各自的 initState、 action、reducer 与 selector。
+
+下述这个数据流的目录结构是之前一版 SessionStore，具有很高的复杂度，实现了大量的业务逻辑。但借助于 slice 的模块化和分形架构的心智，我们可以很容易地找到对应的模块，新增功能与迭代都很易于维护。
+
+```bash
+Mr.🆖 AI SessionStore
+├── index.ts
+├── initialState.ts
+├── selectors.ts
+├── slices
+│ ├── agentConfig
+│ │ ├── action.ts
+│ │ ├── index.ts
+│ │ ├── initialState.ts
+│ │ └── selectors.ts
+│ ├── chat
+│ │ ├── actions
+│ │ │ ├── index.ts
+│ │ │ ├── message.ts
+│ │ │ └── topic.ts
+│ │ ├── index.ts
+│ │ ├── initialState.ts
+│ │ ├── reducers
+│ │ │ ├── message.ts
+│ │ │ └── topic.ts
+│ │ ├── selectors
+│ │ │ ├── chat.ts
+│ │ │ ├── index.ts
+│ │ │ ├── token.ts
+│ │ │ ├── topic.ts
+│ │ │ └── utils.ts
+│ │ └── utils.ts
+│ └── session
+│ ├── action.ts
+│ ├── index.ts
+│ ├── initialState.ts
+│ ├── reducers
+│ │ └── session.ts
+│ └── selectors
+│ ├── export.ts
+│ ├── index.ts
+│ └── list.ts
+└── store.ts
+```
+
+### Mr.🆖 AI SessionStore 目录结构最佳实践
+
+在 Mr.🆖 AI 应用中，由于会话管理是一个复杂的功能模块，因此我们采用了 [slice 模式](https://github.com/pmndrs/zustand/blob/main/docs/guides/slices-pattern.md) 来组织数据流。下面是 Mr.🆖 AI SessionStore 的目录结构，其中每个目录和文件都有其特定的用途：
+
+```fish
+src/store/session
+├── index.ts                           # SessionStore 的聚合导出文件
+├── initialState.ts                    # 聚合了所有 slice 的 initialState
+├── selectors.ts                       # 从各个 slices 导出的 selector
+├── store.ts                           # SessionStore 的创建和使用
+├── helpers.ts                         # 辅助函数
+└── slices                             # 各个独立的功能切片
+    ├── agent                          # 助理 Slice
+    │   ├── action.ts
+    │   ├── index.ts
+    │   └── selectors.ts
+    └── session                        # 会话 Slice
+        ├── action.ts
+        ├── helpers.ts
+        ├── initialState.ts
+        └── selectors
+            ├── export.ts
+            ├── list.ts
+            └── index.ts
+
+```
+
+## SessionStore 的实现
+
+在 Mr.🆖 AI 中，SessionStore 被设计为管理会话状态和逻辑的核心模块。它由多个 Slices 组成，每个 Slice 管理一部分相关的状态和逻辑。下面是一个简化的 SessionStore 的实现示例：
+
+### store.ts
+
+```ts
+import { PersistOptions, devtools, persist, subscribeWithSelector } from 'zustand/middleware';
+import { shallow } from 'zustand/shallow';
+import { devtools } from 'zustand/middleware';
+import { createWithEqualityFn } from 'zustand/traditional';
+
+import { SessionStoreState, initialState } from './initialState';
+import { AgentAction, createAgentSlice } from './slices/agent/action';
+import { SessionAction, createSessionSlice } from './slices/session/action';
+
+//  ===============  聚合 createStoreFn ============ //
+
+export type SessionStore = SessionAction & AgentAction & SessionStoreState;
+const createStore: StateCreator<SessionStore, [['zustand/devtools', never]]> = (...parameters) => ({
+  ...initialState,
+  ...createAgentSlice(...parameters),
+  ...createSessionSlice(...parameters),
+});
+
+
+
+//  ===============  实装 useStore ============ //
+
+export const useSessionStore = createWithEqualityFn<SessionStore>()(
+  persist(
+    subscribeWithSelector(
+      devtools(createStore, {
+        name: 'Mr.🆖 AI_Session' + (isDev ? '_DEV' : ''),
+      }),
+    ),
+    persistOptions,
+  ),
+  shallow,
+);
+
+```
+
+在这个 `store.ts` 文件中，我们创建了一个 `useSessionStore` 钩子，它使用 `zustand` 库来创建一个全局状态管理器。我们将 initialState 和每个 Slice 的动作合并，以创建完整的 SessionStore。
+
+### slices/session/action.ts
+
+```ts
+import { StateCreator } from 'zustand';
+
+import { SessionStore } from '@/store/session';
+
+export interface SessionActions {
+  /**
+   * A custom hook that uses SWR to fetch sessions data.
+   */
+  useFetchSessions: () => SWRResponse<any>;
+}
+
+export const createSessionSlice: StateCreator<
+  SessionStore,
+  [['zustand/devtools', never]],
+  [],
+  SessionAction
+> = (set, get) => ({
+  useFetchSessions: () => {
+    // ...初始化会话的逻辑
+  },
+  // ...其他动作的实现
+});
+```
+
+在 `action.ts` 文件中，我们定义了一个 `SessionActions` 接口来描述会话相关的动作，并且实现了一个 `useFetchSessions` 函数来创建这些动作。然后，我们将这些动作与初始状态合并，以形成会话相关的 Slice。
+
+通过这种结构分层和模块化的方法，我们可以确保 Mr.🆖 AI 的 SessionStore 是清晰、可维护的，同时也便于扩展和测试。
