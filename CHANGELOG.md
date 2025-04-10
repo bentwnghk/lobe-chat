@@ -2,6 +2,39 @@
 
 # Changelog
 
+### [Version 1.118.1](https://github.com/bentwnghk/lobe-chat/compare/v1.118.0...v1.118.1)
+
+<sup>Released on **2025-04-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove Azure AI o3-mini unsupported parameters.
+
+#### 💄 Styles
+
+- **misc**: Update Grok 3 models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Remove Azure AI o3-mini unsupported parameters, closes [#7355](https://github.com/bentwnghk/lobe-chat/issues/7355) ([fe0711f](https://github.com/bentwnghk/lobe-chat/commit/fe0711f))
+
+#### Styles
+
+- **misc**: Update Grok 3 models, closes [#7360](https://github.com/bentwnghk/lobe-chat/issues/7360) ([d2b9120](https://github.com/bentwnghk/lobe-chat/commit/d2b9120))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.118.0](https://github.com/bentwnghk/lobe-chat/compare/v1.117.8...v1.118.0)
 
 <sup>Released on **2025-04-10**</sup>
