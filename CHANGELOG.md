@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.118.0](https://github.com/bentwnghk/lobe-chat/compare/v1.117.8...v1.118.0)
+
+<sup>Released on **2025-04-10**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Keycloak SSO provider support, add wiki migrate instructions.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix env for Tencent Cloud & remove `deepseek-v3` series fc tag, fix xAI API calling, not support `stream_options`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Keycloak SSO provider support, closes [#7342](https://github.com/bentwnghk/lobe-chat/issues/7342) ([f739425](https://github.com/bentwnghk/lobe-chat/commit/f739425))
+- **misc**: Add wiki migrate instructions ([8279340](https://github.com/bentwnghk/lobe-chat/commit/8279340))
+
+#### What's fixed
+
+- **misc**: Fix env for Tencent Cloud & remove `deepseek-v3` series fc tag, closes [#7354](https://github.com/bentwnghk/lobe-chat/issues/7354) ([fe26d76](https://github.com/bentwnghk/lobe-chat/commit/fe26d76))
+- **misc**: Fix xAI API calling, not support `stream_options`, closes [#7353](https://github.com/bentwnghk/lobe-chat/issues/7353) ([cc0680d](https://github.com/bentwnghk/lobe-chat/commit/cc0680d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.117.8](https://github.com/bentwnghk/lobe-chat/compare/v1.117.7...v1.117.8)
 
 <sup>Released on **2025-04-09**</sup>
