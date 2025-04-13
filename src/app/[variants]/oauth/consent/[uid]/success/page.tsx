@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Card, Result } from 'antd';
 import { CheckCircle } from 'lucide-react';
 import React, { memo } from 'react';
