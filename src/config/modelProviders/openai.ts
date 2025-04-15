@@ -4,6 +4,23 @@ import { ModelProviderCard } from '@/types/llm';
 const OpenAI: ModelProviderCard = {
   chatModels: [
     {
+      contextWindowTokens: 1_047_576,
+      description:
+        'GPT-4.1 mini 提供了智能、速度和成本之间的平衡，使其成为许多用例中有吸引力的模型。',
+      displayName: 'GPT-4.1 mini',
+      enabled: true,
+      functionCall: true,
+      id: 'gpt-4.1-mini',
+      maxOutput: 32_768,
+      pricing: {
+        cachedInput: 0.1,
+        input: 0.4,
+        output: 1.6,
+      },
+      releasedAt: '2025-04-14',
+      vision: true,
+    },
+    {
       contextWindowTokens: 128_000,
       description:
         'GPT-4o mini是OpenAI在GPT-4 Omni之后推出的最新模型，支持图文输入并输出文本。作为他们最先进的小型模型，它比其他近期的前沿模型便宜很多，并且比GPT-3.5 Turbo便宜超过60%。它保持了最先进的智能，同时具有显著的性价比。GPT-4o mini在MMLU测试中获得了 82% 的得分，目前在聊天偏好上排名高于 GPT-4。',
