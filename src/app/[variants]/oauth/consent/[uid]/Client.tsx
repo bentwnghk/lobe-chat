@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@bentwnghk/ui';
 import { Button, Card, Divider, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { Link2Icon, ServerIcon } from 'lucide-react';
