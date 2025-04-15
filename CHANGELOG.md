@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.118.3](https://github.com/bentwnghk/lobe-chat/compare/v1.118.2...v1.118.3)
+
+<sup>Released on **2025-04-15**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor trpc to have a clear obligation.
+
+#### 💄 Styles
+
+- **misc**: Add GPT-4.1 models, make gpt-4.1-mini default model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor trpc to have a clear obligation, closes [#7412](https://github.com/bentwnghk/lobe-chat/issues/7412) ([01c0120](https://github.com/bentwnghk/lobe-chat/commit/01c0120))
+
+#### Styles
+
+- **misc**: Add GPT-4.1 models, closes [#7410](https://github.com/bentwnghk/lobe-chat/issues/7410) ([3c4d7df](https://github.com/bentwnghk/lobe-chat/commit/3c4d7df))
+- **misc**: Make gpt-4.1-mini default model, closes [#7414](https://github.com/bentwnghk/lobe-chat/issues/7414) ([724fcee](https://github.com/bentwnghk/lobe-chat/commit/724fcee))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.118.2](https://github.com/bentwnghk/lobe-chat/compare/v1.118.1...v1.118.2)
 
 <sup>Released on **2025-04-13**</sup>
