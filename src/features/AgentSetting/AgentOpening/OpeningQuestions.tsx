@@ -1,7 +1,7 @@
 'use client';
 
 import { DeleteOutlined, PlusOutlined } from '@ant-design/icons';
-import { SortableList } from '@lobehub/ui';
+import { SortableList } from '@bentwnghk/ui';
 import { Button, Empty, Input } from 'antd';
 import { createStyles } from 'antd-style';
 import { memo, useCallback, useMemo, useState } from 'react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { EditableMessage } from '@lobehub/ui';
+import { EditableMessage } from '@bentwnghk/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import { PencilLine } from 'lucide-react';
