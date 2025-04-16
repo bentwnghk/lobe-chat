@@ -2,6 +2,61 @@
 
 # Changelog
 
+## [Version 1.119.0](https://github.com/bentwnghk/lobe-chat/compare/v1.118.3...v1.119.0)
+
+<sup>Released on **2025-04-16**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Rename new feature development doc to mdx, some code optimization.
+
+#### ✨ Features
+
+- **misc**: Opening settings copyright i18n, regenerate migrate sql for new agent opening settings.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix model support file and image logic, opening questions should should be hidden when no setted, opening settings migration type error, update default file embedding model info.
+
+#### 💄 Styles
+
+- **misc**: Add `step-r1` & `glm-z1` model fetch support, opening message container add border.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Rename new feature development doc to mdx ([892a347](https://github.com/bentwnghk/lobe-chat/commit/892a347))
+- **misc**: Some code optimization ([47e04fa](https://github.com/bentwnghk/lobe-chat/commit/47e04fa))
+
+#### What's improved
+
+- **misc**: Opening settings copyright i18n ([27c5b45](https://github.com/bentwnghk/lobe-chat/commit/27c5b45))
+- **misc**: Regenerate migrate sql for new agent opening settings ([961d6a1](https://github.com/bentwnghk/lobe-chat/commit/961d6a1))
+
+#### What's fixed
+
+- **misc**: Fix model support file and image logic, closes [#7387](https://github.com/bentwnghk/lobe-chat/issues/7387) ([4d26885](https://github.com/bentwnghk/lobe-chat/commit/4d26885))
+- **misc**: Opening questions should should be hidden when no setted ([211ee5e](https://github.com/bentwnghk/lobe-chat/commit/211ee5e))
+- **misc**: Opening settings migration type error ([72cf00e](https://github.com/bentwnghk/lobe-chat/commit/72cf00e))
+- **misc**: Update default file embedding model info, closes [#7425](https://github.com/bentwnghk/lobe-chat/issues/7425) ([1c6faba](https://github.com/bentwnghk/lobe-chat/commit/1c6faba))
+
+#### Styles
+
+- **misc**: Add `step-r1` & `glm-z1` model fetch support, closes [#7420](https://github.com/bentwnghk/lobe-chat/issues/7420) ([4055840](https://github.com/bentwnghk/lobe-chat/commit/4055840))
+- **misc**: Opening message container add border ([63b96c7](https://github.com/bentwnghk/lobe-chat/commit/63b96c7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.118.3](https://github.com/bentwnghk/lobe-chat/compare/v1.118.2...v1.118.3)
 
 <sup>Released on **2025-04-15**</sup>
