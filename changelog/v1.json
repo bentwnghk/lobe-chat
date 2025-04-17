@@ -4,6 +4,13 @@
       "improvements": ["Add o3/o4-mini models."]
     },
     "date": "2025-04-17",
+    "version": "1.119.2"
+  },
+  {
+    "children": {
+      "improvements": ["Add o3/o4-mini models."]
+    },
+    "date": "2025-04-17",
     "version": "1.80.4"
   },
   {
