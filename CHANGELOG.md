@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.119.2](https://github.com/bentwnghk/lobe-chat/compare/v1.119.1...v1.119.2)
+
+<sup>Released on **2025-04-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add o3/o4-mini models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add o3/o4-mini models, closes [#7448](https://github.com/bentwnghk/lobe-chat/issues/7448) ([3fdba72](https://github.com/bentwnghk/lobe-chat/commit/3fdba72))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.119.1](https://github.com/bentwnghk/lobe-chat/compare/v1.119.0...v1.119.1)
 
 <sup>Released on **2025-04-17**</sup>
