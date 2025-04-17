@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.119.1](https://github.com/bentwnghk/lobe-chat/compare/v1.119.0...v1.119.1)
+
+<sup>Released on **2025-04-17**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to get user info from api.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to get user info from api, closes [#7444](https://github.com/bentwnghk/lobe-chat/issues/7444) ([4c1fb4a](https://github.com/bentwnghk/lobe-chat/commit/4c1fb4a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.119.0](https://github.com/bentwnghk/lobe-chat/compare/v1.118.3...v1.119.0)
 
 <sup>Released on **2025-04-16**</sup>
