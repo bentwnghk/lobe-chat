@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.120.0](https://github.com/bentwnghk/lobe-chat/compare/v1.119.2...v1.120.0)
+
+<sup>Released on **2025-04-18**</sup>
+
+#### ✨ Features
+
+- **misc**: Support search1api as search provider.
+
+#### 💄 Styles
+
+- **misc**: Add `SenseNova-V6` series & `SenseChat-Vision` support, Allow folding SystemRole box, update 360 AI & Taichu & AI21 model list.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support search1api as search provider, closes [#7449](https://github.com/bentwnghk/lobe-chat/issues/7449) ([2738cac](https://github.com/bentwnghk/lobe-chat/commit/2738cac))
+
+#### Styles
+
+- **misc**: Add `SenseNova-V6` series & `SenseChat-Vision` support, closes [#7439](https://github.com/bentwnghk/lobe-chat/issues/7439) ([9c8597f](https://github.com/bentwnghk/lobe-chat/commit/9c8597f))
+- **misc**: Allow folding SystemRole box, closes [#7421](https://github.com/bentwnghk/lobe-chat/issues/7421) ([c147df7](https://github.com/bentwnghk/lobe-chat/commit/c147df7))
+- **misc**: Update 360 AI & Taichu & AI21 model list, closes [#7443](https://github.com/bentwnghk/lobe-chat/issues/7443) ([60c9ae2](https://github.com/bentwnghk/lobe-chat/commit/60c9ae2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.119.2](https://github.com/bentwnghk/lobe-chat/compare/v1.119.1...v1.119.2)
 
 <sup>Released on **2025-04-17**</sup>
