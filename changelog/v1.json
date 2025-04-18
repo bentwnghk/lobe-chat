@@ -1,6 +1,16 @@
 [
   {
     "children": {
+      "features": ["Support search1api as search provider."],
+      "improvements": [
+        "Add SenseNova-V6 series & SenseChat-Vision support, Allow folding SystemRole box, update 360 AI & Taichu & AI21 model list."
+      ]
+    },
+    "date": "2025-04-18",
+    "version": "1.120.0"
+  },
+  {
+    "children": {
       "improvements": ["Allow folding SystemRole box."]
     },
     "date": "2025-04-18",
